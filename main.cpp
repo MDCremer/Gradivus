@@ -1,15 +1,16 @@
 #include <QApplication>
 #include <QByteArray>
+#include <QDir>
 #include <QFile>
 #include <QFileInfo>
 #include <QLibraryInfo>
 #include <QLocale>
+#include <QMessageBox>
 #include <QSqlDatabase>
 #include <QSqlError>
-#include <QTextStream>
-#include <QMessageBox>
 #include <QSqlQuery>
 #include <QString>
+#include <QTextStream>
 #include <QTranslator>
 #include "cxefafenestro.h"
 
@@ -20,9 +21,9 @@ int main(int argc,char *argv[])
   return -999;
  else
  {QSqlDatabase datumbazo=QSqlDatabase::addDatabase("QSQLITE");
-  QFileInfo dosiero("%HOME/Gradivus/Gradivus.sqlite3");
+  QFileInfo dosiero(QDir::homePath()+"/Gradivus/Gradivus.sqlite3");
   bool pravalorizi=!dosiero.exists();
-  datumbazo.setDatabaseName("$HOME/Gradivus/Gradivus.sqlite3");
+  datumbazo.setDatabaseName("/home/mdcremer/Gradivus/Gradivus.sqlite3");
   if(!datumbazo.open())
   {if(datumbazo.lastError().isValid())
     QMessageBox::critical(0,"Fatala eraro!",datumbazo.lastError().text());
@@ -32,13 +33,13 @@ int main(int argc,char *argv[])
   {QString lingvoMallongigo=QLocale::system().name();
    QSqlQuery informpeto;
    if(pravalorizi)
-   {QFile listo("$HOME/Gradivus/skriptoj/enkondukalisto.txt");
+   {QFile listo(QDir::homePath()+"/Gradivus/skriptoj/enkondukalisto.txt");
     if(listo.open(QIODevice::ReadOnly|QIODevice::Text))
     {while(!listo.atEnd())
      {QByteArray linio=listo.readLine();
       if(linio.endsWith("\n"))
        linio.truncate(linio.length()-QByteArray("\n").length());
-      QString skripto("$HOME/Gradivus/skriptoj/SQL/");
+      QString skripto(QDir::homePath()+"/Gradivus/skriptoj/SQL/");
       skripto.append(linio);
       QFile komando(skripto);
       if(komando.open(QIODevice::ReadOnly|QIODevice::Text))
@@ -67,7 +68,7 @@ int main(int argc,char *argv[])
      QMessageBox::warning(0,"Eraro!","La listo de dosieroj por esti procesita ne povis esti malfermita!");
     QFileInfo provizaro("$HOME/Gradivus/skriptoj/SQL/provizaro.sql");
     if(provizaro.exists())
-    {QFile stoko("$HOME/Gradivus/skriptoj/SQL/provizaro.sql");
+    {QFile stoko(QDir::homePath()+"/Gradivus/skriptoj/SQL/provizaro.sql");
      if(stoko.open(QIODevice::ReadOnly|QIODevice::Text))
      {QTextStream enigo(&stoko);
       enigo.setCodec("UTF-8");
