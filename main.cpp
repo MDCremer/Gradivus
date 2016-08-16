@@ -26,7 +26,7 @@ int main(int argc,char *argv[])
   datumbazo.setDatabaseName(QDir::homePath()+"/Gradivus/Gradivus.sqlite3");
   if(!datumbazo.open())
   {if(datumbazo.lastError().isValid())
-    QMessageBox::critical(0,"Fatala eraro!",datumbazo.lastError().text());
+    QMessageBox::critical(0,"Fatala eraro [001]!",datumbazo.lastError().text());
    return -888;
   }
   else
@@ -55,17 +55,17 @@ int main(int argc,char *argv[])
            instrukcio.clear();
           else
            if(informpeto.lastError().isValid())
-            QMessageBox::warning(0,"Eraro!",informpeto.lastError().text());
+            QMessageBox::warning(0,"Eraro [002]!",informpeto.lastError().text());
        }}}
        komando.close();
       }
       else
-       QMessageBox::warning(0,"Eraro!","La dosiero "+linio+" ne povis esti malfermita!");
+       QMessageBox::warning(0,"Eraro [003]!","La dosiero "+linio+" ne povis esti malfermita!");
      }
      listo.close();
     }
     else
-     QMessageBox::warning(0,"Eraro!","La listo de dosieroj por esti procesita ne povis esti malfermita!");
+     QMessageBox::warning(0,"Eraro [004]!","La listo de dosieroj por esti procesita ne povis esti malfermita!");
     QFileInfo provizaro("$HOME/Gradivus/skriptoj/SQL/provizaro.sql");
     if(provizaro.exists())
     {QFile stoko(QDir::homePath()+"/Gradivus/skriptoj/SQL/provizaro.sql");
@@ -80,7 +80,7 @@ int main(int argc,char *argv[])
         if(linio.endsWith(";"))
          if(!informpeto.exec(linio))
           if(informpeto.lastError().isValid())
-           QMessageBox::warning(0,"Eraro!",informpeto.lastError().text());
+           QMessageBox::warning(0,"Eraro [005]!",informpeto.lastError().text());
       }
       stoko.close();
    }}}
@@ -96,7 +96,7 @@ int main(int argc,char *argv[])
    }}}}
    else
     if(informpeto.lastError().isValid())
-     QMessageBox::warning(0,"Eraro!",informpeto.lastError().text());
+     QMessageBox::warning(0,"Eraro [006]!",informpeto.lastError().text());
    datumbazo.close();
 /* tradukistoj */
    QTranslator sistemaTradukilo;
