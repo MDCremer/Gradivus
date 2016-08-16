@@ -23,7 +23,7 @@ int main(int argc,char *argv[])
  {QSqlDatabase datumbazo=QSqlDatabase::addDatabase("QSQLITE");
   QFileInfo dosiero(QDir::homePath()+"/Gradivus/Gradivus.sqlite3");
   bool pravalorizi=!dosiero.exists();
-  datumbazo.setDatabaseName("/home/mdcremer/Gradivus/Gradivus.sqlite3");
+  datumbazo.setDatabaseName(QDir::homePath()+"/Gradivus/Gradivus.sqlite3");
   if(!datumbazo.open())
   {if(datumbazo.lastError().isValid())
     QMessageBox::critical(0,"Fatala eraro!",datumbazo.lastError().text());
