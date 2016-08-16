@@ -1,3 +1,5 @@
+#include <QMainWindow>
+#include <QWidget>
 #include "cxefafenestro.h"
 #include "ui_cxefafenestro.h"
 
