@@ -51,12 +51,16 @@ int main(int argc,char *argv[])
         if(!teksto.isEmpty()&&!teksto.startsWith("--"))
         {instrukcio.append(teksto);
          if(teksto.endsWith(";"))
-         {if(informpeto.exec(instrukcio))
+         {QMessageBox::warning(0,"Info",instrukcio);
+          if(informpeto.exec(instrukcio))
            instrukcio.clear();
           else
            if(informpeto.lastError().isValid())
             QMessageBox::warning(0,"Eraro [002]!",informpeto.lastError().text());
-       }}}
+         }
+         else
+          instrukcio.append(" ");
+       }}
        komando.close();
       }
       else

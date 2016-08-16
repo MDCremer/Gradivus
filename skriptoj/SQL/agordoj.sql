@@ -4,9 +4,9 @@ PRAGMA synchronous=NORMAL;
 PRAGMA temp_store=MEMORY;
 
 CREATE TABLE IF NOT EXISTS agordoj
-{nomo TEXT NOT NULL PRIMARY KEY,
+(nomo TEXT NOT NULL PRIMARY KEY,
  valoro TEXT NOT NULL
-};
+);
 
 INSERT OR IGNORE INTO agordoj (nomo,valoro) VALUES ('nomo','anonimo');
 INSERT OR IGNORE INTO agordoj (nomo,valoro) VALUES ('lingvo','');
