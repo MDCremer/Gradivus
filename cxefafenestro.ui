@@ -18,17 +18,20 @@
   </property>
   <widget class="QWidget" name="centralWidget">
    <layout class="QHBoxLayout" name="horizontalLayout">
+    <property name="spacing">
+     <number>3</number>
+    </property>
     <property name="leftMargin">
-     <number>6</number>
+     <number>3</number>
     </property>
     <property name="topMargin">
-     <number>6</number>
+     <number>3</number>
     </property>
     <property name="rightMargin">
-     <number>6</number>
+     <number>3</number>
     </property>
     <property name="bottomMargin">
-     <number>6</number>
+     <number>3</number>
     </property>
     <item>
      <widget class="QTabWidget" name="tabWidget">
@@ -56,7 +59,7 @@
          <number>6</number>
         </property>
         <item>
-         <widget class="QToolBox" name="menuo">
+         <widget class="QToolBox" name="informoMenuo">
           <property name="sizePolicy">
            <sizepolicy hsizetype="Maximum" vsizetype="Expanding">
             <horstretch>0</horstretch>
@@ -64,32 +67,52 @@
            </sizepolicy>
           </property>
           <property name="currentIndex">
-           <number>1</number>
+           <number>5</number>
           </property>
-          <widget class="QWidget" name="page">
+          <widget class="QWidget" name="agordoj">
            <property name="geometry">
             <rect>
              <x>0</x>
              <y>0</y>
-             <width>68</width>
-             <height>662</height>
+             <width>140</width>
+             <height>556</height>
             </rect>
            </property>
            <attribute name="label">
-            <string>Page 1</string>
+            <string>Agordoj</string>
            </attribute>
           </widget>
-          <widget class="QWidget" name="page_2">
+          <widget class="QWidget" name="datumojApogilo">
+           <attribute name="label">
+            <string>Datumoj apogilo</string>
+           </attribute>
+          </widget>
+          <widget class="QWidget" name="reprezentadoj">
+           <attribute name="label">
+            <string>Reprezentadoj</string>
+           </attribute>
+          </widget>
+          <widget class="QWidget" name="kartojRedaktilo">
+           <attribute name="label">
+            <string>Kartoj redaktilo</string>
+           </attribute>
+          </widget>
+          <widget class="QWidget" name="militaHistoriaVortaro">
+           <attribute name="label">
+            <string>Milita historia vortaro</string>
+           </attribute>
+          </widget>
+          <widget class="QWidget" name="vido">
            <property name="geometry">
             <rect>
              <x>0</x>
              <y>0</y>
-             <width>68</width>
-             <height>662</height>
+             <width>140</width>
+             <height>556</height>
             </rect>
            </property>
            <attribute name="label">
-            <string>Page 2</string>
+            <string>Vido</string>
            </attribute>
           </widget>
          </widget>
@@ -110,6 +133,69 @@
        <attribute name="title">
         <string>Mapo</string>
        </attribute>
+       <layout class="QHBoxLayout" name="horizontalLayout_3">
+        <property name="leftMargin">
+         <number>6</number>
+        </property>
+        <property name="topMargin">
+         <number>6</number>
+        </property>
+        <property name="rightMargin">
+         <number>6</number>
+        </property>
+        <property name="bottomMargin">
+         <number>6</number>
+        </property>
+        <item>
+         <widget class="QToolBox" name="mapoMenuo">
+          <property name="sizePolicy">
+           <sizepolicy hsizetype="Maximum" vsizetype="Expanding">
+            <horstretch>0</horstretch>
+            <verstretch>0</verstretch>
+           </sizepolicy>
+          </property>
+          <property name="currentIndex">
+           <number>1</number>
+          </property>
+          <widget class="QWidget" name="page">
+           <property name="geometry">
+            <rect>
+             <x>0</x>
+             <y>0</y>
+             <width>100</width>
+             <height>30</height>
+            </rect>
+           </property>
+           <attribute name="label">
+            <string>Page 1</string>
+           </attribute>
+          </widget>
+          <widget class="QWidget" name="page_3">
+           <property name="geometry">
+            <rect>
+             <x>0</x>
+             <y>0</y>
+             <width>68</width>
+             <height>668</height>
+            </rect>
+           </property>
+           <attribute name="label">
+            <string>Page 2</string>
+           </attribute>
+          </widget>
+         </widget>
+        </item>
+        <item>
+         <widget class="QOpenGLWidget" name="mapoMontro">
+          <property name="sizePolicy">
+           <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+            <horstretch>0</horstretch>
+            <verstretch>0</verstretch>
+           </sizepolicy>
+          </property>
+         </widget>
+        </item>
+       </layout>
       </widget>
      </widget>
     </item>

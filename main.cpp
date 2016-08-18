@@ -110,7 +110,7 @@ int main(int argc,char *argv[])
     gradivo.installTranslator(&programaTradukilo);
 /* fenestro */
    cxefaFenestro fenestro;
-  fenestro.show();
+   fenestro.show();
 /* kontrolo */
    return gradivo.exec();
 }}}
