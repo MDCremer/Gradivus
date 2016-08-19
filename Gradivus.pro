@@ -21,8 +21,8 @@ TRANSLATIONS += gradivus_de.ts
 RESOURCES    += gradivus.qrc
 
 desktop.commands     = $(COPY_FILE) $$PWD/Gradivus.desktop $$(HOME)/Gradivus
-dokumentoj.commands  = $(COPY_DIR) $$PWD/dokumentoj $$(HOME)/Gradivus/dokumentoj
-skriptoj.commands    = $(COPY_DIR) $$PWD/skriptoj $$(HOME)/Gradivus/skriptoj
+dokumentoj.commands  = $(COPY_DIR) $$PWD/dokumentoj $$(HOME)/Gradivus
+skriptoj.commands    = $(COPY_DIR) $$PWD/skriptoj $$(HOME)/Gradivus
 first.depends        = $(first) skriptoj dokumentoj desktop
 export (first.depends)
 export (desktop.commands)
