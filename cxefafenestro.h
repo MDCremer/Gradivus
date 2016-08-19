@@ -2,6 +2,7 @@
 #define CXEFAFENESTRO_H
 
 #include <QMainWindow>
+#include <QString>
 #include <QWidget>
 
 namespace Ui

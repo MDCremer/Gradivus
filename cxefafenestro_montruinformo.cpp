@@ -10,9 +10,7 @@
 void cxefaFenestro::montruInformo(QString dosiero)
 {QString pado(QDir::homePath()+"/Gradivus/dokumentoj/");
  QLocale kulturo;
- QString lingvo=kulturo.name().split('_').first()+"/";
- QFileInfo varianto(pado+lingvo+dosiero);
- if(varianto.exists())
-  pado.append(lingvo);
- ui->informaMontro->setUrl(QUrl("file://"+pado+dosiero));
+ QString lingvo="_"+kulturo.name().split('_').first();
+ QFileInfo varianto(pado+dosiero+lingvo+".html");
+ ui->informaMontro->setUrl(QUrl("file://"+pado+dosiero+(varianto.exists()?lingvo:"")+".html"));
 }
