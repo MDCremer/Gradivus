@@ -13,6 +13,7 @@ class cxefaFenestro:public QMainWindow
  public:
   explicit cxefaFenestro(QWidget *parent=0);
   ~cxefaFenestro();
+  void montruInformo(QString dosiero);
  private:
   Ui::cxefaFenestro *ui;
 };
