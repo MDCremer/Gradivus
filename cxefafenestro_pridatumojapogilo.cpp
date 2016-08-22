@@ -4,6 +4,6 @@
 #include "datumojapogilo.h"
 
 void cxefaFenestro::priDatumojApogilo()
-{datumojApoligo datumojApogilo(this);
+{datumojApogilo datumojApogilo(this);
  datumojApogilo.exec();
 }
