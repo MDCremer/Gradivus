@@ -1,5 +1,5 @@
 #include "datumojapogilo.h"
 
-datumojApoligo::~datumojApoligo()
+datumojApogilo::~datumojApogilo()
 {delete ui;
 }

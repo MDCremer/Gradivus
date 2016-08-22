@@ -8,11 +8,13 @@ namespace Ui
 {class datumojApogilo;
 }
 
-class datumojApoligo:public QDialog
+class datumojApogilo:public QDialog
 {Q_OBJECT
  public:
-  explicit datumojApoligo(QWidget *gepatro=0);
-  ~datumojApoligo();
+  explicit datumojApogilo(QWidget *gepatro=0);
+  ~datumojApogilo();
+ public slots:
+  void priAbortu();
  private:
   Ui::datumojApogilo *ui;
 };

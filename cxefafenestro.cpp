@@ -1,4 +1,6 @@
+#include <QCheckBox>
 #include <QMainWindow>
+#include <QPushButton>
 #include <QWidget>
 #include <QtWebEngineWidgets>
 #include "cxefafenestro.h"
