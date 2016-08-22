@@ -5,7 +5,7 @@
 #include "ui_cxefafenestro.h"
 #include "hipertekstopagxo.h"
 
-cxefaFenestro::cxefaFenestro(QWidget *parent):QMainWindow(parent),ui(new Ui::cxefaFenestro)
+cxefaFenestro::cxefaFenestro(QWidget *gepatro):QMainWindow(gepatro),ui(new Ui::cxefaFenestro)
 {ui->setupUi(this);
  ui->informaMontro->setPage(new hipertekstoPagxo());
  connect(ui->datumojApogilo,&QPushButton::clicked,this,&cxefaFenestro::priDatumojApogilo);

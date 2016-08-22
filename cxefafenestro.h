@@ -12,7 +12,7 @@ namespace Ui
 class cxefaFenestro:public QMainWindow
 {Q_OBJECT
  public:
-  explicit cxefaFenestro(QWidget *parent=0);
+  explicit cxefaFenestro(QWidget *gepatro=0);
   ~cxefaFenestro();
   void montruInformo(QString dosiero);
  public slots:
