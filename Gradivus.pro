@@ -9,11 +9,13 @@ TEMPLATE      = app
 
 SOURCES      += main.cpp\
                 cxefafenestro.cpp\
-                cxefafenestro_destrojero.cpp \
-                cxefafenestro_montruinformo.cpp \
+                cxefafenestro_destrojero.cpp\
+                cxefafenestro_montruinformo.cpp\
+                cxefafenestro_pridatumojapogilo.cpp\
+                cxefafenestro_primuta.cpp\
                 hipertekstopagxo_acceptnavigationrequest.cpp
 
-HEADERS      += cxefafenestro.h \
+HEADERS      += cxefafenestro.h\
                 hipertekstopagxo.h
 
 FORMS        += cxefafenestro.ui
