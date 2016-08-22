@@ -3,6 +3,7 @@ CREATE TABLE IF NOT EXISTS lingvoj
  rango INTEGER NOT NULL
 );
 
+BEGIN;
 INSERT OR IGNORE INTO lingvoj (mallongigo,rango) VALUES ('ab',0);
 INSERT OR IGNORE INTO lingvoj (mallongigo,rango) VALUES ('aa',1);
 INSERT OR IGNORE INTO lingvoj (mallongigo,rango) VALUES ('af',2);
@@ -187,3 +188,4 @@ INSERT OR IGNORE INTO lingvoj (mallongigo,rango) VALUES ('yi',180);
 INSERT OR IGNORE INTO lingvoj (mallongigo,rango) VALUES ('yo',181);
 INSERT OR IGNORE INTO lingvoj (mallongigo,rango) VALUES ('za',182);
 INSERT OR IGNORE INTO lingvoj (mallongigo,rango) VALUES ('zu',183);
+COMMIT;
