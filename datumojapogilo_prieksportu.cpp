@@ -10,6 +10,7 @@
 #include <QTextStream>
 #include "datumojapogilo.h"
 #include "ui_datumojapogilo.h"
+#include "cxefafenestro.h"
 
 void datumojApogilo::priEksportu()
 {QString eligoDosiernomo=QFileDialog::getSaveFileName(this,tr("Dosiero selektado por sekurkopioj"),QDir::homePath()+
@@ -29,7 +30,8 @@ void datumojApogilo::priEksportu()
    if(datumbazo.open())
    {QSqlQuery informpeto;
     if(pli&&ui->agordoj->isChecked())
-    {eldono<<"-- Agordoj\nBEGIN;\n";
+    {((cxefaFenestro *)parent())->spektakloMesagxon(tr("Eksporti agordojn …"));
+     eldono<<"-- Agordoj\nBEGIN;\n";
      if(informpeto.exec("SELECT nomo,valoro FROM agordoj;"))
      {while(pli&&informpeto.next())
       {eldono<<"INSERT OR REPLACE INTO agordoj (nomo,valoro) VALUES ('";
@@ -38,7 +40,7 @@ void datumojApogilo::priEksportu()
        eldono<<informpeto.value("valoro").toByteArray().replace("'","''");
        eldono<<"');\n";
        progreso.setValue(++linioj);
-       pli=progreso.wasCanceled();
+       pli=!progreso.wasCanceled();
      }}
      else
       if(informpeto.lastError().isValid())
@@ -46,7 +48,8 @@ void datumojApogilo::priEksportu()
      eldono<<"COMMIT;\n";
     }
     if(pli&&ui->lingvoj->isChecked())
-    {eldono<<"-- Lingvoj\nBEGIN;\n";
+    {((cxefaFenestro *)parent())->spektakloMesagxon(tr("Eksporti lingvojn …"));
+     eldono<<"-- Lingvoj\nBEGIN;\n";
      if(informpeto.exec("SELECT mallongigo,rango FROM lingvoj;"))
      {while(pli&&informpeto.next())
       {eldono<<"INSERT OR REPLACE INTO lingvoj (mallongigo,rango) VALUES ('";
@@ -55,7 +58,7 @@ void datumojApogilo::priEksportu()
        eldono<<informpeto.value("rango").toByteArray();
        eldono<<");\n";
        progreso.setValue(++linioj);
-       pli=progreso.wasCanceled();
+       pli=!progreso.wasCanceled();
      }}
      else
       if(informpeto.lastError().isValid())
@@ -63,6 +66,7 @@ void datumojApogilo::priEksportu()
      eldono<<"COMMIT;";
     }
     datumbazo.close();
+    ((cxefaFenestro *)parent())->spektakloMesagxon(tr("Eksportitaj %1 registroj!").arg(linioj));
    }
    else
     if(datumbazo.lastError().isValid())
