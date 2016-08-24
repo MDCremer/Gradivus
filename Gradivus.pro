@@ -19,11 +19,13 @@ SOURCES      += main.cpp\
                 datumojapogilo_priabortu.cpp\
                 datumojapogilo_prieksportu.cpp\
                 datumojapogilo_prielektucxiuj.cpp\
-               hipertekstopagxo_acceptnavigationrequest.cpp
+                hipertekstopagxo_acceptnavigationrequest.cpp\
+                statikajdatumoj.cpp
 
 HEADERS      += cxefafenestro.h\
                 datumojapogilo.h\
-                hipertekstopagxo.h
+                hipertekstopagxo.h\
+                statikajdatumoj.h
 
 FORMS        += cxefafenestro.ui\
                 datumojapogilo.ui

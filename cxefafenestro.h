@@ -15,7 +15,7 @@ class cxefaFenestro:public QMainWindow
   explicit cxefaFenestro(QWidget *gepatro=0);
   ~cxefaFenestro();
   void montruInformo(QString dosiero);
-  void spektakloMesagxon(QString mesagxon);
+  void spektakloMesagxon(QString mesagxo);
  public slots:
   void priDatumojApogilo();
   void priMuta(int statuso);
