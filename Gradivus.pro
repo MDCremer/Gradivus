@@ -17,6 +17,7 @@ SOURCES      += main.cpp\
                 datumojapogilo_destrojero.cpp\
                 datumojapogilo_priabortu.cpp\
                 datumojapogilo_prieksportu.cpp\
+                datumojapogilo_prielektucxiuj.cpp\
                 hipertekstopagxo_acceptnavigationrequest.cpp
 
 HEADERS      += cxefafenestro.h\

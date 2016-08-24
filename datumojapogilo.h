@@ -15,7 +15,8 @@ class datumojApogilo:public QDialog
   ~datumojApogilo();
  public slots:
   void priAbortu();
-  void priExportu();
+  void priEksportu();
+  void priElektuCxiuj();
  private:
   Ui::datumojApogilo *ui;
 };

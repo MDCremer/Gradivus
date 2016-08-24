@@ -11,7 +11,7 @@
 #include "datumojapogilo.h"
 #include "ui_datumojapogilo.h"
 
-void datumojApogilo::priExportu()
+void datumojApogilo::priEksportu()
 {QString eligoDosiernomo=QFileDialog::getSaveFileName(this,tr("Dosiero selektado por sekurkopioj"),QDir::homePath()+
   "/Gradivus/skriptoj/SQL/provizaro.sql",tr("SQL-dosiero")+" (*.sql)");
  if(!eligoDosiernomo.isNull())
