@@ -88,6 +88,9 @@
             <property name="text">
              <string>nur savu bildoj kai sonoj tiel kiel referencoj al ĝi kiam malkaŝo estas permesita</string>
             </property>
+            <property name="checked">
+             <bool>true</bool>
+            </property>
            </widget>
           </item>
           <item>

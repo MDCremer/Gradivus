@@ -72,9 +72,100 @@
         <translation>Datensicherung</translation>
     </message>
     <message>
-        <location filename="datumojapogilo.ui" line="32"/>
+        <location filename="datumojapogilo.ui" line="71"/>
+        <source>Limigoj</source>
+        <translation>Einschränkungen</translation>
+    </message>
+    <message>
+        <location filename="datumojapogilo.ui" line="89"/>
+        <source>nur savu bildoj kai sonoj tiel kiel referencoj al ĝi kiam malkaŝo estas permesita</source>
+        <translation>nur Bilder und Geräusche sichern, bei denen die Weitergabe erlaubt ist</translation>
+    </message>
+    <message>
+        <location filename="datumojapogilo.ui" line="98"/>
+        <source>subskribo devas inkluzivi:</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="datumojapogilo.ui" line="116"/>
+        <source>nova ol:</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="datumojapogilo.ui" line="135"/>
+        <source>Datumtipoj</source>
+        <translation>Datenarten</translation>
+    </message>
+    <message>
+        <location filename="datumojapogilo.ui" line="155"/>
+        <source>Agordoj</source>
+        <translation>Einstellungen</translation>
+    </message>
+    <message>
+        <location filename="datumojapogilo.ui" line="162"/>
+        <source>Lingvoj</source>
+        <translation>Sprachen</translation>
+    </message>
+    <message>
+        <location filename="datumojapogilo.ui" line="173"/>
+        <source>Elektu ĉiuj</source>
+        <translation>Alle auswählen</translation>
+    </message>
+    <message>
+        <location filename="datumojapogilo.ui" line="204"/>
+        <location filename="datumojapogilo_prieksportu.cpp" line="23"/>
         <source>Abortu</source>
         <translation>Abbrechen</translation>
+    </message>
+    <message>
+        <location filename="datumojapogilo.ui" line="227"/>
+        <source>Eksportu</source>
+        <translation>Exportieren</translation>
+    </message>
+    <message>
+        <location filename="datumojapogilo_prieksportu.cpp" line="16"/>
+        <source>Dosiero selektado por sekurkopioj</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="datumojapogilo_prieksportu.cpp" line="17"/>
+        <source>SQL-dosiero</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="datumojapogilo_prieksportu.cpp" line="23"/>
+        <source>Eksporti</source>
+        <translation>Exportieren</translation>
+    </message>
+    <message>
+        <location filename="datumojapogilo_prieksportu.cpp" line="33"/>
+        <source>Eksporti agordojn …</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="datumojapogilo_prieksportu.cpp" line="47"/>
+        <source>Eraro [008]!</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="datumojapogilo_prieksportu.cpp" line="51"/>
+        <source>Eksporti lingvojn …</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="datumojapogilo_prieksportu.cpp" line="65"/>
+        <source>Eraro [009]</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="datumojapogilo_prieksportu.cpp" line="69"/>
+        <source>Eksportitaj %1 registroj!</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="datumojapogilo_prieksportu.cpp" line="73"/>
+        <source>Eraro [007]!</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 </TS>
