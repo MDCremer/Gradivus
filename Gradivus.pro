@@ -20,15 +20,19 @@ SOURCES      += main.cpp\
                 datumojapogilo_prieksportu.cpp\
                 datumojapogilo_prielektucxiuj.cpp\
                 hipertekstopagxo_acceptnavigationrequest.cpp\
+                konfiguro.cpp\
+                konfiguro_destrojero.cpp\
                 statikajdatumoj.cpp
 
 HEADERS      += cxefafenestro.h\
                 datumojapogilo.h\
                 hipertekstopagxo.h\
+                konfiguro.h\
                 statikajdatumoj.h
 
 FORMS        += cxefafenestro.ui\
-                datumojapogilo.ui
+                datumojapogilo.ui\
+                konfiguro.ui
 
 TRANSLATIONS += gradivus_de.ts
 
