@@ -12,6 +12,8 @@ class konfiguro : public QDialog
  public:
   explicit konfiguro(QWidget *gepatro=0);
   ~konfiguro();
+ public slots:
+  void priAbortu();
  private:
   Ui::konfiguro *ui;
 };
