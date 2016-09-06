@@ -13,6 +13,7 @@ SOURCES      += main.cpp\
                 cxefafenestro_montruinformo.cpp\
                 cxefafenestro_spektaklomesagxon.cpp\
                 cxefafenestro_pridatumojapogilo.cpp\
+                cxefafenestro_prikonfiguro.cpp\
                 cxefafenestro_primuta.cpp\
                 datumojapogilo.cpp\
                 datumojapogilo_destrojero.cpp\

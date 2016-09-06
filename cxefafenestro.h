@@ -18,6 +18,7 @@ class cxefaFenestro:public QMainWindow
   void spektakloMesagxon(QString mesagxo);
  public slots:
   void priDatumojApogilo();
+  void priKonfiguro();
   void priMuta(int statuso);
  private:
   Ui::cxefaFenestro *ui;

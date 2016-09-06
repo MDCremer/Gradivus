@@ -1,4 +1,3 @@
-#include <QDialog>
 #include "cxefafenestro.h"
 #include "ui_cxefafenestro.h"
 #include "datumojapogilo.h"

@@ -11,6 +11,7 @@ cxefaFenestro::cxefaFenestro(QWidget *gepatro):QMainWindow(gepatro),ui(new Ui::c
 {ui->setupUi(this);
  ui->informaMontro->setPage(new hipertekstoPagxo());
  connect(ui->datumojApogilo,&QPushButton::clicked,this,&cxefaFenestro::priDatumojApogilo);
+ connect(ui->konfiguro,&QPushButton::clicked,this,&cxefaFenestro::priKonfiguro);
  connect(ui->muta,&QCheckBox::stateChanged,this,&cxefaFenestro::priMuta);
  montruInformo("bonvenon");
 }
