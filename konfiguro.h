@@ -2,6 +2,7 @@
 #define KONFIGURO_H
 
 #include <QDialog>
+#include <QListWidgetItem>
 
 namespace Ui
 {class konfiguro;
@@ -14,6 +15,7 @@ class konfiguro : public QDialog
   ~konfiguro();
  public slots:
   void priAbortu();
+  void lingvoEtikedoSxangxo(QListWidgetItem *aktivaEro);
  private:
   Ui::konfiguro *ui;
 };

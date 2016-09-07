@@ -1,5 +1,6 @@
 #include <QByteArray>
 #include <QList>
+#include <QListWidget>
 #include <QLocale>
 #include <QMessageBox>
 #include <QPushButton>
@@ -15,6 +16,7 @@
 konfiguro::konfiguro(QWidget *gepatro):QDialog(gepatro),ui(new Ui::konfiguro)
 {ui->setupUi(this);
  connect(ui->abortu,&QPushButton::clicked,this,&konfiguro::priAbortu);
+ connect(ui->lingvoj,&QListWidget::currentItemChanged,this,&konfiguro::lingvoEtikedoSxangxo);
  QList<QLocale> cxiujKulturoj=QLocale::matchingLocales(QLocale::AnyLanguage,QLocale::AnyScript,QLocale::AnyCountry);
  QStringList lingvoKodoj;
  for(int indekso=0;indekso<cxiujKulturoj.length();++indekso)
