@@ -9,6 +9,7 @@
 #include <QSqlQuery>
 #include <QString>
 #include <QStringList>
+#include <QToolButton>
 #include "konfiguro.h"
 #include "ui_konfiguro.h"
 #include "statikajdatumoj.h"
@@ -17,6 +18,7 @@ konfiguro::konfiguro(QWidget *gepatro):QDialog(gepatro),ui(new Ui::konfiguro)
 {ui->setupUi(this);
  connect(ui->abortu,&QPushButton::clicked,this,&konfiguro::priAbortu);
  connect(ui->lingvoj,&QListWidget::currentItemChanged,this,&konfiguro::lingvoEtikedoSxangxo);
+ connect(ui->supro,&QToolButton::clicked,this,&konfiguro::priSupro);
  QList<QLocale> cxiujKulturoj=QLocale::matchingLocales(QLocale::AnyLanguage,QLocale::AnyScript,QLocale::AnyCountry);
  QStringList lingvoKodoj;
  for(int indekso=0;indekso<cxiujKulturoj.length();++indekso)

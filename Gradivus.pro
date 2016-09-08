@@ -25,6 +25,7 @@ SOURCES      += main.cpp\
                 konfiguro_destrojero.cpp\
                 konfiguro_lingvoetikedosxangxo.cpp\
                 konfiguro_priabortu.cpp\
+                konfiguro_prisupro.cpp\
                 statikajdatumoj.cpp
 
 HEADERS      += cxefafenestro.h\
