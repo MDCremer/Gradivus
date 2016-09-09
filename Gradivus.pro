@@ -25,6 +25,9 @@ SOURCES      += main.cpp\
                 konfiguro_destrojero.cpp\
                 konfiguro_lingvoetikedosxangxo.cpp\
                 konfiguro_priabortu.cpp\
+                konfiguro_primalsupren.cpp\
+                konfiguro_primalsupro.cpp\
+                konfiguro_prisupren.cpp\
                 konfiguro_prisupro.cpp\
                 statikajdatumoj.cpp
 

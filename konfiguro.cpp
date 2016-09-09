@@ -19,6 +19,9 @@ konfiguro::konfiguro(QWidget *gepatro):QDialog(gepatro),ui(new Ui::konfiguro)
  connect(ui->abortu,&QPushButton::clicked,this,&konfiguro::priAbortu);
  connect(ui->lingvoj,&QListWidget::currentItemChanged,this,&konfiguro::lingvoEtikedoSxangxo);
  connect(ui->supro,&QToolButton::clicked,this,&konfiguro::priSupro);
+ connect(ui->supren,&QToolButton::clicked,this,&konfiguro::priSupren);
+ connect(ui->malsupren,&QToolButton::clicked,this,&konfiguro::priMalsupren);
+ connect(ui->malsupro,&QToolButton::clicked,this,&konfiguro::priMalsupro);
  QList<QLocale> cxiujKulturoj=QLocale::matchingLocales(QLocale::AnyLanguage,QLocale::AnyScript,QLocale::AnyCountry);
  QStringList lingvoKodoj;
  for(int indekso=0;indekso<cxiujKulturoj.length();++indekso)

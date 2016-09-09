@@ -16,6 +16,9 @@ class konfiguro : public QDialog
  public slots:
   void priAbortu();
   void priSupro();
+  void priSupren();
+  void priMalsupren();
+  void priMalsupro();
   void lingvoEtikedoSxangxo(QListWidgetItem *aktivaEro);
  private:
   Ui::konfiguro *ui;
