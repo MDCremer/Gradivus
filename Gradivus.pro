@@ -29,12 +29,14 @@ SOURCES      += main.cpp\
                 konfiguro_primalsupro.cpp\
                 konfiguro_prisupren.cpp\
                 konfiguro_prisupro.cpp\
+                rikordoregistrilo.cpp\
                 statikajdatumoj.cpp
 
 HEADERS      += cxefafenestro.h\
                 datumojapogilo.h\
                 hipertekstopagxo.h\
                 konfiguro.h\
+                rikordoregistrilo.h\
                 statikajdatumoj.h
 
 FORMS        += cxefafenestro.ui\
