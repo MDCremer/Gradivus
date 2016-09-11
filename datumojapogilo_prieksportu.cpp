@@ -62,7 +62,7 @@ void datumojApogilo::priEksportu()
      }}
      else
       if(informpeto.lastError().isValid())
-       QMessageBox::warning(this,tr("Eraro [009]"),informpeto.lastError().text());
+       QMessageBox::warning(this,tr("Eraro [009]!"),informpeto.lastError().text());
      eldono<<"COMMIT;";
     }
     datumbazo.close();

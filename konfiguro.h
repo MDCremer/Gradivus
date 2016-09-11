@@ -3,6 +3,7 @@
 
 #include <QDialog>
 #include <QListWidgetItem>
+#include "rikordoregistrilo.h"
 
 namespace Ui
 {class konfiguro;
@@ -22,6 +23,7 @@ class konfiguro : public QDialog
   void lingvoEtikedoSxangxo(QListWidgetItem *aktivaEro);
  private:
   Ui::konfiguro *ui;
+  rikordoRegistrilo *registrilo;
 };
 
 #endif // KONFIGURO_H

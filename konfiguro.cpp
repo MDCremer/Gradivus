@@ -16,6 +16,7 @@
 
 konfiguro::konfiguro(QWidget *gepatro):QDialog(gepatro),ui(new Ui::konfiguro)
 {ui->setupUi(this);
+ registrilo=new rikordoRegistrilo(ui->malfaru);
  connect(ui->abortu,&QPushButton::clicked,this,&konfiguro::priAbortu);
  connect(ui->lingvoj,&QListWidget::currentItemChanged,this,&konfiguro::lingvoEtikedoSxangxo);
  connect(ui->supro,&QToolButton::clicked,this,&konfiguro::priSupro);

@@ -2,5 +2,6 @@
 #include "ui_konfiguro.h"
 
 konfiguro::~konfiguro()
-{delete ui;
+{delete registrilo;
+ delete ui;
 }
