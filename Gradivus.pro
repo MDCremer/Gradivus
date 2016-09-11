@@ -30,6 +30,10 @@ SOURCES      += main.cpp\
                 konfiguro_prisupren.cpp\
                 konfiguro_prisupro.cpp\
                 rikordoregistrilo.cpp\
+                rikordoregistrilo_fermu.cpp\
+                rikordoregistrilo_komencu.cpp\
+                rikordoregistrilo_malfaru.cpp\
+                rikordoregistrilo_plenumu.cpp\
                 statikajdatumoj.cpp
 
 HEADERS      += cxefafenestro.h\
