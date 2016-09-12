@@ -3,6 +3,8 @@
 
 #include <QString>
 
+#define LINGVAKVANTO 184
+
 class statikajDatumoj
 {public:
   static const QString lingvoNomoj[];

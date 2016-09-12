@@ -37,7 +37,7 @@ konfiguro::konfiguro(QWidget *gepatro):QDialog(gepatro),ui(new Ui::konfiguro)
  {QSqlQuery informpeto;
   if(informpeto.exec("SELECT mallongigo FROM lingvoj ORDER BY rango;"))
   {QByteArray mallongigo=informpeto.value("mallongigo").toByteArray();
-   for(int indekso=0;indekso<184;++indekso)
+   for(int indekso=0;indekso<LINGVAKVANTO;++indekso)
     if(statikajDatumoj::lingvoNomoj[indekso].startsWith(mallongigo))
      ui->lingvoj->addItem(statikajDatumoj::lingvoNomoj[indekso]);
   }
