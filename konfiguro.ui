@@ -209,14 +209,7 @@
      <item>
       <widget class="QPushButton" name="abortu">
        <property name="text">
-        <string>Abortu</string>
-       </property>
-      </widget>
-     </item>
-     <item>
-      <widget class="QPushButton" name="malfaru">
-       <property name="text">
-        <string>Malfaru</string>
+        <string>Lasu</string>
        </property>
       </widget>
      </item>
@@ -234,16 +227,16 @@
       </spacer>
      </item>
      <item>
-      <widget class="QPushButton" name="konfirmi">
+      <widget class="QPushButton" name="malfaru">
        <property name="text">
-        <string>Konfirmi</string>
+        <string>Malfaru</string>
        </property>
       </widget>
      </item>
      <item>
-      <widget class="QPushButton" name="lasu">
+      <widget class="QPushButton" name="konfirmi">
        <property name="text">
-        <string>Lasu</string>
+        <string>Konfirmi</string>
        </property>
       </widget>
      </item>
