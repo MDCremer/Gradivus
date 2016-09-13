@@ -1,3 +1,4 @@
+#include <QComboBox>
 #include <QList>
 #include <QListWidget>
 #include <QLocale>
@@ -8,6 +9,7 @@
 #include <QToolButton>
 #include "konfiguro.h"
 #include "ui_konfiguro.h"
+#include "agordoj.h"
 #include "cxefafenestro.h"
 #include "statikajdatumoj.h"
 
@@ -30,6 +32,11 @@ konfiguro::konfiguro(QWidget *gepatro):QDialog(gepatro),ui(new Ui::konfiguro)
   if(ui->kulturo->findText(lingvoKodoj[indekso])==-1)
    ui->kulturo->addItem(lingvoKodoj[indekso]);
  lingvaKvanto=((cxefaFenestro *)gepatro)->administranto.akiruLingvaKvanto();
+ ui->inicialoj->setText(((cxefaFenestro *)gepatro)->administranto.akiruValoro(AGORDO_NOMO));
+ if(((cxefaFenestro *)gepatro)->administranto.akiruValoro(AGORDO_LINGVO).isEmpty())
+  ui->kulturo->setCurrentIndex(0);
+ else
+  ui->kulturo->setCurrentIndex(ui->kulturo->findText(((cxefaFenestro *)gepatro)->administranto.akiruValoro(AGORDO_LINGVO)));
  for(int indekso=0;indekso<lingvaKvanto;++indekso)
   ui->lingvoj->addItem(statikajDatumoj::lingvoNomoj[((cxefaFenestro *)gepatro)->administranto.akiruLingvaNombro(indekso)]);
 }
