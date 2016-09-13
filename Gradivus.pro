@@ -8,6 +8,7 @@ DESTDIR       = $$(HOME)/Gradivus/binaroj
 TEMPLATE      = app
 
 SOURCES      += main.cpp\
+                agordoj_sxargu.cpp\
                 cxefafenestro.cpp\
                 cxefafenestro_destrojero.cpp\
                 cxefafenestro_montruinformo.cpp\
@@ -36,7 +37,8 @@ SOURCES      += main.cpp\
                 rikordoregistrilo_plenumu.cpp\
                 statikajdatumoj.cpp
 
-HEADERS      += cxefafenestro.h\
+HEADERS      += agordoj.h\
+                cxefafenestro.h\
                 datumojapogilo.h\
                 hipertekstopagxo.h\
                 konfiguro.h\

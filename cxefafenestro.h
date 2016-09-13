@@ -4,6 +4,7 @@
 #include <QMainWindow>
 #include <QString>
 #include <QWidget>
+#include "agordoj.h"
 
 namespace Ui
 {class cxefaFenestro;
@@ -16,6 +17,7 @@ class cxefaFenestro:public QMainWindow
   ~cxefaFenestro();
   void montruInformo(QString dosiero);
   void spektakloMesagxon(QString mesagxo);
+  agordoj administranto;
  public slots:
   void priDatumojApogilo();
   void priKonfiguro();

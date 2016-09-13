@@ -24,6 +24,7 @@ class konfiguro : public QDialog
  private:
   Ui::konfiguro *ui;
   rikordoRegistrilo *registrilo;
+  int lingvaKvanto;
 };
 
 #endif // KONFIGURO_H
