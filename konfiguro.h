@@ -3,6 +3,7 @@
 
 #include <QDialog>
 #include <QListWidgetItem>
+#include <QWidget>
 #include "rikordoregistrilo.h"
 
 namespace Ui
@@ -22,6 +23,7 @@ class konfiguro : public QDialog
   void priMalsupro();
   void lingvoEtikedoSxangxo(QListWidgetItem *aktivaEro);
  private:
+  QWidget *patraObjekto;
   Ui::konfiguro *ui;
   rikordoRegistrilo *registrilo;
   int lingvaKvanto;

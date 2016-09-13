@@ -7,6 +7,7 @@
 #include <QString>
 #include <QStringList>
 #include <QToolButton>
+#include <QWidget>
 #include "konfiguro.h"
 #include "ui_konfiguro.h"
 #include "agordoj.h"
@@ -39,4 +40,5 @@ konfiguro::konfiguro(QWidget *gepatro):QDialog(gepatro),ui(new Ui::konfiguro)
   ui->kulturo->setCurrentIndex(ui->kulturo->findText(((cxefaFenestro *)gepatro)->administranto.akiruValoro(AGORDO_LINGVO)));
  for(int indekso=0;indekso<lingvaKvanto;++indekso)
   ui->lingvoj->addItem(statikajDatumoj::lingvoNomoj[((cxefaFenestro *)gepatro)->administranto.akiruLingvaNombro(indekso)]);
+ patraObjekto=gepatro;
 }

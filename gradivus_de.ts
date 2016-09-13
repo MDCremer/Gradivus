@@ -18,6 +18,16 @@
         <source>Eraro [012]!</source>
         <translation>Fehler [012]!</translation>
     </message>
+    <message>
+        <location filename="agordoj_sxargu.cpp" line="38"/>
+        <source>Eraro [011]!</source>
+        <translation>Fehler [011]!</translation>
+    </message>
+    <message>
+        <location filename="agordoj_sxargu.cpp" line="43"/>
+        <source>Eraro [010]!</source>
+        <translation>Fehler [010]!</translation>
+    </message>
 </context>
 <context>
     <name>cxefaFenestro</name>
@@ -240,12 +250,11 @@
         <translation></translation>
     </message>
     <message>
-        <location filename="konfiguro.ui" line="212"/>
         <source>Abortu</source>
         <translation>Abbrechen</translation>
     </message>
     <message>
-        <location filename="konfiguro.ui" line="219"/>
+        <location filename="konfiguro.ui" line="232"/>
         <source>Malfaru</source>
         <translation>Rückgängig</translation>
     </message>
@@ -255,7 +264,7 @@
         <translation>Bestätigen</translation>
     </message>
     <message>
-        <location filename="konfiguro.ui" line="246"/>
+        <location filename="konfiguro.ui" line="212"/>
         <source>Lasu</source>
         <translation>Verlassen</translation>
     </message>
@@ -265,12 +274,10 @@
         <translation>lokal</translation>
     </message>
     <message>
-        <location filename="konfiguro.cpp" line="46"/>
         <source>Eraro [011]!</source>
         <translation>Fehler [011]!</translation>
     </message>
     <message>
-        <location filename="konfiguro.cpp" line="50"/>
         <source>Eraro [010]!</source>
         <translation>Fehler [010]!</translation>
     </message>
