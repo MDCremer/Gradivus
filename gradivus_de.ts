@@ -269,8 +269,9 @@
         <translation>Verlassen</translation>
     </message>
     <message>
-        <location filename="konfiguro.cpp" line="31"/>
-        <source>lokau0135aro</source>
+        <location filename="konfiguro.cpp" line="33"/>
+        <source>lokaĵaro</source>
+        <oldsource>lokau0135aro</oldsource>
         <translation>lokal</translation>
     </message>
     <message>
@@ -280,6 +281,28 @@
     <message>
         <source>Eraro [010]!</source>
         <translation>Fehler [010]!</translation>
+    </message>
+    <message>
+        <location filename="konfiguro_prikonfirmu.cpp" line="46"/>
+        <source>Eraro [016]!</source>
+        <translation>Fehler [016]!</translation>
+    </message>
+    <message>
+        <location filename="konfiguro_prikonfirmu.cpp" line="49"/>
+        <source>%1 ŝanĝoj estas savitaj!</source>
+        <oldsource>%1 ŝanĝo(j) estas konservitaj!</oldsource>
+        <translation>%1 Änderungen wurden gespeichert!</translation>
+    </message>
+    <message>
+        <source>%1 u015danu011doj estas konservitaj!</source>
+        <oldsource>%1 ŝanĝoj estas konservitaj!</oldsource>
+        <translation>%1 Änderungen wurden gesichert!</translation>
+    </message>
+    <message>
+        <location filename="konfiguro_prikonfirmu.cpp" line="52"/>
+        <source>Ekzistas neniu ŝanĝo!</source>
+        <oldsource>Ekzistas neniu u015danu011do!</oldsource>
+        <translation>Änderungen sind nicht vorhanden!</translation>
     </message>
 </context>
 </TS>

@@ -46,7 +46,7 @@ void konfiguro::priKonfirmu()
    QMessageBox::critical((QWidget *)patraObjekto,tr("Eraro [016]!"),datumbazo.lastError().text());
  if(sxangxita)
  {registrilo->fermu();
-  patraObjekto->spektakloMesagxon(tr("%1 ŝanĝoj estas konservitaj!").arg(sxangxoNombro));
+  patraObjekto->spektakloMesagxon(tr("%1 ŝanĝoj estas savitaj!").arg(sxangxoNombro));
  }
  else
   patraObjekto->spektakloMesagxon(tr("Ekzistas neniu ŝanĝo!"));
