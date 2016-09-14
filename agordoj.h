@@ -9,6 +9,7 @@
 
 class agordoj
 {public:
+  void agorduValoro(int nombro,QByteArray valoro) {valoroj[nombro]=valoro;}
   int akiruLingvaNombro(int rango) {return lingvaRangoj[rango];}
   int akiruLingvaKvanto() {return lingvaKvanto;}
   QByteArray akiruValoro(int nombro) {return valoroj[nombro];}

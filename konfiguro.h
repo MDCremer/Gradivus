@@ -4,6 +4,7 @@
 #include <QDialog>
 #include <QListWidgetItem>
 #include <QWidget>
+#include "cxefafenestro.h"
 #include "rikordoregistrilo.h"
 
 namespace Ui
@@ -17,13 +18,14 @@ class konfiguro : public QDialog
   ~konfiguro();
  public slots:
   void priAbortu();
-  void priSupro();
-  void priSupren();
+  void priKonfirmu();
   void priMalsupren();
   void priMalsupro();
+  void priSupren();
+  void priSupro();
   void lingvoEtikedoSxangxo(QListWidgetItem *aktivaEro);
  private:
-  QWidget *patraObjekto;
+  cxefaFenestro *patraObjekto;
   Ui::konfiguro *ui;
   rikordoRegistrilo *registrilo;
   int lingvaKvanto;

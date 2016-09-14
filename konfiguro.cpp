@@ -17,12 +17,14 @@
 konfiguro::konfiguro(QWidget *gepatro):QDialog(gepatro),ui(new Ui::konfiguro)
 {ui->setupUi(this);
  registrilo=new rikordoRegistrilo(ui->malfaru);
+ patraObjekto=(cxefaFenestro *)gepatro;
  connect(ui->abortu,&QPushButton::clicked,this,&konfiguro::priAbortu);
  connect(ui->lingvoj,&QListWidget::currentItemChanged,this,&konfiguro::lingvoEtikedoSxangxo);
  connect(ui->supro,&QToolButton::clicked,this,&konfiguro::priSupro);
  connect(ui->supren,&QToolButton::clicked,this,&konfiguro::priSupren);
  connect(ui->malsupren,&QToolButton::clicked,this,&konfiguro::priMalsupren);
  connect(ui->malsupro,&QToolButton::clicked,this,&konfiguro::priMalsupro);
+ connect(ui->konfirmi,&QPushButton::clicked,this,&konfiguro::priKonfirmu);
  QList<QLocale> cxiujKulturoj=QLocale::matchingLocales(QLocale::AnyLanguage,QLocale::AnyScript,QLocale::AnyCountry);
  QStringList lingvoKodoj;
  for(int indekso=0;indekso<cxiujKulturoj.length();++indekso)
@@ -32,13 +34,12 @@ konfiguro::konfiguro(QWidget *gepatro):QDialog(gepatro),ui(new Ui::konfiguro)
  for(int indekso=0;indekso<lingvoKodoj.length();++indekso)
   if(ui->kulturo->findText(lingvoKodoj[indekso])==-1)
    ui->kulturo->addItem(lingvoKodoj[indekso]);
- lingvaKvanto=((cxefaFenestro *)gepatro)->administranto.akiruLingvaKvanto();
- ui->inicialoj->setText(((cxefaFenestro *)gepatro)->administranto.akiruValoro(AGORDO_NOMO));
- if(((cxefaFenestro *)gepatro)->administranto.akiruValoro(AGORDO_LINGVO).isEmpty())
+ lingvaKvanto=patraObjekto->administranto.akiruLingvaKvanto();
+ ui->inicialoj->setText(patraObjekto->administranto.akiruValoro(AGORDO_NOMO));
+ if(patraObjekto->administranto.akiruValoro(AGORDO_LINGVO).isEmpty())
   ui->kulturo->setCurrentIndex(0);
  else
-  ui->kulturo->setCurrentIndex(ui->kulturo->findText(((cxefaFenestro *)gepatro)->administranto.akiruValoro(AGORDO_LINGVO)));
+  ui->kulturo->setCurrentIndex(ui->kulturo->findText(patraObjekto->administranto.akiruValoro(AGORDO_LINGVO)));
  for(int indekso=0;indekso<lingvaKvanto;++indekso)
-  ui->lingvoj->addItem(statikajDatumoj::lingvoNomoj[((cxefaFenestro *)gepatro)->administranto.akiruLingvaNombro(indekso)]);
- patraObjekto=gepatro;
+  ui->lingvoj->addItem(statikajDatumoj::lingvoNomoj[patraObjekto->administranto.akiruLingvaNombro(indekso)]);
 }
