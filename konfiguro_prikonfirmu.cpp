@@ -20,6 +20,25 @@ void konfiguro::priKonfirmu()
    patraObjekto->administranto.agorduValoro(AGORDO_NOMO,ui->inicialoj->text().toUtf8());
    ++sxangxoNombro;
   }
+  if((ui->kulturo->currentIndex()==0&&!patraObjekto->administranto.akiruValoro(AGORDO_LINGVO).isEmpty())||
+   (ui->kulturo->currentIndex()>0&&ui->kulturo->currentText()!=patraObjekto->administranto.akiruValoro(AGORDO_LINGVO)))
+  {if(!sxangxita)
+   {registrilo->komencu();
+    sxangxita=true;
+   }
+   registrilo->aldonu("UPDATE agordoj SET valoro='"+patraObjekto->administranto.akiruValoro(AGORDO_LINGVO).replace("'","''")+
+    "' WHERE nomo='lingvo';");
+   if(ui->kulturo->currentIndex()==0)
+   {registrilo->plenumu("UPDATE agordoj SET valoro='' WHERE nomo='lingvo';");
+    patraObjekto->administranto.agorduValoro(AGORDO_LINGVO,"");
+   }
+   else
+   {registrilo->plenumu("UPDATE agordoj SET valoro='"+ui->kulturo->currentText().toUtf8().replace("'","''")+
+     "' WHERE nomo='lingvo';");
+    patraObjekto->administranto.agorduValoro(AGORDO_LINGVO,ui->kulturo->currentText().toUtf8());
+   }
+   ++sxangxoNombro;
+  }
   datumbazo.close();
  }
  else
