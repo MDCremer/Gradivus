@@ -30,7 +30,7 @@ konfiguro::konfiguro(QWidget *gepatro):QDialog(gepatro),ui(new Ui::konfiguro)
  for(int indekso=0;indekso<cxiujKulturoj.length();++indekso)
   lingvoKodoj.append(cxiujKulturoj[indekso].name());
  lingvoKodoj.sort();
- ui->kulturo->addItem(tr("lokaĵaro"));
+ ui->kulturo->addItem(tr("Loka specifo"));
  for(int indekso=0;indekso<lingvoKodoj.length();++indekso)
   if(ui->kulturo->findText(lingvoKodoj[indekso])==-1)
    ui->kulturo->addItem(lingvoKodoj[indekso]);

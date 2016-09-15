@@ -19,12 +19,12 @@
         <translation>Fehler [012]!</translation>
     </message>
     <message>
-        <location filename="agordoj_sxargu.cpp" line="38"/>
+        <location filename="agordoj_sxargu.cpp" line="34"/>
         <source>Eraro [011]!</source>
         <translation>Fehler [011]!</translation>
     </message>
     <message>
-        <location filename="agordoj_sxargu.cpp" line="43"/>
+        <location filename="agordoj_sxargu.cpp" line="39"/>
         <source>Eraro [010]!</source>
         <translation>Fehler [010]!</translation>
     </message>
@@ -250,6 +250,7 @@
         <translation></translation>
     </message>
     <message>
+        <location filename="konfiguro_prikonfirmu.cpp" line="28"/>
         <source>Abortu</source>
         <translation>Abbrechen</translation>
     </message>
@@ -270,9 +271,9 @@
     </message>
     <message>
         <location filename="konfiguro.cpp" line="33"/>
-        <source>lokaĵaro</source>
-        <oldsource>lokau0135aro</oldsource>
-        <translation>lokal</translation>
+        <source>Loka specifo</source>
+        <oldsource>lokaĵaro</oldsource>
+        <translation>Lokale Vorgabe</translation>
     </message>
     <message>
         <source>Eraro [011]!</source>
@@ -283,15 +284,37 @@
         <translation>Fehler [010]!</translation>
     </message>
     <message>
-        <location filename="konfiguro_prikonfirmu.cpp" line="46"/>
+        <location filename="konfiguro_prikonfirmu.cpp" line="28"/>
+        <source>Stokado</source>
+        <translation>Speicherung</translation>
+    </message>
+    <message>
+        <source>Ŝarĝoj estas stokitaj.</source>
+        <translation>Änderungen werden gespeichert.</translation>
+    </message>
+    <message>
+        <location filename="konfiguro_prikonfirmu.cpp" line="85"/>
         <source>Eraro [016]!</source>
         <translation>Fehler [016]!</translation>
     </message>
     <message>
-        <location filename="konfiguro_prikonfirmu.cpp" line="49"/>
-        <source>%1 ŝanĝoj estas savitaj!</source>
-        <oldsource>%1 ŝanĝo(j) estas konservitaj!</oldsource>
-        <translation>%1 Änderungen wurden gespeichert!</translation>
+        <location filename="konfiguro_prikonfirmu.cpp" line="88"/>
+        <source>Ekzistas neniu ŝarĝo!</source>
+        <oldsource>Ekzistas neniu Ŝarĝo!</oldsource>
+        <translation>Es gibt keine Änderungen!</translation>
+    </message>
+    <message>
+        <source>Ekzistas neniu sxangxo!</source>
+        <translation>Änderungen sind nicht vorhanden!</translation>
+    </message>
+    <message numerus="yes">
+        <location filename="konfiguro_prikonfirmu.cpp" line="81"/>
+        <source>%n ŝarĝoj estas savitaj!</source>
+        <oldsource>%1 ŝarĝoj estas savitaj!</oldsource>
+        <translation>
+            <numerusform>%n Änderung wurden gespeichert!</numerusform>
+            <numerusform>%n Änderungen wurden gespeichert!</numerusform>
+        </translation>
     </message>
     <message>
         <source>%1 u015danu011doj estas konservitaj!</source>
@@ -299,9 +322,8 @@
         <translation>%1 Änderungen wurden gesichert!</translation>
     </message>
     <message>
-        <location filename="konfiguro_prikonfirmu.cpp" line="52"/>
-        <source>Ekzistas neniu ŝanĝo!</source>
-        <oldsource>Ekzistas neniu u015danu011do!</oldsource>
+        <source>Ekzistas neniu korekto!</source>
+        <oldsource>Ekzistas neniu ŝanĝo!</oldsource>
         <translation>Änderungen sind nicht vorhanden!</translation>
     </message>
 </context>

@@ -27,12 +27,8 @@ void agordoj::sxargu()
   lingvaKvanto=0;
   if(informpeto.exec("SELECT mallongigo FROM lingvoj ORDER BY rango;"))
   {while(informpeto.next())
-   {QByteArray mallongigo=informpeto.value("mallongigo").toByteArray();
-    for(int indekso=0;indekso<LINGVAKVANTO;++indekso)
-    {if(statikajDatumoj::lingvoNomoj[indekso].startsWith(mallongigo))
-     {lingvaRangoj[lingvaKvanto++]=indekso;
-      indekso=LINGVAKVANTO;
-  }}}}
+    lingvaRangoj[lingvaKvanto++]=akiruLingvaNombro(informpeto.value("mallongigo").toByteArray());
+  }
   else
    if(informpeto.lastError().isValid())
     QMessageBox::warning(0,QObject::tr("Eraro [011]!"),informpeto.lastError().text());
