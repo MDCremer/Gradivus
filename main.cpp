@@ -69,7 +69,7 @@ int main(int argc,char *argv[])
     }
     else
      QMessageBox::warning(0,"Eraro [004]!","La listo de dosieroj por esti procesita ne povis esti malfermita!");
-    QFileInfo provizaro("$HOME/Gradivus/skriptoj/SQL/provizaro.sql");
+    QFileInfo provizaro(QDir::homePath()+"/Gradivus/skriptoj/SQL/provizaro.sql");
     if(provizaro.exists())
     {QFile stoko(QDir::homePath()+"/Gradivus/skriptoj/SQL/provizaro.sql");
      if(stoko.open(QIODevice::ReadOnly|QIODevice::Text))

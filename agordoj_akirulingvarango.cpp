@@ -6,5 +6,5 @@ int agordoj::akiruLingvaRango(QByteArray komenco)
  for(int indekso=0;indekso<lingvaKvanto;++indekso)
   if(lingvaRangoj[indekso]==nombro)
    return indekso;
- return -1;
+ return 10;
 }

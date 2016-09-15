@@ -19,6 +19,7 @@ class konfiguro : public QDialog
  public slots:
   void priAbortu();
   void priKonfirmu();
+  void priMalfaru();
   void priMalsupren();
   void priMalsupro();
   void priSupren();

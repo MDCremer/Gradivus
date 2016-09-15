@@ -25,6 +25,7 @@ konfiguro::konfiguro(QWidget *gepatro):QDialog(gepatro),ui(new Ui::konfiguro)
  connect(ui->malsupren,&QToolButton::clicked,this,&konfiguro::priMalsupren);
  connect(ui->malsupro,&QToolButton::clicked,this,&konfiguro::priMalsupro);
  connect(ui->konfirmi,&QPushButton::clicked,this,&konfiguro::priKonfirmu);
+ connect(ui->malfaru,&QPushButton::clicked,this,&konfiguro::priMalfaru);
  QList<QLocale> cxiujKulturoj=QLocale::matchingLocales(QLocale::AnyLanguage,QLocale::AnyScript,QLocale::AnyCountry);
  QStringList lingvoKodoj;
  for(int indekso=0;indekso<cxiujKulturoj.length();++indekso)

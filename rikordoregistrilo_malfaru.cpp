@@ -32,5 +32,6 @@ bool rikordoRegistrilo::malfaru()
    if(datumbazo.lastError().isValid())
     QMessageBox::critical(malfaroButono,QObject::tr("Eraro [013]!"),datumbazo.lastError().text());
  }
+ malfaroButono->setDisabled(stako.isEmpty());
  return sukceso;
 }

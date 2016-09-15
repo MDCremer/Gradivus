@@ -29,6 +29,7 @@ SOURCES      += main.cpp\
                 konfiguro_lingvoetikedosxangxo.cpp\
                 konfiguro_priabortu.cpp\
                 konfiguro_prikonfirmu.cpp\
+                konfiguro_primalfaru.cpp\
                 konfiguro_primalsupren.cpp\
                 konfiguro_primalsupro.cpp\
                 konfiguro_prisupren.cpp\
