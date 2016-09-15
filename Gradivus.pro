@@ -8,7 +8,6 @@ DESTDIR       = $$(HOME)/Gradivus/binaroj
 TEMPLATE      = app
 
 SOURCES      += main.cpp\
-                agordoj_agordulingvarango.cpp\
                 agordoj_akirulingvanombro.cpp\
                 agordoj_akirulingvarango.cpp\
                 agordoj_sxargu.cpp\

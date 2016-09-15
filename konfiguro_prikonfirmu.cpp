@@ -75,7 +75,6 @@ void konfiguro::priKonfirmu()
       dauxrigu=!progreso.wasCanceled();
    }}
    datumbazo.close();
-   progreso.setValue(sxangxoNombro);
    if(dauxrigu)
    {registrilo->fermu();
     patraObjekto->spektakloMesagxon(tr("%n \305\235ar\304\235oj estas savitaj!","",sxangxoNombro));

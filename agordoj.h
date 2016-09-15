@@ -9,7 +9,7 @@
 
 class agordoj
 {public:
-  void agorduLingvaRango(QByteArray komenco,int rango);
+  void agorduLingvaRango(QByteArray komenco,int rango) {lingvaRangoj[rango]=akiruLingvaNombro(komenco);}
   void agorduValoro(int nombro,QByteArray valoro) {valoroj[nombro]=valoro;}
   int akiruLingvaNombro(int rango) {return lingvaRangoj[rango];}
   int akiruLingvaNombro(QByteArray komenco);
