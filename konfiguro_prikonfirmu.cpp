@@ -3,6 +3,7 @@
 #include <QProgressDialog>
 #include <QSqlDatabase>
 #include <QSqlError>
+#include <QSqlQuery>
 #include <QString>
 #include "konfiguro.h"
 #include "ui_konfiguro.h"
@@ -26,13 +27,14 @@ void konfiguro::priKonfirmu()
   bool dauxrigu=true;
   if(datumbazo.open())
   {QProgressDialog progreso(tr("Stokado"),tr("Abortu"),0,sxangxoNombro,this);
+   QSqlQuery informpeto;
    progreso.setModal(true);
    int procesis=0;
    if(ui->inicialoj->text()!=patraObjekto->administranto.akiruValoro(AGORDO_NOMO))
    {registrilo->komencu();
     registrilo->aldonu("UPDATE agordoj SET valoro='"+patraObjekto->administranto.akiruValoro(AGORDO_NOMO).replace("'","''")+
       "' WHERE nomo='nomo';");
-    dauxrigu=registrilo->plenumu("UPDATE agordoj SET valoro='"+ui->inicialoj->text().toUtf8().replace("'","''")+
+    dauxrigu=registrilo->plenumu(&informpeto,"UPDATE agordoj SET valoro='"+ui->inicialoj->text().toUtf8().replace("'","''")+
       "' WHERE nomo='nomo';");
     patraObjekto->administranto.agorduValoro(AGORDO_NOMO,ui->inicialoj->text().toUtf8());
     progreso.setValue(++procesis);
@@ -47,11 +49,11 @@ void konfiguro::priKonfirmu()
     registrilo->aldonu("UPDATE agordoj SET valoro='"+
        patraObjekto->administranto.akiruValoro(AGORDO_LINGVO).replace("'","''")+"' WHERE nomo='lingvo';");
     if(ui->kulturo->currentIndex()==0)
-    {dauxrigu=registrilo->plenumu("UPDATE agordoj SET valoro='' WHERE nomo='lingvo';");
+    {dauxrigu=registrilo->plenumu(&informpeto,"UPDATE agordoj SET valoro='' WHERE nomo='lingvo';");
      patraObjekto->administranto.agorduValoro(AGORDO_LINGVO,"");
     }
     else
-    {dauxrigu=registrilo->plenumu("UPDATE agordoj SET valoro='"+ui->kulturo->currentText().toUtf8().replace("'","''")+
+    {dauxrigu=registrilo->plenumu(&informpeto,"UPDATE agordoj SET valoro='"+ui->kulturo->currentText().toUtf8().replace("'","''")+
        "' WHERE nomo='lingvo';");
      patraObjekto->administranto.agorduValoro(AGORDO_LINGVO,ui->kulturo->currentText().toUtf8());
     }
@@ -67,13 +69,14 @@ void konfiguro::priKonfirmu()
      registrilo->aldonu("UPDATE lingvoj SET rango="+
        QString("%1").arg(patraObjekto->administranto.akiruLingvaRango(ero->text().left(2).toUtf8())).toUtf8()+
        " WHERE mallongigo='"+ero->text().left(2).toUtf8()+"';");
-     dauxrigu=registrilo->plenumu("UPDATE lingvoj SET rango="+QString("%1").arg(indekso).toUtf8()+" WHERE mallongigo='"+
+     dauxrigu=registrilo->plenumu(&informpeto,"UPDATE lingvoj SET rango="+QString("%1").arg(indekso).toUtf8()+" WHERE mallongigo='"+
        ero->text().left(2).toUtf8()+"';");
-     patraObjekto->administranto.agorduLingvaRango(ero->text().left(2).toUtf8(),indekso);
      progreso.setValue(++procesis);
      if(dauxrigu)
       dauxrigu=!progreso.wasCanceled();
    }}
+   for(int indekso=0;indekso<lingvaKvanto;++indekso)
+    patraObjekto->administranto.agorduLingvaRango(ui->lingvoj->item(indekso)->text().left(2).toUtf8(),indekso);
    datumbazo.close();
    if(dauxrigu)
    {registrilo->fermu();

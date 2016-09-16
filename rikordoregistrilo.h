@@ -3,6 +3,7 @@
 
 #include <QByteArray>
 #include <QPushButton>
+#include <QSqlQuery>
 #include <QStack>
 
 class rikordoRegistrilo
@@ -12,7 +13,7 @@ class rikordoRegistrilo
   void fermu();
   void komencu();
   bool malfaru();
-  bool plenumu(QByteArray ordono);
+  bool plenumu(QSqlQuery *registrilo,QByteArray ordono);
  private:
   QPushButton *malfaroButono;
   QStack<QByteArray> stako;
