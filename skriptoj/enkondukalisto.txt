@@ -1,2 +1,3 @@
 agordoj.sql
 lingvoj.sql
+identigiloj.sql
