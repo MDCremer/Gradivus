@@ -16,5 +16,6 @@ void konfiguro::priMalfaru()
  ui->lingvoj->clear();
  for(int indekso=0;indekso<lingvaKvanto;++indekso)
   ui->lingvoj->addItem(statikajDatumoj::lingvoNomoj[patraObjekto->administranto.akiruLingvaNombro(indekso)]);
+ patraObjekto->spektakloMesagxon(tr("\305\234an\304\235oj malfaritaj!"));
  this->setCursor(Qt::ArrowCursor);
 }

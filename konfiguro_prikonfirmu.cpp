@@ -80,12 +80,12 @@ void konfiguro::priKonfirmu()
    datumbazo.close();
    if(dauxrigu)
    {registrilo->fermu();
-    patraObjekto->spektakloMesagxon(tr("%n \305\235ar\304\235oj estas savitaj!","",sxangxoNombro));
+    patraObjekto->spektakloMesagxon(tr("%n \305\235an\304\235oj estas savitaj!","",sxangxoNombro));
   }}
   else
    if(datumbazo.lastError().isValid())
     QMessageBox::critical(this,tr("Eraro [016]!"),datumbazo.lastError().text());
  }
  else
-  patraObjekto->spektakloMesagxon(tr("Ekzistas neniu \305\235ar\304\235o!"));
+  patraObjekto->spektakloMesagxon(tr("Ekzistas neniu \305\235an\304\235o!"));
 }

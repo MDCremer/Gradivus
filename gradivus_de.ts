@@ -14,7 +14,7 @@
         <translation>Fehler [013]!</translation>
     </message>
     <message>
-        <location filename="rikordoregistrilo_plenumu.cpp" line="17"/>
+        <location filename="rikordoregistrilo_plenumu.cpp" line="16"/>
         <source>Eraro [012]!</source>
         <translation>Fehler [012]!</translation>
     </message>
@@ -140,18 +140,23 @@
         <translation>Sprachen</translation>
     </message>
     <message>
-        <location filename="datumojapogilo.ui" line="176"/>
+        <location filename="datumojapogilo.ui" line="172"/>
+        <source>Identigiloj</source>
+        <translation>Bezeichnungen</translation>
+    </message>
+    <message>
+        <location filename="datumojapogilo.ui" line="183"/>
         <source>Elektu ĉiuj</source>
         <translation>Alle auswählen</translation>
     </message>
     <message>
-        <location filename="datumojapogilo.ui" line="207"/>
+        <location filename="datumojapogilo.ui" line="214"/>
         <location filename="datumojapogilo_prieksportu.cpp" line="23"/>
         <source>Abortu</source>
         <translation>Abbrechen</translation>
     </message>
     <message>
-        <location filename="datumojapogilo.ui" line="230"/>
+        <location filename="datumojapogilo.ui" line="237"/>
         <source>Eksportu</source>
         <translation>Exportieren</translation>
     </message>
@@ -193,11 +198,21 @@
     </message>
     <message>
         <location filename="datumojapogilo_prieksportu.cpp" line="69"/>
+        <source>Eksporti identigilojn …</source>
+        <translation>Bezeichnungen werden gesichert…</translation>
+    </message>
+    <message>
+        <location filename="datumojapogilo_prieksportu.cpp" line="104"/>
+        <source>Eraro [017]!</source>
+        <translation>Fehler [017]!</translation>
+    </message>
+    <message>
+        <location filename="datumojapogilo_prieksportu.cpp" line="108"/>
         <source>Eksportitaj %1 registroj!</source>
         <translation>%1 Datensätze wurden gesichert!</translation>
     </message>
     <message>
-        <location filename="datumojapogilo_prieksportu.cpp" line="73"/>
+        <location filename="datumojapogilo_prieksportu.cpp" line="112"/>
         <source>Eraro [007]!</source>
         <translation>Fehler [007]!</translation>
     </message>
@@ -250,9 +265,22 @@
         <translation></translation>
     </message>
     <message>
-        <location filename="konfiguro_prikonfirmu.cpp" line="28"/>
+        <location filename="konfiguro_prikonfirmu.cpp" line="29"/>
         <source>Abortu</source>
         <translation>Abbrechen</translation>
+    </message>
+    <message numerus="yes">
+        <location filename="konfiguro_prikonfirmu.cpp" line="83"/>
+        <source>%n ŝanĝoj estas savitaj!</source>
+        <translation>
+            <numerusform>%n Änderung wurde gespeichert!</numerusform>
+            <numerusform>%n Änderungen wurden gespeichert!</numerusform>
+        </translation>
+    </message>
+    <message>
+        <location filename="konfiguro_prikonfirmu.cpp" line="90"/>
+        <source>Ekzistas neniu ŝanĝo!</source>
+        <translation>Es gibt keine Änderungen!</translation>
     </message>
     <message>
         <location filename="konfiguro.ui" line="232"/>
@@ -270,7 +298,7 @@
         <translation>Verlassen</translation>
     </message>
     <message>
-        <location filename="konfiguro.cpp" line="33"/>
+        <location filename="konfiguro.cpp" line="34"/>
         <source>Loka specifo</source>
         <oldsource>lokaĵaro</oldsource>
         <translation>Lokale Vorgabe</translation>
@@ -284,7 +312,7 @@
         <translation>Fehler [010]!</translation>
     </message>
     <message>
-        <location filename="konfiguro_prikonfirmu.cpp" line="28"/>
+        <location filename="konfiguro_prikonfirmu.cpp" line="29"/>
         <source>Stokado</source>
         <translation>Speicherung</translation>
     </message>
@@ -293,12 +321,11 @@
         <translation>Änderungen werden gespeichert.</translation>
     </message>
     <message>
-        <location filename="konfiguro_prikonfirmu.cpp" line="85"/>
+        <location filename="konfiguro_prikonfirmu.cpp" line="87"/>
         <source>Eraro [016]!</source>
         <translation>Fehler [016]!</translation>
     </message>
     <message>
-        <location filename="konfiguro_prikonfirmu.cpp" line="88"/>
         <source>Ekzistas neniu ŝarĝo!</source>
         <oldsource>Ekzistas neniu Ŝarĝo!</oldsource>
         <translation>Es gibt keine Änderungen!</translation>
@@ -308,7 +335,6 @@
         <translation>Änderungen sind nicht vorhanden!</translation>
     </message>
     <message numerus="yes">
-        <location filename="konfiguro_prikonfirmu.cpp" line="81"/>
         <source>%n ŝarĝoj estas savitaj!</source>
         <oldsource>%1 ŝarĝoj estas savitaj!</oldsource>
         <translation>
@@ -325,6 +351,11 @@
         <source>Ekzistas neniu korekto!</source>
         <oldsource>Ekzistas neniu ŝanĝo!</oldsource>
         <translation>Änderungen sind nicht vorhanden!</translation>
+    </message>
+    <message>
+        <location filename="konfiguro_primalfaru.cpp" line="19"/>
+        <source>Ŝanĝoj malfaritaj!</source>
+        <translation>Änderungen rückgängig gemacht!</translation>
     </message>
 </context>
 </TS>

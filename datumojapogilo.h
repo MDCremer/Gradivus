@@ -3,6 +3,7 @@
 
 #include <QDialog>
 #include <QWidget>
+#include "cxefafenestro.h"
 
 namespace Ui
 {class datumojApogilo;
@@ -18,6 +19,7 @@ class datumojApogilo:public QDialog
   void priEksportu();
   void priElektuCxiuj();
  private:
+  cxefaFenestro *patraObjekto;
   Ui::datumojApogilo *ui;
 };
 

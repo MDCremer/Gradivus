@@ -30,7 +30,7 @@ void datumojApogilo::priEksportu()
    if(datumbazo.open())
    {QSqlQuery informpeto;
     if(pli&&ui->agordoj->isChecked())
-    {((cxefaFenestro *)parent())->spektakloMesagxon(tr("Eksporti agordojn …"));
+    {patraObjekto->spektakloMesagxon(tr("Eksporti agordojn \342\200\246"));
      eldono<<"-- Agordoj\nBEGIN;\n";
      if(informpeto.exec("SELECT nomo,valoro FROM agordoj;"))
      {while(pli&&informpeto.next())
@@ -48,7 +48,7 @@ void datumojApogilo::priEksportu()
      eldono<<"COMMIT;\n";
     }
     if(pli&&ui->lingvoj->isChecked())
-    {((cxefaFenestro *)parent())->spektakloMesagxon(tr("Eksporti lingvojn …"));
+    {patraObjekto->spektakloMesagxon(tr("Eksporti lingvojn \342\200\246"));
      eldono<<"-- Lingvoj\nBEGIN;\n";
      if(informpeto.exec("SELECT mallongigo,rango FROM lingvoj;"))
      {while(pli&&informpeto.next())
@@ -65,8 +65,47 @@ void datumojApogilo::priEksportu()
        QMessageBox::warning(this,tr("Eraro [009]!"),informpeto.lastError().text());
      eldono<<"COMMIT;";
     }
+    if(pli&&ui->identigiloj->isChecked())
+    {patraObjekto->spektakloMesagxon(tr("Eksporti identigilojn \342\200\246"));
+     eldono<<"-- Identigiloj\nBEGIN;\n";
+     if(informpeto.exec("SELECT lando,nomo,lingvo,citajxo,referenco,uuid,subskribon,stato FROM identigiloj;"))
+     {while(pli&&informpeto.next())
+      {eldono<<"INSERT OR REPLACE INTO identigilo (lando,nomo,lingvo,";
+       if(!informpeto.value("citajxo").isNull())
+        eldono<<"citajxo,";
+       if(!informpeto.value("referenco").isNull())
+        eldono<<"referenco,";
+       eldono<<"uuid,subskribon,stato) VALUES ('";
+       eldono<<informpeto.value("lando").toByteArray();
+       eldono<<"','";
+       eldono<<informpeto.value("nomo").toByteArray().replace("'","''");
+       eldono<<"','";
+       eldono<<informpeto.value("lingvo").toByteArray();
+       eldono<<"','";
+       if(!informpeto.value("citajxo").isNull())
+       {eldono<<informpeto.value("citajxo").toByteArray().replace("'","''");
+        eldono<<"','";
+       }
+       if(!informpeto.value("referenco").isNull())
+       {eldono<<informpeto.value("referenco").toByteArray().replace("'","''");
+        eldono<<"','";
+       }
+       eldono<<informpeto.value("uuid").toByteArray();
+       eldono<<"','";
+       eldono<<informpeto.value("subskribon").toByteArray();
+       eldono<<"',";
+       eldono<<informpeto.value("stato").toByteArray();
+       eldono<<");\n";
+       progreso.setValue(++linioj);
+       pli=!progreso.wasCanceled();
+     }}
+     else
+      if(informpeto.lastError().isValid())
+       QMessageBox::warning(this,tr("Eraro [017]!"),informpeto.lastError().text());
+     eldono<<"COMMIT;";
+    }
     datumbazo.close();
-    ((cxefaFenestro *)parent())->spektakloMesagxon(tr("Eksportitaj %1 registroj!").arg(linioj));
+    patraObjekto->spektakloMesagxon(tr("Eksportitaj %1 registroj!").arg(linioj));
    }
    else
     if(datumbazo.lastError().isValid())
