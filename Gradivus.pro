@@ -17,6 +17,7 @@ SOURCES      += main.cpp\
                 cxefafenestro_spektaklomesagxon.cpp\
                 cxefafenestro_pridatumojapogilo.cpp\
                 cxefafenestro_prikonfiguro.cpp\
+                cxefafenestro_prireferencoj.cpp\
                 cxefafenestro_primuta.cpp\
                 datumojapogilo.cpp\
                 datumojapogilo_destrojero.cpp\
@@ -34,6 +35,8 @@ SOURCES      += main.cpp\
                 konfiguro_primalsupro.cpp\
                 konfiguro_prisupren.cpp\
                 konfiguro_prisupro.cpp\
+                referencoj.cpp\
+                referencoj_destrojero.cpp\
                 rikordoregistrilo.cpp\
                 rikordoregistrilo_fermu.cpp\
                 rikordoregistrilo_komencu.cpp\
@@ -46,12 +49,14 @@ HEADERS      += agordoj.h\
                 datumojapogilo.h\
                 hipertekstopagxo.h\
                 konfiguro.h\
+                referencoj.h\
                 rikordoregistrilo.h\
                 statikajdatumoj.h
 
 FORMS        += cxefafenestro.ui\
                 datumojapogilo.ui\
-                konfiguro.ui
+                konfiguro.ui\
+                referencoj.ui
 
 TRANSLATIONS += gradivus_de.ts
 

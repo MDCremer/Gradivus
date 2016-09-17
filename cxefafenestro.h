@@ -21,6 +21,7 @@ class cxefaFenestro:public QMainWindow
  public slots:
   void priDatumojApogilo();
   void priKonfiguro();
+  void priReferencoj();
   void priMuta(int statuso);
  private:
   Ui::cxefaFenestro *ui;
