@@ -2,6 +2,7 @@
 #include <QMainWindow>
 #include <QPushButton>
 #include <QWidget>
+#include <QWebEngineSettings>
 #include <QtWebEngineWidgets>
 #include "cxefafenestro.h"
 #include "ui_cxefafenestro.h"
@@ -9,7 +10,10 @@
 #include "hipertekstopagxo.h"
 
 cxefaFenestro::cxefaFenestro(QWidget *gepatro):QMainWindow(gepatro),ui(new Ui::cxefaFenestro)
-{ui->setupUi(this);
+{QWebEngineSettings *foliumiloAgordoj=QWebEngineSettings::globalSettings();
+ foliumiloAgordoj->setFontSize(QWebEngineSettings::DefaultFontSize,16);
+ foliumiloAgordoj->setFontFamily(QWebEngineSettings::SansSerifFont,"Noto Sans UI");
+ ui->setupUi(this);
  ui->informaMontro->setPage(new hipertekstoPagxo());
  connect(ui->datumojApogilo,&QPushButton::clicked,this,&cxefaFenestro::priDatumojApogilo);
  connect(ui->konfiguro,&QPushButton::clicked,this,&cxefaFenestro::priKonfiguro);

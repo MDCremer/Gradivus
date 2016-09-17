@@ -3,6 +3,7 @@
 #include <QDir>
 #include <QFile>
 #include <QFileInfo>
+#include <QFont>
 #include <QLibraryInfo>
 #include <QLocale>
 #include <QMessageBox>
@@ -16,6 +17,8 @@
 
 int main(int argc,char *argv[])
 {QApplication gradivo(argc,argv);
+ QFont tiparo("Noto Sans UI",12,QFont::Normal);
+ gradivo.setFont(tiparo);
 /* datumbazo */
  if(!QSqlDatabase::drivers().contains("QSQLITE"))
   return -999;
