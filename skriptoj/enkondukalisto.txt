@@ -1,3 +1,4 @@
 agordoj.sql
 lingvoj.sql
+literaturoj.sql
 identigiloj.sql

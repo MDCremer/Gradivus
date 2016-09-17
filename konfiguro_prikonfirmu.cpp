@@ -53,8 +53,8 @@ void konfiguro::priKonfirmu()
      patraObjekto->administranto.agorduValoro(AGORDO_LINGVO,"");
     }
     else
-    {dauxrigu=registrilo->plenumu(&informpeto,"UPDATE agordoj SET valoro='"+ui->kulturo->currentText().toUtf8().replace("'","''")+
-       "' WHERE nomo='lingvo';");
+    {dauxrigu=registrilo->plenumu(&informpeto,"UPDATE agordoj SET valoro='"+
+       ui->kulturo->currentText().toUtf8().replace("'","''")+"' WHERE nomo='lingvo';");
      patraObjekto->administranto.agorduValoro(AGORDO_LINGVO,ui->kulturo->currentText().toUtf8());
     }
     progreso.setValue(++procesis);
@@ -69,8 +69,8 @@ void konfiguro::priKonfirmu()
      registrilo->aldonu("UPDATE lingvoj SET rango="+
        QString("%1").arg(patraObjekto->administranto.akiruLingvaRango(ero->text().left(2).toUtf8())).toUtf8()+
        " WHERE mallongigo='"+ero->text().left(2).toUtf8()+"';");
-     dauxrigu=registrilo->plenumu(&informpeto,"UPDATE lingvoj SET rango="+QString("%1").arg(indekso).toUtf8()+" WHERE mallongigo='"+
-       ero->text().left(2).toUtf8()+"';");
+     dauxrigu=registrilo->plenumu(&informpeto,"UPDATE lingvoj SET rango="+QString("%1").arg(indekso).toUtf8()+
+       " WHERE mallongigo='"+ero->text().left(2).toUtf8()+"';");
      progreso.setValue(++procesis);
      if(dauxrigu)
       dauxrigu=!progreso.wasCanceled();

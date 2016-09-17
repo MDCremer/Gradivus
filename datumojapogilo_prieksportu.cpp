@@ -1,3 +1,4 @@
+#include <QDateTime>
 #include <QDir>
 #include <QFile>
 #include <QFileDialog>
@@ -65,10 +66,50 @@ void datumojApogilo::priEksportu()
        QMessageBox::warning(this,tr("Eraro [009]!"),informpeto.lastError().text());
      eldono<<"COMMIT;";
     }
+    if(pli&&ui->literaturoj->isChecked())
+    {patraObjekto->spektakloMesagxon(tr("Eksporti literaturojn \342\200\246"));
+     eldono<<"-- Literaturoj\nBEGIN;\n";
+     QByteArray ordono("SELECT aludo,QUOTE(html),subskribon,stato FROM literaturoj");
+     if(ui->subskribo->isChecked())
+      ordono.append(" WHERE subskribon LIKE '%"+ui->subskriboInkluzivi->text().replace("'","''")+"%'");
+     if(ui->nova->isChecked())
+     {uint sekundoj=ui->novaOl->dateTime().toTime_t();
+      ordono.append(ui->subskribo->isChecked()?" AND ":" WHERE ");
+      ordono.append("stato>"+QString::number(sekundoj));
+     }
+     ordono.append(";");
+     if(informpeto.exec(ordono))
+     {while(pli&&informpeto.next())
+      {eldono<<"INSERT OR REPLACE INTO literaturoj (aludo,html,subskribon,stato) VALUES ('";
+       eldono<<informpeto.value("aludo").toByteArray().replace("'","''");
+       eldono<<"',";
+       eldono<<informpeto.value("QUOTE(html)").toByteArray();
+       eldono<<",'";
+       eldono<<informpeto.value("subskribon").toByteArray();
+       eldono<<"',";
+       eldono<<informpeto.value("stato").toByteArray();
+       eldono<<");\n";
+       progreso.setValue(++linioj);
+       pli=!progreso.wasCanceled();
+     }}
+     else
+      if(informpeto.lastError().isValid())
+       QMessageBox::warning(this,tr("Eraro [017]!"),informpeto.lastError().text());
+     eldono<<"COMMIT;";
+    }
     if(pli&&ui->identigiloj->isChecked())
     {patraObjekto->spektakloMesagxon(tr("Eksporti identigilojn \342\200\246"));
      eldono<<"-- Identigiloj\nBEGIN;\n";
-     if(informpeto.exec("SELECT lando,nomo,lingvo,citajxo,referenco,uuid,subskribon,stato FROM identigiloj;"))
+     QByteArray ordono("SELECT lando,nomo,lingvo,citajxo,referenco,uuid,subskribon,stato FROM identigiloj");
+     if(ui->subskribo->isChecked())
+      ordono.append(" WHERE subskribon LIKE '%"+ui->subskriboInkluzivi->text().replace("'","''")+"%'");
+     if(ui->nova->isChecked())
+     {uint sekundoj=ui->novaOl->dateTime().toTime_t();
+      ordono.append(ui->subskribo->isChecked()?" AND ":" WHERE ");
+      ordono.append("stato>"+QString::number(sekundoj));
+     }
+     ordono.append(";");
+     if(informpeto.exec(ordono))
      {while(pli&&informpeto.next())
       {eldono<<"INSERT OR REPLACE INTO identigilo (lando,nomo,lingvo,";
        if(!informpeto.value("citajxo").isNull())

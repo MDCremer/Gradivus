@@ -152,6 +152,13 @@
           </property>
           <item>
            <layout class="QGridLayout" name="gridLayout">
+            <item row="3" column="0">
+             <widget class="QCheckBox" name="identigiloj">
+              <property name="text">
+               <string>Identigiloj</string>
+              </property>
+             </widget>
+            </item>
             <item row="0" column="0">
              <widget class="QCheckBox" name="agordoj">
               <property name="text">
@@ -167,9 +174,9 @@
              </widget>
             </item>
             <item row="2" column="0">
-             <widget class="QCheckBox" name="identigiloj">
+             <widget class="QCheckBox" name="literaturoj">
               <property name="text">
-               <string>Identigiloj</string>
+               <string>Literaturoj</string>
               </property>
              </widget>
             </item>

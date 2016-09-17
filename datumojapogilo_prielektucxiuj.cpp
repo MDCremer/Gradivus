@@ -4,5 +4,6 @@
 void datumojApogilo::priElektuCxiuj()
 {ui->agordoj->setChecked(true);
  ui->lingvoj->setChecked(true);
+ ui->literaturoj->setChecked(true);
  ui->identigiloj->setChecked(true);
 }

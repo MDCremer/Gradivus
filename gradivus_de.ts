@@ -130,89 +130,100 @@
         <translation>Datenarten</translation>
     </message>
     <message>
-        <location filename="datumojapogilo.ui" line="158"/>
+        <location filename="datumojapogilo.ui" line="165"/>
         <source>Agordoj</source>
         <translation>Einstellungen</translation>
     </message>
     <message>
-        <location filename="datumojapogilo.ui" line="165"/>
+        <location filename="datumojapogilo.ui" line="172"/>
         <source>Lingvoj</source>
         <translation>Sprachen</translation>
     </message>
     <message>
-        <location filename="datumojapogilo.ui" line="172"/>
+        <location filename="datumojapogilo.ui" line="158"/>
         <source>Identigiloj</source>
         <translation>Bezeichnungen</translation>
     </message>
     <message>
-        <location filename="datumojapogilo.ui" line="183"/>
+        <location filename="datumojapogilo.ui" line="179"/>
+        <source>Literaturoj</source>
+        <translation>Quellenangaben</translation>
+    </message>
+    <message>
+        <location filename="datumojapogilo.ui" line="190"/>
         <source>Elektu ĉiuj</source>
         <translation>Alle auswählen</translation>
     </message>
     <message>
-        <location filename="datumojapogilo.ui" line="214"/>
-        <location filename="datumojapogilo_prieksportu.cpp" line="23"/>
+        <location filename="datumojapogilo.ui" line="221"/>
+        <location filename="datumojapogilo_prieksportu.cpp" line="24"/>
         <source>Abortu</source>
         <translation>Abbrechen</translation>
     </message>
     <message>
-        <location filename="datumojapogilo.ui" line="237"/>
+        <location filename="datumojapogilo.ui" line="244"/>
         <source>Eksportu</source>
         <translation>Exportieren</translation>
     </message>
     <message>
-        <location filename="datumojapogilo_prieksportu.cpp" line="16"/>
+        <location filename="datumojapogilo_prieksportu.cpp" line="17"/>
         <source>Dosiero selektado por sekurkopioj</source>
         <translation>Dateiauswahl zur Sicherung</translation>
     </message>
     <message>
-        <location filename="datumojapogilo_prieksportu.cpp" line="17"/>
+        <location filename="datumojapogilo_prieksportu.cpp" line="18"/>
         <source>SQL-dosiero</source>
         <translation>SQL-Datenbank</translation>
     </message>
     <message>
-        <location filename="datumojapogilo_prieksportu.cpp" line="23"/>
+        <location filename="datumojapogilo_prieksportu.cpp" line="24"/>
         <source>Eksporti</source>
         <translation>Exportieren</translation>
     </message>
     <message>
-        <location filename="datumojapogilo_prieksportu.cpp" line="33"/>
+        <location filename="datumojapogilo_prieksportu.cpp" line="34"/>
         <source>Eksporti agordojn …</source>
         <translation>Einstellungen werden gesichert…</translation>
     </message>
     <message>
-        <location filename="datumojapogilo_prieksportu.cpp" line="47"/>
+        <location filename="datumojapogilo_prieksportu.cpp" line="48"/>
         <source>Eraro [008]!</source>
         <translation>Fehler [008]!</translation>
     </message>
     <message>
-        <location filename="datumojapogilo_prieksportu.cpp" line="51"/>
+        <location filename="datumojapogilo_prieksportu.cpp" line="52"/>
         <source>Eksporti lingvojn …</source>
         <translation>Sprachkürzel werden gesichert…</translation>
     </message>
     <message>
-        <location filename="datumojapogilo_prieksportu.cpp" line="65"/>
+        <location filename="datumojapogilo_prieksportu.cpp" line="66"/>
         <source>Eraro [009]!</source>
         <oldsource>Eraro [009]</oldsource>
         <translation>Fehler [009]!</translation>
     </message>
     <message>
-        <location filename="datumojapogilo_prieksportu.cpp" line="69"/>
+        <location filename="datumojapogilo_prieksportu.cpp" line="70"/>
+        <source>Eksporti literaturojn …</source>
+        <translation>Quellenangaben werden gesichert …</translation>
+    </message>
+    <message>
+        <location filename="datumojapogilo_prieksportu.cpp" line="101"/>
         <source>Eksporti identigilojn …</source>
         <translation>Bezeichnungen werden gesichert…</translation>
     </message>
     <message>
-        <location filename="datumojapogilo_prieksportu.cpp" line="104"/>
+        <location filename="datumojapogilo_prieksportu.cpp" line="97"/>
+        <location filename="datumojapogilo_prieksportu.cpp" line="145"/>
         <source>Eraro [017]!</source>
         <translation>Fehler [017]!</translation>
     </message>
     <message>
-        <location filename="datumojapogilo_prieksportu.cpp" line="108"/>
+        <location filename="datumojapogilo_prieksportu.cpp" line="149"/>
         <source>Eksportitaj %1 registroj!</source>
         <translation>%1 Datensätze wurden gesichert!</translation>
     </message>
     <message>
-        <location filename="datumojapogilo_prieksportu.cpp" line="112"/>
+        <location filename="datumojapogilo_prieksportu.cpp" line="153"/>
         <source>Eraro [007]!</source>
         <translation>Fehler [007]!</translation>
     </message>
