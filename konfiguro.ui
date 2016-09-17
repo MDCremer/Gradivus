@@ -10,6 +10,11 @@
     <height>600</height>
    </rect>
   </property>
+  <property name="font">
+   <font>
+    <pointsize>12</pointsize>
+   </font>
+  </property>
   <property name="windowTitle">
    <string>Konfiguro</string>
   </property>
@@ -40,7 +45,7 @@
         <x>0</x>
         <y>0</y>
         <width>786</width>
-        <height>556</height>
+        <height>551</height>
        </rect>
       </property>
       <layout class="QVBoxLayout" name="verticalLayout_3">
@@ -140,7 +145,7 @@
                 </property>
                 <property name="font">
                  <font>
-                  <pointsize>12</pointsize>
+                  <pointsize>14</pointsize>
                  </font>
                 </property>
                 <property name="text">
@@ -155,7 +160,7 @@
                 </property>
                 <property name="font">
                  <font>
-                  <pointsize>12</pointsize>
+                  <pointsize>14</pointsize>
                  </font>
                 </property>
                 <property name="text">
@@ -170,7 +175,7 @@
                 </property>
                 <property name="font">
                  <font>
-                  <pointsize>12</pointsize>
+                  <pointsize>14</pointsize>
                  </font>
                 </property>
                 <property name="text">
@@ -185,7 +190,7 @@
                 </property>
                 <property name="font">
                  <font>
-                  <pointsize>12</pointsize>
+                  <pointsize>14</pointsize>
                  </font>
                 </property>
                 <property name="text">

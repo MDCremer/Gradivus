@@ -10,6 +10,11 @@
     <height>768</height>
    </rect>
   </property>
+  <property name="font">
+   <font>
+    <pointsize>12</pointsize>
+   </font>
+  </property>
   <property name="windowTitle">
    <string>Gradivo (www.gradivus.de)</string>
   </property>
@@ -74,8 +79,8 @@
             <rect>
              <x>0</x>
              <y>0</y>
-             <width>140</width>
-             <height>584</height>
+             <width>145</width>
+             <height>557</height>
             </rect>
            </property>
            <attribute name="label">
@@ -128,8 +133,8 @@
             <rect>
              <x>0</x>
              <y>0</y>
-             <width>140</width>
-             <height>584</height>
+             <width>124</width>
+             <height>557</height>
             </rect>
            </property>
            <attribute name="label">
@@ -141,25 +146,25 @@
             <rect>
              <x>0</x>
              <y>0</y>
-             <width>140</width>
-             <height>584</height>
+             <width>124</width>
+             <height>557</height>
             </rect>
            </property>
            <attribute name="label">
             <string>Kartoj redaktilo</string>
            </attribute>
           </widget>
-          <widget class="QWidget" name="militaHistoriaVortaro">
+          <widget class="QWidget" name="aludoLaboro">
            <property name="geometry">
             <rect>
              <x>0</x>
              <y>0</y>
-             <width>140</width>
-             <height>584</height>
+             <width>124</width>
+             <height>557</height>
             </rect>
            </property>
            <attribute name="label">
-            <string>Milita historia vortaro</string>
+            <string>Aludo Laboro</string>
            </attribute>
            <layout class="QVBoxLayout" name="verticalLayout_3">
             <item>
@@ -189,8 +194,8 @@
             <rect>
              <x>0</x>
              <y>0</y>
-             <width>140</width>
-             <height>584</height>
+             <width>124</width>
+             <height>557</height>
             </rect>
            </property>
            <attribute name="label">
@@ -278,8 +283,8 @@
             <rect>
              <x>0</x>
              <y>0</y>
-             <width>98</width>
-             <height>28</height>
+             <width>68</width>
+             <height>656</height>
             </rect>
            </property>
            <attribute name="label">
@@ -292,7 +297,7 @@
              <x>0</x>
              <y>0</y>
              <width>68</width>
-             <height>668</height>
+             <height>656</height>
             </rect>
            </property>
            <attribute name="label">
