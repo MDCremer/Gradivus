@@ -89,15 +89,15 @@
          </widget>
         </item>
         <item>
-         <layout class="QHBoxLayout" name="horizontalLayout_2">
-          <item>
+         <layout class="QGridLayout" name="gridLayout">
+          <item row="0" column="0">
            <widget class="QPushButton" name="kreu">
             <property name="text">
              <string>Kreu</string>
             </property>
            </widget>
           </item>
-          <item>
+          <item row="0" column="1">
            <widget class="QPushButton" name="redaktu">
             <property name="enabled">
              <bool>false</bool>
@@ -107,27 +107,23 @@
             </property>
            </widget>
           </item>
-         </layout>
-        </item>
-        <item>
-         <layout class="QHBoxLayout" name="horizontalLayout_3">
-          <item>
+          <item row="1" column="0">
            <widget class="QPushButton" name="forigi">
             <property name="enabled">
              <bool>false</bool>
             </property>
             <property name="text">
-             <string>Forigi</string>
+             <string>Forigu</string>
             </property>
            </widget>
           </item>
-          <item>
+          <item row="1" column="1">
            <widget class="QPushButton" name="malfari">
             <property name="enabled">
              <bool>false</bool>
             </property>
             <property name="text">
-             <string>Malfari</string>
+             <string>Malfaru</string>
             </property>
            </widget>
           </item>
