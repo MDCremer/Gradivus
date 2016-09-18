@@ -5,7 +5,7 @@ CREATE TABLE IF NOT EXISTS identigiloj
  citajxo TEXT,
  referenco TEXT,
  uuid TEXT NOT NULL,
- subskribon TEXT NOT NULL,
+ subskribo TEXT NOT NULL,
  stato INTEGER NOT NULL,
  PRIMARY KEY(lando,nomo,lingvo)
 );
