@@ -13,6 +13,8 @@ class referencoj:public QDialog
  public:
   explicit referencoj(QWidget *gepatro=0);
   ~referencoj();
+ public slots:
+  void priAbortu();
  private:
   cxefaFenestro *patraObjekto;
   Ui::referencoj *ui;
