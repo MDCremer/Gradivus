@@ -40,7 +40,7 @@
      <item>
       <widget class="QFrame" name="frame">
        <property name="sizePolicy">
-        <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+        <sizepolicy hsizetype="Maximum" vsizetype="Expanding">
          <horstretch>0</horstretch>
          <verstretch>0</verstretch>
         </sizepolicy>
@@ -89,25 +89,8 @@
          </widget>
         </item>
         <item>
-         <layout class="QGridLayout" name="gridLayout">
-          <item row="0" column="0">
-           <widget class="QPushButton" name="kreu">
-            <property name="text">
-             <string>Kreu</string>
-            </property>
-           </widget>
-          </item>
-          <item row="0" column="1">
-           <widget class="QPushButton" name="redaktu">
-            <property name="enabled">
-             <bool>false</bool>
-            </property>
-            <property name="text">
-             <string>Redaktu</string>
-            </property>
-           </widget>
-          </item>
-          <item row="1" column="0">
+         <layout class="QHBoxLayout" name="horizontalLayout_4">
+          <item>
            <widget class="QPushButton" name="forigi">
             <property name="enabled">
              <bool>false</bool>
@@ -117,7 +100,7 @@
             </property>
            </widget>
           </item>
-          <item row="1" column="1">
+          <item>
            <widget class="QPushButton" name="malfari">
             <property name="enabled">
              <bool>false</bool>
@@ -145,6 +128,9 @@
         <spacer name="horizontalSpacer">
          <property name="orientation">
           <enum>Qt::Horizontal</enum>
+         </property>
+         <property name="sizeType">
+          <enum>QSizePolicy::Expanding</enum>
          </property>
          <property name="sizeHint" stdset="0">
           <size>
@@ -175,13 +161,331 @@
       </layout>
      </item>
      <item>
-      <widget class="QWebEngineView" name="widget" native="true">
-       <property name="sizePolicy">
-        <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
-         <horstretch>0</horstretch>
-         <verstretch>0</verstretch>
-        </sizepolicy>
+      <widget class="QTabWidget" name="tabWidget">
+       <property name="font">
+        <font>
+         <pointsize>9</pointsize>
+        </font>
        </property>
+       <property name="tabPosition">
+        <enum>QTabWidget::South</enum>
+       </property>
+       <property name="currentIndex">
+        <number>0</number>
+       </property>
+       <widget class="QWidget" name="redaktti">
+        <attribute name="title">
+         <string>Redakti</string>
+        </attribute>
+        <layout class="QHBoxLayout" name="horizontalLayout_3">
+         <property name="leftMargin">
+          <number>0</number>
+         </property>
+         <property name="topMargin">
+          <number>0</number>
+         </property>
+         <property name="rightMargin">
+          <number>0</number>
+         </property>
+         <property name="bottomMargin">
+          <number>0</number>
+         </property>
+         <item>
+          <layout class="QVBoxLayout" name="verticalLayout_5">
+           <item>
+            <widget class="QToolButton" name="citajxo">
+             <property name="sizePolicy">
+              <sizepolicy hsizetype="Minimum" vsizetype="Fixed">
+               <horstretch>0</horstretch>
+               <verstretch>0</verstretch>
+              </sizepolicy>
+             </property>
+             <property name="font">
+              <font>
+               <family>Monospace</family>
+               <pointsize>9</pointsize>
+              </font>
+             </property>
+             <property name="text">
+              <string>&lt;cite&gt;</string>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <widget class="QToolButton" name="forta">
+             <property name="sizePolicy">
+              <sizepolicy hsizetype="Minimum" vsizetype="Fixed">
+               <horstretch>0</horstretch>
+               <verstretch>0</verstretch>
+              </sizepolicy>
+             </property>
+             <property name="font">
+              <font>
+               <family>Monospace</family>
+               <pointsize>9</pointsize>
+              </font>
+             </property>
+             <property name="text">
+              <string>&lt;strong&gt;</string>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <widget class="QToolButton" name="grasa">
+             <property name="sizePolicy">
+              <sizepolicy hsizetype="Preferred" vsizetype="Fixed">
+               <horstretch>0</horstretch>
+               <verstretch>0</verstretch>
+              </sizepolicy>
+             </property>
+             <property name="font">
+              <font>
+               <family>Monospace</family>
+               <pointsize>9</pointsize>
+              </font>
+             </property>
+             <property name="text">
+              <string>&lt;b&gt;</string>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <widget class="QToolButton" name="kursiva">
+             <property name="sizePolicy">
+              <sizepolicy hsizetype="Minimum" vsizetype="Fixed">
+               <horstretch>0</horstretch>
+               <verstretch>0</verstretch>
+              </sizepolicy>
+             </property>
+             <property name="font">
+              <font>
+               <family>Monospace</family>
+               <pointsize>9</pointsize>
+              </font>
+             </property>
+             <property name="text">
+              <string>&lt;i&gt;</string>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <widget class="QToolButton" name="substretika">
+             <property name="sizePolicy">
+              <sizepolicy hsizetype="Minimum" vsizetype="Fixed">
+               <horstretch>0</horstretch>
+               <verstretch>0</verstretch>
+              </sizepolicy>
+             </property>
+             <property name="font">
+              <font>
+               <family>Monospace</family>
+               <pointsize>9</pointsize>
+              </font>
+             </property>
+             <property name="text">
+              <string>&lt;u&gt;</string>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <widget class="QToolButton" name="superskribita">
+             <property name="sizePolicy">
+              <sizepolicy hsizetype="Minimum" vsizetype="Fixed">
+               <horstretch>0</horstretch>
+               <verstretch>0</verstretch>
+              </sizepolicy>
+             </property>
+             <property name="font">
+              <font>
+               <family>Monospace</family>
+               <pointsize>9</pointsize>
+              </font>
+             </property>
+             <property name="text">
+              <string>&lt;sup&gt;</string>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <widget class="QToolButton" name="suba">
+             <property name="sizePolicy">
+              <sizepolicy hsizetype="Minimum" vsizetype="Fixed">
+               <horstretch>0</horstretch>
+               <verstretch>0</verstretch>
+              </sizepolicy>
+             </property>
+             <property name="font">
+              <font>
+               <family>Monospace</family>
+               <pointsize>9</pointsize>
+              </font>
+             </property>
+             <property name="text">
+              <string>&lt;sub&gt;</string>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <spacer name="verticalSpacer">
+             <property name="orientation">
+              <enum>Qt::Vertical</enum>
+             </property>
+             <property name="sizeHint" stdset="0">
+              <size>
+               <width>20</width>
+               <height>40</height>
+              </size>
+             </property>
+            </spacer>
+           </item>
+           <item>
+            <widget class="QToolButton" name="referenceita">
+             <property name="sizePolicy">
+              <sizepolicy hsizetype="Minimum" vsizetype="Fixed">
+               <horstretch>0</horstretch>
+               <verstretch>0</verstretch>
+              </sizepolicy>
+             </property>
+             <property name="font">
+              <font>
+               <family>Monospace</family>
+               <pointsize>9</pointsize>
+              </font>
+             </property>
+             <property name="text">
+              <string>&lt;a&gt;</string>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <spacer name="verticalSpacer_2">
+             <property name="orientation">
+              <enum>Qt::Vertical</enum>
+             </property>
+             <property name="sizeHint" stdset="0">
+              <size>
+               <width>20</width>
+               <height>40</height>
+              </size>
+             </property>
+            </spacer>
+           </item>
+           <item>
+            <widget class="QToolButton" name="minora">
+             <property name="sizePolicy">
+              <sizepolicy hsizetype="Minimum" vsizetype="Fixed">
+               <horstretch>0</horstretch>
+               <verstretch>0</verstretch>
+              </sizepolicy>
+             </property>
+             <property name="font">
+              <font>
+               <family>Monospace</family>
+               <pointsize>9</pointsize>
+              </font>
+             </property>
+             <property name="text">
+              <string>&lt;small&gt;</string>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <spacer name="verticalSpacer_3">
+             <property name="orientation">
+              <enum>Qt::Vertical</enum>
+             </property>
+             <property name="sizeHint" stdset="0">
+              <size>
+               <width>20</width>
+               <height>40</height>
+              </size>
+             </property>
+            </spacer>
+           </item>
+          </layout>
+         </item>
+         <item>
+          <widget class="QTextEdit" name="teksto">
+           <property name="sizePolicy">
+            <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+             <horstretch>0</horstretch>
+             <verstretch>0</verstretch>
+            </sizepolicy>
+           </property>
+           <property name="font">
+            <font>
+             <pointsize>12</pointsize>
+            </font>
+           </property>
+          </widget>
+         </item>
+        </layout>
+       </widget>
+       <widget class="QWidget" name="vidi">
+        <attribute name="title">
+         <string>Vidi</string>
+        </attribute>
+        <layout class="QVBoxLayout" name="verticalLayout_4">
+         <property name="leftMargin">
+          <number>0</number>
+         </property>
+         <property name="topMargin">
+          <number>0</number>
+         </property>
+         <property name="rightMargin">
+          <number>0</number>
+         </property>
+         <property name="bottomMargin">
+          <number>0</number>
+         </property>
+         <item>
+          <widget class="QWebEngineView" name="spektaklo" native="true">
+           <property name="sizePolicy">
+            <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+             <horstretch>0</horstretch>
+             <verstretch>0</verstretch>
+            </sizepolicy>
+           </property>
+           <property name="font">
+            <font>
+             <pointsize>12</pointsize>
+             <italic>true</italic>
+            </font>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <layout class="QHBoxLayout" name="horizontalLayout_5">
+           <item>
+            <spacer name="horizontalSpacer_2">
+             <property name="orientation">
+              <enum>Qt::Horizontal</enum>
+             </property>
+             <property name="sizeHint" stdset="0">
+              <size>
+               <width>40</width>
+               <height>20</height>
+              </size>
+             </property>
+            </spacer>
+           </item>
+           <item>
+            <widget class="QPushButton" name="akceptu">
+             <property name="font">
+              <font>
+               <pointsize>12</pointsize>
+               <italic>false</italic>
+              </font>
+             </property>
+             <property name="text">
+              <string>Akceptu</string>
+             </property>
+            </widget>
+           </item>
+          </layout>
+         </item>
+        </layout>
+       </widget>
       </widget>
      </item>
      <item>

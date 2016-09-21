@@ -38,6 +38,7 @@ SOURCES      += main.cpp\
                 referencoj.cpp\
                 referencoj_destrojero.cpp\
                 referencoj_priabortu.cpp\
+                referencoj_sxargialudoj.cpp\
                 rikordoregistrilo.cpp\
                 rikordoregistrilo_fermu.cpp\
                 rikordoregistrilo_komencu.cpp\

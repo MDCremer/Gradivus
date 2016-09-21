@@ -16,6 +16,7 @@ class referencoj:public QDialog
  public slots:
   void priAbortu();
  private:
+  void sxargiAludoj();
   cxefaFenestro *patraObjekto;
   Ui::referencoj *ui;
 };
