@@ -285,6 +285,11 @@
         <translation></translation>
     </message>
     <message>
+        <location filename="konfiguro.ui" line="290"/>
+        <source>⏎</source>
+        <translation></translation>
+    </message>
+    <message>
         <location filename="konfiguro_prikonfirmu.cpp" line="29"/>
         <source>Abortu</source>
         <translation>Abbrechen</translation>
@@ -313,12 +318,11 @@
         <translation>Bestätigen</translation>
     </message>
     <message>
-        <location filename="konfiguro.ui" line="290"/>
         <source>Lasu</source>
         <translation>Verlassen</translation>
     </message>
     <message>
-        <location filename="konfiguro.cpp" line="34"/>
+        <location filename="konfiguro.cpp" line="35"/>
         <source>Loka specifo</source>
         <oldsource>lokaĵaro</oldsource>
         <translation>Lokale Vorgabe</translation>
@@ -386,44 +390,121 @@
         <translation>Bibliographie</translation>
     </message>
     <message>
-        <location filename="referencoj.ui" line="96"/>
         <source>Kreu</source>
         <translation>Anlegen</translation>
     </message>
     <message>
-        <location filename="referencoj.ui" line="106"/>
         <source>Redaktu</source>
         <translation>Bearbeiten</translation>
     </message>
     <message>
-        <location filename="referencoj.ui" line="120"/>
+        <location filename="referencoj.ui" line="99"/>
         <source>Forigu</source>
         <translation>Löschen</translation>
     </message>
     <message>
-        <location filename="referencoj.ui" line="130"/>
+        <location filename="referencoj.ui" line="109"/>
         <source>Malfaru</source>
         <translation>Rückgängig</translation>
     </message>
     <message>
-        <location filename="referencoj.ui" line="142"/>
         <source>Abortu</source>
         <translation>Abbrechen</translation>
     </message>
     <message>
-        <location filename="referencoj.ui" line="155"/>
+        <location filename="referencoj.ui" line="123"/>
+        <source>⏎</source>
+        <translation></translation>
+    </message>
+    <message>
+        <location filename="referencoj.ui" line="154"/>
         <source>Aludo:</source>
         <translation>Hinweis:</translation>
     </message>
     <message>
-        <location filename="referencoj.ui" line="184"/>
+        <location filename="referencoj.ui" line="178"/>
+        <source>Redakti</source>
+        <translation>Bearbeiten</translation>
+    </message>
+    <message>
+        <location filename="referencoj.ui" line="210"/>
+        <source>&lt;cite&gt;</source>
+        <translation></translation>
+    </message>
+    <message>
+        <location filename="referencoj.ui" line="229"/>
+        <source>&lt;strong&gt;</source>
+        <translation></translation>
+    </message>
+    <message>
+        <location filename="referencoj.ui" line="248"/>
+        <source>&lt;b&gt;</source>
+        <translation></translation>
+    </message>
+    <message>
+        <location filename="referencoj.ui" line="267"/>
+        <source>&lt;i&gt;</source>
+        <translation></translation>
+    </message>
+    <message>
+        <location filename="referencoj.ui" line="286"/>
+        <source>&lt;u&gt;</source>
+        <translation></translation>
+    </message>
+    <message>
+        <location filename="referencoj.ui" line="305"/>
+        <source>&lt;sup&gt;</source>
+        <translation></translation>
+    </message>
+    <message>
+        <location filename="referencoj.ui" line="324"/>
+        <source>&lt;sub&gt;</source>
+        <translation></translation>
+    </message>
+    <message>
+        <location filename="referencoj.ui" line="356"/>
+        <source>&lt;a&gt;</source>
+        <translation></translation>
+    </message>
+    <message>
+        <location filename="referencoj.ui" line="388"/>
+        <source>&lt;small&gt;</source>
+        <translation></translation>
+    </message>
+    <message>
+        <location filename="referencoj.ui" line="426"/>
+        <source>Vidi</source>
+        <translation>Anzeigen</translation>
+    </message>
+    <message>
+        <location filename="referencoj.ui" line="462"/>
+        <source>kontribui</source>
+        <translation>übertragen</translation>
+    </message>
+    <message>
+        <location filename="referencoj.ui" line="488"/>
+        <source>Akceptu</source>
+        <translation>Übernehmen</translation>
+    </message>
+    <message>
+        <location filename="referencoj.ui" line="508"/>
         <source>Subskribo:</source>
         <translation>Signatur:</translation>
     </message>
     <message>
-        <location filename="referencoj.ui" line="211"/>
+        <location filename="referencoj.ui" line="535"/>
         <source>Stato:</source>
         <translation>Stand:</translation>
+    </message>
+    <message>
+        <location filename="referencoj_sxargialudoj.cpp" line="20"/>
+        <source>Eraro [019]!</source>
+        <translation>Fehler [019]?</translation>
+    </message>
+    <message>
+        <location filename="referencoj_sxargialudoj.cpp" line="25"/>
+        <source>Eraro [018]!</source>
+        <translation>Fehler [018]?</translation>
     </message>
 </context>
 </TS>

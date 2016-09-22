@@ -2,5 +2,6 @@
 #include "ui_referencoj.h"
 
 referencoj::~referencoj()
-{delete ui;
+{delete registrilo;
+ delete ui;
 }

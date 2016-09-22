@@ -7,7 +7,8 @@
 #include "ui_referencoj.h"
 
 void referencoj::sxargiAludoj()
-{QSqlDatabase datumbazo=QSqlDatabase::database();
+{ui->aludoj->clear();
+ QSqlDatabase datumbazo=QSqlDatabase::database();
  if(datumbazo.open())
  {QSqlQuery informpeto;
   if(informpeto.exec("SELECT aludo FROM literaturoj;"))

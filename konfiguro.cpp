@@ -12,6 +12,7 @@
 #include "ui_konfiguro.h"
 #include "agordoj.h"
 #include "cxefafenestro.h"
+#include "rikordoregistrilo.h"
 #include "statikajdatumoj.h"
 
 konfiguro::konfiguro(QWidget *gepatro):QDialog(gepatro),ui(new Ui::konfiguro)

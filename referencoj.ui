@@ -91,7 +91,7 @@
         <item>
          <layout class="QHBoxLayout" name="horizontalLayout_4">
           <item>
-           <widget class="QPushButton" name="forigi">
+           <widget class="QPushButton" name="forigu">
             <property name="enabled">
              <bool>false</bool>
             </property>
@@ -101,7 +101,7 @@
            </widget>
           </item>
           <item>
-           <widget class="QPushButton" name="malfari">
+           <widget class="QPushButton" name="malfaru">
             <property name="enabled">
              <bool>false</bool>
             </property>
@@ -456,6 +456,13 @@
          </item>
          <item>
           <layout class="QHBoxLayout" name="horizontalLayout_5">
+           <item>
+            <widget class="QCheckBox" name="kontribui">
+             <property name="text">
+              <string>kontribui</string>
+             </property>
+            </widget>
+           </item>
            <item>
             <spacer name="horizontalSpacer_2">
              <property name="orientation">
