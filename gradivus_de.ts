@@ -19,12 +19,12 @@
         <translation>Fehler [012]!</translation>
     </message>
     <message>
-        <location filename="agordoj_sxargu.cpp" line="34"/>
+        <location filename="agordoj_sxargu.cpp" line="36"/>
         <source>Eraro [011]!</source>
         <translation>Fehler [011]!</translation>
     </message>
     <message>
-        <location filename="agordoj_sxargu.cpp" line="39"/>
+        <location filename="agordoj_sxargu.cpp" line="41"/>
         <source>Eraro [010]!</source>
         <translation>Fehler [010]!</translation>
     </message>
@@ -255,47 +255,52 @@
         <translation>Namenskürzel:</translation>
     </message>
     <message>
-        <location filename="konfiguro.ui" line="99"/>
+        <location filename="konfiguro.ui" line="96"/>
+        <source>Pasvorto:</source>
+        <translation>Paßwort:</translation>
+    </message>
+    <message>
+        <location filename="konfiguro.ui" line="113"/>
         <source>Lingvoj</source>
         <translation>Sprachen</translation>
     </message>
     <message>
-        <location filename="konfiguro.ui" line="119"/>
+        <location filename="konfiguro.ui" line="133"/>
         <source>Kulturo:</source>
         <translation>Kultur:</translation>
     </message>
     <message>
-        <location filename="konfiguro.ui" line="159"/>
+        <location filename="konfiguro.ui" line="173"/>
         <source>↟</source>
         <translation></translation>
     </message>
     <message>
-        <location filename="konfiguro.ui" line="200"/>
+        <location filename="konfiguro.ui" line="214"/>
         <source>↑</source>
         <translation></translation>
     </message>
     <message>
-        <location filename="konfiguro.ui" line="241"/>
+        <location filename="konfiguro.ui" line="255"/>
         <source>↓</source>
         <translation></translation>
     </message>
     <message>
-        <location filename="konfiguro.ui" line="270"/>
+        <location filename="konfiguro.ui" line="284"/>
         <source>↡</source>
         <translation></translation>
     </message>
     <message>
-        <location filename="konfiguro.ui" line="290"/>
+        <location filename="konfiguro.ui" line="304"/>
         <source>⏎</source>
         <translation></translation>
     </message>
     <message>
-        <location filename="konfiguro_prikonfirmu.cpp" line="29"/>
+        <location filename="konfiguro_prikonfirmu.cpp" line="31"/>
         <source>Abortu</source>
         <translation>Abbrechen</translation>
     </message>
     <message numerus="yes">
-        <location filename="konfiguro_prikonfirmu.cpp" line="83"/>
+        <location filename="konfiguro_prikonfirmu.cpp" line="97"/>
         <source>%n ŝanĝoj estas savitaj!</source>
         <translation>
             <numerusform>%n Änderung wurde gespeichert!</numerusform>
@@ -303,17 +308,17 @@
         </translation>
     </message>
     <message>
-        <location filename="konfiguro_prikonfirmu.cpp" line="90"/>
+        <location filename="konfiguro_prikonfirmu.cpp" line="104"/>
         <source>Ekzistas neniu ŝanĝo!</source>
         <translation>Es gibt keine Änderungen!</translation>
     </message>
     <message>
-        <location filename="konfiguro.ui" line="310"/>
+        <location filename="konfiguro.ui" line="324"/>
         <source>Malfaru</source>
         <translation>Rückgängig</translation>
     </message>
     <message>
-        <location filename="konfiguro.ui" line="317"/>
+        <location filename="konfiguro.ui" line="331"/>
         <source>Konfirmi</source>
         <translation>Bestätigen</translation>
     </message>
@@ -336,7 +341,7 @@
         <translation>Fehler [010]!</translation>
     </message>
     <message>
-        <location filename="konfiguro_prikonfirmu.cpp" line="29"/>
+        <location filename="konfiguro_prikonfirmu.cpp" line="31"/>
         <source>Stokado</source>
         <translation>Speicherung</translation>
     </message>
@@ -345,7 +350,7 @@
         <translation>Änderungen werden gespeichert.</translation>
     </message>
     <message>
-        <location filename="konfiguro_prikonfirmu.cpp" line="87"/>
+        <location filename="konfiguro_prikonfirmu.cpp" line="101"/>
         <source>Eraro [016]!</source>
         <translation>Fehler [016]!</translation>
     </message>
@@ -377,7 +382,7 @@
         <translation>Änderungen sind nicht vorhanden!</translation>
     </message>
     <message>
-        <location filename="konfiguro_primalfaru.cpp" line="19"/>
+        <location filename="konfiguro_primalfaru.cpp" line="20"/>
         <source>Ŝanĝoj malfaritaj!</source>
         <translation>Änderungen rückgängig gemacht!</translation>
     </message>

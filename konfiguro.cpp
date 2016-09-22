@@ -38,6 +38,7 @@ konfiguro::konfiguro(QWidget *gepatro):QDialog(gepatro),ui(new Ui::konfiguro)
    ui->kulturo->addItem(lingvoKodoj[indekso]);
  lingvaKvanto=patraObjekto->administranto.akiruLingvaKvanto();
  ui->inicialoj->setText(patraObjekto->administranto.akiruValoro(AGORDO_NOMO));
+ ui->pasvorto->setText(patraObjekto->administranto.akiruValoro(AGORDO_PASVORTO));
  if(patraObjekto->administranto.akiruValoro(AGORDO_LINGVO).isEmpty())
   ui->kulturo->setCurrentIndex(0);
  else

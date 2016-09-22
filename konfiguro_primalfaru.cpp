@@ -9,6 +9,7 @@ void konfiguro::priMalfaru()
  patraObjekto->administranto.sxargu();
  lingvaKvanto=patraObjekto->administranto.akiruLingvaKvanto();
  ui->inicialoj->setText(patraObjekto->administranto.akiruValoro(AGORDO_NOMO));
+ ui->pasvorto->setText(patraObjekto->administranto.akiruValoro(AGORDO_PASVORTO));
  if(patraObjekto->administranto.akiruValoro(AGORDO_LINGVO).isEmpty())
   ui->kulturo->setCurrentIndex(0);
  else

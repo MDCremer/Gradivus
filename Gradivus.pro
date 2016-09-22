@@ -1,7 +1,7 @@
 CONFIG       += qt release
 
 QT           += core gui widgets sql\
-                webenginewidgets
+                webenginewidgets network
 
 TARGET        = Gradivus
 DESTDIR       = $$(HOME)/Gradivus/binaroj

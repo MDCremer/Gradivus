@@ -11,4 +11,5 @@ CREATE TABLE IF NOT EXISTS agordoj
 BEGIN;
 INSERT OR IGNORE INTO agordoj (nomo,valoro) VALUES ('nomo','anonimo');
 INSERT OR IGNORE INTO agordoj (nomo,valoro) VALUES ('lingvo','');
+INSERT OR IGNORE INTO agordoj (nomo,valoro) VALUES ('pasvorto','');
 COMMIT;

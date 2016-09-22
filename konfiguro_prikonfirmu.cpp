@@ -15,6 +15,8 @@ void konfiguro::priKonfirmu()
 {int sxangxoNombro=0;
  if(ui->inicialoj->text()!=patraObjekto->administranto.akiruValoro(AGORDO_NOMO))
   ++sxangxoNombro;
+ if(ui->pasvorto->text()!=patraObjekto->administranto.akiruValoro(AGORDO_PASVORTO))
+  ++sxangxoNombro;
  if((ui->kulturo->currentIndex()==0&&!patraObjekto->administranto.akiruValoro(AGORDO_LINGVO).isEmpty())||
    (ui->kulturo->currentIndex()>0&&ui->kulturo->currentText()!=patraObjekto->administranto.akiruValoro(AGORDO_LINGVO)))
   ++sxangxoNombro;
@@ -41,13 +43,25 @@ void konfiguro::priKonfirmu()
     if(dauxrigu)
      dauxrigu=!progreso.wasCanceled();
    }
-   if((dauxrigu&&ui->kulturo->currentIndex()==0&&!patraObjekto->administranto.akiruValoro(AGORDO_LINGVO).isEmpty())||
-     (dauxrigu&&ui->kulturo->currentIndex()>0&&
-    ui->kulturo->currentText()!=patraObjekto->administranto.akiruValoro(AGORDO_LINGVO)))
+   if(dauxrigu&&ui->pasvorto->text()!=patraObjekto->administranto.akiruValoro(AGORDO_PASVORTO))
    {if(procesis==0)
      registrilo->komencu();
     registrilo->aldonu("UPDATE agordoj SET valoro='"+
-       patraObjekto->administranto.akiruValoro(AGORDO_LINGVO).replace("'","''")+"' WHERE nomo='lingvo';");
+      patraObjekto->administranto.akiruValoro(AGORDO_PASVORTO).replace("'","''")+"' WHERE nomo='pasvorto';");
+    dauxrigu=registrilo->plenumu(&informpeto,"UPDATE agordoj SET valoro='"+ui->pasvorto->text().toUtf8().replace("'","''")+
+      "' WHERE nomo='pasvorto';");
+    patraObjekto->administranto.agorduValoro(AGORDO_PASVORTO,ui->pasvorto->text().toUtf8());
+    progreso.setValue(++procesis);
+    if(dauxrigu)
+     dauxrigu=!progreso.wasCanceled();
+   }
+   if((dauxrigu&&ui->kulturo->currentIndex()==0&&!patraObjekto->administranto.akiruValoro(AGORDO_LINGVO).isEmpty())||
+     (dauxrigu&&ui->kulturo->currentIndex()>0&&
+     ui->kulturo->currentText()!=patraObjekto->administranto.akiruValoro(AGORDO_LINGVO)))
+   {if(procesis==0)
+     registrilo->komencu();
+    registrilo->aldonu("UPDATE agordoj SET valoro='"+
+      patraObjekto->administranto.akiruValoro(AGORDO_LINGVO).replace("'","''")+"' WHERE nomo='lingvo';");
     if(ui->kulturo->currentIndex()==0)
     {dauxrigu=registrilo->plenumu(&informpeto,"UPDATE agordoj SET valoro='' WHERE nomo='lingvo';");
      patraObjekto->administranto.agorduValoro(AGORDO_LINGVO,"");

@@ -20,6 +20,8 @@ void agordoj::sxargu()
      valoroj[AGORDO_NOMO]=valoro;
     if(nomo=="lingvo")
      valoroj[AGORDO_LINGVO]=valoro;
+    if(nomo=="pasvorto")
+     valoroj[AGORDO_PASVORTO]=valoro;
   }}
   else
   if(informpeto.lastError().isValid())
