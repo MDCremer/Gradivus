@@ -3,6 +3,7 @@
 
 #include <QDialog>
 #include "cxefafenestro.h"
+#include "htmlmarkilo.h"
 #include "rikordoregistrilo.h"
 
 namespace Ui
@@ -20,6 +21,7 @@ class referencoj:public QDialog
   void sxargiAludoj();
   cxefaFenestro *patraObjekto;
   Ui::referencoj *ui;
+  htmlMarkilo *markilo;
   rikordoRegistrilo *registrilo;
 };
 

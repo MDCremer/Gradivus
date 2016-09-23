@@ -4,4 +4,5 @@
 referencoj::~referencoj()
 {delete registrilo;
  delete ui;
+ delete markilo;
 }

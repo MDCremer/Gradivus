@@ -25,6 +25,8 @@ SOURCES      += main.cpp\
                 datumojapogilo_prieksportu.cpp\
                 datumojapogilo_prielektucxiuj.cpp\
                 hipertekstopagxo_acceptnavigationrequest.cpp\
+                htmlmarkilo.cpp\
+                htmlmarkilo_highlightblock.cpp\
                 konfiguro.cpp\
                 konfiguro_destrojero.cpp\
                 konfiguro_lingvoetikedosxangxo.cpp\
@@ -50,6 +52,7 @@ HEADERS      += agordoj.h\
                 cxefafenestro.h\
                 datumojapogilo.h\
                 hipertekstopagxo.h\
+                htmlmarkilo.h\
                 konfiguro.h\
                 referencoj.h\
                 rikordoregistrilo.h\
