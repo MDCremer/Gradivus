@@ -1,3 +1,5 @@
+#include <QTabWidget>
+#include <QToolButton>
 #include <QtWebEngineWidgets>
 #include "referencoj.h"
 #include "ui_referencoj.h"
@@ -11,5 +13,6 @@ referencoj::referencoj(QWidget *gepatro):QDialog(gepatro),ui(new Ui::referencoj)
  registrilo=new rikordoRegistrilo(ui->malfaru);
  patraObjekto=(cxefaFenestro *)gepatro;
  connect(ui->abortu,&QToolButton::clicked,this,&referencoj::priAbortu);
+ connect(ui->referencoEnigi,&QTabWidget::currentChanged,this,&referencoj::referencoEnigiSxangxo);
  sxargiAludoj();
 }

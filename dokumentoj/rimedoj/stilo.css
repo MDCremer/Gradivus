@@ -1,9 +1,13 @@
- body
- {font-family:sans-serif;
-  display:block;
-  text-align:justify;
- }
+body
+{font-family:sans-serif;
+ display:block;
+ text-align:justify;
+}
  
- h1
- {text-align:center;
- }
+h1
+{text-align:center;
+}
+
+h1,h2,h3,cite,em
+{font-variant:small-caps;
+}

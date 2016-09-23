@@ -17,6 +17,7 @@ class referencoj:public QDialog
   ~referencoj();
  public slots:
   void priAbortu();
+  void referencoEnigiSxangxo(int indekso);
  private:
   void sxargiAludoj();
   cxefaFenestro *patraObjekto;

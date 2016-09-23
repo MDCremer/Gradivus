@@ -161,7 +161,7 @@
       </layout>
      </item>
      <item>
-      <widget class="QTabWidget" name="tabWidget">
+      <widget class="QTabWidget" name="referencoEnigi">
        <property name="font">
         <font>
          <pointsize>9</pointsize>
