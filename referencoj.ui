@@ -402,6 +402,19 @@
              </property>
             </spacer>
            </item>
+           <item>
+            <widget class="QToolButton" name="vakigu">
+             <property name="sizePolicy">
+              <sizepolicy hsizetype="Minimum" vsizetype="Fixed">
+               <horstretch>0</horstretch>
+               <verstretch>0</verstretch>
+              </sizepolicy>
+             </property>
+             <property name="text">
+              <string>Vakigu</string>
+             </property>
+            </widget>
+           </item>
           </layout>
          </item>
          <item>

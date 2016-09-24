@@ -14,5 +14,10 @@ referencoj::referencoj(QWidget *gepatro):QDialog(gepatro),ui(new Ui::referencoj)
  patraObjekto=(cxefaFenestro *)gepatro;
  connect(ui->abortu,&QToolButton::clicked,this,&referencoj::priAbortu);
  connect(ui->referencoEnigi,&QTabWidget::currentChanged,this,&referencoj::referencoEnigiSxangxo);
+ connect(ui->citajxo,&QToolButton::clicked,this,&referencoj::priCitajxo);
+ connect(ui->forta,&QToolButton::clicked,this,&referencoj::priForta);
+ connect(ui->vakigu,&QToolButton::clicked,this,&referencoj::priVakigu);
+ for(int indekso=0;indekso<9;++indekso)
+  enigojAktivigita[indekso]=false;
  sxargiAludoj();
 }

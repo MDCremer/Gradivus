@@ -39,7 +39,11 @@ SOURCES      += main.cpp\
                 konfiguro_prisupro.cpp\
                 referencoj.cpp\
                 referencoj_destrojero.cpp\
+                referencoj_enigi.cpp\
                 referencoj_priabortu.cpp\
+                referencoj_pricitajxo.cpp\
+                referencoj_priforta.cpp\
+                referencoj_privakigu.cpp\
                 referencoj_referencoenigisxangxo.cpp\
                 referencoj_sxargialudoj.cpp\
                 rikordoregistrilo.cpp\
