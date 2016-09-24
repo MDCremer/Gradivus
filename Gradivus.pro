@@ -41,6 +41,7 @@ SOURCES      += main.cpp\
                 referencoj_destrojero.cpp\
                 referencoj_enigi.cpp\
                 referencoj_priabortu.cpp\
+                referencoj_priakceptu.cpp\
                 referencoj_pricitajxo.cpp\
                 referencoj_priforta.cpp\
                 referencoj_prigrasa.cpp\

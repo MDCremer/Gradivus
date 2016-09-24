@@ -39,6 +39,7 @@ class referencoj:public QDialog
   void priReferenceita();
   void priMinora();
   void priVakigu();
+  void priAkceptu();
   void referencoEnigiSxangxo(int indekso);
  private:
   void sxargiAludoj();
