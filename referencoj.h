@@ -31,6 +31,13 @@ class referencoj:public QDialog
   void priAbortu();
   void priCitajxo();
   void priForta();
+  void priGrasa();
+  void priKursiva();
+  void priSubstretika();
+  void priSuperskribita();
+  void priSuba();
+  void priReferenceita();
+  void priMinora();
   void priVakigu();
   void referencoEnigiSxangxo(int indekso);
  private:
