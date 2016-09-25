@@ -64,7 +64,7 @@ void datumojApogilo::priEksportu()
      else
       if(informpeto.lastError().isValid())
        QMessageBox::warning(this,tr("Eraro [009]!"),informpeto.lastError().text());
-     eldono<<"COMMIT;";
+     eldono<<"COMMIT;\n";
     }
     if(pli&&ui->literaturoj->isChecked())
     {patraObjekto->spektakloMesagxon(tr("Eksporti literaturojn \342\200\246"));
@@ -95,7 +95,7 @@ void datumojApogilo::priEksportu()
      else
       if(informpeto.lastError().isValid())
        QMessageBox::warning(this,tr("Eraro [017]!"),informpeto.lastError().text());
-     eldono<<"COMMIT;";
+     eldono<<"COMMIT;\n";
     }
     if(pli&&ui->identigiloj->isChecked())
     {patraObjekto->spektakloMesagxon(tr("Eksporti identigilojn \342\200\246"));
@@ -143,7 +143,7 @@ void datumojApogilo::priEksportu()
      else
       if(informpeto.lastError().isValid())
        QMessageBox::warning(this,tr("Eraro [017]!"),informpeto.lastError().text());
-     eldono<<"COMMIT;";
+     eldono<<"COMMIT;\n";
     }
     datumbazo.close();
     patraObjekto->spektakloMesagxon(tr("Eksportitaj %1 registroj!").arg(linioj));

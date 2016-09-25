@@ -477,27 +477,32 @@
         <translation></translation>
     </message>
     <message>
-        <location filename="referencoj.ui" line="426"/>
+        <location filename="referencoj.ui" line="414"/>
+        <source>Vakigu</source>
+        <translation>Leeren</translation>
+    </message>
+    <message>
+        <location filename="referencoj.ui" line="439"/>
         <source>Vidi</source>
         <translation>Anzeigen</translation>
     </message>
     <message>
-        <location filename="referencoj.ui" line="462"/>
+        <location filename="referencoj.ui" line="475"/>
         <source>kontribui</source>
         <translation>übertragen</translation>
     </message>
     <message>
-        <location filename="referencoj.ui" line="488"/>
+        <location filename="referencoj.ui" line="501"/>
         <source>Akceptu</source>
         <translation>Übernehmen</translation>
     </message>
     <message>
-        <location filename="referencoj.ui" line="508"/>
+        <location filename="referencoj.ui" line="521"/>
         <source>Subskribo:</source>
         <translation>Signatur:</translation>
     </message>
     <message>
-        <location filename="referencoj.ui" line="535"/>
+        <location filename="referencoj.ui" line="548"/>
         <source>Stato:</source>
         <translation>Stand:</translation>
     </message>
@@ -510,6 +515,36 @@
         <location filename="referencoj_sxargialudoj.cpp" line="25"/>
         <source>Eraro [018]!</source>
         <translation>Fehler [018]?</translation>
+    </message>
+    <message>
+        <location filename="referencoj_priakceptu.cpp" line="31"/>
+        <source>Eraro [021]!</source>
+        <translation>Fehler [021]!</translation>
+    </message>
+    <message>
+        <location filename="referencoj_priakceptu.cpp" line="59"/>
+        <source>Neniuj ŝanĝoj estis malkovritaj, kiu devus esti stokita!</source>
+        <translation>Es wurden keine Änderungen gefunden, die gespeichert werden müßten!</translation>
+    </message>
+    <message>
+        <location filename="referencoj_priakceptu.cpp" line="80"/>
+        <source>Citaĵo &apos;%1&apos; savis.</source>
+        <translation>Literaturangabe &apos;%1&apos; wurde gespeichert.</translation>
+    </message>
+    <message>
+        <location filename="referencoj_priakceptu.cpp" line="86"/>
+        <source>Eraro [020]!</source>
+        <translation>Fehler [020]!</translation>
+    </message>
+    <message>
+        <location filename="referencoj_priakceptu.cpp" line="89"/>
+        <source>Malplena citaĵo estas neakceptebla!</source>
+        <translation>Eine leere Literaturangabe ist inakzeptabel!</translation>
+    </message>
+    <message>
+        <location filename="referencoj_priakceptu.cpp" line="92"/>
+        <source>Malplena noto estas neakceptebla!</source>
+        <translation>Ein leerer Literaturhinweis ist inakzeptabel!</translation>
     </message>
 </context>
 </TS>
