@@ -4,4 +4,5 @@
 void referencoj::priVakigu()
 {ui->aludo->clear();
  ui->teksto->clear();
+ ui->aludoj->setCurrentItem(0);
 }

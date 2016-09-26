@@ -39,6 +39,7 @@ SOURCES      += main.cpp\
                 konfiguro_prisupro.cpp\
                 referencoj.cpp\
                 referencoj_destrojero.cpp\
+                referencoj_aludojindeksosxangxo.cpp\
                 referencoj_enigi.cpp\
                 referencoj_priabortu.cpp\
                 referencoj_priakceptu.cpp\

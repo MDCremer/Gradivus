@@ -1,7 +1,9 @@
 #ifndef REFERENCOJ_H
 #define REFERENCOJ_H
 
+#include <QByteArray>
 #include <QDialog>
+#include <QListWidgetItem>
 #include <QString>
 #include <QToolButton>
 #include "cxefafenestro.h"
@@ -41,6 +43,7 @@ class referencoj:public QDialog
   void priVakigu();
   void priAkceptu();
   void referencoEnigiSxangxo(int indekso);
+  void aludojIndeksoSxangxo(QListWidgetItem *faktaArtikolo);
  private:
   void sxargiAludoj();
   void enigi(int indekso,QString starto,QString fino,QToolButton *butono);
@@ -48,6 +51,7 @@ class referencoj:public QDialog
   Ui::referencoj *ui;
   htmlMarkilo *markilo;
   rikordoRegistrilo *registrilo;
+  QByteArray faktaAludo;
   bool enigojAktivigita[9];
 };
 
