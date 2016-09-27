@@ -44,6 +44,7 @@ SOURCES      += main.cpp\
                 referencoj_priabortu.cpp\
                 referencoj_priakceptu.cpp\
                 referencoj_pricitajxo.cpp\
+                referencoj_priforigu.cpp\
                 referencoj_priforta.cpp\
                 referencoj_prigrasa.cpp\
                 referencoj_prikursiva.cpp\

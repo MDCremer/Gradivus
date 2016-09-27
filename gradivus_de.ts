@@ -517,34 +517,49 @@
         <translation>Fehler [018]?</translation>
     </message>
     <message>
-        <location filename="referencoj_priakceptu.cpp" line="31"/>
+        <location filename="referencoj_priakceptu.cpp" line="33"/>
         <source>Eraro [021]!</source>
         <translation>Fehler [021]!</translation>
     </message>
     <message>
-        <location filename="referencoj_priakceptu.cpp" line="59"/>
+        <location filename="referencoj_priakceptu.cpp" line="61"/>
         <source>Neniuj ŝanĝoj estis malkovritaj, kiu devus esti stokita!</source>
         <translation>Es wurden keine Änderungen gefunden, die gespeichert werden müßten!</translation>
     </message>
     <message>
-        <location filename="referencoj_priakceptu.cpp" line="80"/>
+        <location filename="referencoj_priakceptu.cpp" line="82"/>
         <source>Citaĵo &apos;%1&apos; savis.</source>
         <translation>Literaturangabe &apos;%1&apos; wurde gespeichert.</translation>
     </message>
     <message>
-        <location filename="referencoj_priakceptu.cpp" line="86"/>
+        <location filename="referencoj_priakceptu.cpp" line="92"/>
         <source>Eraro [020]!</source>
         <translation>Fehler [020]!</translation>
     </message>
     <message>
-        <location filename="referencoj_priakceptu.cpp" line="89"/>
+        <location filename="referencoj_priakceptu.cpp" line="95"/>
         <source>Malplena citaĵo estas neakceptebla!</source>
         <translation>Eine leere Literaturangabe ist inakzeptabel!</translation>
     </message>
     <message>
-        <location filename="referencoj_priakceptu.cpp" line="92"/>
+        <location filename="referencoj_priakceptu.cpp" line="98"/>
         <source>Malplena noto estas neakceptebla!</source>
         <translation>Ein leerer Literaturhinweis ist inakzeptabel!</translation>
+    </message>
+    <message>
+        <location filename="referencoj_aludojindeksosxangxo.cpp" line="29"/>
+        <source>Eraro [023]!</source>
+        <translation>Fehler [023]!</translation>
+    </message>
+    <message>
+        <location filename="referencoj_aludojindeksosxangxo.cpp" line="34"/>
+        <source>Eraro [022]!</source>
+        <translation>Fehler [022]!</translation>
+    </message>
+    <message>
+        <location filename="referencoj_priforigu.cpp" line="17"/>
+        <source>Eraro [024]!</source>
+        <translation>Fehler [024]!</translation>
     </message>
 </context>
 </TS>

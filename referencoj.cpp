@@ -26,6 +26,7 @@ referencoj::referencoj(QWidget *gepatro):QDialog(gepatro),ui(new Ui::referencoj)
  connect(ui->vakigu,&QToolButton::clicked,this,&referencoj::priVakigu);
  connect(ui->akceptu,&QPushButton::clicked,this,&referencoj::priAkceptu);
  connect(ui->aludoj,&QListWidget::currentItemChanged,this,&referencoj::aludojIndeksoSxangxo);
+ connect(ui->forigu,&QPushButton::clicked,this,&referencoj::priForigu);
  for(int indekso=0;indekso<9;++indekso)
   enigojAktivigita[indekso]=false;
  sxargiAludoj();

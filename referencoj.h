@@ -41,6 +41,7 @@ class referencoj:public QDialog
   void priReferenceita();
   void priMinora();
   void priVakigu();
+  void priForigu();
   void priAkceptu();
   void referencoEnigiSxangxo(int indekso);
   void aludojIndeksoSxangxo(QListWidgetItem *faktaArtikolo);

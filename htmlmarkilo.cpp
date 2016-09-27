@@ -6,7 +6,7 @@
 htmlMarkilo::htmlMarkilo(QTextDocument *gepatro):QSyntaxHighlighter(gepatro)
 {markaRegulo regulo;
  sxlosilvortoArangxo.setForeground(Qt::darkRed);
- sxlosilvortoArangxo.setFont(QFont("Monospace",9,QFont::Medium,true));
+ sxlosilvortoArangxo.setFont(QFont("Monospace",9,QFont::Medium,false));
  QStringList sxlosilvortoSxablonoj;
  sxlosilvortoSxablonoj<<"<\\s*/?[Cc][Ii][Tt][Ee]\\s*>"<<"<\\s*/?[Ss][Tt][Rr][Oo][Nn][Gg]\\s*>"<<"<\\s*/?[Bb]\\s*>"<<
    "<\\s*/*[Ii]\\s*>"<<"<\\s*/?[Uu]\\s*>"<<"<\\s*/?[Ss][Uu]([Pp]|[Bb])\\s*>"<<"<\\s*/?[Ss][Mm][Aa][Ll][Ll]\\s*>"<<
@@ -44,7 +44,7 @@ htmlMarkilo::htmlMarkilo(QTextDocument *gepatro):QSyntaxHighlighter(gepatro)
  regulo.sxablono=QRegExp("'[^']*'");
  reguloj.append(regulo);
  komentoArangxo.setForeground(Qt::darkGray);
- komentoArangxo.setFont(QFont("Monospace",9,QFont::Medium,false));
+ komentoArangxo.setFont(QFont("Monospace",9,QFont::Medium,true));
  komentoStartoEsprimo=QRegExp("<!--");
  komentoFinoEsprimo=QRegExp("-->");
 }
