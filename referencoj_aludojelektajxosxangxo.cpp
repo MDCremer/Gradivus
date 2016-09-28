@@ -1,4 +1,5 @@
 #include <QDateTime>
+#include <QList>
 #include <QListWidgetItem>
 #include <QMessageBox>
 #include <QSqlDatabase>
@@ -7,9 +8,11 @@
 #include "referencoj.h"
 #include "ui_referencoj.h"
 
-void referencoj::aludojIndeksoSxangxo(QListWidgetItem *faktaArtikolo)
-{if(faktaArtikolo!=0)
- {if(faktaArtikolo->text()!=faktaAludo)
+void referencoj::aludojElektajxoSxangxo()
+{QList<QListWidgetItem *> elektajxoj=ui->aludoj->selectedItems();
+ if(elektajxoj.length()>0)
+ {QListWidgetItem *faktaArtikolo=elektajxoj.first();
+  if(faktaArtikolo->text()!=faktaAludo)
   {faktaAludo=faktaArtikolo->text().toUtf8();
    ui->aludo->setText(faktaArtikolo->text());
    ui->forigu->setEnabled(true);
@@ -23,6 +26,8 @@ void referencoj::aludojIndeksoSxangxo(QListWidgetItem *faktaArtikolo)
       QDateTime tempo;
       tempo.setTime_t(informpeto.value("stato").toUInt());
       ui->stato->setText(tempo.toString(Qt::SystemLocaleLongDate));
+      if(ui->referencoEnigi->currentIndex()!=0)
+       ui->referencoEnigi->setCurrentIndex(0);
     }}
     else
      if(informpeto.lastError().isValid())
@@ -40,6 +45,4 @@ void referencoj::aludojIndeksoSxangxo(QListWidgetItem *faktaArtikolo)
   ui->stato->clear();
   ui->teksto->clear();
   ui->aludo->clear();
- }
- ui->referencoEnigi->setCurrentIndex(0);
-}
+}}

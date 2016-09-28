@@ -25,7 +25,7 @@ referencoj::referencoj(QWidget *gepatro):QDialog(gepatro),ui(new Ui::referencoj)
  connect(ui->minora,&QToolButton::clicked,this,&referencoj::priMinora);
  connect(ui->vakigu,&QToolButton::clicked,this,&referencoj::priVakigu);
  connect(ui->akceptu,&QPushButton::clicked,this,&referencoj::priAkceptu);
- connect(ui->aludoj,&QListWidget::currentItemChanged,this,&referencoj::aludojIndeksoSxangxo);
+ connect(ui->aludoj,&QListWidget::itemSelectionChanged,this,&referencoj::aludojElektajxoSxangxo);
  connect(ui->forigu,&QPushButton::clicked,this,&referencoj::priForigu);
  connect(ui->malfaru,&QPushButton::clicked,this,&referencoj::priMalfaru);
  for(int indekso=0;indekso<9;++indekso)

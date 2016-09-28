@@ -45,7 +45,7 @@ class referencoj:public QDialog
   void priAkceptu();
   void priMalfaru();
   void referencoEnigiSxangxo(int indekso);
-  void aludojIndeksoSxangxo(QListWidgetItem *faktaArtikolo);
+  void aludojElektajxoSxangxo();
  private:
   void sxargiAludoj();
   void enigi(int indekso,QString starto,QString fino,QToolButton *butono);
