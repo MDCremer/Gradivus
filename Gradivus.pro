@@ -48,6 +48,7 @@ SOURCES      += main.cpp\
                 referencoj_priforta.cpp\
                 referencoj_prigrasa.cpp\
                 referencoj_prikursiva.cpp\
+                referencoj_primalfaru.cpp\
                 referencoj_priminora.cpp\
                 referencoj_prireferenceita.cpp\
                 referencoj_prisubstretika.cpp\

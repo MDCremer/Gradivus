@@ -557,9 +557,34 @@
         <translation>Fehler [022]!</translation>
     </message>
     <message>
-        <location filename="referencoj_priforigu.cpp" line="17"/>
+        <location filename="referencoj_priforigu.cpp" line="19"/>
+        <source>Eraro [025]!</source>
+        <translation>Fehler [025]!</translation>
+    </message>
+    <message>
+        <location filename="referencoj_priforigu.cpp" line="22"/>
+        <source>Ĝi troviĝas %1 referencoj al tiu citaĵo!</source>
+        <translation>Es finden sich %1 Bezüge auf diese Literaturangabe!</translation>
+    </message>
+    <message>
+        <location filename="referencoj_priforigu.cpp" line="35"/>
+        <source>Eraro [026]!</source>
+        <translation>Fehler [026]!</translation>
+    </message>
+    <message>
+        <location filename="referencoj_priforigu.cpp" line="43"/>
+        <source>Citaĵo estis forigita!</source>
+        <translation>Literaturangabe wurde gelöscht!</translation>
+    </message>
+    <message>
+        <location filename="referencoj_priforigu.cpp" line="50"/>
         <source>Eraro [024]!</source>
         <translation>Fehler [024]!</translation>
+    </message>
+    <message>
+        <location filename="referencoj_primalfaru.cpp" line="14"/>
+        <source>Ŝanĝoj malfaritaj!</source>
+        <translation>Änderungen rückgängig gemacht!</translation>
     </message>
 </context>
 </TS>
