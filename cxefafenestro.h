@@ -15,6 +15,7 @@ class cxefaFenestro:public QMainWindow
  public:
   explicit cxefaFenestro(QWidget *gepatro=0);
   ~cxefaFenestro();
+  bool konsento(QWidget *gepatro);
   void montruInformo(QString dosiero);
   void spektakloMesagxon(QString mesagxo);
   agordoj administranto;

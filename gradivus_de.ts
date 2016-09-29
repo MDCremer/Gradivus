@@ -19,12 +19,12 @@
         <translation>Fehler [012]!</translation>
     </message>
     <message>
-        <location filename="agordoj_sxargu.cpp" line="36"/>
+        <location filename="agordoj_sxargu.cpp" line="38"/>
         <source>Eraro [011]!</source>
         <translation>Fehler [011]!</translation>
     </message>
     <message>
-        <location filename="agordoj_sxargu.cpp" line="41"/>
+        <location filename="agordoj_sxargu.cpp" line="43"/>
         <source>Eraro [010]!</source>
         <translation>Fehler [010]!</translation>
     </message>
@@ -104,6 +104,46 @@
         <location filename="cxefafenestro.ui" line="262"/>
         <source>Mapo</source>
         <translation>Karte</translation>
+    </message>
+    <message>
+        <location filename="cxefafenestro_konsento.cpp" line="10"/>
+        <source>Konsenton por la datumoj transporto</source>
+        <translation>Zustimmung zur Datenübertragung</translation>
+    </message>
+    <message>
+        <location filename="cxefafenestro_konsento.cpp" line="14"/>
+        <source>Per konfirmante ĉi mesaĝon, klarigi konsentas transdoni datumoj </source>
+        <translation>Indem Sie dieser Nachricht zustimmen, erklären Sie sich damit einverstanden, Daten </translation>
+    </message>
+    <message>
+        <location filename="cxefafenestro_konsento.cpp" line="15"/>
+        <source>super la interreto al la paĝo, kiu estas specifita en la agordoj.</source>
+        <translation>über das Internet an die in den Einstellungen angegebene Seite zu übertragen.</translation>
+    </message>
+    <message>
+        <location filename="cxefafenestro_konsento.cpp" line="17"/>
+        <source>Plie, vi konsentas ke la datumoj povus esti pasita sub la Gradivus projekto (CC BY 4.0).</source>
+        <translation>Des Weiteren erklären Sie sich damit einverstanden, daß die Daten im Rahmen des Gradivus-Projektes weitergegeben werden dürfen (CC BY 4.0).</translation>
+    </message>
+    <message>
+        <location filename="cxefafenestro_konsento.cpp" line="19"/>
+        <source>Fine, vi meriti ke vi estas la sola rajto posedantoj pri kopirajto au similaj rajtoj </source>
+        <translation type="unfinished">Schließlich versichern Sie, daß Sie alleiniger Rechteinhaber hinsichtlich Urheberrecht und vergleichbarer Schutzrechte sind </translation>
+    </message>
+    <message>
+        <location filename="cxefafenestro_konsento.cpp" line="20"/>
+        <source>kaj ke la kopiado neniu rajtoj tria vundita.</source>
+        <translation>und durch eine Weitergabe keine Rechte Dritter verletzt werden.</translation>
+    </message>
+    <message>
+        <location filename="cxefafenestro_konsento.cpp" line="22"/>
+        <source>Devus aparta necertecojn pro askuron en terminoj de rajtoj, </source>
+        <translation>Sollte insbesondere hinsichtlich der Versicherung bezüglich der Rechte Unsicherheit bestehen, </translation>
+    </message>
+    <message>
+        <location filename="cxefafenestro_konsento.cpp" line="23"/>
+        <source>estas pli bone por foriri de transdoni la datumojn.</source>
+        <translation>ist es besser, auf eine Übertragung der Daten zu verzichten.</translation>
     </message>
 </context>
 <context>
@@ -255,52 +295,62 @@
         <translation>Namenskürzel:</translation>
     </message>
     <message>
-        <location filename="konfiguro.ui" line="96"/>
+        <location filename="konfiguro.ui" line="314"/>
         <source>Pasvorto:</source>
         <translation>Paßwort:</translation>
     </message>
     <message>
-        <location filename="konfiguro.ui" line="113"/>
+        <location filename="konfiguro.ui" line="99"/>
         <source>Lingvoj</source>
         <translation>Sprachen</translation>
     </message>
     <message>
-        <location filename="konfiguro.ui" line="133"/>
+        <location filename="konfiguro.ui" line="119"/>
         <source>Kulturo:</source>
         <translation>Kultur:</translation>
     </message>
     <message>
-        <location filename="konfiguro.ui" line="173"/>
+        <location filename="konfiguro.ui" line="159"/>
         <source>↟</source>
         <translation></translation>
     </message>
     <message>
-        <location filename="konfiguro.ui" line="214"/>
+        <location filename="konfiguro.ui" line="200"/>
         <source>↑</source>
         <translation></translation>
     </message>
     <message>
-        <location filename="konfiguro.ui" line="255"/>
+        <location filename="konfiguro.ui" line="241"/>
         <source>↓</source>
         <translation></translation>
     </message>
     <message>
-        <location filename="konfiguro.ui" line="284"/>
+        <location filename="konfiguro.ui" line="270"/>
         <source>↡</source>
         <translation></translation>
     </message>
     <message>
-        <location filename="konfiguro.ui" line="304"/>
+        <location filename="konfiguro.ui" line="296"/>
+        <source>Interreto</source>
+        <translation>Internet</translation>
+    </message>
+    <message>
+        <location filename="konfiguro.ui" line="328"/>
+        <source>Transdono adreso:</source>
+        <translation>Übertragungsadresse:</translation>
+    </message>
+    <message>
+        <location filename="konfiguro.ui" line="347"/>
         <source>⏎</source>
         <translation></translation>
     </message>
     <message>
-        <location filename="konfiguro_prikonfirmu.cpp" line="31"/>
+        <location filename="konfiguro_prikonfirmu.cpp" line="33"/>
         <source>Abortu</source>
         <translation>Abbrechen</translation>
     </message>
     <message numerus="yes">
-        <location filename="konfiguro_prikonfirmu.cpp" line="97"/>
+        <location filename="konfiguro_prikonfirmu.cpp" line="111"/>
         <source>%n ŝanĝoj estas savitaj!</source>
         <translation>
             <numerusform>%n Änderung wurde gespeichert!</numerusform>
@@ -308,17 +358,17 @@
         </translation>
     </message>
     <message>
-        <location filename="konfiguro_prikonfirmu.cpp" line="104"/>
+        <location filename="konfiguro_prikonfirmu.cpp" line="118"/>
         <source>Ekzistas neniu ŝanĝo!</source>
         <translation>Es gibt keine Änderungen!</translation>
     </message>
     <message>
-        <location filename="konfiguro.ui" line="324"/>
+        <location filename="konfiguro.ui" line="367"/>
         <source>Malfaru</source>
         <translation>Rückgängig</translation>
     </message>
     <message>
-        <location filename="konfiguro.ui" line="331"/>
+        <location filename="konfiguro.ui" line="374"/>
         <source>Konfirmi</source>
         <translation>Bestätigen</translation>
     </message>
@@ -341,7 +391,7 @@
         <translation>Fehler [010]!</translation>
     </message>
     <message>
-        <location filename="konfiguro_prikonfirmu.cpp" line="31"/>
+        <location filename="konfiguro_prikonfirmu.cpp" line="33"/>
         <source>Stokado</source>
         <translation>Speicherung</translation>
     </message>
@@ -350,7 +400,7 @@
         <translation>Änderungen werden gespeichert.</translation>
     </message>
     <message>
-        <location filename="konfiguro_prikonfirmu.cpp" line="101"/>
+        <location filename="konfiguro_prikonfirmu.cpp" line="115"/>
         <source>Eraro [016]!</source>
         <translation>Fehler [016]!</translation>
     </message>
@@ -382,7 +432,7 @@
         <translation>Änderungen sind nicht vorhanden!</translation>
     </message>
     <message>
-        <location filename="konfiguro_primalfaru.cpp" line="20"/>
+        <location filename="konfiguro_primalfaru.cpp" line="21"/>
         <source>Ŝanĝoj malfaritaj!</source>
         <translation>Änderungen rückgängig gemacht!</translation>
     </message>
@@ -547,12 +597,12 @@
         <translation>Ein leerer Literaturhinweis ist inakzeptabel!</translation>
     </message>
     <message>
-        <location filename="referencoj_aludojindeksosxangxo.cpp" line="29"/>
+        <location filename="referencoj_aludojelektajxosxangxo.cpp" line="34"/>
         <source>Eraro [023]!</source>
         <translation>Fehler [023]!</translation>
     </message>
     <message>
-        <location filename="referencoj_aludojindeksosxangxo.cpp" line="34"/>
+        <location filename="referencoj_aludojelektajxosxangxo.cpp" line="39"/>
         <source>Eraro [022]!</source>
         <translation>Fehler [022]!</translation>
     </message>

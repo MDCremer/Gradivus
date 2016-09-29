@@ -1,3 +1,4 @@
+#include <QCheckBox>
 #include <QTabWidget>
 #include <QToolButton>
 #include <QtWebEngineWidgets>
@@ -28,6 +29,7 @@ referencoj::referencoj(QWidget *gepatro):QDialog(gepatro),ui(new Ui::referencoj)
  connect(ui->aludoj,&QListWidget::itemSelectionChanged,this,&referencoj::aludojElektajxoSxangxo);
  connect(ui->forigu,&QPushButton::clicked,this,&referencoj::priForigu);
  connect(ui->malfaru,&QPushButton::clicked,this,&referencoj::priMalfaru);
+ connect(ui->kontribui,&QCheckBox::toggled,this,&referencoj::priKontribui);
  for(int indekso=0;indekso<9;++indekso)
   enigojAktivigita[indekso]=false;
  sxargiAludoj();

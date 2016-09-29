@@ -44,6 +44,7 @@ class referencoj:public QDialog
   void priForigu();
   void priAkceptu();
   void priMalfaru();
+  void priKontribui(bool kontrolita);
   void referencoEnigiSxangxo(int indekso);
   void aludojElektajxoSxangxo();
  private:

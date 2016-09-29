@@ -13,6 +13,7 @@ SOURCES      += main.cpp\
                 agordoj_sxargu.cpp\
                 cxefafenestro.cpp\
                 cxefafenestro_destrojero.cpp\
+                cxefafenestro_konsento.cpp\
                 cxefafenestro_montruinformo.cpp\
                 cxefafenestro_spektaklomesagxon.cpp\
                 cxefafenestro_pridatumojapogilo.cpp\
@@ -47,6 +48,7 @@ SOURCES      += main.cpp\
                 referencoj_priforigu.cpp\
                 referencoj_priforta.cpp\
                 referencoj_prigrasa.cpp\
+                referencoj_prikontribui.cpp\
                 referencoj_prikursiva.cpp\
                 referencoj_primalfaru.cpp\
                 referencoj_priminora.cpp\
