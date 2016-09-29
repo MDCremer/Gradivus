@@ -4,6 +4,7 @@
 #include <QByteArray>
 #include <QDialog>
 #include <QListWidgetItem>
+#include <QNetworkReply>
 #include <QString>
 #include <QToolButton>
 #include "cxefafenestro.h"
@@ -47,6 +48,7 @@ class referencoj:public QDialog
   void priKontribui(bool kontrolita);
   void referencoEnigiSxangxo(int indekso);
   void aludojElektajxoSxangxo();
+  void kompletigitaRespondo(QNetworkReply *respondo);
  private:
   void sxargiAludoj();
   void enigi(int indekso,QString starto,QString fino,QToolButton *butono);

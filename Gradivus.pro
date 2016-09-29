@@ -42,6 +42,7 @@ SOURCES      += main.cpp\
                 referencoj_destrojero.cpp\
                 referencoj_aludojelektajxosxangxo.cpp\
                 referencoj_enigi.cpp\
+                referencoj_kompletigitarespondo.cpp\
                 referencoj_priabortu.cpp\
                 referencoj_priakceptu.cpp\
                 referencoj_pricitajxo.cpp\
