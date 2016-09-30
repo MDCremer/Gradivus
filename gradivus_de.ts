@@ -77,22 +77,22 @@
         <translation>Nachschlagewerk</translation>
     </message>
     <message>
-        <location filename="cxefafenestro.ui" line="187"/>
+        <location filename="cxefafenestro.ui" line="199"/>
         <source>Bibliografio</source>
         <translation>Bibliographie</translation>
     </message>
     <message>
-        <location filename="cxefafenestro.ui" line="234"/>
+        <location filename="cxefafenestro.ui" line="246"/>
         <source>Starto paĝo</source>
         <translation>Startseite</translation>
     </message>
     <message>
-        <location filename="cxefafenestro.ui" line="312"/>
+        <location filename="cxefafenestro.ui" line="324"/>
         <source>Page 1</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="cxefafenestro.ui" line="325"/>
+        <location filename="cxefafenestro.ui" line="337"/>
         <source>Page 2</source>
         <translation type="unfinished"></translation>
     </message>
@@ -101,17 +101,17 @@
         <translation>Militärhistorisches Wörterbuch</translation>
     </message>
     <message>
-        <location filename="cxefafenestro.ui" line="216"/>
+        <location filename="cxefafenestro.ui" line="228"/>
         <source>Vido</source>
         <translation>Ansicht</translation>
     </message>
     <message>
-        <location filename="cxefafenestro.ui" line="254"/>
+        <location filename="cxefafenestro.ui" line="266"/>
         <source>muta</source>
         <translation>stumm</translation>
     </message>
     <message>
-        <location filename="cxefafenestro.ui" line="276"/>
+        <location filename="cxefafenestro.ui" line="288"/>
         <source>Mapo</source>
         <translation>Karte</translation>
     </message>
@@ -290,9 +290,54 @@
 <context>
     <name>datumojrestauxro</name>
     <message>
-        <location filename="datumojrestauxro.ui" line="13"/>
-        <source>Dialog</source>
-        <translation type="unfinished"></translation>
+        <location filename="datumojrestauxro.ui" line="20"/>
+        <source>Datumoj restaŭro</source>
+        <translation>Datenwiederherstellung</translation>
+    </message>
+    <message>
+        <location filename="datumojrestauxro.ui" line="41"/>
+        <source>Dosiero</source>
+        <translation>Datei</translation>
+    </message>
+    <message>
+        <location filename="datumojrestauxro.ui" line="59"/>
+        <source>Enmeti aŭ anstataŭigi </source>
+        <translation>Einfügen oder ersetzen</translation>
+    </message>
+    <message>
+        <location filename="datumojrestauxro.ui" line="69"/>
+        <source>Enmeti aŭ ignori</source>
+        <translation>Einfügen oder ignorieren</translation>
+    </message>
+    <message>
+        <location filename="datumojrestauxro.ui" line="76"/>
+        <source>Dosiero selektu</source>
+        <translation>Dateiauswahl</translation>
+    </message>
+    <message>
+        <location filename="datumojrestauxro.ui" line="86"/>
+        <source>Rekta eniro</source>
+        <translation>Direkteingabe</translation>
+    </message>
+    <message>
+        <location filename="datumojrestauxro.ui" line="128"/>
+        <source>⇨ IGNORE</source>
+        <translation></translation>
+    </message>
+    <message>
+        <location filename="datumojrestauxro.ui" line="141"/>
+        <source>x&apos;…&apos; ༗</source>
+        <translation></translation>
+    </message>
+    <message>
+        <location filename="datumojrestauxro.ui" line="167"/>
+        <source>Plenumu</source>
+        <translation>Ausführen</translation>
+    </message>
+    <message>
+        <location filename="datumojrestauxro.ui" line="181"/>
+        <source>⏎</source>
+        <translation></translation>
     </message>
 </context>
 <context>

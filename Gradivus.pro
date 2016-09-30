@@ -29,6 +29,7 @@ SOURCES      += main.cpp\
                 datumojapogilo_prielektucxiuj.cpp\
                 datumojrestauxro.cpp\
                 datumojrestauxro_destrojero.cpp\
+                datumojrestauxro_priabortu.cpp\
                 hipertekstopagxo_acceptnavigationrequest.cpp\
                 htmlmarkilo.cpp\
                 htmlmarkilo_highlightblock.cpp\

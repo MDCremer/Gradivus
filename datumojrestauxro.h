@@ -14,6 +14,8 @@ class datumojRestauxro:public QDialog
  public:
   explicit datumojRestauxro(QWidget *gepatro=0);
   ~datumojRestauxro();
+ public slots:
+  void priAbortu();
  private:
   cxefaFenestro *patraObjekto;
   Ui::datumojrestauxro *ui;

@@ -418,7 +418,7 @@
           </layout>
          </item>
          <item>
-          <widget class="QTextEdit" name="teksto">
+          <widget class="QPlainTextEdit" name="teksto">
            <property name="sizePolicy">
             <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
              <horstretch>0</horstretch>
