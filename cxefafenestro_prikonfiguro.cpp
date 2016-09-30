@@ -3,6 +3,6 @@
 #include "konfiguro.h"
 
 void cxefaFenestro::priKonfiguro()
-{konfiguro konfiguro(this);
- konfiguro.exec();
+{konfiguro konfiguroDialogo(this);
+ konfiguroDialogo.exec();
 }

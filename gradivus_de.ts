@@ -57,32 +57,42 @@
         <translation>Datensicherung</translation>
     </message>
     <message>
-        <location filename="cxefafenestro.ui" line="148"/>
+        <location filename="cxefafenestro.ui" line="126"/>
+        <source>Datumoj restaŭro</source>
+        <translation>Datenwiederherstellung</translation>
+    </message>
+    <message>
+        <location filename="cxefafenestro.ui" line="155"/>
         <source>Reprezentadoj</source>
         <translation>Darstellungen</translation>
     </message>
     <message>
-        <location filename="cxefafenestro.ui" line="161"/>
+        <location filename="cxefafenestro.ui" line="168"/>
         <source>Kartoj redaktilo</source>
         <translation>Spielfeldbearbeitung</translation>
     </message>
     <message>
-        <location filename="cxefafenestro.ui" line="174"/>
+        <location filename="cxefafenestro.ui" line="181"/>
         <source>Aludo Laboro</source>
         <translation>Nachschlagewerk</translation>
     </message>
     <message>
-        <location filename="cxefafenestro.ui" line="180"/>
+        <location filename="cxefafenestro.ui" line="187"/>
         <source>Bibliografio</source>
         <translation>Bibliographie</translation>
     </message>
     <message>
-        <location filename="cxefafenestro.ui" line="298"/>
+        <location filename="cxefafenestro.ui" line="234"/>
+        <source>Starto paĝo</source>
+        <translation>Startseite</translation>
+    </message>
+    <message>
+        <location filename="cxefafenestro.ui" line="312"/>
         <source>Page 1</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="cxefafenestro.ui" line="311"/>
+        <location filename="cxefafenestro.ui" line="325"/>
         <source>Page 2</source>
         <translation type="unfinished"></translation>
     </message>
@@ -91,17 +101,17 @@
         <translation>Militärhistorisches Wörterbuch</translation>
     </message>
     <message>
-        <location filename="cxefafenestro.ui" line="209"/>
+        <location filename="cxefafenestro.ui" line="216"/>
         <source>Vido</source>
         <translation>Ansicht</translation>
     </message>
     <message>
-        <location filename="cxefafenestro.ui" line="240"/>
+        <location filename="cxefafenestro.ui" line="254"/>
         <source>muta</source>
         <translation>stumm</translation>
     </message>
     <message>
-        <location filename="cxefafenestro.ui" line="262"/>
+        <location filename="cxefafenestro.ui" line="276"/>
         <source>Mapo</source>
         <translation>Karte</translation>
     </message>
@@ -128,7 +138,7 @@
     <message>
         <location filename="cxefafenestro_konsento.cpp" line="19"/>
         <source>Fine, vi meriti ke vi estas la sola rajto posedantoj pri kopirajto au similaj rajtoj </source>
-        <translation type="unfinished">Schließlich versichern Sie, daß Sie alleiniger Rechteinhaber hinsichtlich Urheberrecht und vergleichbarer Schutzrechte sind </translation>
+        <translation>Schließlich versichern Sie, daß Sie alleiniger Rechteinhaber hinsichtlich Urheberrecht und vergleichbarer Schutzrechte sind, </translation>
     </message>
     <message>
         <location filename="cxefafenestro_konsento.cpp" line="20"/>
@@ -275,6 +285,14 @@
         <location filename="datumojapogilo_prieksportu.cpp" line="153"/>
         <source>Eraro [007]!</source>
         <translation>Fehler [007]!</translation>
+    </message>
+</context>
+<context>
+    <name>datumojrestauxro</name>
+    <message>
+        <location filename="datumojrestauxro.ui" line="13"/>
+        <source>Dialog</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -567,32 +585,32 @@
         <translation>Fehler [018]?</translation>
     </message>
     <message>
-        <location filename="referencoj_priakceptu.cpp" line="33"/>
+        <location filename="referencoj_priakceptu.cpp" line="37"/>
         <source>Eraro [021]!</source>
         <translation>Fehler [021]!</translation>
     </message>
     <message>
-        <location filename="referencoj_priakceptu.cpp" line="61"/>
+        <location filename="referencoj_priakceptu.cpp" line="92"/>
         <source>Neniuj ŝanĝoj estis malkovritaj, kiu devus esti stokita!</source>
         <translation>Es wurden keine Änderungen gefunden, die gespeichert werden müßten!</translation>
     </message>
     <message>
-        <location filename="referencoj_priakceptu.cpp" line="82"/>
+        <location filename="referencoj_priakceptu.cpp" line="123"/>
         <source>Citaĵo &apos;%1&apos; savis.</source>
         <translation>Literaturangabe &apos;%1&apos; wurde gespeichert.</translation>
     </message>
     <message>
-        <location filename="referencoj_priakceptu.cpp" line="92"/>
+        <location filename="referencoj_priakceptu.cpp" line="144"/>
         <source>Eraro [020]!</source>
         <translation>Fehler [020]!</translation>
     </message>
     <message>
-        <location filename="referencoj_priakceptu.cpp" line="95"/>
+        <location filename="referencoj_priakceptu.cpp" line="147"/>
         <source>Malplena citaĵo estas neakceptebla!</source>
         <translation>Eine leere Literaturangabe ist inakzeptabel!</translation>
     </message>
     <message>
-        <location filename="referencoj_priakceptu.cpp" line="98"/>
+        <location filename="referencoj_priakceptu.cpp" line="150"/>
         <source>Malplena noto estas neakceptebla!</source>
         <translation>Ein leerer Literaturhinweis ist inakzeptabel!</translation>
     </message>
@@ -635,6 +653,11 @@
         <location filename="referencoj_primalfaru.cpp" line="14"/>
         <source>Ŝanĝoj malfaritaj!</source>
         <translation>Änderungen rückgängig gemacht!</translation>
+    </message>
+    <message>
+        <location filename="referencoj_kompletigitarespondo.cpp" line="9"/>
+        <source>Reto eraro: </source>
+        <translation>Netzwerkfehler: </translation>
     </message>
 </context>
 </TS>

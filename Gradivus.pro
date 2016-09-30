@@ -15,16 +15,20 @@ SOURCES      += main.cpp\
                 cxefafenestro_destrojero.cpp\
                 cxefafenestro_konsento.cpp\
                 cxefafenestro_montruinformo.cpp\
-                cxefafenestro_spektaklomesagxon.cpp\
                 cxefafenestro_pridatumojapogilo.cpp\
+                cxefafenestro_pridatumojrestauxro.cpp\
                 cxefafenestro_prikonfiguro.cpp\
-                cxefafenestro_prireferencoj.cpp\
                 cxefafenestro_primuta.cpp\
+                cxefafenestro_prireferencoj.cpp\
+                cxefafenestro_pristartopagxo.cpp\
+                cxefafenestro_spektaklomesagxon.cpp\
                 datumojapogilo.cpp\
                 datumojapogilo_destrojero.cpp\
                 datumojapogilo_priabortu.cpp\
                 datumojapogilo_prieksportu.cpp\
                 datumojapogilo_prielektucxiuj.cpp\
+                datumojrestauxro.cpp\
+                datumojrestauxro_destrojero.cpp\
                 hipertekstopagxo_acceptnavigationrequest.cpp\
                 htmlmarkilo.cpp\
                 htmlmarkilo_highlightblock.cpp\
@@ -70,6 +74,7 @@ SOURCES      += main.cpp\
 HEADERS      += agordoj.h\
                 cxefafenestro.h\
                 datumojapogilo.h\
+                datumojrestauxro.h\
                 hipertekstopagxo.h\
                 htmlmarkilo.h\
                 konfiguro.h\
@@ -79,6 +84,7 @@ HEADERS      += agordoj.h\
 
 FORMS        += cxefafenestro.ui\
                 datumojapogilo.ui\
+                datumojrestauxro.ui\
                 konfiguro.ui\
                 referencoj.ui
 

@@ -19,6 +19,8 @@ cxefaFenestro::cxefaFenestro(QWidget *gepatro):QMainWindow(gepatro),ui(new Ui::c
  connect(ui->konfiguro,&QPushButton::clicked,this,&cxefaFenestro::priKonfiguro);
  connect(ui->referencoj,&QPushButton::clicked,this,&cxefaFenestro::priReferencoj);
  connect(ui->muta,&QCheckBox::stateChanged,this,&cxefaFenestro::priMuta);
+ connect(ui->startoPagxo,&QPushButton::clicked,this,&cxefaFenestro::priStartoPagxo);
+ connect(ui->datumojRestauxro,&QPushButton::clicked,this,&cxefaFenestro::priDatumojRestauxro);
  administranto.sxargu();
  montruInformo("bonvenon");
 }

@@ -24,6 +24,8 @@ class cxefaFenestro:public QMainWindow
   void priKonfiguro();
   void priReferencoj();
   void priMuta(int statuso);
+  void priStartoPagxo();
+  void priDatumojRestauxro();
  private:
   Ui::cxefaFenestro *ui;
 };
