@@ -62,7 +62,7 @@ void referencoj::priAkceptu()
       ordono.append(faktaArtikolo.replace("'","''"));
       ordono.append("';");
       if(ui->kontribui->isChecked())
-      {kontribuo.append("INSERT OR UPDATE INTO literaturoj (aludo,html,subskribo,stato) VALUES ('");
+      {kontribuo.append("INSERT OR REPLACE INTO literaturoj (aludo,html,subskribo,stato) VALUES ('");
        kontribuo.append(faktaArtikolo.replace("'","''"));
        kontribuo.append("',x'");
        kontribuo.append(qCompress(ui->teksto->toPlainText().simplified().toUtf8(),9).toHex());
@@ -78,7 +78,7 @@ void referencoj::priAkceptu()
      }}
      else
      {if(ui->kontribui->isChecked()&&malnovaSubskribo.contains(":"+patraObjekto->administranto.akiruValoro(AGORDO_NOMO)+":"))
-      {kontribuo.append("INSERT OR UPDATE INTO literaturoj (aludo,html,subskribo,stato) VALUES ('");
+      {kontribuo.append("INSERT OR REPLACE INTO literaturoj (aludo,html,subskribo,stato) VALUES ('");
        kontribuo.append(faktaArtikolo.replace("'","''"));
        kontribuo.append("',x'");
        kontribuo.append(qCompress(malnovaHtml).toHex());
@@ -105,7 +105,7 @@ void referencoj::priAkceptu()
      ordono.append(tempo);
      ordono.append(");");
      if(ui->kontribui->isChecked())
-     {kontribuo.append("INSERT OR UPDATE INTO literaturoj (aludo,html,subskribo,stato) VALUES ('");
+     {kontribuo.append("INSERT OR REPLACE INTO literaturoj (aludo,html,subskribo,stato) VALUES ('");
       kontribuo.append(faktaArtikolo.replace("'","''"));
       kontribuo.append("',x'");
       kontribuo.append(qCompress(ui->teksto->toPlainText().simplified().toUtf8(),9).toHex());
