@@ -100,7 +100,7 @@ void datumojApogilo::priEksportu()
     if(pli&&ui->identigiloj->isChecked())
     {patraObjekto->spektakloMesagxon(tr("Eksporti identigilojn \342\200\246"));
      eldono<<"-- Identigiloj\nBEGIN;\n";
-     QByteArray ordono("SELECT lando,nomo,lingvo,citajxo,referenco,uuid,subskribo,stato FROM identigiloj");
+     QByteArray ordono("SELECT lando,nomo,lingvo,citajxo,QUOTE(referenco),uuid,subskribo,stato FROM identigiloj");
      if(ui->subskribo->isChecked())
       ordono.append(" WHERE subskribon LIKE '%"+ui->subskriboInkluzivi->text().replace("'","''")+"%'");
      if(ui->nova->isChecked())
@@ -114,7 +114,7 @@ void datumojApogilo::priEksportu()
       {eldono<<"INSERT OR REPLACE INTO identigilo (lando,nomo,lingvo,";
        if(!informpeto.value("citajxo").isNull())
         eldono<<"citajxo,";
-       if(!informpeto.value("referenco").isNull())
+       if(!informpeto.value("QUOTE(referenco)").isNull())
         eldono<<"referenco,";
        eldono<<"uuid,subskribo,stato) VALUES ('";
        eldono<<informpeto.value("lando").toByteArray();
@@ -125,11 +125,11 @@ void datumojApogilo::priEksportu()
        eldono<<"','";
        if(!informpeto.value("citajxo").isNull())
        {eldono<<informpeto.value("citajxo").toByteArray().replace("'","''");
-        eldono<<"','";
+        eldono<<"',";
        }
        if(!informpeto.value("referenco").isNull())
-       {eldono<<informpeto.value("referenco").toByteArray().replace("'","''");
-        eldono<<"','";
+       {eldono<<informpeto.value("QUOTE(referenco)").toByteArray();
+        eldono<<",'";
        }
        eldono<<informpeto.value("uuid").toByteArray();
        eldono<<"','";

@@ -11,7 +11,7 @@ void sqlMarkilo::highlightBlock(const QString &teksto)
  {int indekso=interkonsento.capturedStart();
   int longo=interkonsento.capturedLength();
   setFormat(indekso,longo,rekonisStrukturo);
-  asociitaButono->setText(tr("Literaturo"));
+  asociitaButono->setText("literaturoj");
   rekonis=true;
  }
  interkonsento=identigiloj.match(teksto);
@@ -19,7 +19,7 @@ void sqlMarkilo::highlightBlock(const QString &teksto)
  {int indekso=interkonsento.capturedStart();
   int longo=interkonsento.capturedLength();
   setFormat(indekso,longo,rekonisStrukturo);
-  asociitaButono->setText(tr("Identigilo"));
+  asociitaButono->setText("identigiloj");
   rekonis=true;
  }
  asociitaButono->setEnabled(rekonis);

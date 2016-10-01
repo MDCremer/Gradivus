@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE TS>
-<TS version="2.0" language="de_DE">
+<TS version="2.1" language="de_DE">
 <context>
     <name>QObject</name>
     <message>
@@ -98,7 +98,7 @@
     </message>
     <message>
         <source>Milita historia vortaro</source>
-        <translation>Militärhistorisches Wörterbuch</translation>
+        <translation type="vanished">Militärhistorisches Wörterbuch</translation>
     </message>
     <message>
         <location filename="cxefafenestro.ui" line="228"/>
@@ -432,7 +432,7 @@
     </message>
     <message>
         <source>Lasu</source>
-        <translation>Verlassen</translation>
+        <translation type="vanished">Verlassen</translation>
     </message>
     <message>
         <location filename="konfiguro.cpp" line="35"/>
@@ -442,11 +442,11 @@
     </message>
     <message>
         <source>Eraro [011]!</source>
-        <translation>Fehler [011]!</translation>
+        <translation type="vanished">Fehler [011]!</translation>
     </message>
     <message>
         <source>Eraro [010]!</source>
-        <translation>Fehler [010]!</translation>
+        <translation type="vanished">Fehler [010]!</translation>
     </message>
     <message>
         <location filename="konfiguro_prikonfirmu.cpp" line="33"/>
@@ -455,7 +455,7 @@
     </message>
     <message>
         <source>Ŝarĝoj estas stokitaj.</source>
-        <translation>Änderungen werden gespeichert.</translation>
+        <translation type="vanished">Änderungen werden gespeichert.</translation>
     </message>
     <message>
         <location filename="konfiguro_prikonfirmu.cpp" line="115"/>
@@ -465,16 +465,16 @@
     <message>
         <source>Ekzistas neniu ŝarĝo!</source>
         <oldsource>Ekzistas neniu Ŝarĝo!</oldsource>
-        <translation>Es gibt keine Änderungen!</translation>
+        <translation type="vanished">Es gibt keine Änderungen!</translation>
     </message>
     <message>
         <source>Ekzistas neniu sxangxo!</source>
-        <translation>Änderungen sind nicht vorhanden!</translation>
+        <translation type="vanished">Änderungen sind nicht vorhanden!</translation>
     </message>
     <message numerus="yes">
         <source>%n ŝarĝoj estas savitaj!</source>
         <oldsource>%1 ŝarĝoj estas savitaj!</oldsource>
-        <translation>
+        <translation type="vanished">
             <numerusform>%n Änderung wurden gespeichert!</numerusform>
             <numerusform>%n Änderungen wurden gespeichert!</numerusform>
         </translation>
@@ -482,12 +482,12 @@
     <message>
         <source>%1 u015danu011doj estas konservitaj!</source>
         <oldsource>%1 ŝanĝoj estas konservitaj!</oldsource>
-        <translation>%1 Änderungen wurden gesichert!</translation>
+        <translation type="vanished">%1 Änderungen wurden gesichert!</translation>
     </message>
     <message>
         <source>Ekzistas neniu korekto!</source>
         <oldsource>Ekzistas neniu ŝanĝo!</oldsource>
-        <translation>Änderungen sind nicht vorhanden!</translation>
+        <translation type="vanished">Änderungen sind nicht vorhanden!</translation>
     </message>
     <message>
         <location filename="konfiguro_primalfaru.cpp" line="21"/>
@@ -504,11 +504,11 @@
     </message>
     <message>
         <source>Kreu</source>
-        <translation>Anlegen</translation>
+        <translation type="vanished">Anlegen</translation>
     </message>
     <message>
         <source>Redaktu</source>
-        <translation>Bearbeiten</translation>
+        <translation type="vanished">Bearbeiten</translation>
     </message>
     <message>
         <location filename="referencoj.ui" line="99"/>
@@ -522,7 +522,7 @@
     </message>
     <message>
         <source>Abortu</source>
-        <translation>Abbrechen</translation>
+        <translation type="vanished">Abbrechen</translation>
     </message>
     <message>
         <location filename="referencoj.ui" line="123"/>
@@ -703,14 +703,12 @@
 <context>
     <name>sqlMarkilo</name>
     <message>
-        <location filename="sqlmarkilo_highlightblock.cpp" line="14"/>
         <source>Literaturo</source>
-        <translation>Literaturangabe</translation>
+        <translation type="vanished">Literaturangabe</translation>
     </message>
     <message>
-        <location filename="sqlmarkilo_highlightblock.cpp" line="22"/>
         <source>Identigilo</source>
-        <translation>Bezeichnung</translation>
+        <translation type="vanished">Bezeichnung</translation>
     </message>
     <message>
         <location filename="sqlmarkilo_highlightblock.cpp" line="27"/>

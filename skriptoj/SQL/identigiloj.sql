@@ -3,7 +3,7 @@ CREATE TABLE IF NOT EXISTS identigiloj
  nomo TEXT NOT NULL,
  lingvo CHAR(2) NOT NULL,
  citajxo TEXT,
- referenco TEXT,
+ referenco BLOB,
  uuid TEXT NOT NULL,
  subskribo TEXT NOT NULL,
  stato INTEGER NOT NULL,
