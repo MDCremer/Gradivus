@@ -4,6 +4,7 @@
 #include <QDialog>
 #include <QWidget>
 #include "cxefafenestro.h"
+#include "sqlmarkilo.h"
 
 namespace Ui
 {class datumojrestauxro;
@@ -18,6 +19,7 @@ class datumojRestauxro:public QDialog
   void priAbortu();
  private:
   cxefaFenestro *patraObjekto;
+  sqlMarkilo *markilo;
   Ui::datumojrestauxro *ui;
 };
 

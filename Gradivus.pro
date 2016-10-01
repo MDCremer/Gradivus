@@ -70,7 +70,9 @@ SOURCES      += main.cpp\
                 rikordoregistrilo_komencu.cpp\
                 rikordoregistrilo_malfaru.cpp\
                 rikordoregistrilo_plenumu.cpp\
-                statikajdatumoj.cpp
+                sqlmarkilo.cpp\
+                statikajdatumoj.cpp \
+    sqlmarkilo_highlightblock.cpp
 
 HEADERS      += agordoj.h\
                 cxefafenestro.h\
@@ -81,6 +83,7 @@ HEADERS      += agordoj.h\
                 konfiguro.h\
                 referencoj.h\
                 rikordoregistrilo.h\
+                sqlmarkilo.h\
                 statikajdatumoj.h
 
 FORMS        += cxefafenestro.ui\

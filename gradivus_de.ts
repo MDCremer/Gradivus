@@ -320,22 +320,17 @@
         <translation>Direkteingabe</translation>
     </message>
     <message>
-        <location filename="datumojrestauxro.ui" line="128"/>
-        <source>⇨ IGNORE</source>
-        <translation></translation>
+        <location filename="datumojrestauxro.ui" line="134"/>
+        <source>Sintakse analizu</source>
+        <translation>Syntaxanalyse</translation>
     </message>
     <message>
-        <location filename="datumojrestauxro.ui" line="141"/>
-        <source>x&apos;…&apos; ༗</source>
-        <translation></translation>
-    </message>
-    <message>
-        <location filename="datumojrestauxro.ui" line="167"/>
+        <location filename="datumojrestauxro.ui" line="160"/>
         <source>Plenumu</source>
         <translation>Ausführen</translation>
     </message>
     <message>
-        <location filename="datumojrestauxro.ui" line="181"/>
+        <location filename="datumojrestauxro.ui" line="174"/>
         <source>⏎</source>
         <translation></translation>
     </message>
@@ -703,6 +698,24 @@
         <location filename="referencoj_kompletigitarespondo.cpp" line="9"/>
         <source>Reto eraro: </source>
         <translation>Netzwerkfehler: </translation>
+    </message>
+</context>
+<context>
+    <name>sqlMarkilo</name>
+    <message>
+        <location filename="sqlmarkilo_highlightblock.cpp" line="14"/>
+        <source>Literaturo</source>
+        <translation>Literaturangabe</translation>
+    </message>
+    <message>
+        <location filename="sqlmarkilo_highlightblock.cpp" line="22"/>
+        <source>Identigilo</source>
+        <translation>Bezeichnung</translation>
+    </message>
+    <message>
+        <location filename="sqlmarkilo_highlightblock.cpp" line="27"/>
+        <source>nekonata</source>
+        <translation>unbekannt</translation>
     </message>
 </context>
 </TS>

@@ -117,28 +117,21 @@
       <item>
        <layout class="QVBoxLayout" name="verticalLayout_2">
         <item>
-         <widget class="QToolButton" name="sxangxuIgnori">
+         <widget class="QToolButton" name="sintakseAnalizu">
           <property name="sizePolicy">
            <sizepolicy hsizetype="Minimum" vsizetype="Fixed">
             <horstretch>0</horstretch>
             <verstretch>0</verstretch>
            </sizepolicy>
           </property>
-          <property name="text">
-           <string>⇨ IGNORE</string>
-          </property>
-         </widget>
-        </item>
-        <item>
-         <widget class="QToolButton" name="deksesumaMalcxifru">
-          <property name="sizePolicy">
-           <sizepolicy hsizetype="Minimum" vsizetype="Fixed">
-            <horstretch>0</horstretch>
-            <verstretch>0</verstretch>
-           </sizepolicy>
+          <property name="font">
+           <font>
+            <pointsize>9</pointsize>
+            <italic>true</italic>
+           </font>
           </property>
           <property name="text">
-           <string>x'…' ༗</string>
+           <string>Sintakse analizu</string>
           </property>
          </widget>
         </item>

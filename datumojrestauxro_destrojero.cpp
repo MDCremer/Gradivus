@@ -3,4 +3,5 @@
 
 datumojRestauxro::~datumojRestauxro()
 {delete ui;
+ delete markilo;
 }
