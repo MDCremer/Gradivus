@@ -30,6 +30,7 @@ SOURCES      += main.cpp\
                 datumojrestauxro.cpp\
                 datumojrestauxro_destrojero.cpp\
                 datumojrestauxro_priabortu.cpp\
+                datumojrestauxro_prisintakseanalizu.cpp\
                 hipertekstopagxo_acceptnavigationrequest.cpp\
                 htmlmarkilo.cpp\
                 htmlmarkilo_highlightblock.cpp\
@@ -71,8 +72,8 @@ SOURCES      += main.cpp\
                 rikordoregistrilo_malfaru.cpp\
                 rikordoregistrilo_plenumu.cpp\
                 sqlmarkilo.cpp\
-                statikajdatumoj.cpp \
-    sqlmarkilo_highlightblock.cpp
+                sqlmarkilo_highlightblock.cpp\
+                statikajdatumoj.cpp
 
 HEADERS      += agordoj.h\
                 cxefafenestro.h\
