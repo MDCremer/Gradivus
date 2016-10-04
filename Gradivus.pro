@@ -44,6 +44,9 @@ SOURCES      += main.cpp\
                 konfiguro_primalsupro.cpp\
                 konfiguro_prisupren.cpp\
                 konfiguro_prisupro.cpp\
+                provajxo.cpp\
+                provajxo_destrojero.cpp\
+                provajxo_priabortu.cpp\
                 referencoj.cpp\
                 referencoj_destrojero.cpp\
                 referencoj_aludojelektajxosxangxo.cpp\
@@ -82,6 +85,7 @@ HEADERS      += agordoj.h\
                 hipertekstopagxo.h\
                 htmlmarkilo.h\
                 konfiguro.h\
+                provajxo.h\
                 referencoj.h\
                 rikordoregistrilo.h\
                 sqlmarkilo.h\
@@ -91,6 +95,7 @@ FORMS        += cxefafenestro.ui\
                 datumojapogilo.ui\
                 datumojrestauxro.ui\
                 konfiguro.ui\
+                provajxo.ui\
                 referencoj.ui
 
 TRANSLATIONS += gradivus_de.ts

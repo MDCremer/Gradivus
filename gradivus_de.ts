@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE TS>
-<TS version="2.1" language="de_DE">
+<TS version="2.0" language="de_DE">
 <context>
     <name>QObject</name>
     <message>
@@ -98,7 +98,7 @@
     </message>
     <message>
         <source>Milita historia vortaro</source>
-        <translation type="vanished">Militärhistorisches Wörterbuch</translation>
+        <translation>Militärhistorisches Wörterbuch</translation>
     </message>
     <message>
         <location filename="cxefafenestro.ui" line="228"/>
@@ -432,7 +432,7 @@
     </message>
     <message>
         <source>Lasu</source>
-        <translation type="vanished">Verlassen</translation>
+        <translation>Verlassen</translation>
     </message>
     <message>
         <location filename="konfiguro.cpp" line="35"/>
@@ -442,11 +442,11 @@
     </message>
     <message>
         <source>Eraro [011]!</source>
-        <translation type="vanished">Fehler [011]!</translation>
+        <translation>Fehler [011]!</translation>
     </message>
     <message>
         <source>Eraro [010]!</source>
-        <translation type="vanished">Fehler [010]!</translation>
+        <translation>Fehler [010]!</translation>
     </message>
     <message>
         <location filename="konfiguro_prikonfirmu.cpp" line="33"/>
@@ -455,7 +455,7 @@
     </message>
     <message>
         <source>Ŝarĝoj estas stokitaj.</source>
-        <translation type="vanished">Änderungen werden gespeichert.</translation>
+        <translation>Änderungen werden gespeichert.</translation>
     </message>
     <message>
         <location filename="konfiguro_prikonfirmu.cpp" line="115"/>
@@ -465,16 +465,16 @@
     <message>
         <source>Ekzistas neniu ŝarĝo!</source>
         <oldsource>Ekzistas neniu Ŝarĝo!</oldsource>
-        <translation type="vanished">Es gibt keine Änderungen!</translation>
+        <translation>Es gibt keine Änderungen!</translation>
     </message>
     <message>
         <source>Ekzistas neniu sxangxo!</source>
-        <translation type="vanished">Änderungen sind nicht vorhanden!</translation>
+        <translation>Änderungen sind nicht vorhanden!</translation>
     </message>
     <message numerus="yes">
         <source>%n ŝarĝoj estas savitaj!</source>
         <oldsource>%1 ŝarĝoj estas savitaj!</oldsource>
-        <translation type="vanished">
+        <translation>
             <numerusform>%n Änderung wurden gespeichert!</numerusform>
             <numerusform>%n Änderungen wurden gespeichert!</numerusform>
         </translation>
@@ -482,17 +482,69 @@
     <message>
         <source>%1 u015danu011doj estas konservitaj!</source>
         <oldsource>%1 ŝanĝoj estas konservitaj!</oldsource>
-        <translation type="vanished">%1 Änderungen wurden gesichert!</translation>
+        <translation>%1 Änderungen wurden gesichert!</translation>
     </message>
     <message>
         <source>Ekzistas neniu korekto!</source>
         <oldsource>Ekzistas neniu ŝanĝo!</oldsource>
-        <translation type="vanished">Änderungen sind nicht vorhanden!</translation>
+        <translation>Änderungen sind nicht vorhanden!</translation>
     </message>
     <message>
         <location filename="konfiguro_primalfaru.cpp" line="21"/>
         <source>Ŝanĝoj malfaritaj!</source>
         <translation>Änderungen rückgängig gemacht!</translation>
+    </message>
+</context>
+<context>
+    <name>provajxo</name>
+    <message>
+        <location filename="provajxo.ui" line="20"/>
+        <source>Datumoj provaĵo</source>
+        <oldsource>Datumoj provao</oldsource>
+        <translation>Datenprobe</translation>
+    </message>
+    <message>
+        <location filename="provajxo.ui" line="41"/>
+        <source>Ĉefŝlosilo</source>
+        <translation>Primärschlüssel</translation>
+    </message>
+    <message>
+        <location filename="provajxo.ui" line="55"/>
+        <source>Subskribo:</source>
+        <translation>Signatur:</translation>
+    </message>
+    <message>
+        <location filename="provajxo.ui" line="69"/>
+        <location filename="provajxo.ui" line="84"/>
+        <location filename="provajxo.ui" line="115"/>
+        <location filename="provajxo.ui" line="127"/>
+        <source>:</source>
+        <translation></translation>
+    </message>
+    <message>
+        <location filename="provajxo.ui" line="101"/>
+        <source>Stato:</source>
+        <translation>Stand:</translation>
+    </message>
+    <message>
+        <location filename="provajxo.ui" line="147"/>
+        <source>Kodo</source>
+        <translation>Kode</translation>
+    </message>
+    <message>
+        <location filename="provajxo.ui" line="173"/>
+        <source>Vido</source>
+        <translation>Ansicht</translation>
+    </message>
+    <message>
+        <location filename="provajxo.ui" line="212"/>
+        <source>Rekomendo</source>
+        <translation>Empfehlung</translation>
+    </message>
+    <message>
+        <location filename="provajxo.ui" line="219"/>
+        <source>⏎</source>
+        <translation></translation>
     </message>
 </context>
 <context>
@@ -504,11 +556,11 @@
     </message>
     <message>
         <source>Kreu</source>
-        <translation type="vanished">Anlegen</translation>
+        <translation>Anlegen</translation>
     </message>
     <message>
         <source>Redaktu</source>
-        <translation type="vanished">Bearbeiten</translation>
+        <translation>Bearbeiten</translation>
     </message>
     <message>
         <location filename="referencoj.ui" line="99"/>
@@ -522,7 +574,7 @@
     </message>
     <message>
         <source>Abortu</source>
-        <translation type="vanished">Abbrechen</translation>
+        <translation>Abbrechen</translation>
     </message>
     <message>
         <location filename="referencoj.ui" line="123"/>
@@ -704,11 +756,11 @@
     <name>sqlMarkilo</name>
     <message>
         <source>Literaturo</source>
-        <translation type="vanished">Literaturangabe</translation>
+        <translation>Literaturangabe</translation>
     </message>
     <message>
         <source>Identigilo</source>
-        <translation type="vanished">Bezeichnung</translation>
+        <translation>Bezeichnung</translation>
     </message>
     <message>
         <location filename="sqlmarkilo_highlightblock.cpp" line="27"/>
