@@ -19,12 +19,12 @@
         <translation>Fehler [012]!</translation>
     </message>
     <message>
-        <location filename="agordoj_sxargu.cpp" line="38"/>
+        <location filename="agordoj_sxargu.cpp" line="40"/>
         <source>Eraro [011]!</source>
         <translation>Fehler [011]!</translation>
     </message>
     <message>
-        <location filename="agordoj_sxargu.cpp" line="43"/>
+        <location filename="agordoj_sxargu.cpp" line="45"/>
         <source>Eraro [010]!</source>
         <translation>Fehler [010]!</translation>
     </message>
@@ -288,6 +288,54 @@
     </message>
 </context>
 <context>
+    <name>datumojRestauxro</name>
+    <message>
+        <location filename="datumojrestauxro_prisintakseanalizu.cpp" line="70"/>
+        <source>La citaĵo jam existas.</source>
+        <translation>Die Literaturangabe ist bereits vorhanden.</translation>
+    </message>
+    <message>
+        <location filename="datumojrestauxro_prisintakseanalizu.cpp" line="73"/>
+        <source>Estas sama malnova citaĵo malsama enhavo.</source>
+        <translation>Es gibt eine gleichalte Literaturangabe unterschiedlichen Inhalts.</translation>
+    </message>
+    <message>
+        <location filename="datumojrestauxro_prisintakseanalizu.cpp" line="76"/>
+        <source>Estas sama malnova citaĵo kun malsamaj subskriptoj.</source>
+        <translation>Es gibt eine gleichalte Literaturangabe mit unterschiedlicher Signatur..</translation>
+    </message>
+    <message>
+        <location filename="datumojrestauxro_prisintakseanalizu.cpp" line="79"/>
+        <source>Estas jam disponebla ĝisdatigi via citaĵo.</source>
+        <translation>Es gibt bereits eine neuere Literaturangabe.</translation>
+    </message>
+    <message>
+        <location filename="datumojrestauxro_prisintakseanalizu.cpp" line="82"/>
+        <source>Eksistas malnova citaĵo de la sama enhavo.</source>
+        <translation>Es gibt eine ältere Literaturangabe desselben Inhalts.</translation>
+    </message>
+    <message>
+        <location filename="datumojrestauxro_prisintakseanalizu.cpp" line="84"/>
+        <source>La nuna bibliografio estas pli malnova.</source>
+        <translation>Die vorliegende Literaturangabe ist älter.</translation>
+    </message>
+    <message>
+        <location filename="datumojrestauxro_prisintakseanalizu.cpp" line="89"/>
+        <source>Tia citaĵo ne estas disponebla ankoraŭ.</source>
+        <translation>Es gibt noch keine solche Literaturangabe.</translation>
+    </message>
+    <message>
+        <location filename="datumojrestauxro_prisintakseanalizu.cpp" line="93"/>
+        <source>Eraro [028]!</source>
+        <translation>Fehler [028]!</translation>
+    </message>
+    <message>
+        <location filename="datumojrestauxro_prisintakseanalizu.cpp" line="103"/>
+        <source>Eraro [027]!</source>
+        <translation>Fehler [027]!</translation>
+    </message>
+</context>
+<context>
     <name>datumojrestauxro</name>
     <message>
         <location filename="datumojrestauxro.ui" line="20"/>
@@ -542,7 +590,7 @@
         <translation>Empfehlung</translation>
     </message>
     <message>
-        <location filename="provajxo.ui" line="219"/>
+        <location filename="provajxo.ui" line="222"/>
         <source>⏎</source>
         <translation></translation>
     </message>

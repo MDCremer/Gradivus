@@ -1,4 +1,6 @@
 #include <QByteArray>
+#include <QDir>
+#include <QFile>
 #include <QMessageBox>
 #include <QObject>
 #include <QSqlDatabase>
@@ -41,4 +43,11 @@ void agordoj::sxargu()
  else
   if(datumbazo.lastError().isValid())
    QMessageBox::critical(0,QObject::tr("Eraro [010]!"),datumbazo.lastError().text());
-}
+ valoroj[AGORDO_STILO]="<!doctype html>\n<html>\n<head>\n<meta charset='utf-8'>\n";
+ QFile stilo(QDir::homePath()+"/Gradivus/dokumentoj/rimedoj/stilo.css");
+ if(stilo.open(QIODevice::ReadOnly|QIODevice::Text))
+ {valoroj[AGORDO_STILO].append("<style>\n");
+  valoroj[AGORDO_STILO].append(stilo.readAll());
+  valoroj[AGORDO_STILO].append("\n</style>\n");
+  stilo.close();
+}}

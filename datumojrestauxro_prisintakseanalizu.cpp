@@ -22,14 +22,14 @@ void datumojRestauxro::priSintakseAnalizu()
  if(datumbazo.open())
  {QSqlQuery informpeto;
   if(ui->sintakseAnalizu->text()=="literaturoj")
-  {QByteArray aludo,html;
+  {QByteArray aludo,kodo;
    interkonsento=QRegularExpression("\\(\\'([^\\']+|\\'{2})+\\'").match(teksto);
    if(interkonsento.hasMatch())
    {aludo=interkonsento.captured().mid(2,interkonsento.captured().length()-3).toUtf8();
     indekso=interkonsento.capturedStart()+interkonsento.capturedLength();
     interkonsento=QRegularExpression("x\\'([0-9A-Fa-f]{2})+\\'").match(teksto,indekso);
     if(interkonsento.hasMatch())
-    {html=qUncompress(QByteArray::fromHex(interkonsento.captured().mid(2,interkonsento.captured().length()-3).toUtf8()));
+    {kodo=qUncompress(QByteArray::fromHex(interkonsento.captured().mid(2,interkonsento.captured().length()-3).toUtf8()));
      indekso=interkonsento.capturedStart()+interkonsento.capturedLength();
      interkonsento=QRegularExpression("\\':([^\\']+|\\'{2})+:\\'").match(teksto,indekso);
      if(interkonsento.hasMatch())
@@ -39,17 +39,50 @@ void datumojRestauxro::priSintakseAnalizu()
       if(interkonsento.hasMatch())
       {stato=interkonsento.captured().left(interkonsento.captured().length()-2).toLongLong();
        vido.agordiCxefsxlosilo(aludo.replace("''","'"));
-       vido.agordiKodo(html);
+       vido.agordiKodo(kodo);
+       QByteArray html=patraObjekto->administranto.akiruValoro(AGORDO_STILO);
+       html.append("<title>");
+       html.append(aludo.replace("''","'"));
+       html.append("</title>\n</head>\n<body>\n<p>");
+       html.append(kodo);
+       html.append("</p>\n</body>\n</html>");
+       vido.agordiVido(html);
        vido.agordiSubskribo(subskribo.replace("''","'"));
        QDateTime tempo;
        tempo.setTime_t(stato);
        vido.agordiStato(tempo.toString(Qt::SystemLocaleLongDate));
        if(informpeto.exec("SELECT html,subskribo,stato FROM literaturoj WHERE aludo='"+aludo+"';"))
        {if(informpeto.first())
-        {QByteArray malnovaHtml=qUncompress(informpeto.value("html").toByteArray());
+        {QByteArray malnovaKodo=qUncompress(informpeto.value("html").toByteArray());
          QByteArray malnovaSubskribo=informpeto.value("subskribo").toByteArray();
          qlonglong malnovaStato=informpeto.value("stato").toLongLong();
-        }
+         html=patraObjekto->administranto.akiruValoro(AGORDO_STILO);
+         html.append("<title>");
+         html.append(aludo.replace("''","'"));
+         html.append("</title>\n</head>\n<body>\n<p>");
+         html.append(malnovaKodo);
+         html.append("</p>\n</body>\n</html>");
+         vido.agordiMalnovaDatumoj(html);
+         vido.agordiMalnovaSubskribo(malnovaSubskribo);
+         tempo.setTime_t(malnovaStato);
+         vido.agordiMalnovaStato(tempo.toString(Qt::SystemLocaleLongDate));
+         if(kodo==malnovaKodo&&subskribo.replace("''","'")==malnovaSubskribo&&stato==malnovaStato)
+          vido.agordiRekomendo(tr("La cita\304\265o jam existas."));
+         else
+         {if(stato==malnovaStato&&kodo!=malnovaKodo)
+           vido.agordiRekomendo(tr("Estas sama malnova cita\304\265o malsama enhavo."));
+          else
+          {if(stato==malnovaStato)
+            vido.agordiRekomendo(tr("Estas sama malnova cita\304\265o kun malsamaj subskriptoj."));
+           else
+           {if(stato<malnovaStato)
+             vido.agordiRekomendo(tr("Estas jam disponebla \304\235isdatigi via cita\304\265o."));
+            else
+            {if(stato>malnovaStato&&kodo==malnovaKodo)
+              vido.agordiRekomendo(tr("Eksistas malnova cita\304\265o de la sama enhavo."));
+             else
+              vido.agordiRekomendo(tr("La nuna bibliografio estas pli malnova."));
+        }}}}}
         else
         {vido.agordiMalnovaSubskribo("");
          vido.agordiMalnovaStato("");
