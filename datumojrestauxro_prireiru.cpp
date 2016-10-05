@@ -1,5 +1,5 @@
 #include "datumojrestauxro.h"
 
-void datumojRestauxro::priAbortu()
+void datumojRestauxro::priReiru()
 {accept();
 }

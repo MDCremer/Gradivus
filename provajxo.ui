@@ -217,7 +217,7 @@
       </widget>
      </item>
      <item>
-      <widget class="QToolButton" name="abortu">
+      <widget class="QToolButton" name="reiru">
        <property name="text">
         <string>⏎</string>
        </property>

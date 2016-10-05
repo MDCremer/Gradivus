@@ -17,11 +17,11 @@ class konfiguro : public QDialog
   explicit konfiguro(QWidget *gepatro=0);
   ~konfiguro();
  public slots:
-  void priAbortu();
   void priKonfirmu();
   void priMalfaru();
   void priMalsupren();
   void priMalsupro();
+  void priReiru();
   void priSupren();
   void priSupro();
   void lingvoEtikedoSxangxo(QListWidgetItem *aktivaEro);

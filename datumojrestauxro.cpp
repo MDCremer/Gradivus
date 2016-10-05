@@ -9,7 +9,7 @@ datumojRestauxro::datumojRestauxro(QWidget *gepatro):QDialog(gepatro),ui(new Ui:
 {ui->setupUi(this);
  markilo=new sqlMarkilo(ui->sintakseAnalizu,ui->ordono->document());
  patraObjekto=(cxefaFenestro *)gepatro;
- connect(ui->abortu,&QToolButton::clicked,this,&datumojRestauxro::priAbortu);
+ connect(ui->reiru,&QToolButton::clicked,this,&datumojRestauxro::priReiru);
  connect(ui->sintakseAnalizu,&QToolButton::clicked,this,&datumojRestauxro::priSintakseAnalizu);
  connect(ui->plenumu,&QToolButton::clicked,this,&datumojRestauxro::priPlenumu);
 }

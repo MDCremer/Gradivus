@@ -16,8 +16,8 @@ class datumojRestauxro:public QDialog
   explicit datumojRestauxro(QWidget *gepatro=0);
   ~datumojRestauxro();
  public slots:
-  void priAbortu();
   void priPlenumu();
+  void priReiru();
   void priSintakseAnalizu();
  private:
   cxefaFenestro *patraObjekto;

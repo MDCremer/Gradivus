@@ -1,5 +1,5 @@
 #include "referencoj.h"
 
-void referencoj::priAbortu()
+void referencoj::priReiru()
 {accept();
 }

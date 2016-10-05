@@ -31,27 +31,27 @@ class referencoj:public QDialog
   explicit referencoj(QWidget *gepatro=0);
   ~referencoj();
  public slots:
-  void priAbortu();
+  void aludojElektajxoSxangxo();
+  void kompletigitaRespondo(QNetworkReply *respondo);
+  void priAkceptu();
   void priCitajxo();
+  void priForigu();
   void priForta();
   void priGrasa();
+  void priKontribui(bool kontrolita);
   void priKursiva();
+  void priMinora();
+  void priReferenceita();
+  void priReiru();
   void priSubstretika();
   void priSuperskribita();
   void priSuba();
-  void priReferenceita();
-  void priMinora();
   void priVakigu();
-  void priForigu();
-  void priAkceptu();
   void priMalfaru();
-  void priKontribui(bool kontrolita);
   void referencoEnigiSxangxo(int indekso);
-  void aludojElektajxoSxangxo();
-  void kompletigitaRespondo(QNetworkReply *respondo);
  private:
-  void sxargiAludoj();
   void enigi(int indekso,QString starto,QString fino,QToolButton *butono);
+  void sxargiAludoj();
   cxefaFenestro *patraObjekto;
   Ui::referencoj *ui;
   htmlMarkilo *markilo;

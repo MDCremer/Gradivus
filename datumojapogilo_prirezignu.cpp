@@ -1,5 +1,5 @@
 #include "datumojapogilo.h"
 
-void datumojApogilo::priAbortu()
+void datumojApogilo::priRezignu()
 {reject();
 }

@@ -1,5 +1,5 @@
 #include "konfiguro.h"
 
-void konfiguro::priAbortu()
+void konfiguro::priReiru()
 {accept();
 }

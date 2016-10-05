@@ -13,7 +13,7 @@ referencoj::referencoj(QWidget *gepatro):QDialog(gepatro),ui(new Ui::referencoj)
  markilo=new htmlMarkilo(ui->teksto->document());
  registrilo=new rikordoRegistrilo(ui->malfaru);
  patraObjekto=(cxefaFenestro *)gepatro;
- connect(ui->abortu,&QToolButton::clicked,this,&referencoj::priAbortu);
+ connect(ui->reiru,&QToolButton::clicked,this,&referencoj::priReiru);
  connect(ui->referencoEnigi,&QTabWidget::currentChanged,this,&referencoj::referencoEnigiSxangxo);
  connect(ui->citajxo,&QToolButton::clicked,this,&referencoj::priCitajxo);
  connect(ui->forta,&QToolButton::clicked,this,&referencoj::priForta);

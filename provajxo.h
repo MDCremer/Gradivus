@@ -29,7 +29,7 @@ class provajxo:public QDialog
   void agordiVido(QByteArray teksto) {ui->vido->setHtml(teksto);}
   void montruVidon() {ui->tabWidget->setCurrentIndex(1);}
  public slots:
-  void priAbortu();
+  void priReiru();
  private:
   Ui::provajxo *ui;
   htmlMarkilo *markilo;

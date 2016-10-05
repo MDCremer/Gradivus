@@ -1,5 +1,5 @@
 #include "provajxo.h"
 
-void provajxo::priAbortu()
+void provajxo::priReiru()
 {accept();
 }

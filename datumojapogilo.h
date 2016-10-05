@@ -15,7 +15,7 @@ class datumojApogilo:public QDialog
   explicit datumojApogilo(QWidget *gepatro=0);
   ~datumojApogilo();
  public slots:
-  void priAbortu();
+  void priRezignu();
   void priEksportu();
   void priElektuCxiuj();
  private:

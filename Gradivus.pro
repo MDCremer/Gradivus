@@ -24,13 +24,13 @@ SOURCES      += main.cpp\
                 cxefafenestro_spektaklomesagxon.cpp\
                 datumojapogilo.cpp\
                 datumojapogilo_destrojero.cpp\
-                datumojapogilo_priabortu.cpp\
                 datumojapogilo_prieksportu.cpp\
                 datumojapogilo_prielektucxiuj.cpp\
+                datumojapogilo_prirezignu.cpp\
                 datumojrestauxro.cpp\
                 datumojrestauxro_destrojero.cpp\
-                datumojrestauxro_priabortu.cpp\
                 datumojrestauxro_priplenumu.cpp\
+                datumojrestauxro_prireiru.cpp\
                 datumojrestauxro_prisintakseanalizu.cpp\
                 hipertekstopagxo_acceptnavigationrequest.cpp\
                 htmlmarkilo.cpp\
@@ -38,22 +38,21 @@ SOURCES      += main.cpp\
                 konfiguro.cpp\
                 konfiguro_destrojero.cpp\
                 konfiguro_lingvoetikedosxangxo.cpp\
-                konfiguro_priabortu.cpp\
                 konfiguro_prikonfirmu.cpp\
                 konfiguro_primalfaru.cpp\
                 konfiguro_primalsupren.cpp\
                 konfiguro_primalsupro.cpp\
+                konfiguro_prireiru.cpp\
                 konfiguro_prisupren.cpp\
                 konfiguro_prisupro.cpp\
                 provajxo.cpp\
                 provajxo_destrojero.cpp\
-                provajxo_priabortu.cpp\
+                provajxo_prireiru.cpp\
                 referencoj.cpp\
                 referencoj_destrojero.cpp\
                 referencoj_aludojelektajxosxangxo.cpp\
                 referencoj_enigi.cpp\
                 referencoj_kompletigitarespondo.cpp\
-                referencoj_priabortu.cpp\
                 referencoj_priakceptu.cpp\
                 referencoj_pricitajxo.cpp\
                 referencoj_priforigu.cpp\
@@ -64,6 +63,7 @@ SOURCES      += main.cpp\
                 referencoj_primalfaru.cpp\
                 referencoj_priminora.cpp\
                 referencoj_prireferenceita.cpp\
+                referencoj_prireiru.cpp\
                 referencoj_prisubstretika.cpp\
                 referencoj_prisuperskribita.cpp\
                 referencoj_prisuba.cpp\
@@ -77,7 +77,7 @@ SOURCES      += main.cpp\
                 rikordoregistrilo_plenumu.cpp\
                 sqlmarkilo.cpp\
                 sqlmarkilo_highlightblock.cpp\
-                statikajdatumoj.cpp \
+                statikajdatumoj.cpp
 
 HEADERS      += agordoj.h\
                 cxefafenestro.h\

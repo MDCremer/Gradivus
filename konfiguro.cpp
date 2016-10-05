@@ -19,7 +19,7 @@ konfiguro::konfiguro(QWidget *gepatro):QDialog(gepatro),ui(new Ui::konfiguro)
 {ui->setupUi(this);
  registrilo=new rikordoRegistrilo(ui->malfaru);
  patraObjekto=(cxefaFenestro *)gepatro;
- connect(ui->abortu,&QToolButton::clicked,this,&konfiguro::priAbortu);
+ connect(ui->reiru,&QToolButton::clicked,this,&konfiguro::priReiru);
  connect(ui->lingvoj,&QListWidget::currentItemChanged,this,&konfiguro::lingvoEtikedoSxangxo);
  connect(ui->supro,&QToolButton::clicked,this,&konfiguro::priSupro);
  connect(ui->supren,&QToolButton::clicked,this,&konfiguro::priSupren);
