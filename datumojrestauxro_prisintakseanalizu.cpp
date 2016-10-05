@@ -27,7 +27,7 @@ void datumojRestauxro::priSintakseAnalizu()
    if(interkonsento.hasMatch())
    {aludo=interkonsento.captured().mid(2,interkonsento.captured().length()-3).toUtf8();
     indekso=interkonsento.capturedStart()+interkonsento.capturedLength();
-    interkonsento=QRegularExpression("x\\'([0-9A-Fa-f]{2})+\\'").match(teksto,indekso);
+    interkonsento=QRegularExpression("[xX]\\'([0-9A-Fa-f]{2})+\\'").match(teksto,indekso);
     if(interkonsento.hasMatch())
     {kodo=qUncompress(QByteArray::fromHex(interkonsento.captured().mid(2,interkonsento.captured().length()-3).toUtf8()));
      indekso=interkonsento.capturedStart()+interkonsento.capturedLength();

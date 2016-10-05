@@ -11,4 +11,5 @@ datumojRestauxro::datumojRestauxro(QWidget *gepatro):QDialog(gepatro),ui(new Ui:
  patraObjekto=(cxefaFenestro *)gepatro;
  connect(ui->abortu,&QToolButton::clicked,this,&datumojRestauxro::priAbortu);
  connect(ui->sintakseAnalizu,&QToolButton::clicked,this,&datumojRestauxro::priSintakseAnalizu);
+ connect(ui->plenumu,&QToolButton::clicked,this,&datumojRestauxro::priPlenumu);
 }

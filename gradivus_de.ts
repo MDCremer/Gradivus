@@ -199,6 +199,11 @@
         <translation>Sprachen</translation>
     </message>
     <message>
+        <location filename="datumojapogilo.ui" line="227"/>
+        <source>Rezignu</source>
+        <translation>Abbrechen</translation>
+    </message>
+    <message>
         <location filename="datumojapogilo.ui" line="164"/>
         <source>Identigiloj</source>
         <translation>Bezeichnungen</translation>
@@ -214,7 +219,6 @@
         <translation>Alle auswählen</translation>
     </message>
     <message>
-        <location filename="datumojapogilo.ui" line="227"/>
         <location filename="datumojapogilo_prieksportu.cpp" line="24"/>
         <source>Abortu</source>
         <translation>Abbrechen</translation>
@@ -333,6 +337,30 @@
         <location filename="datumojrestauxro_prisintakseanalizu.cpp" line="103"/>
         <source>Eraro [027]!</source>
         <translation>Fehler [027]!</translation>
+    </message>
+    <message>
+        <location filename="datumojrestauxro_priplenumu.cpp" line="35"/>
+        <source>Eraro [030]!</source>
+        <translation>Fehler [030]!</translation>
+    </message>
+    <message>
+        <location filename="datumojrestauxro_priplenumu.cpp" line="42"/>
+        <source>Eraro [029]!</source>
+        <translation>Fehler [029]!</translation>
+    </message>
+    <message numerus="yes">
+        <location filename="datumojrestauxro_priplenumu.cpp" line="44"/>
+        <source>%n instrukcioj procesis.</source>
+        <oldsource>%n instrukcioj procesis</oldsource>
+        <translation>
+            <numerusform>%n Anweisung verarbeitet.</numerusform>
+            <numerusform>%n Anweisungen verarbeitet.</numerusform>
+        </translation>
+    </message>
+    <message>
+        <location filename="datumojrestauxro_priplenumu.cpp" line="47"/>
+        <source>Ekzistas nenio procesi.</source>
+        <translation>Es gibt nichts auszuführen.</translation>
     </message>
 </context>
 <context>

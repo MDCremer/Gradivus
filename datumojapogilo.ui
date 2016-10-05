@@ -224,7 +224,7 @@
      <item>
       <widget class="QPushButton" name="abortu">
        <property name="text">
-        <string>Abortu</string>
+        <string>Rezignu</string>
        </property>
        <property name="default">
         <bool>true</bool>
