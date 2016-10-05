@@ -18,6 +18,7 @@ class datumojRestauxro:public QDialog
  public slots:
   void priPlenumu();
   void priReiru();
+  void priSxargi();
   void priSintakseAnalizu();
  private:
   cxefaFenestro *patraObjekto;

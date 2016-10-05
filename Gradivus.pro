@@ -32,6 +32,7 @@ SOURCES      += main.cpp\
                 datumojrestauxro_priplenumu.cpp\
                 datumojrestauxro_prireiru.cpp\
                 datumojrestauxro_prisintakseanalizu.cpp\
+                datumojrestauxro_prisxargi.cpp\
                 hipertekstopagxo_acceptnavigationrequest.cpp\
                 htmlmarkilo.cpp\
                 htmlmarkilo_highlightblock.cpp\

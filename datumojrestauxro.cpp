@@ -12,4 +12,5 @@ datumojRestauxro::datumojRestauxro(QWidget *gepatro):QDialog(gepatro),ui(new Ui:
  connect(ui->reiru,&QToolButton::clicked,this,&datumojRestauxro::priReiru);
  connect(ui->sintakseAnalizu,&QToolButton::clicked,this,&datumojRestauxro::priSintakseAnalizu);
  connect(ui->plenumu,&QToolButton::clicked,this,&datumojRestauxro::priPlenumu);
+ connect(ui->dosieroSelektu,&QPushButton::clicked,this,&datumojRestauxro::priSxargi);
 }

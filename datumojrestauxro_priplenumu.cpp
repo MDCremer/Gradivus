@@ -20,7 +20,7 @@ void datumojRestauxro::priPlenumu()
    while(dauxrigu&&!enigo.atEnd())
    {QByteArray linio=enigo.readLine().toUtf8();
     if(linio.endsWith("\n"))
-     linio.truncate(linio.length()-1);
+     linio.truncate(linio.length()-QByteArray("\n").length());
     if(!linio.isEmpty()&&!linio.startsWith("--"))
     {if(instrukcio.length()>0)
       instrukcio.append(" ");
