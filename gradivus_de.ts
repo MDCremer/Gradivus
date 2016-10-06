@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE TS>
-<TS version="2.1" language="de_DE">
+<TS version="2.0" language="de_DE">
 <context>
     <name>QObject</name>
     <message>
@@ -78,40 +78,45 @@
     </message>
     <message>
         <location filename="cxefafenestro.ui" line="199"/>
+        <source>Identigiloj</source>
+        <translation>Bezeichnungen</translation>
+    </message>
+    <message>
+        <location filename="cxefafenestro.ui" line="206"/>
         <source>Bibliografio</source>
         <translation>Bibliographie</translation>
     </message>
     <message>
-        <location filename="cxefafenestro.ui" line="246"/>
+        <location filename="cxefafenestro.ui" line="253"/>
         <source>Starto paĝo</source>
         <translation>Startseite</translation>
     </message>
     <message>
-        <location filename="cxefafenestro.ui" line="324"/>
+        <location filename="cxefafenestro.ui" line="331"/>
         <source>Page 1</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="cxefafenestro.ui" line="337"/>
+        <location filename="cxefafenestro.ui" line="344"/>
         <source>Page 2</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Milita historia vortaro</source>
-        <translation type="vanished">Militärhistorisches Wörterbuch</translation>
+        <translation>Militärhistorisches Wörterbuch</translation>
     </message>
     <message>
-        <location filename="cxefafenestro.ui" line="228"/>
+        <location filename="cxefafenestro.ui" line="235"/>
         <source>Vido</source>
         <translation>Ansicht</translation>
     </message>
     <message>
-        <location filename="cxefafenestro.ui" line="266"/>
+        <location filename="cxefafenestro.ui" line="273"/>
         <source>muta</source>
         <translation>stumm</translation>
     </message>
     <message>
-        <location filename="cxefafenestro.ui" line="288"/>
+        <location filename="cxefafenestro.ui" line="295"/>
         <source>Mapo</source>
         <translation>Karte</translation>
     </message>
@@ -448,6 +453,81 @@
     </message>
 </context>
 <context>
+    <name>identigiloj</name>
+    <message>
+        <location filename="identigiloj.ui" line="20"/>
+        <source>Identigiloj</source>
+        <translation>Bezeichnungen</translation>
+    </message>
+    <message>
+        <location filename="identigiloj.ui" line="80"/>
+        <source>Lingvo limigo:</source>
+        <translation>Spracheinschränkung:</translation>
+    </message>
+    <message>
+        <location filename="identigiloj.ui" line="127"/>
+        <source>Forigu</source>
+        <translation>Löschen</translation>
+    </message>
+    <message>
+        <location filename="identigiloj.ui" line="137"/>
+        <source>Malfaru</source>
+        <translation>Rückgängig</translation>
+    </message>
+    <message>
+        <location filename="identigiloj.ui" line="151"/>
+        <source>⏎</source>
+        <translation></translation>
+    </message>
+    <message>
+        <location filename="identigiloj.ui" line="179"/>
+        <source>Lando:</source>
+        <translation>Land:</translation>
+    </message>
+    <message>
+        <location filename="identigiloj.ui" line="189"/>
+        <source>Nomo:</source>
+        <translation>Bezeichnung:</translation>
+    </message>
+    <message>
+        <location filename="identigiloj.ui" line="199"/>
+        <source>Lingvo:</source>
+        <translation>Sprache:</translation>
+    </message>
+    <message>
+        <location filename="identigiloj.ui" line="209"/>
+        <source>Fonto:</source>
+        <translation>Quelle:</translation>
+    </message>
+    <message>
+        <location filename="identigiloj.ui" line="226"/>
+        <source>Identigilo:</source>
+        <translation>Kennung:</translation>
+    </message>
+    <message>
+        <location filename="identigiloj.ui" line="233"/>
+        <location filename="identigiloj.ui" line="257"/>
+        <location filename="identigiloj.ui" line="284"/>
+        <source>TextLabel</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="identigiloj.ui" line="245"/>
+        <source>Subskribo:</source>
+        <translation>Signatur:</translation>
+    </message>
+    <message>
+        <location filename="identigiloj.ui" line="272"/>
+        <source>Stato:</source>
+        <translation>Stand:</translation>
+    </message>
+    <message>
+        <location filename="identigiloj.cpp" line="12"/>
+        <source>neniu</source>
+        <translation>keine</translation>
+    </message>
+</context>
+<context>
     <name>konfiguro</name>
     <message>
         <location filename="konfiguro.ui" line="20"/>
@@ -544,7 +624,7 @@
     </message>
     <message>
         <source>Lasu</source>
-        <translation type="vanished">Verlassen</translation>
+        <translation>Verlassen</translation>
     </message>
     <message>
         <location filename="konfiguro.cpp" line="35"/>
@@ -554,11 +634,11 @@
     </message>
     <message>
         <source>Eraro [011]!</source>
-        <translation type="vanished">Fehler [011]!</translation>
+        <translation>Fehler [011]!</translation>
     </message>
     <message>
         <source>Eraro [010]!</source>
-        <translation type="vanished">Fehler [010]!</translation>
+        <translation>Fehler [010]!</translation>
     </message>
     <message>
         <location filename="konfiguro_prikonfirmu.cpp" line="33"/>
@@ -567,7 +647,7 @@
     </message>
     <message>
         <source>Ŝarĝoj estas stokitaj.</source>
-        <translation type="vanished">Änderungen werden gespeichert.</translation>
+        <translation>Änderungen werden gespeichert.</translation>
     </message>
     <message>
         <location filename="konfiguro_prikonfirmu.cpp" line="115"/>
@@ -577,16 +657,16 @@
     <message>
         <source>Ekzistas neniu ŝarĝo!</source>
         <oldsource>Ekzistas neniu Ŝarĝo!</oldsource>
-        <translation type="vanished">Es gibt keine Änderungen!</translation>
+        <translation>Es gibt keine Änderungen!</translation>
     </message>
     <message>
         <source>Ekzistas neniu sxangxo!</source>
-        <translation type="vanished">Änderungen sind nicht vorhanden!</translation>
+        <translation>Änderungen sind nicht vorhanden!</translation>
     </message>
     <message numerus="yes">
         <source>%n ŝarĝoj estas savitaj!</source>
         <oldsource>%1 ŝarĝoj estas savitaj!</oldsource>
-        <translation type="vanished">
+        <translation>
             <numerusform>%n Änderung wurden gespeichert!</numerusform>
             <numerusform>%n Änderungen wurden gespeichert!</numerusform>
         </translation>
@@ -594,12 +674,12 @@
     <message>
         <source>%1 u015danu011doj estas konservitaj!</source>
         <oldsource>%1 ŝanĝoj estas konservitaj!</oldsource>
-        <translation type="vanished">%1 Änderungen wurden gesichert!</translation>
+        <translation>%1 Änderungen wurden gesichert!</translation>
     </message>
     <message>
         <source>Ekzistas neniu korekto!</source>
         <oldsource>Ekzistas neniu ŝanĝo!</oldsource>
-        <translation type="vanished">Änderungen sind nicht vorhanden!</translation>
+        <translation>Änderungen sind nicht vorhanden!</translation>
     </message>
     <message>
         <location filename="konfiguro_primalfaru.cpp" line="21"/>
@@ -668,11 +748,11 @@
     </message>
     <message>
         <source>Kreu</source>
-        <translation type="vanished">Anlegen</translation>
+        <translation>Anlegen</translation>
     </message>
     <message>
         <source>Redaktu</source>
-        <translation type="vanished">Bearbeiten</translation>
+        <translation>Bearbeiten</translation>
     </message>
     <message>
         <location filename="referencoj.ui" line="99"/>
@@ -686,7 +766,7 @@
     </message>
     <message>
         <source>Abortu</source>
-        <translation type="vanished">Abbrechen</translation>
+        <translation>Abbrechen</translation>
     </message>
     <message>
         <location filename="referencoj.ui" line="123"/>
@@ -868,11 +948,11 @@
     <name>sqlMarkilo</name>
     <message>
         <source>Literaturo</source>
-        <translation type="vanished">Literaturangabe</translation>
+        <translation>Literaturangabe</translation>
     </message>
     <message>
         <source>Identigilo</source>
-        <translation type="vanished">Bezeichnung</translation>
+        <translation>Bezeichnung</translation>
     </message>
     <message>
         <location filename="sqlmarkilo_highlightblock.cpp" line="27"/>

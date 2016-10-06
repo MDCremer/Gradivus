@@ -2,5 +2,6 @@
 #include "ui_identigiloj.h"
 
 identigiloj::~identigiloj()
-{delete ui;
+{delete registrilo;
+ delete ui;
 }

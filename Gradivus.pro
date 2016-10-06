@@ -17,6 +17,7 @@ SOURCES      += main.cpp\
                 cxefafenestro_montruinformo.cpp\
                 cxefafenestro_pridatumojapogilo.cpp\
                 cxefafenestro_pridatumojrestauxro.cpp\
+                cxefafenestro_priidentigiloj.cpp\
                 cxefafenestro_prikonfiguro.cpp\
                 cxefafenestro_primuta.cpp\
                 cxefafenestro_prireferencoj.cpp\
@@ -38,6 +39,7 @@ SOURCES      += main.cpp\
                 htmlmarkilo_highlightblock.cpp\
                 identigiloj.cpp\
                 identigiloj_destrojero.cpp\
+                identigiloj_prireiru.cpp\
                 konfiguro.cpp\
                 konfiguro_destrojero.cpp\
                 konfiguro_lingvoetikedosxangxo.cpp\
