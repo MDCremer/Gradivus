@@ -475,49 +475,52 @@
         <translation>Rückgängig</translation>
     </message>
     <message>
-        <location filename="identigiloj.ui" line="151"/>
+        <location filename="identigiloj.ui" line="144"/>
+        <source>Akceptu</source>
+        <translation>Übernehmen</translation>
+    </message>
+    <message>
+        <location filename="identigiloj.ui" line="158"/>
         <source>⏎</source>
         <translation></translation>
     </message>
     <message>
-        <location filename="identigiloj.ui" line="179"/>
+        <location filename="identigiloj.ui" line="183"/>
+        <source>kontribui</source>
+        <translation>übertragen</translation>
+    </message>
+    <message>
+        <location filename="identigiloj.ui" line="198"/>
         <source>Lando:</source>
         <translation>Land:</translation>
     </message>
     <message>
-        <location filename="identigiloj.ui" line="189"/>
+        <location filename="identigiloj.ui" line="208"/>
         <source>Nomo:</source>
         <translation>Bezeichnung:</translation>
     </message>
     <message>
-        <location filename="identigiloj.ui" line="199"/>
+        <location filename="identigiloj.ui" line="218"/>
         <source>Lingvo:</source>
         <translation>Sprache:</translation>
     </message>
     <message>
-        <location filename="identigiloj.ui" line="209"/>
+        <location filename="identigiloj.ui" line="234"/>
         <source>Fonto:</source>
         <translation>Quelle:</translation>
     </message>
     <message>
-        <location filename="identigiloj.ui" line="226"/>
+        <location filename="identigiloj.ui" line="257"/>
         <source>Identigilo:</source>
         <translation>Kennung:</translation>
     </message>
     <message>
-        <location filename="identigiloj.ui" line="233"/>
-        <location filename="identigiloj.ui" line="257"/>
-        <location filename="identigiloj.ui" line="284"/>
-        <source>TextLabel</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="identigiloj.ui" line="245"/>
+        <location filename="identigiloj.ui" line="276"/>
         <source>Subskribo:</source>
         <translation>Signatur:</translation>
     </message>
     <message>
-        <location filename="identigiloj.ui" line="272"/>
+        <location filename="identigiloj.ui" line="303"/>
         <source>Stato:</source>
         <translation>Stand:</translation>
     </message>

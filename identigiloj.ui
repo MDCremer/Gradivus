@@ -138,6 +138,13 @@
             </property>
            </widget>
           </item>
+          <item>
+           <widget class="QPushButton" name="akceptu">
+            <property name="text">
+             <string>Akceptu</string>
+            </property>
+           </widget>
+          </item>
          </layout>
         </item>
        </layout>
@@ -164,6 +171,18 @@
           </size>
          </property>
         </spacer>
+       </item>
+       <item>
+        <widget class="QCheckBox" name="kontribui">
+         <property name="font">
+          <font>
+           <pointsize>9</pointsize>
+          </font>
+         </property>
+         <property name="text">
+          <string>kontribui</string>
+         </property>
+        </widget>
        </item>
       </layout>
      </item>
