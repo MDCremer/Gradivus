@@ -36,6 +36,8 @@ SOURCES      += main.cpp\
                 hipertekstopagxo_acceptnavigationrequest.cpp\
                 htmlmarkilo.cpp\
                 htmlmarkilo_highlightblock.cpp\
+                identigiloj.cpp\
+                identigiloj_destrojero.cpp\
                 konfiguro.cpp\
                 konfiguro_destrojero.cpp\
                 konfiguro_lingvoetikedosxangxo.cpp\
@@ -86,6 +88,7 @@ HEADERS      += agordoj.h\
                 datumojrestauxro.h\
                 hipertekstopagxo.h\
                 htmlmarkilo.h\
+                identigiloj.h\
                 konfiguro.h\
                 provajxo.h\
                 referencoj.h\
@@ -96,6 +99,7 @@ HEADERS      += agordoj.h\
 FORMS        += cxefafenestro.ui\
                 datumojapogilo.ui\
                 datumojrestauxro.ui\
+                identigiloj.ui\
                 konfiguro.ui\
                 provajxo.ui\
                 referencoj.ui

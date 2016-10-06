@@ -45,6 +45,7 @@ void datumojRestauxro::priSxargi()
         dauxrigu=false;
     }}}}
     datumbazo.close();
+    patraObjekto->spektakloMesagxon(tr("%n instrukcioj procesis.","",nombro));
    }
    else
     if(datumbazo.lastError().isValid())
