@@ -14,4 +14,6 @@ identigiloj::identigiloj(QWidget *gepatro):QDialog(gepatro),ui(new Ui::identigil
  {QString lingvoNomo=statikajDatumoj::lingvoNomoj[patraObjekto->administranto.akiruLingvaNombro(indekso)];
   ui->lingvoLimigo->addItem(lingvoNomo);
   ui->lingvo->addItem(lingvoNomo);
-}}
+ }
+ ui->lando->addItems(patraObjekto->landoNomoj);
+}

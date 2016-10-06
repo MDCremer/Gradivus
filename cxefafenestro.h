@@ -3,6 +3,7 @@
 
 #include <QMainWindow>
 #include <QString>
+#include <QStringList>
 #include <QWidget>
 #include "agordoj.h"
 
@@ -18,6 +19,7 @@ class cxefaFenestro:public QMainWindow
   bool konsento(QWidget *gepatro);
   void montruInformo(QString dosiero);
   void spektakloMesagxon(QString mesagxo);
+  QStringList landoNomoj;
   agordoj administranto;
  public slots:
   void priDatumojApogilo();
