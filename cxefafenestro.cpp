@@ -23,18 +23,24 @@ cxefaFenestro::cxefaFenestro(QWidget *gepatro):QMainWindow(gepatro),ui(new Ui::c
  connect(ui->startoPagxo,&QPushButton::clicked,this,&cxefaFenestro::priStartoPagxo);
  connect(ui->datumojRestauxro,&QPushButton::clicked,this,&cxefaFenestro::priDatumojRestauxro);
  connect(ui->identigiloj,&QPushButton::clicked,this,&cxefaFenestro::priIdentigiloj);
- landoNomoj=QStringList()<<tr("AD - Andoro")<<tr("AE - Unui\304\235intaj Arabaj Emirlandoj")<<tr("AF - Afganujo")
-   <<tr("AG - Antigvo kaj Barbudo")<<tr("AI - Angvilo")<<tr("AL - Albanujo")<<tr("AM - Armenujo")<<tr("AO - Angolo")
-   <<tr("AR - Argentino")<<tr("AS - Amerika Samoo")<<tr("AT - A\305\255strujo")<<tr("AU - A\305\255stralio")
-   <<tr("AW - Arubo")<<tr("AZ - Azerbaj\304\235ano")<<tr("BA - Bosnio kaj Hercegovino")<<tr("BB - Barbado")
-   <<tr("BD - Banglade\305\235o")<<tr("BE - Belgujo")<<tr("BF - Burkino")<<tr("BG - Bulgarujo")<<tr("BH - Bareijno")
-   <<tr("BI - Burundo")<<tr("BJ - Benino")<<tr("BL - Sankta Bartolomeo")<<tr("BM - Bermudo")<<tr("BN - Brunejo")
-   <<tr("BO - Bolivio")<<tr("BQ - BES Insuloj")<<tr("BR - Brazilo")<<tr("BS - Bahamoj")<<tr("BT - Butano")
-   <<tr("BW - Bocvano")<<tr("BY - Belorusujo")<<tr("BZ - Belizo") <<tr("CA - Kanado")
-   <<tr("CD - Demokratia Respubliko de Kongo")<<tr("CF - Centafrika Respubliko")<<tr("CG - Kongo")<<tr("CH - Svisujo")
-   <<tr("CI - Eburbordo")<<tr("CK - Insuloj Cook")<<tr("CL - \304\210ilio")<<tr("CM - Kameruno")<<tr("CN - \304\210inujo")
-   <<tr("CO - Kolombio")<<tr("CR - Kostariko")<<tr("CU - Kubo")<<tr("CV - Kabo Verdo")<<tr("CW - Kuracao")
-   <<tr("CX - Kristnaskinsulo")<<tr("CY - Kipro")<<tr("CZ - \304\210e\304\245ujo");
+ etnoNomoj=QStringList()
+   <<tr("AT: a\305\255stroj")
+   <<tr("BE: belgoj")
+   <<tr("BG: bulgaroj")
+   <<tr("CA: kanadanoj")
+   <<tr("CH: svisoj")
+   <<tr("DE: germanoj")
+   <<tr("ES: hispanoj")
+   <<tr("FR: francoj")
+   <<tr("GB: britoj")
+   <<tr("GR: grekoj")
+   <<tr("IT: italoj")
+   <<tr("JP: japanoj")
+   <<tr("RO: rumanuoj")
+   <<tr("RU: rusoj")
+   <<tr("SE: svedoj")
+   <<tr("TR: turkoj")
+   <<tr("US: usonanoj");
  administranto.sxargu();
  montruInformo("bonvenon");
 }

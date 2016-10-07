@@ -19,7 +19,7 @@ class cxefaFenestro:public QMainWindow
   bool konsento(QWidget *gepatro);
   void montruInformo(QString dosiero);
   void spektakloMesagxon(QString mesagxo);
-  QStringList landoNomoj;
+  QStringList etnoNomoj;
   agordoj administranto;
  public slots:
   void priDatumojApogilo();

@@ -15,5 +15,5 @@ identigiloj::identigiloj(QWidget *gepatro):QDialog(gepatro),ui(new Ui::identigil
   ui->lingvoLimigo->addItem(lingvoNomo);
   ui->lingvo->addItem(lingvoNomo);
  }
- ui->lando->addItems(patraObjekto->landoNomoj);
+ ui->etno->addItems(patraObjekto->etnoNomoj);
 }

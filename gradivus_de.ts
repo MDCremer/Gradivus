@@ -28,18 +28,6 @@
         <source>Eraro [010]!</source>
         <translation>Fehler [010]!</translation>
     </message>
-    <message>
-        <source>AN - Andoro</source>
-        <translation>AN - Andorra</translation>
-    </message>
-    <message>
-        <source>AE - Unuiĝintaj Arabaj Emirlandoj</source>
-        <translation>AE Vereinigte Arabische Emirate</translation>
-    </message>
-    <message>
-        <source>AR - Argentino</source>
-        <translation>AR - Argentinien</translation>
-    </message>
 </context>
 <context>
     <name>cxefaFenestro</name>
@@ -114,10 +102,6 @@
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>Milita historia vortaro</source>
-        <translation>Militärhistorisches Wörterbuch</translation>
-    </message>
-    <message>
         <location filename="cxefafenestro.ui" line="235"/>
         <source>Vido</source>
         <translation>Ansicht</translation>
@@ -173,264 +157,89 @@
         <translation>ist es besser, auf eine Übertragung der Daten zu verzichten.</translation>
     </message>
     <message>
-        <location filename="cxefafenestro.cpp" line="26"/>
-        <source>AD - Andoro</source>
-        <translation>AD - Andorra</translation>
-    </message>
-    <message>
-        <location filename="cxefafenestro.cpp" line="26"/>
-        <source>AE - Unuiĝintaj Arabaj Emirlandoj</source>
-        <translation>AE - Vereinigte Arabische Emirate</translation>
-    </message>
-    <message>
-        <location filename="cxefafenestro.cpp" line="26"/>
-        <source>AF - Afganujo</source>
-        <translation>AF - Afghanistan</translation>
-    </message>
-    <message>
         <location filename="cxefafenestro.cpp" line="27"/>
-        <source>AG - Antigvo kaj Barbudo</source>
-        <translation>AG - Antigua und Barbuda</translation>
-    </message>
-    <message>
-        <location filename="cxefafenestro.cpp" line="27"/>
-        <source>AI - Angvilo</source>
-        <translation>AI - Anguilla</translation>
-    </message>
-    <message>
-        <location filename="cxefafenestro.cpp" line="27"/>
-        <source>AL - Albanujo</source>
-        <translation>AL - Albanien</translation>
-    </message>
-    <message>
-        <location filename="cxefafenestro.cpp" line="27"/>
-        <source>AM - Armenujo</source>
-        <translation>AM - Armenien</translation>
-    </message>
-    <message>
-        <location filename="cxefafenestro.cpp" line="27"/>
-        <source>AO - Angolo</source>
-        <translation>AO - Angola</translation>
+        <source>AT: aŭstroj</source>
+        <translation>AT: Österreicher</translation>
     </message>
     <message>
         <location filename="cxefafenestro.cpp" line="28"/>
-        <source>AR - Argentino</source>
-        <translation>AR - Argentinien</translation>
-    </message>
-    <message>
-        <location filename="cxefafenestro.cpp" line="28"/>
-        <source>AS - Amerika Samoo</source>
-        <translation>AS - Amerikanisch Samoa</translation>
-    </message>
-    <message>
-        <location filename="cxefafenestro.cpp" line="28"/>
-        <source>AT - Aŭstrujo</source>
-        <translation>AT - Österreich</translation>
-    </message>
-    <message>
-        <location filename="cxefafenestro.cpp" line="28"/>
-        <source>AU - Aŭstralio</source>
-        <translation>AU - Australien</translation>
+        <source>BE: belgoj</source>
+        <translation>BE: Belgier</translation>
     </message>
     <message>
         <location filename="cxefafenestro.cpp" line="29"/>
-        <source>AZ - Azerbajĝano</source>
-        <translation>AZ - Aserbaidschan</translation>
-    </message>
-    <message>
-        <location filename="cxefafenestro.cpp" line="29"/>
-        <source>BA - Bosnio kaj Hercegovino</source>
-        <translation>BA - Bosnien und Herzegowina</translation>
+        <source>BG: bulgaroj</source>
+        <translation>BG: Bulgaren</translation>
     </message>
     <message>
         <location filename="cxefafenestro.cpp" line="30"/>
-        <source>BE - Belgujo</source>
-        <translation>BE - Belgien</translation>
-    </message>
-    <message>
-        <location filename="cxefafenestro.cpp" line="30"/>
-        <source>BF - Burkino</source>
-        <translation>BF - Burkina Faso</translation>
-    </message>
-    <message>
-        <location filename="cxefafenestro.cpp" line="30"/>
-        <source>BG - Bulgarujo</source>
-        <translation>BG - Bulgarien</translation>
-    </message>
-    <message>
-        <location filename="cxefafenestro.cpp" line="30"/>
-        <source>BH - Bareijno</source>
-        <translation>BH - Bahrain</translation>
+        <source>CA: kanadanoj</source>
+        <translation>CA: Kanadier</translation>
     </message>
     <message>
         <location filename="cxefafenestro.cpp" line="31"/>
-        <source>BI - Burundo</source>
-        <translation>BI - Burundi</translation>
-    </message>
-    <message>
-        <location filename="cxefafenestro.cpp" line="31"/>
-        <source>BJ - Benino</source>
-        <translation>BJ - Benin</translation>
-    </message>
-    <message>
-        <location filename="cxefafenestro.cpp" line="31"/>
-        <source>BL - Sankta Bartolomeo</source>
-        <translation>BL - St. Barthélemy</translation>
-    </message>
-    <message>
-        <location filename="cxefafenestro.cpp" line="31"/>
-        <source>BM - Bermudo</source>
-        <translation>BM - Bermuda</translation>
-    </message>
-    <message>
-        <location filename="cxefafenestro.cpp" line="31"/>
-        <source>BN - Brunejo</source>
-        <translation>BN - Brunei Darussalam</translation>
+        <source>CH: svisoj</source>
+        <translation>CH: Schweizer</translation>
     </message>
     <message>
         <location filename="cxefafenestro.cpp" line="32"/>
-        <source>BO - Bolivio</source>
-        <translation>BO - Bolivien</translation>
-    </message>
-    <message>
-        <location filename="cxefafenestro.cpp" line="32"/>
-        <source>BQ - BES Insuloj</source>
-        <translation>BQ - BES-Inseln</translation>
-    </message>
-    <message>
-        <location filename="cxefafenestro.cpp" line="32"/>
-        <source>BR - Brazilo</source>
-        <translation>BR - Brasilien</translation>
-    </message>
-    <message>
-        <location filename="cxefafenestro.cpp" line="32"/>
-        <source>BS - Bahamoj</source>
-        <translation>BS - Bahamas</translation>
-    </message>
-    <message>
-        <location filename="cxefafenestro.cpp" line="32"/>
-        <source>BT - Butano</source>
-        <translation>BT - Bhutan</translation>
+        <source>DE: germanoj</source>
+        <translation>DE: Deutsche</translation>
     </message>
     <message>
         <location filename="cxefafenestro.cpp" line="33"/>
-        <source>BW - Bocvano</source>
-        <translation>BW - Botswana</translation>
-    </message>
-    <message>
-        <location filename="cxefafenestro.cpp" line="33"/>
-        <source>BY - Belorusujo</source>
-        <translation>BY - Weißrußland</translation>
-    </message>
-    <message>
-        <location filename="cxefafenestro.cpp" line="33"/>
-        <source>BZ - Belizo</source>
-        <translation>BZ - Belize</translation>
-    </message>
-    <message>
-        <location filename="cxefafenestro.cpp" line="33"/>
-        <source>CA - Kanado</source>
-        <translation>CA - Kanada</translation>
+        <source>ES: hispanoj</source>
+        <translation>ES: Spanier</translation>
     </message>
     <message>
         <location filename="cxefafenestro.cpp" line="34"/>
-        <source>CD - Demokratia Respubliko de Kongo</source>
-        <translation>CD - Demokratische Republik Kongo</translation>
-    </message>
-    <message>
-        <location filename="cxefafenestro.cpp" line="34"/>
-        <source>CF - Centafrika Respubliko</source>
-        <translation>CF - Zentralafrikanische Republik</translation>
-    </message>
-    <message>
-        <location filename="cxefafenestro.cpp" line="34"/>
-        <source>CG - Kongo</source>
-        <translation></translation>
-    </message>
-    <message>
-        <location filename="cxefafenestro.cpp" line="34"/>
-        <source>CH - Svisujo</source>
-        <translation>CH - Schweiz</translation>
+        <source>FR: francoj</source>
+        <translation>FR: Franzosen</translation>
     </message>
     <message>
         <location filename="cxefafenestro.cpp" line="35"/>
-        <source>CI - Eburbordo</source>
-        <translation>CI - Elfenbeinküste</translation>
+        <source>GB: britoj</source>
+        <translation>GB: Briten</translation>
     </message>
     <message>
         <location filename="cxefafenestro.cpp" line="36"/>
-        <source>CK - Insuloj Cook</source>
-        <translation>CK - Cookinseln</translation>
+        <source>GR: grekoj</source>
+        <translation>GR: Griechen</translation>
     </message>
     <message>
         <location filename="cxefafenestro.cpp" line="37"/>
-        <source>CL - Ĉilio</source>
-        <translation>CL - Chile</translation>
+        <source>IT: italoj</source>
+        <translation>IT: Italiener</translation>
     </message>
     <message>
         <location filename="cxefafenestro.cpp" line="38"/>
-        <source>CM - Kameruno</source>
-        <translation>CM - Kamerun</translation>
+        <source>JP: japanoj</source>
+        <translation>JP: Japaner</translation>
     </message>
     <message>
         <location filename="cxefafenestro.cpp" line="39"/>
-        <source>CN - Ĉinujo</source>
-        <translation>CN - China</translation>
+        <source>RO: rumanuoj</source>
+        <translation>RO: Rumänen</translation>
     </message>
     <message>
         <location filename="cxefafenestro.cpp" line="40"/>
-        <source>CO - Kolombio</source>
-        <translation>CO - Kolumbien</translation>
+        <source>RU: rusoj</source>
+        <translation>RU: Russen</translation>
     </message>
     <message>
         <location filename="cxefafenestro.cpp" line="41"/>
-        <source>CR - Kostariko</source>
-        <translation>CR - Costa Rica</translation>
+        <source>SE: svedoj</source>
+        <translation>SE: Schweden</translation>
     </message>
     <message>
         <location filename="cxefafenestro.cpp" line="42"/>
-        <source>CU - Kubo</source>
-        <translation>CU - Kuba</translation>
+        <source>TR: turkoj</source>
+        <translation>TR: Türken</translation>
     </message>
     <message>
         <location filename="cxefafenestro.cpp" line="43"/>
-        <source>CV - Kabo Verdo</source>
-        <translation>CV - Kap Verde</translation>
-    </message>
-    <message>
-        <location filename="cxefafenestro.cpp" line="44"/>
-        <source>CW - Kuracao</source>
-        <translation>CW - Curaçao</translation>
-    </message>
-    <message>
-        <location filename="cxefafenestro.cpp" line="45"/>
-        <source>CX - Kristnaskinsulo</source>
-        <translation>CX - Weihnachtsinsel</translation>
-    </message>
-    <message>
-        <location filename="cxefafenestro.cpp" line="46"/>
-        <source>CY - Kipro</source>
-        <translation>CY - Zypern</translation>
-    </message>
-    <message>
-        <location filename="cxefafenestro.cpp" line="47"/>
-        <source>CZ - Ĉeĥujo</source>
-        <translation>CZ - Tschechien</translation>
-    </message>
-    <message>
-        <location filename="cxefafenestro.cpp" line="29"/>
-        <source>AW - Arubo</source>
-        <translation>AW - Aruba</translation>
-    </message>
-    <message>
-        <location filename="cxefafenestro.cpp" line="29"/>
-        <source>BB - Barbado</source>
-        <translation>BA - Barbados</translation>
-    </message>
-    <message>
-        <location filename="cxefafenestro.cpp" line="30"/>
-        <source>BD - Bangladeŝo</source>
-        <translation>BD - Bangladesch</translation>
+        <source>US: usonanoj</source>
+        <translation>US: US-Amerikaner</translation>
     </message>
 </context>
 <context>
@@ -538,7 +347,6 @@
     <message>
         <location filename="datumojapogilo_prieksportu.cpp" line="66"/>
         <source>Eraro [009]!</source>
-        <oldsource>Eraro [009]</oldsource>
         <translation>Fehler [009]!</translation>
     </message>
     <message>
@@ -629,7 +437,6 @@
         <location filename="datumojrestauxro_priplenumu.cpp" line="44"/>
         <location filename="datumojrestauxro_prisxargi.cpp" line="48"/>
         <source>%n instrukcioj procesis.</source>
-        <oldsource>%n instrukcioj procesis</oldsource>
         <translation>
             <numerusform>%n Anweisung verarbeitet.</numerusform>
             <numerusform>%n Anweisungen verarbeitet.</numerusform>
@@ -763,8 +570,8 @@
     </message>
     <message>
         <location filename="identigiloj.ui" line="198"/>
-        <source>Lando:</source>
-        <translation>Land:</translation>
+        <source>Etno:</source>
+        <translation>Ethnie:</translation>
     </message>
     <message>
         <location filename="identigiloj.ui" line="208"/>
@@ -898,31 +705,14 @@
         <translation>Bestätigen</translation>
     </message>
     <message>
-        <source>Lasu</source>
-        <translation>Verlassen</translation>
-    </message>
-    <message>
         <location filename="konfiguro.cpp" line="35"/>
         <source>Loka specifo</source>
-        <oldsource>lokaĵaro</oldsource>
         <translation>Lokale Vorgabe</translation>
-    </message>
-    <message>
-        <source>Eraro [011]!</source>
-        <translation>Fehler [011]!</translation>
-    </message>
-    <message>
-        <source>Eraro [010]!</source>
-        <translation>Fehler [010]!</translation>
     </message>
     <message>
         <location filename="konfiguro_prikonfirmu.cpp" line="33"/>
         <source>Stokado</source>
         <translation>Speicherung</translation>
-    </message>
-    <message>
-        <source>Ŝarĝoj estas stokitaj.</source>
-        <translation>Änderungen werden gespeichert.</translation>
     </message>
     <message>
         <location filename="konfiguro_prikonfirmu.cpp" line="115"/>
@@ -933,10 +723,6 @@
         <source>Ekzistas neniu ŝarĝo!</source>
         <oldsource>Ekzistas neniu Ŝarĝo!</oldsource>
         <translation>Es gibt keine Änderungen!</translation>
-    </message>
-    <message>
-        <source>Ekzistas neniu sxangxo!</source>
-        <translation>Änderungen sind nicht vorhanden!</translation>
     </message>
     <message numerus="yes">
         <source>%n ŝarĝoj estas savitaj!</source>
@@ -952,11 +738,6 @@
         <translation>%1 Änderungen wurden gesichert!</translation>
     </message>
     <message>
-        <source>Ekzistas neniu korekto!</source>
-        <oldsource>Ekzistas neniu ŝanĝo!</oldsource>
-        <translation>Änderungen sind nicht vorhanden!</translation>
-    </message>
-    <message>
         <location filename="konfiguro_primalfaru.cpp" line="21"/>
         <source>Ŝanĝoj malfaritaj!</source>
         <translation>Änderungen rückgängig gemacht!</translation>
@@ -967,7 +748,6 @@
     <message>
         <location filename="provajxo.ui" line="20"/>
         <source>Datumoj provaĵo</source>
-        <oldsource>Datumoj provao</oldsource>
         <translation>Datenprobe</translation>
     </message>
     <message>
@@ -1022,14 +802,6 @@
         <translation>Bibliographie</translation>
     </message>
     <message>
-        <source>Kreu</source>
-        <translation>Anlegen</translation>
-    </message>
-    <message>
-        <source>Redaktu</source>
-        <translation>Bearbeiten</translation>
-    </message>
-    <message>
         <location filename="referencoj.ui" line="99"/>
         <source>Forigu</source>
         <translation>Löschen</translation>
@@ -1038,10 +810,6 @@
         <location filename="referencoj.ui" line="109"/>
         <source>Malfaru</source>
         <translation>Rückgängig</translation>
-    </message>
-    <message>
-        <source>Abortu</source>
-        <translation>Abbrechen</translation>
     </message>
     <message>
         <location filename="referencoj.ui" line="123"/>
@@ -1221,14 +989,6 @@
 </context>
 <context>
     <name>sqlMarkilo</name>
-    <message>
-        <source>Literaturo</source>
-        <translation>Literaturangabe</translation>
-    </message>
-    <message>
-        <source>Identigilo</source>
-        <translation>Bezeichnung</translation>
-    </message>
     <message>
         <location filename="sqlmarkilo_highlightblock.cpp" line="27"/>
         <source>nekonata</source>
