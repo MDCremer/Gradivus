@@ -100,7 +100,7 @@ void datumojApogilo::priEksportu()
     if(pli&&ui->identigiloj->isChecked())
     {patraObjekto->spektakloMesagxon(tr("Eksporti identigilojn \342\200\246"));
      eldono<<"-- Identigiloj\nBEGIN;\n";
-     QByteArray ordono("SELECT etno,nomo,lingvo,citajxo,QUOTE(referenco),uuid,subskribo,stato FROM identigiloj");
+     QByteArray ordono("SELECT etno,nomo,lingvo,tipo,citajxo,QUOTE(referenco),uuid,subskribo,stato FROM identigiloj");
      if(ui->subskribo->isChecked())
       ordono.append(" WHERE subskribon LIKE '%"+ui->subskriboInkluzivi->text().replace("'","''")+"%'");
      if(ui->nova->isChecked())
@@ -111,7 +111,7 @@ void datumojApogilo::priEksportu()
      ordono.append(";");
      if(informpeto.exec(ordono))
      {while(pli&&informpeto.next())
-      {eldono<<"INSERT OR REPLACE INTO identigilo (etno,nomo,lingvo,";
+      {eldono<<"INSERT OR REPLACE INTO identigilo (etno,nomo,lingvo,tipo,";
        if(!informpeto.value("citajxo").isNull())
         eldono<<"citajxo,";
        if(!informpeto.value("QUOTE(referenco)").isNull())
@@ -122,15 +122,19 @@ void datumojApogilo::priEksportu()
        eldono<<informpeto.value("nomo").toByteArray().replace("'","''");
        eldono<<"','";
        eldono<<informpeto.value("lingvo").toByteArray();
-       eldono<<"','";
+       eldono<<"',";
+       eldono<<informpeto.value("tipo").toByteArray();
+       eldono<<",";
        if(!informpeto.value("citajxo").isNull())
-       {eldono<<informpeto.value("citajxo").toByteArray().replace("'","''");
+       {eldono<<"'";
+        eldono<<informpeto.value("citajxo").toByteArray().replace("'","''");
         eldono<<"',";
        }
        if(!informpeto.value("referenco").isNull())
        {eldono<<informpeto.value("QUOTE(referenco)").toByteArray();
-        eldono<<",'";
+        eldono<<",";
        }
+       eldono<<"'";
        eldono<<informpeto.value("uuid").toByteArray();
        eldono<<"','";
        eldono<<informpeto.value("subskribo").toByteArray();

@@ -2,6 +2,7 @@ CREATE TABLE IF NOT EXISTS identigiloj
 (etno CHAR(2) NOT NULL,
  nomo TEXT NOT NULL,
  lingvo CHAR(2) NOT NULL,
+ tipo INTEGER NOT NULL,
  citajxo TEXT,
  referenco BLOB,
  uuid TEXT NOT NULL,

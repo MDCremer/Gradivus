@@ -90,6 +90,57 @@
             </property>
            </widget>
           </item>
+          <item row="1" column="0">
+           <widget class="QLabel" name="label_8">
+            <property name="font">
+             <font>
+              <pointsize>9</pointsize>
+             </font>
+            </property>
+            <property name="text">
+             <string>Limigi tipoj:</string>
+            </property>
+           </widget>
+          </item>
+          <item row="1" column="1">
+           <widget class="QComboBox" name="limigiTipoj">
+            <property name="font">
+             <font>
+              <pointsize>9</pointsize>
+             </font>
+            </property>
+            <item>
+             <property name="text">
+              <string>neniu</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string>sen komisio kodoj</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string>ankaŭ sen kaj alnomoj</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string>ankaŭ sen fabrikanta identigiloj</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string>ankaŭ sen ŝparvojoj</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string>ankaŭ sen parte ŝparvojoj</string>
+             </property>
+            </item>
+           </widget>
+          </item>
          </layout>
         </item>
         <item>
@@ -222,7 +273,7 @@
        <item row="2" column="1">
         <widget class="QComboBox" name="lingvo"/>
        </item>
-       <item row="3" column="0">
+       <item row="4" column="0">
         <widget class="QToolButton" name="toolButton">
          <property name="sizePolicy">
           <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
@@ -235,7 +286,7 @@
          </property>
         </widget>
        </item>
-       <item row="3" column="1">
+       <item row="4" column="1">
         <widget class="QWebEngineView" name="widget" native="true">
          <property name="sizePolicy">
           <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
@@ -245,7 +296,7 @@
          </property>
         </widget>
        </item>
-       <item row="4" column="0">
+       <item row="5" column="0">
         <widget class="QToolButton" name="identigilo">
          <property name="sizePolicy">
           <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
@@ -254,18 +305,18 @@
           </sizepolicy>
          </property>
          <property name="text">
-          <string>Identigilo:</string>
+          <string>Objekto kodo:</string>
          </property>
         </widget>
        </item>
-       <item row="4" column="1">
-        <widget class="QLabel" name="id">
+       <item row="5" column="1">
+        <widget class="QLabel" name="objektoKodo">
          <property name="text">
           <string/>
          </property>
         </widget>
        </item>
-       <item row="5" column="0">
+       <item row="6" column="0">
         <widget class="QLabel" name="label_5">
          <property name="font">
           <font>
@@ -277,7 +328,7 @@
          </property>
         </widget>
        </item>
-       <item row="5" column="1">
+       <item row="6" column="1">
         <widget class="QLabel" name="subskribo">
          <property name="font">
           <font>
@@ -292,7 +343,7 @@
          </property>
         </widget>
        </item>
-       <item row="6" column="0">
+       <item row="7" column="0">
         <widget class="QLabel" name="label_6">
          <property name="font">
           <font>
@@ -304,7 +355,7 @@
          </property>
         </widget>
        </item>
-       <item row="6" column="1">
+       <item row="7" column="1">
         <widget class="QLabel" name="stato">
          <property name="font">
           <font>
@@ -314,6 +365,50 @@
          <property name="text">
           <string/>
          </property>
+        </widget>
+       </item>
+       <item row="3" column="0">
+        <widget class="QLabel" name="label_7">
+         <property name="text">
+          <string>Tipo:</string>
+         </property>
+        </widget>
+       </item>
+       <item row="3" column="1">
+        <widget class="QComboBox" name="tipo">
+         <property name="currentText">
+          <string>Milita identigilo</string>
+         </property>
+         <item>
+          <property name="text">
+           <string>Milita identigilo</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>Parte ŝparvojo</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>Ŝparvojo</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>Fabrikanta identigilo</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>Alnomo</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>Komisio kodo</string>
+          </property>
+         </item>
         </widget>
        </item>
       </layout>

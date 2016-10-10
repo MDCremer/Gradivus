@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE TS>
-<TS version="2.1" language="de_DE">
+<TS version="2.0" language="de_DE">
 <context>
     <name>QObject</name>
     <message>
@@ -309,7 +309,7 @@
     <message>
         <location filename="cxefafenestro.cpp" line="33"/>
         <source>CF: centrafrikanoj</source>
-        <translation type="unfinished"></translation>
+        <translation>CF: Zentralafrikaner</translation>
     </message>
     <message>
         <location filename="cxefafenestro.cpp" line="33"/>
@@ -364,7 +364,7 @@
     <message>
         <location filename="cxefafenestro.cpp" line="35"/>
         <source>CY: kipranoj</source>
-        <translation type="unfinished"></translation>
+        <translation>CY: Zyprer</translation>
     </message>
     <message>
         <location filename="cxefafenestro.cpp" line="36"/>
@@ -389,7 +389,7 @@
     <message>
         <location filename="cxefafenestro.cpp" line="36"/>
         <source>CZ: ĉeĥoj</source>
-        <translation type="unfinished"></translation>
+        <translation>CZ: Tschechen</translation>
     </message>
     <message>
         <location filename="cxefafenestro.cpp" line="37"/>
@@ -534,7 +534,7 @@
     <message>
         <location filename="cxefafenestro.cpp" line="42"/>
         <source>HU: hungaroj</source>
-        <translation type="unfinished"></translation>
+        <translation>HU: Ungarn</translation>
     </message>
     <message>
         <location filename="cxefafenestro.cpp" line="42"/>
@@ -624,8 +624,7 @@
     <message>
         <location filename="cxefafenestro.cpp" line="46"/>
         <source>KP: nord-koreanoj</source>
-        <oldsource>KP: anoj de Nord-Koreio</oldsource>
-        <translation type="unfinished">KP: Bewohner Nordkoreas</translation>
+        <translation>KP: Nordkoreaner</translation>
     </message>
     <message>
         <location filename="cxefafenestro.cpp" line="46"/>
@@ -635,7 +634,7 @@
     <message>
         <location filename="cxefafenestro.cpp" line="46"/>
         <source>KU: kurdoj</source>
-        <translation type="unfinished"></translation>
+        <translation>KU: Kurden</translation>
     </message>
     <message>
         <location filename="cxefafenestro.cpp" line="47"/>
@@ -710,7 +709,6 @@
     <message>
         <location filename="cxefafenestro.cpp" line="50"/>
         <source>MC: monakanoj</source>
-        <oldsource>MC: meksikanoj</oldsource>
         <translation>MC: Monegassen</translation>
     </message>
     <message>
@@ -816,7 +814,7 @@
     <message>
         <location filename="cxefafenestro.cpp" line="54"/>
         <source>NI: nikeragvanoj</source>
-        <translation type="unfinished"></translation>
+        <translation>NL: Niederländer</translation>
     </message>
     <message>
         <location filename="cxefafenestro.cpp" line="54"/>
@@ -826,7 +824,7 @@
     <message>
         <location filename="cxefafenestro.cpp" line="55"/>
         <source>NO: norvegoj</source>
-        <translation type="unfinished"></translation>
+        <translation>NO: Norweger</translation>
     </message>
     <message>
         <location filename="cxefafenestro.cpp" line="55"/>
@@ -856,7 +854,7 @@
     <message>
         <location filename="cxefafenestro.cpp" line="56"/>
         <source>PE: peruanoj</source>
-        <translation type="unfinished"></translation>
+        <translation>PE: Peruaner</translation>
     </message>
     <message>
         <location filename="cxefafenestro.cpp" line="56"/>
@@ -866,27 +864,27 @@
     <message>
         <location filename="cxefafenestro.cpp" line="56"/>
         <source>PK: pakistananoj</source>
-        <translation type="unfinished"></translation>
+        <translation>PK: Pakistaner</translation>
     </message>
     <message>
         <location filename="cxefafenestro.cpp" line="56"/>
         <source>PL: poloj</source>
-        <translation type="unfinished"></translation>
+        <translation>PL: Polen</translation>
     </message>
     <message>
         <location filename="cxefafenestro.cpp" line="57"/>
         <source>PR: portorikanoj</source>
-        <translation type="unfinished"></translation>
+        <translation>PR: Portoricaner</translation>
     </message>
     <message>
         <location filename="cxefafenestro.cpp" line="57"/>
         <source>PS: palestinanoj</source>
-        <translation type="unfinished"></translation>
+        <translation>PS: Palästinenser</translation>
     </message>
     <message>
         <location filename="cxefafenestro.cpp" line="57"/>
         <source>PT: portugaloj</source>
-        <translation type="unfinished"></translation>
+        <translation>PT: Portugiesen</translation>
     </message>
     <message>
         <location filename="cxefafenestro.cpp" line="57"/>
@@ -911,7 +909,7 @@
     <message>
         <location filename="cxefafenestro.cpp" line="58"/>
         <source>RS: serboj</source>
-        <translation type="unfinished"></translation>
+        <translation>RS: Serben</translation>
     </message>
     <message>
         <location filename="cxefafenestro.cpp" line="58"/>
@@ -921,7 +919,7 @@
     <message>
         <location filename="cxefafenestro.cpp" line="58"/>
         <source>RW: ruandanoj</source>
-        <translation type="unfinished"></translation>
+        <translation>RW: Ruander</translation>
     </message>
     <message>
         <location filename="cxefafenestro.cpp" line="59"/>
@@ -936,7 +934,7 @@
     <message>
         <location filename="cxefafenestro.cpp" line="59"/>
         <source>SD: sudananoj</source>
-        <translation type="unfinished"></translation>
+        <translation>SD: Sudanesen</translation>
     </message>
     <message>
         <location filename="cxefafenestro.cpp" line="59"/>
@@ -951,12 +949,12 @@
     <message>
         <location filename="cxefafenestro.cpp" line="60"/>
         <source>SK: slovakoj</source>
-        <translation type="unfinished"></translation>
+        <translation>SK: Slowaken</translation>
     </message>
     <message>
         <location filename="cxefafenestro.cpp" line="60"/>
         <source>SI: slovenoj</source>
-        <translation type="unfinished"></translation>
+        <translation>SI: Slovenen</translation>
     </message>
     <message>
         <location filename="cxefafenestro.cpp" line="60"/>
@@ -966,7 +964,7 @@
     <message>
         <location filename="cxefafenestro.cpp" line="60"/>
         <source>SN: senegaleanoj</source>
-        <translation type="unfinished"></translation>
+        <translation>SN: Senegalesen</translation>
     </message>
     <message>
         <location filename="cxefafenestro.cpp" line="60"/>
@@ -996,7 +994,7 @@
     <message>
         <location filename="cxefafenestro.cpp" line="61"/>
         <source>SY: sirianoj</source>
-        <translation type="unfinished"></translation>
+        <translation>SY: Syrer</translation>
     </message>
     <message>
         <location filename="cxefafenestro.cpp" line="62"/>
@@ -1006,12 +1004,7 @@
     <message>
         <location filename="cxefafenestro.cpp" line="62"/>
         <source>TB: tibetanoj</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="cxefafenestro.cpp" line="62"/>
-        <source>TD: ĉADANOJ</source>
-        <translation type="unfinished"></translation>
+        <translation>TB: Tibeter</translation>
     </message>
     <message>
         <location filename="cxefafenestro.cpp" line="62"/>
@@ -1021,6 +1014,11 @@
     <message>
         <location filename="cxefafenestro.cpp" line="62"/>
         <source>TH: tajoj</source>
+        <translation>TH: Tailänder</translation>
+    </message>
+    <message>
+        <location filename="cxefafenestro.cpp" line="62"/>
+        <source>TD: ĉadanoj</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -1035,13 +1033,13 @@
     </message>
     <message>
         <location filename="cxefafenestro.cpp" line="63"/>
-        <source>TM: turmenistananoj</source>
-        <translation type="unfinished"></translation>
+        <source>TN: tunizianoj</source>
+        <translation>TN: Tunesier</translation>
     </message>
     <message>
         <location filename="cxefafenestro.cpp" line="63"/>
-        <source>TN: tunizianoj</source>
-        <translation type="unfinished"></translation>
+        <source>TM: turkmenoj</source>
+        <translation>TM: Turkmenen</translation>
     </message>
     <message>
         <location filename="cxefafenestro.cpp" line="64"/>
@@ -1066,7 +1064,7 @@
     <message>
         <location filename="cxefafenestro.cpp" line="64"/>
         <source>TW: tajvananoj</source>
-        <translation type="unfinished"></translation>
+        <translation>TW: Taiwanesen</translation>
     </message>
     <message>
         <location filename="cxefafenestro.cpp" line="65"/>
@@ -1076,12 +1074,12 @@
     <message>
         <location filename="cxefafenestro.cpp" line="65"/>
         <source>UA: ukrajnanoj</source>
-        <translation type="unfinished"></translation>
+        <translation>UA: Ukrainer</translation>
     </message>
     <message>
         <location filename="cxefafenestro.cpp" line="65"/>
         <source>UG: ugandanoj</source>
-        <translation type="unfinished"></translation>
+        <translation>UG: Ugander</translation>
     </message>
     <message>
         <location filename="cxefafenestro.cpp" line="65"/>
@@ -1096,7 +1094,7 @@
     <message>
         <location filename="cxefafenestro.cpp" line="66"/>
         <source>UZ: uzbekistananoj</source>
-        <translation type="unfinished"></translation>
+        <translation>UZ: Usbeken</translation>
     </message>
     <message>
         <location filename="cxefafenestro.cpp" line="66"/>
@@ -1111,12 +1109,12 @@
     <message>
         <location filename="cxefafenestro.cpp" line="66"/>
         <source>VE: venezuelanoj</source>
-        <translation type="unfinished"></translation>
+        <translation>VE: Venezuelaner</translation>
     </message>
     <message>
         <location filename="cxefafenestro.cpp" line="67"/>
         <source>VN: vjetnamoj</source>
-        <translation type="unfinished"></translation>
+        <translation>VN: Vietnamesen</translation>
     </message>
     <message>
         <location filename="cxefafenestro.cpp" line="67"/>
@@ -1126,7 +1124,7 @@
     <message>
         <location filename="cxefafenestro.cpp" line="67"/>
         <source>WS: samoanoj</source>
-        <translation type="unfinished"></translation>
+        <translation>WS: Samoaner</translation>
     </message>
     <message>
         <location filename="cxefafenestro.cpp" line="67"/>
@@ -1136,7 +1134,7 @@
     <message>
         <location filename="cxefafenestro.cpp" line="67"/>
         <source>ZA: sud-afrikanoj</source>
-        <translation type="unfinished"></translation>
+        <translation>ZA: Südafrikaner</translation>
     </message>
     <message>
         <location filename="cxefafenestro.cpp" line="68"/>
@@ -1451,66 +1449,141 @@
         <translation>Spracheinschränkung:</translation>
     </message>
     <message>
-        <location filename="identigiloj.ui" line="127"/>
+        <location filename="identigiloj.ui" line="101"/>
+        <source>Limigi tipoj:</source>
+        <translation>Typeinschränkung:</translation>
+    </message>
+    <message>
+        <location filename="identigiloj.ui" line="119"/>
+        <source>sen komisio kodoj</source>
+        <translation>ohne Bestellkodes</translation>
+    </message>
+    <message>
+        <location filename="identigiloj.ui" line="124"/>
+        <source>ankaŭ sen kaj alnomoj</source>
+        <translation>auch ohne Spitznamen</translation>
+    </message>
+    <message>
+        <location filename="identigiloj.ui" line="129"/>
+        <source>ankaŭ sen fabrikanta identigiloj</source>
+        <translation>auch ohne Herstellerbezeichnunen</translation>
+    </message>
+    <message>
+        <location filename="identigiloj.ui" line="134"/>
+        <source>ankaŭ sen ŝparvojoj</source>
+        <translation>auch ohne Abkürzungen</translation>
+    </message>
+    <message>
+        <location filename="identigiloj.ui" line="139"/>
+        <source>ankaŭ sen parte ŝparvojoj</source>
+        <translation>auch ohne teilweise Abkürzungen</translation>
+    </message>
+    <message>
+        <location filename="identigiloj.ui" line="178"/>
         <source>Forigu</source>
         <translation>Löschen</translation>
     </message>
     <message>
-        <location filename="identigiloj.ui" line="137"/>
+        <location filename="identigiloj.ui" line="188"/>
         <source>Malfaru</source>
         <translation>Rückgängig</translation>
     </message>
     <message>
-        <location filename="identigiloj.ui" line="144"/>
+        <location filename="identigiloj.ui" line="195"/>
         <source>Akceptu</source>
         <translation>Übernehmen</translation>
     </message>
     <message>
-        <location filename="identigiloj.ui" line="158"/>
+        <location filename="identigiloj.ui" line="209"/>
         <source>⏎</source>
         <translation></translation>
     </message>
     <message>
-        <location filename="identigiloj.ui" line="183"/>
+        <location filename="identigiloj.ui" line="234"/>
         <source>kontribui</source>
         <translation>übertragen</translation>
     </message>
     <message>
-        <location filename="identigiloj.ui" line="198"/>
+        <location filename="identigiloj.ui" line="249"/>
         <source>Etno:</source>
         <translation>Ethnie:</translation>
     </message>
     <message>
-        <location filename="identigiloj.ui" line="208"/>
+        <location filename="identigiloj.ui" line="259"/>
         <source>Nomo:</source>
         <translation>Bezeichnung:</translation>
     </message>
     <message>
-        <location filename="identigiloj.ui" line="218"/>
+        <location filename="identigiloj.ui" line="269"/>
         <source>Lingvo:</source>
         <translation>Sprache:</translation>
     </message>
     <message>
-        <location filename="identigiloj.ui" line="234"/>
+        <location filename="identigiloj.ui" line="285"/>
         <source>Fonto:</source>
         <translation>Quelle:</translation>
     </message>
     <message>
-        <location filename="identigiloj.ui" line="257"/>
-        <source>Identigilo:</source>
+        <location filename="identigiloj.ui" line="308"/>
+        <source>Objekto kodo:</source>
         <translation>Kennung:</translation>
     </message>
     <message>
-        <location filename="identigiloj.ui" line="276"/>
+        <location filename="identigiloj.ui" line="373"/>
+        <source>Tipo:</source>
+        <translation>Typ:</translation>
+    </message>
+    <message>
+        <location filename="identigiloj.ui" line="389"/>
+        <source>Parte ŝparvojo</source>
+        <translation>Teilweise Abkürzung</translation>
+    </message>
+    <message>
+        <source>Speco:</source>
+        <translation>Art:</translation>
+    </message>
+    <message>
+        <location filename="identigiloj.ui" line="380"/>
+        <location filename="identigiloj.ui" line="384"/>
+        <source>Milita identigilo</source>
+        <translation>Militärische Bezeichnung</translation>
+    </message>
+    <message>
+        <source>Parte ŝparvolo</source>
+        <translation>Teilweise Abkürzung</translation>
+    </message>
+    <message>
+        <location filename="identigiloj.ui" line="394"/>
+        <source>Ŝparvojo</source>
+        <translation>Abkürzung</translation>
+    </message>
+    <message>
+        <location filename="identigiloj.ui" line="399"/>
+        <source>Fabrikanta identigilo</source>
+        <translation>Herstellerbezeichnung</translation>
+    </message>
+    <message>
+        <location filename="identigiloj.ui" line="404"/>
+        <source>Alnomo</source>
+        <translation>Spitzname</translation>
+    </message>
+    <message>
+        <location filename="identigiloj.ui" line="409"/>
+        <source>Komisio kodo</source>
+        <translation>Bestellkode</translation>
+    </message>
+    <message>
+        <location filename="identigiloj.ui" line="327"/>
         <source>Subskribo:</source>
         <translation>Signatur:</translation>
     </message>
     <message>
-        <location filename="identigiloj.ui" line="303"/>
+        <location filename="identigiloj.ui" line="354"/>
         <source>Stato:</source>
         <translation>Stand:</translation>
     </message>
     <message>
+        <location filename="identigiloj.ui" line="114"/>
         <location filename="identigiloj.cpp" line="12"/>
         <source>neniu</source>
         <translation>keine</translation>
@@ -1625,24 +1698,6 @@
         <location filename="konfiguro_prikonfirmu.cpp" line="115"/>
         <source>Eraro [016]!</source>
         <translation>Fehler [016]!</translation>
-    </message>
-    <message>
-        <source>Ekzistas neniu ŝarĝo!</source>
-        <oldsource>Ekzistas neniu Ŝarĝo!</oldsource>
-        <translation type="vanished">Es gibt keine Änderungen!</translation>
-    </message>
-    <message numerus="yes">
-        <source>%n ŝarĝoj estas savitaj!</source>
-        <oldsource>%1 ŝarĝoj estas savitaj!</oldsource>
-        <translation type="vanished">
-            <numerusform>%n Änderung wurden gespeichert!</numerusform>
-            <numerusform>%n Änderungen wurden gespeichert!</numerusform>
-        </translation>
-    </message>
-    <message>
-        <source>%1 u015danu011doj estas konservitaj!</source>
-        <oldsource>%1 ŝanĝoj estas konservitaj!</oldsource>
-        <translation type="vanished">%1 Änderungen wurden gesichert!</translation>
     </message>
     <message>
         <location filename="konfiguro_primalfaru.cpp" line="21"/>
