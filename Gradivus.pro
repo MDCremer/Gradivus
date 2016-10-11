@@ -39,6 +39,8 @@ SOURCES      += main.cpp\
                 htmlmarkilo_highlightblock.cpp\
                 identigiloj.cpp\
                 identigiloj_destrojero.cpp\
+                identigiloj_prifonto.cpp\
+                identigiloj_priobjektokodo.cpp\
                 identigiloj_prireiru.cpp\
                 konfiguro.cpp\
                 konfiguro_destrojero.cpp\
@@ -50,6 +52,8 @@ SOURCES      += main.cpp\
                 konfiguro_prireiru.cpp\
                 konfiguro_prisupren.cpp\
                 konfiguro_prisupro.cpp\
+                pagxoreferenco.cpp\
+                pagxoreferenco_destrojero.cpp\
                 provajxo.cpp\
                 provajxo_destrojero.cpp\
                 provajxo_prireiru.cpp\
@@ -92,6 +96,7 @@ HEADERS      += agordoj.h\
                 htmlmarkilo.h\
                 identigiloj.h\
                 konfiguro.h\
+                pagxoreferenco.h\
                 provajxo.h\
                 referencoj.h\
                 rikordoregistrilo.h\
@@ -103,6 +108,7 @@ FORMS        += cxefafenestro.ui\
                 datumojrestauxro.ui\
                 identigiloj.ui\
                 konfiguro.ui\
+                pagxoreferenco.ui\
                 provajxo.ui\
                 referencoj.ui
 

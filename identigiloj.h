@@ -15,6 +15,8 @@ class identigiloj:public QDialog
   explicit identigiloj(QWidget *gepatro=0);
   ~identigiloj();
  public slots:
+  void priFonto();
+  void priObjektoKodo();
   void priReiru();
  private:
   cxefaFenestro *patraObjekto;

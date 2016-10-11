@@ -274,7 +274,7 @@
         <widget class="QComboBox" name="lingvo"/>
        </item>
        <item row="4" column="0">
-        <widget class="QToolButton" name="toolButton">
+        <widget class="QToolButton" name="fonto">
          <property name="sizePolicy">
           <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
            <horstretch>0</horstretch>
@@ -311,6 +311,11 @@
        </item>
        <item row="5" column="1">
         <widget class="QLabel" name="objektoKodo">
+         <property name="font">
+          <font>
+           <italic>true</italic>
+          </font>
+         </property>
          <property name="text">
           <string/>
          </property>
