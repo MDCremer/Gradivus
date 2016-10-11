@@ -207,7 +207,7 @@
               </font>
              </property>
              <property name="text">
-              <string>&lt;cite&gt;</string>
+              <string notr="true">&lt;cite&gt;</string>
              </property>
             </widget>
            </item>
@@ -226,7 +226,7 @@
               </font>
              </property>
              <property name="text">
-              <string>&lt;strong&gt;</string>
+              <string notr="true">&lt;strong&gt;</string>
              </property>
             </widget>
            </item>
@@ -245,7 +245,7 @@
               </font>
              </property>
              <property name="text">
-              <string>&lt;b&gt;</string>
+              <string notr="true">&lt;b&gt;</string>
              </property>
             </widget>
            </item>
@@ -264,7 +264,7 @@
               </font>
              </property>
              <property name="text">
-              <string>&lt;i&gt;</string>
+              <string notr="true">&lt;i&gt;</string>
              </property>
             </widget>
            </item>
@@ -283,7 +283,7 @@
               </font>
              </property>
              <property name="text">
-              <string>&lt;u&gt;</string>
+              <string notr="true">&lt;u&gt;</string>
              </property>
             </widget>
            </item>
@@ -302,7 +302,7 @@
               </font>
              </property>
              <property name="text">
-              <string>&lt;sup&gt;</string>
+              <string notr="true">&lt;sup&gt;</string>
              </property>
             </widget>
            </item>
@@ -321,7 +321,7 @@
               </font>
              </property>
              <property name="text">
-              <string>&lt;sub&gt;</string>
+              <string notr="true">&lt;sub&gt;</string>
              </property>
             </widget>
            </item>
@@ -353,7 +353,7 @@
               </font>
              </property>
              <property name="text">
-              <string>&lt;a&gt;</string>
+              <string notr="true">&lt;a&gt;</string>
              </property>
             </widget>
            </item>
@@ -385,7 +385,7 @@
               </font>
              </property>
              <property name="text">
-              <string>&lt;small&gt;</string>
+              <string notr="true">&lt;small&gt;</string>
              </property>
             </widget>
            </item>

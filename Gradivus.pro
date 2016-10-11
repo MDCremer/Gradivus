@@ -54,7 +54,10 @@ SOURCES      += main.cpp\
                 konfiguro_prisupro.cpp\
                 pagxoreferenco.cpp\
                 pagxoreferenco_destrojero.cpp\
+                pagxoreferenco_agordiliteraturo.cpp\
+                pagxoreferenco_pagxosalto.cpp\
                 pagxoreferenco_prirezignu.cpp\
+                pagxoreferenco_privakigu.cpp\
                 provajxo.cpp\
                 provajxo_destrojero.cpp\
                 provajxo_prireiru.cpp\

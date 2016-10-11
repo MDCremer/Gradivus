@@ -46,7 +46,7 @@
         </sizepolicy>
        </property>
        <property name="title">
-        <string>Referenzo</string>
+        <string>Referenco</string>
        </property>
        <property name="checkable">
         <bool>true</bool>
@@ -124,7 +124,7 @@
     </layout>
    </item>
    <item>
-    <widget class="QTabWidget" name="tabWidget">
+    <widget class="QTabWidget" name="pagxoj">
      <property name="tabPosition">
       <enum>QTabWidget::South</enum>
      </property>
@@ -137,13 +137,13 @@
       </attribute>
       <layout class="QHBoxLayout" name="horizontalLayout_4">
        <property name="leftMargin">
-        <number>6</number>
+        <number>0</number>
        </property>
        <property name="topMargin">
-        <number>6</number>
+        <number>0</number>
        </property>
        <property name="rightMargin">
-        <number>6</number>
+        <number>0</number>
        </property>
        <property name="bottomMargin">
         <number>6</number>
@@ -165,7 +165,7 @@
             </font>
            </property>
            <property name="text">
-            <string>&lt;cite&gt;</string>
+            <string notr="true">&lt;cite&gt;</string>
            </property>
           </widget>
          </item>
@@ -184,7 +184,7 @@
             </font>
            </property>
            <property name="text">
-            <string>&lt;strong&gt;</string>
+            <string notr="true">&lt;strong&gt;</string>
            </property>
           </widget>
          </item>
@@ -203,7 +203,7 @@
             </font>
            </property>
            <property name="text">
-            <string>&lt;b&gt;</string>
+            <string notr="true">&lt;b&gt;</string>
            </property>
           </widget>
          </item>
@@ -222,7 +222,7 @@
             </font>
            </property>
            <property name="text">
-            <string>&lt;i&gt;</string>
+            <string notr="true">&lt;i&gt;</string>
            </property>
           </widget>
          </item>
@@ -241,7 +241,7 @@
             </font>
            </property>
            <property name="text">
-            <string>&lt;u&gt;</string>
+            <string notr="true">&lt;u&gt;</string>
            </property>
           </widget>
          </item>
@@ -260,7 +260,7 @@
             </font>
            </property>
            <property name="text">
-            <string>&lt;sup&gt;</string>
+            <string notr="true">&lt;sup&gt;</string>
            </property>
           </widget>
          </item>
@@ -279,7 +279,7 @@
             </font>
            </property>
            <property name="text">
-            <string>&lt;sub&gt;</string>
+            <string notr="true">&lt;sub&gt;</string>
            </property>
           </widget>
          </item>
@@ -311,7 +311,7 @@
             </font>
            </property>
            <property name="text">
-            <string>&lt;a&gt;</string>
+            <string notr="true">&lt;a&gt;</string>
            </property>
           </widget>
          </item>
@@ -343,7 +343,7 @@
             </font>
            </property>
            <property name="text">
-            <string>&lt;small&gt;</string>
+            <string notr="true">&lt;small&gt;</string>
            </property>
           </widget>
          </item>
@@ -386,16 +386,16 @@
       </attribute>
       <layout class="QVBoxLayout" name="verticalLayout_2">
        <property name="leftMargin">
-        <number>6</number>
+        <number>0</number>
        </property>
        <property name="topMargin">
-        <number>6</number>
+        <number>0</number>
        </property>
        <property name="rightMargin">
-        <number>6</number>
+        <number>0</number>
        </property>
        <property name="bottomMargin">
-        <number>6</number>
+        <number>0</number>
        </property>
        <item>
         <widget class="QWebEngineView" name="spektaklo" native="true">

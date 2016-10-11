@@ -4,6 +4,8 @@
 #include <QSqlDatabase>
 #include <QSqlError>
 #include <QSqlQuery>
+#include <QTabWidget>
+#include <QToolButton>
 #include "pagxoreferenco.h"
 #include "ui_pagxoreferenco.h"
 #include "cxefafenestro.h"
@@ -16,6 +18,10 @@ pagxoReferenco::pagxoReferenco(QWidget *gepatro,cxefaFenestro *avo):QDialog(gepa
  markilo=new htmlMarkilo(ui->redakto->document());
  avaObjekto=avo;
  connect(ui->rezignu,&QPushButton::clicked,this,&pagxoReferenco::priRezignu);
+ connect(ui->vakigu,&QToolButton::clicked,this,&pagxoReferenco::priVakigu);
+ connect(ui->pagxoj,&QTabWidget::currentChanged,this,&pagxoReferenco::pagxosalto);
+ for(int indekso=0;indekso<9;++indekso)
+  enigojAktivigita[indekso]=false;
  QSqlDatabase datumbazo=QSqlDatabase::database();
  if(datumbazo.open())
  {QSqlQuery informpeto;

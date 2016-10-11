@@ -1539,18 +1539,10 @@
         <translation>Teilweise Abkürzung</translation>
     </message>
     <message>
-        <source>Speco:</source>
-        <translation>Art:</translation>
-    </message>
-    <message>
         <location filename="identigiloj.ui" line="385"/>
         <location filename="identigiloj.ui" line="389"/>
         <source>Milita identigilo</source>
         <translation>Militärische Bezeichnung</translation>
-    </message>
-    <message>
-        <source>Parte ŝparvolo</source>
-        <translation>Teilweise Abkürzung</translation>
     </message>
     <message>
         <location filename="identigiloj.ui" line="399"/>
@@ -1714,7 +1706,8 @@
     </message>
     <message>
         <location filename="pagxoreferenco.ui" line="49"/>
-        <source>Referenzo</source>
+        <source>Referenco</source>
+        <oldsource>Referenzo</oldsource>
         <translation>Literaturangabe</translation>
     </message>
     <message>
@@ -1726,51 +1719,6 @@
         <location filename="pagxoreferenco.ui" line="136"/>
         <source>Redakti</source>
         <translation>Bearbeiten</translation>
-    </message>
-    <message>
-        <location filename="pagxoreferenco.ui" line="168"/>
-        <source>&lt;cite&gt;</source>
-        <translation></translation>
-    </message>
-    <message>
-        <location filename="pagxoreferenco.ui" line="187"/>
-        <source>&lt;strong&gt;</source>
-        <translation></translation>
-    </message>
-    <message>
-        <location filename="pagxoreferenco.ui" line="206"/>
-        <source>&lt;b&gt;</source>
-        <translation></translation>
-    </message>
-    <message>
-        <location filename="pagxoreferenco.ui" line="225"/>
-        <source>&lt;i&gt;</source>
-        <translation></translation>
-    </message>
-    <message>
-        <location filename="pagxoreferenco.ui" line="244"/>
-        <source>&lt;u&gt;</source>
-        <translation></translation>
-    </message>
-    <message>
-        <location filename="pagxoreferenco.ui" line="263"/>
-        <source>&lt;sup&gt;</source>
-        <translation></translation>
-    </message>
-    <message>
-        <location filename="pagxoreferenco.ui" line="282"/>
-        <source>&lt;sub&gt;</source>
-        <translation></translation>
-    </message>
-    <message>
-        <location filename="pagxoreferenco.ui" line="314"/>
-        <source>&lt;a&gt;</source>
-        <translation></translation>
-    </message>
-    <message>
-        <location filename="pagxoreferenco.ui" line="346"/>
-        <source>&lt;small&gt;</source>
-        <translation></translation>
     </message>
     <message>
         <location filename="pagxoreferenco.ui" line="372"/>
@@ -1786,6 +1734,26 @@
         <location filename="pagxoreferenco.ui" line="428"/>
         <source>Apliku</source>
         <translation>Übernehmen</translation>
+    </message>
+    <message>
+        <location filename="pagxoreferenco.cpp" line="34"/>
+        <source>Eraro [034]!</source>
+        <translation>Fehler [034]!</translation>
+    </message>
+    <message>
+        <location filename="pagxoreferenco.cpp" line="39"/>
+        <source>Eraro [033]!</source>
+        <translation>Fehler [033]!</translation>
+    </message>
+    <message>
+        <location filename="pagxoreferenco_pagxosalto.cpp" line="33"/>
+        <source>Eraro [036]!</source>
+        <translation>Fehler [036]!</translation>
+    </message>
+    <message>
+        <location filename="pagxoreferenco_pagxosalto.cpp" line="38"/>
+        <source>Eraro [035]!</source>
+        <translation>Fehler [035]!</translation>
     </message>
 </context>
 <context>
@@ -1870,51 +1838,6 @@
         <location filename="referencoj.ui" line="178"/>
         <source>Redakti</source>
         <translation>Bearbeiten</translation>
-    </message>
-    <message>
-        <location filename="referencoj.ui" line="210"/>
-        <source>&lt;cite&gt;</source>
-        <translation></translation>
-    </message>
-    <message>
-        <location filename="referencoj.ui" line="229"/>
-        <source>&lt;strong&gt;</source>
-        <translation></translation>
-    </message>
-    <message>
-        <location filename="referencoj.ui" line="248"/>
-        <source>&lt;b&gt;</source>
-        <translation></translation>
-    </message>
-    <message>
-        <location filename="referencoj.ui" line="267"/>
-        <source>&lt;i&gt;</source>
-        <translation></translation>
-    </message>
-    <message>
-        <location filename="referencoj.ui" line="286"/>
-        <source>&lt;u&gt;</source>
-        <translation></translation>
-    </message>
-    <message>
-        <location filename="referencoj.ui" line="305"/>
-        <source>&lt;sup&gt;</source>
-        <translation></translation>
-    </message>
-    <message>
-        <location filename="referencoj.ui" line="324"/>
-        <source>&lt;sub&gt;</source>
-        <translation></translation>
-    </message>
-    <message>
-        <location filename="referencoj.ui" line="356"/>
-        <source>&lt;a&gt;</source>
-        <translation></translation>
-    </message>
-    <message>
-        <location filename="referencoj.ui" line="388"/>
-        <source>&lt;small&gt;</source>
-        <translation></translation>
     </message>
     <message>
         <location filename="referencoj.ui" line="414"/>
