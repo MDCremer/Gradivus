@@ -844,7 +844,7 @@
     <message>
         <location filename="cxefafenestro.cpp" line="55"/>
         <source>OM: omananoj</source>
-        <translation type="unfinished"></translation>
+        <translation>OM: Omaner</translation>
     </message>
     <message>
         <location filename="cxefafenestro.cpp" line="56"/>
@@ -979,7 +979,7 @@
     <message>
         <location filename="cxefafenestro.cpp" line="61"/>
         <source>SS: sud-sudananoj</source>
-        <translation type="unfinished"></translation>
+        <translation>SS: Südsudaner</translation>
     </message>
     <message>
         <location filename="cxefafenestro.cpp" line="61"/>
@@ -1089,7 +1089,7 @@
     <message>
         <location filename="cxefafenestro.cpp" line="65"/>
         <source>UY: urugvajanoj</source>
-        <translation type="unfinished"></translation>
+        <translation>UY: Uruguayer</translation>
     </message>
     <message>
         <location filename="cxefafenestro.cpp" line="66"/>
@@ -1266,17 +1266,17 @@
     </message>
     <message>
         <location filename="datumojapogilo_prieksportu.cpp" line="97"/>
-        <location filename="datumojapogilo_prieksportu.cpp" line="145"/>
+        <location filename="datumojapogilo_prieksportu.cpp" line="149"/>
         <source>Eraro [017]!</source>
         <translation>Fehler [017]!</translation>
     </message>
     <message>
-        <location filename="datumojapogilo_prieksportu.cpp" line="149"/>
+        <location filename="datumojapogilo_prieksportu.cpp" line="153"/>
         <source>Eksportitaj %1 registroj!</source>
         <translation>%1 Datensätze wurden gesichert!</translation>
     </message>
     <message>
-        <location filename="datumojapogilo_prieksportu.cpp" line="153"/>
+        <location filename="datumojapogilo_prieksportu.cpp" line="157"/>
         <source>Eraro [007]!</source>
         <translation>Fehler [007]!</translation>
     </message>
@@ -1529,12 +1529,12 @@
         <translation>Kennung:</translation>
     </message>
     <message>
-        <location filename="identigiloj.ui" line="373"/>
+        <location filename="identigiloj.ui" line="378"/>
         <source>Tipo:</source>
         <translation>Typ:</translation>
     </message>
     <message>
-        <location filename="identigiloj.ui" line="389"/>
+        <location filename="identigiloj.ui" line="394"/>
         <source>Parte ŝparvojo</source>
         <translation>Teilweise Abkürzung</translation>
     </message>
@@ -1543,8 +1543,8 @@
         <translation>Art:</translation>
     </message>
     <message>
-        <location filename="identigiloj.ui" line="380"/>
-        <location filename="identigiloj.ui" line="384"/>
+        <location filename="identigiloj.ui" line="385"/>
+        <location filename="identigiloj.ui" line="389"/>
         <source>Milita identigilo</source>
         <translation>Militärische Bezeichnung</translation>
     </message>
@@ -1553,38 +1553,38 @@
         <translation>Teilweise Abkürzung</translation>
     </message>
     <message>
-        <location filename="identigiloj.ui" line="394"/>
+        <location filename="identigiloj.ui" line="399"/>
         <source>Ŝparvojo</source>
         <translation>Abkürzung</translation>
     </message>
     <message>
-        <location filename="identigiloj.ui" line="399"/>
+        <location filename="identigiloj.ui" line="404"/>
         <source>Fabrikanta identigilo</source>
         <translation>Herstellerbezeichnung</translation>
     </message>
     <message>
-        <location filename="identigiloj.ui" line="404"/>
+        <location filename="identigiloj.ui" line="409"/>
         <source>Alnomo</source>
         <translation>Spitzname</translation>
     </message>
     <message>
-        <location filename="identigiloj.ui" line="409"/>
+        <location filename="identigiloj.ui" line="414"/>
         <source>Komisio kodo</source>
         <translation>Bestellkode</translation>
     </message>
     <message>
-        <location filename="identigiloj.ui" line="327"/>
+        <location filename="identigiloj.ui" line="332"/>
         <source>Subskribo:</source>
         <translation>Signatur:</translation>
     </message>
     <message>
-        <location filename="identigiloj.ui" line="354"/>
+        <location filename="identigiloj.ui" line="359"/>
         <source>Stato:</source>
         <translation>Stand:</translation>
     </message>
     <message>
         <location filename="identigiloj.ui" line="114"/>
-        <location filename="identigiloj.cpp" line="12"/>
+        <location filename="identigiloj.cpp" line="17"/>
         <source>neniu</source>
         <translation>keine</translation>
     </message>
@@ -1703,6 +1703,89 @@
         <location filename="konfiguro_primalfaru.cpp" line="21"/>
         <source>Ŝanĝoj malfaritaj!</source>
         <translation>Änderungen rückgängig gemacht!</translation>
+    </message>
+</context>
+<context>
+    <name>pagxoReferenco</name>
+    <message>
+        <location filename="pagxoreferenco.ui" line="20"/>
+        <source>Eniri referenco</source>
+        <translation>Referenzeingabe</translation>
+    </message>
+    <message>
+        <location filename="pagxoreferenco.ui" line="49"/>
+        <source>Referenzo</source>
+        <translation>Literaturangabe</translation>
+    </message>
+    <message>
+        <location filename="pagxoreferenco.ui" line="99"/>
+        <source>Rezignu</source>
+        <translation>Abbrechen</translation>
+    </message>
+    <message>
+        <location filename="pagxoreferenco.ui" line="136"/>
+        <source>Redakti</source>
+        <translation>Bearbeiten</translation>
+    </message>
+    <message>
+        <location filename="pagxoreferenco.ui" line="168"/>
+        <source>&lt;cite&gt;</source>
+        <translation></translation>
+    </message>
+    <message>
+        <location filename="pagxoreferenco.ui" line="187"/>
+        <source>&lt;strong&gt;</source>
+        <translation></translation>
+    </message>
+    <message>
+        <location filename="pagxoreferenco.ui" line="206"/>
+        <source>&lt;b&gt;</source>
+        <translation></translation>
+    </message>
+    <message>
+        <location filename="pagxoreferenco.ui" line="225"/>
+        <source>&lt;i&gt;</source>
+        <translation></translation>
+    </message>
+    <message>
+        <location filename="pagxoreferenco.ui" line="244"/>
+        <source>&lt;u&gt;</source>
+        <translation></translation>
+    </message>
+    <message>
+        <location filename="pagxoreferenco.ui" line="263"/>
+        <source>&lt;sup&gt;</source>
+        <translation></translation>
+    </message>
+    <message>
+        <location filename="pagxoreferenco.ui" line="282"/>
+        <source>&lt;sub&gt;</source>
+        <translation></translation>
+    </message>
+    <message>
+        <location filename="pagxoreferenco.ui" line="314"/>
+        <source>&lt;a&gt;</source>
+        <translation></translation>
+    </message>
+    <message>
+        <location filename="pagxoreferenco.ui" line="346"/>
+        <source>&lt;small&gt;</source>
+        <translation></translation>
+    </message>
+    <message>
+        <location filename="pagxoreferenco.ui" line="372"/>
+        <source>Vakigu</source>
+        <translation>Leeren</translation>
+    </message>
+    <message>
+        <location filename="pagxoreferenco.ui" line="385"/>
+        <source>Vidi</source>
+        <translation>Anzeigen</translation>
+    </message>
+    <message>
+        <location filename="pagxoreferenco.ui" line="428"/>
+        <source>Apliku</source>
+        <translation>Übernehmen</translation>
     </message>
 </context>
 <context>

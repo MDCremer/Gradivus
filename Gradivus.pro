@@ -54,6 +54,7 @@ SOURCES      += main.cpp\
                 konfiguro_prisupro.cpp\
                 pagxoreferenco.cpp\
                 pagxoreferenco_destrojero.cpp\
+                pagxoreferenco_prirezignu.cpp\
                 provajxo.cpp\
                 provajxo_destrojero.cpp\
                 provajxo_prireiru.cpp\

@@ -2,7 +2,7 @@
 #include "pagxoreferenco.h"
 
 void identigiloj::priFonto()
-{pagxoReferenco referenco;
+{pagxoReferenco referenco(this,patraObjekto);
  if(referenco.exec())
  {
 }}

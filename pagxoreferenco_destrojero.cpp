@@ -3,4 +3,5 @@
 
 pagxoReferenco::~pagxoReferenco()
 {delete ui;
+ delete markilo;
 }
