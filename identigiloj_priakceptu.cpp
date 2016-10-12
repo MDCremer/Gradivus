@@ -21,8 +21,8 @@ void identigiloj::priAkceptu()
     qlonglong malnovaStato;
     int malnovaTipo;
     if(informpeto.exec("SELECT tipo,literaturo,pagxo,uuid,subskribo,stato FROM identigiloj WHERE etno='"+
-      ui->etno->currentText()+"' AND nomo='"+ui->nomo->text().simplified().replace("'","''")+"' AND lingvo='"+
-      ui->lingvo->currentText()+"';"))
+      ui->etno->currentText().left(2)+"' AND nomo='"+ui->nomo->text().simplified().replace("'","''")+"' AND lingvo='"+
+      ui->lingvo->currentText().left(2)+"';"))
     {if(informpeto.first())
      {havebla=true;
       malnovaTipo=informpeto.value("tipo").toInt();
@@ -46,7 +46,36 @@ void identigiloj::priAkceptu()
      }
      else
      {if(ui->kontribui->isChecked()&&malnovaSubskribo.contains(":"+patraObjekto->administranto.akiruValoro(AGORDO_NOMO)+":"))
-      {
+      {kontribuo.append("INSERT OR REPLACE INTO identigiloj (etno,nomo,lingvo,tipo,literaturo,pagxo,uuid,subskribo,stato) VALUES ('");
+       kontribuo.append(ui->etno->currentText().left(2).toUtf8());
+       kontribuo.append("','");
+       kontribuo.append(ui->nomo->text().simplified().replace("'","''").toUtf8());
+       kontribuo.append("','");
+       kontribuo.append(ui->lingvo->currentText().left(2).toUtf8());
+       kontribuo.append("',");
+       kontribuo.append(QString::number(ui->tipo->currentIndex()).toUtf8());
+       kontribuo.append(",");
+       if(literaturo.isEmpty())
+        kontribuo.append("NULL,");
+       else
+       {kontribuo.append("'");
+        kontribuo.append(literaturo.replace("'","''").toUtf8());
+        kontribuo.append("',");
+       }
+       if(pagxo.isEmpty())
+        kontribuo.append("NULL,");
+       else
+       {kontribuo.append("x'");
+        kontribuo.append(qCompress(pagxo.toUtf8()).toHex());
+        kontribuo.append("',");
+       }
+       kontribuo.append("'");
+       kontribuo.append(ui->objektoKodo->text().toUtf8());
+       kontribuo.append("','");
+       kontribuo.append(malnovaSubskribo.replace("'","''"));
+       kontribuo.append("',");
+       kontribuo.append(QString::number(malnovaStato).toUtf8());
+       kontribuo.append(");");
       }
       else
        patraObjekto->spektakloMesagxon(tr("Neniuj \305\235an\304\235oj estis malkovritaj, kiu devus esti stokita!"));
