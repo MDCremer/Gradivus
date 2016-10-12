@@ -2,6 +2,8 @@
 #define IDENTIGILOJ_H
 
 #include <QDialog>
+#include <QString>
+#include <QWidget>
 #include "cxefafenestro.h"
 #include "rikordoregistrilo.h"
 
@@ -12,16 +14,22 @@ namespace Ui
 class identigiloj:public QDialog
 {Q_OBJECT
  public:
-  explicit identigiloj(QWidget *gepatro=0);
+  explicit identigiloj(QWidget *gepatro);
   ~identigiloj();
  public slots:
+  void priAkceptu();
   void priFonto();
+  void priKodoSxangxo(QString kodo);
+  void priKontribui(bool kontrolita);
   void priObjektoKodo();
   void priReiru();
+  void priVakigu();
  private:
   cxefaFenestro *patraObjekto;
   Ui::identigiloj *ui;
   rikordoRegistrilo *registrilo;
+  QString literaturo;
+  QString pagxo;
 };
 
 #endif // IDENTIGILOJ_H

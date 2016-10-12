@@ -20,6 +20,7 @@ pagxoReferenco::pagxoReferenco(QWidget *gepatro,cxefaFenestro *avo):QDialog(gepa
  connect(ui->rezignu,&QPushButton::clicked,this,&pagxoReferenco::priRezignu);
  connect(ui->vakigu,&QToolButton::clicked,this,&pagxoReferenco::priVakigu);
  connect(ui->pagxoj,&QTabWidget::currentChanged,this,&pagxoReferenco::pagxosalto);
+ connect(ui->apliku,&QPushButton::clicked,this,&pagxoReferenco::priApliku);
  for(int indekso=0;indekso<9;++indekso)
   enigojAktivigita[indekso]=false;
  QSqlDatabase datumbazo=QSqlDatabase::database();

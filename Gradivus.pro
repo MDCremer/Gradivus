@@ -39,9 +39,13 @@ SOURCES      += main.cpp\
                 htmlmarkilo_highlightblock.cpp\
                 identigiloj.cpp\
                 identigiloj_destrojero.cpp\
+                identigiloj_priakceptu.cpp\
                 identigiloj_prifonto.cpp\
+                identigiloj_prikodosxangxo.cpp\
+                identigiloj_prikontribui.cpp\
                 identigiloj_priobjektokodo.cpp\
                 identigiloj_prireiru.cpp\
+                identigiloj_privakigu.cpp\
                 konfiguro.cpp\
                 konfiguro_destrojero.cpp\
                 konfiguro_lingvoetikedosxangxo.cpp\
@@ -56,6 +60,7 @@ SOURCES      += main.cpp\
                 pagxoreferenco_destrojero.cpp\
                 pagxoreferenco_agordiliteraturo.cpp\
                 pagxoreferenco_pagxosalto.cpp\
+                pagxoreferenco_priapliku.cpp\
                 pagxoreferenco_prirezignu.cpp\
                 pagxoreferenco_privakigu.cpp\
                 provajxo.cpp\

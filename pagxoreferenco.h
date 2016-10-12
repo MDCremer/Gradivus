@@ -35,6 +35,7 @@ class pagxoReferenco:public QDialog
   QString akiruPagxo() {return pagxo;}
  public slots:
   void pagxosalto(int indekso);
+  void priApliku();
   void priRezignu();
   void priVakigu();
  private:
