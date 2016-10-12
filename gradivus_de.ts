@@ -1146,6 +1146,11 @@
         <source>ZW: zimbabvanoj</source>
         <translation type="unfinished"></translation>
     </message>
+    <message>
+        <location filename="cxefafenestro_kompletigitarespondo.cpp" line="8"/>
+        <source>Reto eraro: </source>
+        <translation>Netzwerkfehler: </translation>
+    </message>
 </context>
 <context>
     <name>datumojApogilo</name>
@@ -1266,9 +1271,13 @@
     </message>
     <message>
         <location filename="datumojapogilo_prieksportu.cpp" line="97"/>
-        <location filename="datumojapogilo_prieksportu.cpp" line="149"/>
         <source>Eraro [017]!</source>
         <translation>Fehler [017]!</translation>
+    </message>
+    <message>
+        <location filename="datumojapogilo_prieksportu.cpp" line="149"/>
+        <source>Eraro [041]!</source>
+        <translation>Fehler [041]!</translation>
     </message>
     <message>
         <location filename="datumojapogilo_prieksportu.cpp" line="153"/>
@@ -1430,11 +1439,6 @@
         <source>Plenumu</source>
         <translation>Ausführen</translation>
     </message>
-    <message>
-        <location filename="datumojrestauxro.ui" line="191"/>
-        <source>⏎</source>
-        <translation></translation>
-    </message>
 </context>
 <context>
     <name>identigiloj</name>
@@ -1496,13 +1500,7 @@
     <message>
         <location filename="identigiloj.ui" line="206"/>
         <source>Vakigu</source>
-        <oldsource>Vakidu</oldsource>
         <translation>Leeren</translation>
-    </message>
-    <message>
-        <location filename="identigiloj.ui" line="220"/>
-        <source>⏎</source>
-        <translation></translation>
     </message>
     <message>
         <location filename="identigiloj.ui" line="245"/>
@@ -1582,7 +1580,7 @@
     </message>
     <message>
         <location filename="identigiloj.ui" line="114"/>
-        <location filename="identigiloj.cpp" line="21"/>
+        <location filename="identigiloj.cpp" line="22"/>
         <source>neniu</source>
         <translation>keine</translation>
     </message>
@@ -1595,6 +1593,31 @@
         <location filename="identigiloj_prikodosxangxo.cpp" line="27"/>
         <source>Eraro [037]!</source>
         <translation>Fehler [037]!</translation>
+    </message>
+    <message>
+        <location filename="identigiloj_priakceptu.cpp" line="39"/>
+        <source>Eraro [040]!</source>
+        <translation>Fehler [040]!</translation>
+    </message>
+    <message>
+        <location filename="identigiloj_priakceptu.cpp" line="52"/>
+        <source>Neniuj ŝanĝoj estis malkovritaj, kiu devus esti stokita!</source>
+        <translation>Es wurden keine Änderungen gefunden, die gespeichert werden müßten!</translation>
+    </message>
+    <message>
+        <location filename="identigiloj_priakceptu.cpp" line="72"/>
+        <source>Eraro [039]!</source>
+        <translation>Fehler [039]!</translation>
+    </message>
+    <message>
+        <location filename="identigiloj_priakceptu.cpp" line="75"/>
+        <source>Nomo sen objekto kodon estas neakceptebla!</source>
+        <translation>Eine Bezeichnung ohne Objektkennung ist inakzeptabel!</translation>
+    </message>
+    <message>
+        <location filename="identigiloj_priakceptu.cpp" line="78"/>
+        <source>Malplena etikedo estas neakceptebla!</source>
+        <translation>Eine leere Bezeichnung ist inakzeptabel!</translation>
     </message>
 </context>
 <context>
@@ -1638,11 +1661,6 @@
         <location filename="konfiguro.ui" line="328"/>
         <source>Transdono adreso:</source>
         <translation>Übertragungsadresse:</translation>
-    </message>
-    <message>
-        <location filename="konfiguro.ui" line="347"/>
-        <source>⏎</source>
-        <translation></translation>
     </message>
     <message>
         <location filename="konfiguro_prikonfirmu.cpp" line="33"/>
@@ -1703,7 +1721,6 @@
     <message>
         <location filename="pagxoreferenco.ui" line="49"/>
         <source>Referenco</source>
-        <oldsource>Referenzo</oldsource>
         <translation>Literaturangabe</translation>
     </message>
     <message>
@@ -1797,11 +1814,6 @@
         <source>Rekomendo</source>
         <translation>Empfehlung</translation>
     </message>
-    <message>
-        <location filename="provajxo.ui" line="222"/>
-        <source>⏎</source>
-        <translation></translation>
-    </message>
 </context>
 <context>
     <name>referencoj</name>
@@ -1819,11 +1831,6 @@
         <location filename="referencoj.ui" line="109"/>
         <source>Malfaru</source>
         <translation>Rückgängig</translation>
-    </message>
-    <message>
-        <location filename="referencoj.ui" line="123"/>
-        <source>⏎</source>
-        <translation></translation>
     </message>
     <message>
         <location filename="referencoj.ui" line="154"/>
@@ -1944,11 +1951,6 @@
         <location filename="referencoj_primalfaru.cpp" line="14"/>
         <source>Ŝanĝoj malfaritaj!</source>
         <translation>Änderungen rückgängig gemacht!</translation>
-    </message>
-    <message>
-        <location filename="referencoj_kompletigitarespondo.cpp" line="9"/>
-        <source>Reto eraro: </source>
-        <translation>Netzwerkfehler: </translation>
     </message>
 </context>
 <context>

@@ -100,7 +100,7 @@ void datumojApogilo::priEksportu()
     if(pli&&ui->identigiloj->isChecked())
     {patraObjekto->spektakloMesagxon(tr("Eksporti identigilojn \342\200\246"));
      eldono<<"-- Identigiloj\nBEGIN;\n";
-     QByteArray ordono("SELECT etno,nomo,lingvo,tipo,citajxo,QUOTE(referenco),uuid,subskribo,stato FROM identigiloj");
+     QByteArray ordono("SELECT etno,nomo,lingvo,tipo,literaturo,QUOTE(pagxo),uuid,subskribo,stato FROM identigiloj");
      if(ui->subskribo->isChecked())
       ordono.append(" WHERE subskribon LIKE '%"+ui->subskriboInkluzivi->text().replace("'","''")+"%'");
      if(ui->nova->isChecked())
@@ -112,10 +112,10 @@ void datumojApogilo::priEksportu()
      if(informpeto.exec(ordono))
      {while(pli&&informpeto.next())
       {eldono<<"INSERT OR REPLACE INTO identigilo (etno,nomo,lingvo,tipo,";
-       if(!informpeto.value("citajxo").isNull())
-        eldono<<"citajxo,";
-       if(!informpeto.value("QUOTE(referenco)").isNull())
-        eldono<<"referenco,";
+       if(!informpeto.value("literaturo").isNull())
+        eldono<<"literaturo,";
+       if(!informpeto.value("QUOTE(pagxo)").isNull())
+        eldono<<"pagxo,";
        eldono<<"uuid,subskribo,stato) VALUES ('";
        eldono<<informpeto.value("etno").toByteArray();
        eldono<<"','";
@@ -125,13 +125,13 @@ void datumojApogilo::priEksportu()
        eldono<<"',";
        eldono<<informpeto.value("tipo").toByteArray();
        eldono<<",";
-       if(!informpeto.value("citajxo").isNull())
+       if(!informpeto.value("literaturo").isNull())
        {eldono<<"'";
-        eldono<<informpeto.value("citajxo").toByteArray().replace("'","''");
+        eldono<<informpeto.value("literaturo").toByteArray().replace("'","''");
         eldono<<"',";
        }
-       if(!informpeto.value("referenco").isNull())
-       {eldono<<informpeto.value("QUOTE(referenco)").toByteArray();
+       if(!informpeto.value("pagxo").isNull())
+       {eldono<<informpeto.value("QUOTE(pagxo)").toByteArray();
         eldono<<",";
        }
        eldono<<"'";
@@ -146,7 +146,7 @@ void datumojApogilo::priEksportu()
      }}
      else
       if(informpeto.lastError().isValid())
-       QMessageBox::warning(this,tr("Eraro [017]!"),informpeto.lastError().text());
+       QMessageBox::warning(this,tr("Eraro [041]!"),informpeto.lastError().text());
      eldono<<"COMMIT;\n";
     }
     datumbazo.close();

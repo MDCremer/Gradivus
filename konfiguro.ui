@@ -344,7 +344,7 @@
      <item>
       <widget class="QToolButton" name="reiru">
        <property name="text">
-        <string>⏎</string>
+        <string notr="true">⏎</string>
        </property>
       </widget>
      </item>

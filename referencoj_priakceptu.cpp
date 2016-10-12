@@ -129,7 +129,7 @@ void referencoj::priAkceptu()
     datumbazo.close();
     if(!kontribuo.isEmpty())
     {QNetworkAccessManager *administranto=new QNetworkAccessManager(this);
-     connect(administranto,&QNetworkAccessManager::finished,this,&referencoj::kompletigitaRespondo);
+     connect(administranto,&QNetworkAccessManager::finished,patraObjekto,&cxefaFenestro::kompletigitaRespondo);
      QUrlQuery parametroj;
      parametroj.addQueryItem("ago","transdono");
      parametroj.addQueryItem("kontribuanto",patraObjekto->administranto.akiruValoro(AGORDO_NOMO).replace("'","''"));

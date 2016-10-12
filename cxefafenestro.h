@@ -2,6 +2,7 @@
 #define CXEFAFENESTRO_H
 
 #include <QMainWindow>
+#include <QNetworkReply>
 #include <QString>
 #include <QStringList>
 #include <QWidget>
@@ -29,6 +30,7 @@ class cxefaFenestro:public QMainWindow
   void priStartoPagxo();
   void priDatumojRestauxro();
   void priIdentigiloj();
+  void kompletigitaRespondo(QNetworkReply *respondo);
  private:
   Ui::cxefaFenestro *ui;
 };

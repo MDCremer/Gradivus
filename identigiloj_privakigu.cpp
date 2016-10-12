@@ -11,4 +11,6 @@ void identigiloj::priVakigu()
  ui->objektoKodo->clear();
  ui->subskribo->clear();
  ui->stato->clear();
+ literaturo.clear();
+ pagxo.clear();
 }

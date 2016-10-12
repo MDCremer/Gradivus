@@ -4,7 +4,6 @@
 #include <QByteArray>
 #include <QDialog>
 #include <QListWidgetItem>
-#include <QNetworkReply>
 #include <QString>
 #include <QToolButton>
 #include "cxefafenestro.h"
@@ -32,7 +31,6 @@ class referencoj:public QDialog
   ~referencoj();
  public slots:
   void aludojElektajxoSxangxo();
-  void kompletigitaRespondo(QNetworkReply *respondo);
   void priAkceptu();
   void priCitajxo();
   void priForigu();

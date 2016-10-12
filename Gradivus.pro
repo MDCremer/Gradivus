@@ -13,6 +13,7 @@ SOURCES      += main.cpp\
                 agordoj_sxargu.cpp\
                 cxefafenestro.cpp\
                 cxefafenestro_destrojero.cpp\
+                cxefafenestro_kompletigitarespondo.cpp\
                 cxefafenestro_konsento.cpp\
                 cxefafenestro_montruinformo.cpp\
                 cxefafenestro_pridatumojapogilo.cpp\
@@ -70,7 +71,6 @@ SOURCES      += main.cpp\
                 referencoj_destrojero.cpp\
                 referencoj_aludojelektajxosxangxo.cpp\
                 referencoj_enigi.cpp\
-                referencoj_kompletigitarespondo.cpp\
                 referencoj_priakceptu.cpp\
                 referencoj_pricitajxo.cpp\
                 referencoj_priforigu.cpp\
