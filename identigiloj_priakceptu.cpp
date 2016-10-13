@@ -289,6 +289,7 @@ LUES ('");
      registrilo->aldonu(inverso);
      registrilo->plenumu(&informpeto,ordono);
      registrilo->fermu();
+     sxargi();
     }
     datumbazo.close();
     if(!kontribuo.isEmpty())

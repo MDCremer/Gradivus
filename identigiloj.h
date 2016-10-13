@@ -21,10 +21,13 @@ class identigiloj:public QDialog
   void priFonto();
   void priKodoSxangxo(QString kodo);
   void priKontribui(bool kontrolita);
+  void priLimigiTipoj(QString teksto);
+  void priLingvoLimigo(QString teksto);
   void priObjektoKodo();
   void priReiru();
   void priVakigu();
  private:
+  void sxargi();
   cxefaFenestro *patraObjekto;
   Ui::identigiloj *ui;
   rikordoRegistrilo *registrilo;

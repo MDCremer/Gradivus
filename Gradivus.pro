@@ -44,9 +44,12 @@ SOURCES      += main.cpp\
                 identigiloj_prifonto.cpp\
                 identigiloj_prikodosxangxo.cpp\
                 identigiloj_prikontribui.cpp\
+                identigiloj_prilimigitipoj.cpp\
+                identigiloj_prilingvolimigo.cpp\
                 identigiloj_priobjektokodo.cpp\
                 identigiloj_prireiru.cpp\
                 identigiloj_privakigu.cpp\
+                identigiloj_sxargi.cpp\
                 konfiguro.cpp\
                 konfiguro_destrojero.cpp\
                 konfiguro_lingvoetikedosxangxo.cpp\
