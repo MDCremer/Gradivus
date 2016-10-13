@@ -1,4 +1,6 @@
 #include <QCheckBox>
+#include <QListWidget>
+#include <QPushButton>
 #include <QTabWidget>
 #include <QToolButton>
 #include <QtWebEngineWidgets>

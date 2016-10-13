@@ -4,7 +4,8 @@
 #include "agordoj.h"
 
 void identigiloj::priVakigu()
-{ui->etno->setCurrentIndex(0);
+{ui->identigilojListo->clearSelection();
+ ui->etno->setCurrentIndex(0);
  ui->nomo->clear();
  ui->lingvo->setCurrentIndex(0);
  ui->referenco->setHtml(patraObjekto->administranto.akiruValoro(AGORDO_STILO)+"</head>\n<body>\n</body>\n</html>");

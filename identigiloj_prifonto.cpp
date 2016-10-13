@@ -10,7 +10,7 @@ void identigiloj::priFonto()
   referenco.agordiLiteraturo(literaturo);
  if(!pagxo.isEmpty())
   referenco.agordiPagxo(pagxo);
- if(referenco.exec())
+ if(referenco.exec()==QDialog::Accepted)
  {literaturo=referenco.akiruLiteraturo();
   pagxo=referenco.akiruPagxo();
   ui->referenco->setHtml(referenco.akiruHtml());

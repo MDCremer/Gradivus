@@ -18,7 +18,9 @@ class identigiloj:public QDialog
   ~identigiloj();
  public slots:
   void priAkceptu();
+  void priElektajxoSxangxo();
   void priFonto();
+  void priHistoriaListo(QString teksto);
   void priKodoSxangxo(QString kodo);
   void priKontribui(bool kontrolita);
   void priLimigiTipoj(QString teksto);
@@ -31,6 +33,7 @@ class identigiloj:public QDialog
   cxefaFenestro *patraObjekto;
   Ui::identigiloj *ui;
   rikordoRegistrilo *registrilo;
+  QString aktualaIdentigilo;
   QString literaturo;
   QString pagxo;
 };

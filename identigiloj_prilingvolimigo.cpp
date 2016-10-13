@@ -1,6 +1,9 @@
+#include <QComboBox>
 #include <QString>
 #include "identigiloj.h"
+#include "ui_identigiloj.h"
 
 void identigiloj::priLingvoLimigo(QString teksto)
-{sxargi();
+{ui->historiaListo->clear();
+ sxargi();
 }

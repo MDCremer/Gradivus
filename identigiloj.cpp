@@ -1,5 +1,6 @@
 #include <QComboBox>
 #include <QLineEdit>
+#include <QListWidget>
 #include <QPushButton>
 #include <QToolButton>
 #include "identigiloj.h"
@@ -21,6 +22,8 @@ identigiloj::identigiloj(QWidget *gepatro):QDialog(gepatro),ui(new Ui::identigil
  connect(ui->vakigu,&QPushButton::clicked,this,&identigiloj::priVakigu);
  connect(ui->lingvoLimigo,&QComboBox::currentTextChanged,this,&identigiloj::priLingvoLimigo);
  connect(ui->limigiTipoj,&QComboBox::currentTextChanged,this,&identigiloj::priLimigiTipoj);
+ connect(ui->identigilojListo,&QListWidget::itemSelectionChanged,this,&identigiloj::priElektajxoSxangxo);
+ connect(ui->historiaListo,&QComboBox::currentTextChanged,this,&identigiloj::priHistoriaListo);
  ui->lingvoLimigo->addItem(tr("neniu"));
  for(int indekso=0;indekso<patraObjekto->administranto.akiruLingvaKvanto();++indekso)
  {QString lingvoNomo=statikajDatumoj::lingvoNomoj[patraObjekto->administranto.akiruLingvaNombro(indekso)];

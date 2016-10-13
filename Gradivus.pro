@@ -41,7 +41,9 @@ SOURCES      += main.cpp\
                 identigiloj.cpp\
                 identigiloj_destrojero.cpp\
                 identigiloj_priakceptu.cpp\
+                identigiloj_prielektajxosxangxo.cpp\
                 identigiloj_prifonto.cpp\
+                identigiloj_prihistorialisto.cpp\
                 identigiloj_prikodosxangxo.cpp\
                 identigiloj_prikontribui.cpp\
                 identigiloj_prilimigitipoj.cpp\
