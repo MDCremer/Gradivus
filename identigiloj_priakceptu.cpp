@@ -12,7 +12,7 @@
 
 void identigiloj::priAkceptu()
 {if(!ui->nomo->text().simplified().isEmpty())
- {if(ui->objektoKodo->text().isEmpty())
+ {if(!ui->objektoKodo->text().isEmpty())
   {QSqlDatabase datumbazo=QSqlDatabase::database();
    if(datumbazo.open())
    {QSqlQuery informpeto;
@@ -41,12 +41,145 @@ void identigiloj::priAkceptu()
     QByteArray tempo=QString::number(QDateTime::currentDateTime().toTime_t()).toUtf8();
     if(havebla)
     {if(ui->tipo->currentIndex()!=malnovaTipo||literaturo!=QString(malnovaLiteraturo)||pagxo!=QString(malnovaPagxo)||
-       ui->objektoKodo!=malnovaObjektoKodo)
-     {
-     }
+       ui->objektoKodo->text()!=QString(malnovaObjektoKodo))
+     {bool unua=true;
+      inverso.append("UPDATE identigiloj SET ");
+      ordono.append("UPDATE identigiloj SET ");
+      if(ui->tipo->currentIndex()!=malnovaTipo)
+      {inverso.append("tipo=");
+       inverso.append(QString::number(malnovaTipo));
+       ordono.append("tipo=");
+       ordono.append(QString::number(ui->tipo->currentIndex()));
+       unua=false;
+      }
+      if(literaturo!=QString(malnovaLiteraturo))
+      {if(unua)
+        unua=false;
+       else
+       {inverso.append(",");
+        ordono.append(",");
+       }
+       inverso.append("literaturo=");
+       ordono.append("literaturo=");
+       if(malnovaLiteraturo.isEmpty())
+        inverso.append("NULL");
+       else
+       {inverso.append("'");
+        inverso.append(malnovaLiteraturo.replace("'","''"));
+        inverso.append("'");
+       }
+       if(literaturo.isEmpty())
+        ordono.append("NULL");
+       else
+       {ordono.append("'");
+        ordono.append(literaturo.replace("'","''").toUtf8());
+        ordono.append("'");
+      }}
+      if(pagxo!=QString(malnovaPagxo))
+      {if(unua)
+        unua=false;
+       else
+       {inverso.append(",");
+        ordono.append(",");
+       }
+       inverso.append("pagxo=");
+       ordono.append("pagxo=");
+       if(malnovaPagxo.isEmpty())
+        inverso.append("NULL");
+       else
+       {inverso.append("x'");
+        inverso.append(qCompress(malnovaPagxo).toHex());
+        inverso.append("'");
+       }
+       if(pagxo.isEmpty())
+        ordono.append("NULL");
+       else
+       {ordono.append("x'");
+        ordono.append(qCompress(pagxo.toUtf8()).toHex());
+        ordono.append("'");
+      }}
+      if(ui->objektoKodo->text()!=QString(malnovaObjektoKodo))
+      {if(unua)
+        unua=false;
+       else
+       {inverso.append(",");
+        ordono.append(",");
+       }
+       inverso.append("uuid='");
+       ordono.append("uuid='");
+       inverso.append(malnovaObjektoKodo);
+       ordono.append(ui->objektoKodo->text());
+       inverso.append("'");
+       ordono.append("'");
+      }
+      inverso.append("',subskribo='");
+      inverso.append(malnovaSubskribo.replace("'","''"));
+      inverso.append("',stato=");
+      inverso.append(QString::number(malnovaStato).toUtf8());
+      ordono.append("',subskribo='");
+      ordono.append(malnovaSubskribo.replace("'","''"));
+      if(!malnovaSubskribo.contains(":"+patraObjekto->administranto.akiruValoro(AGORDO_NOMO)+":"))
+      {ordono.append(patraObjekto->administranto.akiruValoro(AGORDO_NOMO).replace("'","''"));
+       ordono.append(":");
+      }
+      ordono.append("',stato=");
+      ordono.append(tempo);
+      inverso.append(" WHERE etno='");
+      ordono.append(" WHERE etno='");
+      inverso.append(ui->etno->currentText().left(2).toUtf8());
+      ordono.append(ui->etno->currentText().left(2).toUtf8());
+      inverso.append("' AND nomo='");
+      ordono.append("' AND nomo='");
+      inverso.append(ui->nomo->text().simplified().replace("'","''").toUtf8());
+      ordono.append(ui->nomo->text().simplified().replace("'","''").toUtf8());
+      inverso.append("' AND lingvo='");
+      ordono.append("' AND lingvo='");
+      inverso.append(ui->lingvo->currentText().left(2).toUtf8());
+      ordono.append(ui->lingvo->currentText().left(2).toUtf8());
+      inverso.append("';");
+      ordono.append("';");
+      if(ui->kontribui->isChecked())
+      {kontribuo.append("INSERT OR REPLACE INTO identigiloj (etno,nomo,lingvo,tipo,literaturo,pagxo,uuid,subskribo,stato) V\
+ALUES ('");
+       kontribuo.append(ui->etno->currentText().left(2).toUtf8());
+       kontribuo.append("','");
+       kontribuo.append(ui->nomo->text().simplified().replace("'","''").toUtf8());
+       kontribuo.append("','");
+       kontribuo.append(ui->lingvo->currentText().left(2).toUtf8());
+       kontribuo.append("',");
+       kontribuo.append(QString::number(ui->tipo->currentIndex()).toUtf8());
+       kontribuo.append(",");
+       if(literaturo.isEmpty())
+        kontribuo.append("NULL,");
+       else
+       {kontribuo.append("'");
+        kontribuo.append(literaturo.replace("'","''").toUtf8());
+        kontribuo.append("',");
+       }
+       if(pagxo.isEmpty())
+        kontribuo.append("NULL,");
+       else
+       {kontribuo.append("x'");
+        kontribuo.append(qCompress(pagxo.toUtf8()).toHex());
+        kontribuo.append("',");
+       }
+       kontribuo.append("'");
+       kontribuo.append(ui->objektoKodo->text().toUtf8());
+       kontribuo.append("','");
+       kontribuo.append(malnovaSubskribo.replace("'","''"));
+       if(!malnovaSubskribo.contains(":"+patraObjekto->administranto.akiruValoro(AGORDO_NOMO)+":"))
+       {kontribuo.append(patraObjekto->administranto.akiruValoro(AGORDO_NOMO).replace("'","''"));
+        kontribuo.append(":");
+       }
+       kontribuo.append("',");
+       kontribuo.append(tempo);
+       kontribuo.append(");");
+     }}
      else
-     {if(ui->kontribui->isChecked()&&malnovaSubskribo.contains(":"+patraObjekto->administranto.akiruValoro(AGORDO_NOMO)+":"))
-      {kontribuo.append("INSERT OR REPLACE INTO identigiloj (etno,nomo,lingvo,tipo,literaturo,pagxo,uuid,subskribo,stato) VALUES ('");
+     {if(ui->kontribui->isChecked()&&malnovaSubskribo.contains(":"+patraObjekto->administranto.akiruValoro(AGORDO_NOMO)+
+        ":"))
+      {kontribuo.append("INSERT OR REPLACE INTO identigiloj (etno,nomo,lingvo,tipo,literaturo,pagxo,uuid,subskribo,stato) V\
+ALUES ('");
        kontribuo.append(ui->etno->currentText().left(2).toUtf8());
        kontribuo.append("','");
        kontribuo.append(ui->nomo->text().simplified().replace("'","''").toUtf8());
@@ -81,7 +214,81 @@ void identigiloj::priAkceptu()
        patraObjekto->spektakloMesagxon(tr("Neniuj \305\235an\304\235oj estis malkovritaj, kiu devus esti stokita!"));
     }}
     else
-    {
+    {inverso.append("DELETE FROM identigiloj WHERE etno='");
+     inverso.append(ui->etno->currentText().left(2).toUtf8());
+     inverso.append("' AND nomo='");
+     inverso.append(ui->nomo->text().simplified().replace("'","''").toUtf8());
+     inverso.append("' AND lingvo='");
+     inverso.append(ui->lingvo->currentText().left(2).toUtf8());
+     inverso.append("';");
+     ordono.append("INSERT INTO identigiloj (etno,nomo,lingvo,tipo,literaturo,pagxo,uuid,subskribo,stato) VALUES ('");
+     ordono.append(ui->etno->currentText().left(2).toUtf8());
+     ordono.append("','");
+     ordono.append(ui->nomo->text().simplified().replace("'","''").toUtf8());
+     ordono.append("','");
+     ordono.append(ui->lingvo->currentText().left(2).toUtf8());
+     ordono.append("',");
+     ordono.append(QString::number(ui->tipo->currentIndex()).toUtf8());
+     ordono.append(",");
+     if(literaturo.isEmpty())
+      ordono.append("NULL,");
+     else
+     {ordono.append("'");
+      ordono.append(literaturo.replace("'","''").toUtf8());
+      ordono.append("',");
+     }
+     if(pagxo.isEmpty())
+      ordono.append("NULL,");
+     else
+     {ordono.append("x'");
+      ordono.append(qCompress(pagxo.toUtf8()).toHex());
+      ordono.append("',");
+     }
+     ordono.append("'");
+     ordono.append(ui->objektoKodo->text().toUtf8());
+     ordono.append("',':");
+     ordono.append(patraObjekto->administranto.akiruValoro(AGORDO_NOMO).replace("'","''"));
+     ordono.append(":',");
+     ordono.append(tempo);
+     ordono.append(");");
+     if(ui->kontribui->isChecked())
+     {kontribuo.append("INSERT OR REPLACE INTO identigiloj (etno,nomo,lingvo,tipo,literaturo,pagxo,uuid,subskribo,stato) VA\
+LUES ('");
+      kontribuo.append(ui->etno->currentText().left(2).toUtf8());
+      kontribuo.append("','");
+      kontribuo.append(ui->nomo->text().simplified().replace("'","''").toUtf8());
+      kontribuo.append("','");
+      kontribuo.append(ui->lingvo->currentText().left(2).toUtf8());
+      kontribuo.append("',");
+      kontribuo.append(QString::number(ui->tipo->currentIndex()).toUtf8());
+      kontribuo.append(",");
+      if(literaturo.isEmpty())
+       kontribuo.append("NULL,");
+      else
+      {kontribuo.append("'");
+       kontribuo.append(literaturo.replace("'","''").toUtf8());
+       kontribuo.append("',");
+      }
+      if(pagxo.isEmpty())
+       kontribuo.append("NULL,");
+      else
+      {kontribuo.append("x'");
+       kontribuo.append(qCompress(pagxo.toUtf8()).toHex());
+       kontribuo.append("',");
+      }
+      kontribuo.append("'");
+      kontribuo.append(ui->objektoKodo->text().toUtf8());
+      kontribuo.append("',':");
+      kontribuo.append(patraObjekto->administranto.akiruValoro(AGORDO_NOMO).replace("'","''"));
+      kontribuo.append(":',");
+      kontribuo.append(tempo);
+      kontribuo.append(");");
+    }}
+    if(!inverso.isEmpty())
+    {registrilo->komencu();
+     registrilo->aldonu(inverso);
+     registrilo->plenumu(&informpeto,ordono);
+     registrilo->fermu();
     }
     datumbazo.close();
     if(!kontribuo.isEmpty())

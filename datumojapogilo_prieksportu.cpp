@@ -85,7 +85,7 @@ void datumojApogilo::priEksportu()
        eldono<<"',";
        eldono<<informpeto.value("QUOTE(html)").toByteArray();
        eldono<<",'";
-       eldono<<informpeto.value("subskribo").toByteArray();
+       eldono<<informpeto.value("subskribo").toByteArray().replace("'","''");
        eldono<<"',";
        eldono<<informpeto.value("stato").toByteArray();
        eldono<<");\n";
@@ -111,7 +111,7 @@ void datumojApogilo::priEksportu()
      ordono.append(";");
      if(informpeto.exec(ordono))
      {while(pli&&informpeto.next())
-      {eldono<<"INSERT OR REPLACE INTO identigilo (etno,nomo,lingvo,tipo,";
+      {eldono<<"INSERT OR REPLACE INTO identigiloj (etno,nomo,lingvo,tipo,";
        if(!informpeto.value("literaturo").isNull())
         eldono<<"literaturo,";
        if(!informpeto.value("QUOTE(pagxo)").isNull())
@@ -130,14 +130,14 @@ void datumojApogilo::priEksportu()
         eldono<<informpeto.value("literaturo").toByteArray().replace("'","''");
         eldono<<"',";
        }
-       if(!informpeto.value("pagxo").isNull())
+       if(!informpeto.value("QUOTE(pagxo)").isNull())
        {eldono<<informpeto.value("QUOTE(pagxo)").toByteArray();
         eldono<<",";
        }
        eldono<<"'";
        eldono<<informpeto.value("uuid").toByteArray();
        eldono<<"','";
-       eldono<<informpeto.value("subskribo").toByteArray();
+       eldono<<informpeto.value("subskribo").toByteArray().replace("'","''");
        eldono<<"',";
        eldono<<informpeto.value("stato").toByteArray();
        eldono<<");\n";
