@@ -1580,7 +1580,7 @@
     </message>
     <message>
         <location filename="identigiloj.ui" line="114"/>
-        <location filename="identigiloj.cpp" line="22"/>
+        <location filename="identigiloj.cpp" line="27"/>
         <source>neniu</source>
         <translation>keine</translation>
     </message>
@@ -1595,29 +1595,64 @@
         <translation>Fehler [037]!</translation>
     </message>
     <message>
-        <location filename="identigiloj_priakceptu.cpp" line="39"/>
+        <location filename="identigiloj_priakceptu.cpp" line="47"/>
         <source>Eraro [040]!</source>
         <translation>Fehler [040]!</translation>
     </message>
     <message>
-        <location filename="identigiloj_priakceptu.cpp" line="52"/>
+        <location filename="identigiloj_priakceptu.cpp" line="222"/>
         <source>Neniuj ŝanĝoj estis malkovritaj, kiu devus esti stokita!</source>
         <translation>Es wurden keine Änderungen gefunden, die gespeichert werden müßten!</translation>
     </message>
     <message>
-        <location filename="identigiloj_priakceptu.cpp" line="72"/>
+        <location filename="identigiloj_priakceptu.cpp" line="301"/>
+        <source>Identigilo &apos;%1&apos; savis.</source>
+        <translation>Bezeichnung &apos;%1&apos; wurde gespeichert.</translation>
+    </message>
+    <message>
+        <location filename="identigiloj_priakceptu.cpp" line="303"/>
+        <source>Identigilo &apos;%1&apos; ĝisdatigis.</source>
+        <translation>Bezeichnung &apos;%1&apos; wurde aktualisiert.</translation>
+    </message>
+    <message>
+        <location filename="identigiloj_priakceptu.cpp" line="330"/>
         <source>Eraro [039]!</source>
         <translation>Fehler [039]!</translation>
     </message>
     <message>
-        <location filename="identigiloj_priakceptu.cpp" line="75"/>
+        <location filename="identigiloj_priakceptu.cpp" line="333"/>
         <source>Nomo sen objekto kodon estas neakceptebla!</source>
         <translation>Eine Bezeichnung ohne Objektkennung ist inakzeptabel!</translation>
     </message>
     <message>
-        <location filename="identigiloj_priakceptu.cpp" line="78"/>
+        <location filename="identigiloj_priakceptu.cpp" line="336"/>
         <source>Malplena etikedo estas neakceptebla!</source>
         <translation>Eine leere Bezeichnung ist inakzeptabel!</translation>
+    </message>
+    <message>
+        <location filename="identigiloj_prielektajxosxangxo.cpp" line="65"/>
+        <source>Eraro [045]!</source>
+        <translation>Fehler [045]!</translation>
+    </message>
+    <message>
+        <location filename="identigiloj_prielektajxosxangxo.cpp" line="75"/>
+        <source>Eraro [046]!</source>
+        <translation>Fehler [046]!</translation>
+    </message>
+    <message>
+        <location filename="identigiloj_prielektajxosxangxo.cpp" line="85"/>
+        <source>Eraro [044]!</source>
+        <translation>Fehler [044]!</translation>
+    </message>
+    <message>
+        <location filename="identigiloj_sxargi.cpp" line="38"/>
+        <source>Eraro [043]!</source>
+        <translation>Fehler [043]!</translation>
+    </message>
+    <message>
+        <location filename="identigiloj_sxargi.cpp" line="43"/>
+        <source>Eraro [042]!</source>
+        <translation>Fehler [042]!</translation>
     </message>
 </context>
 <context>
@@ -1893,22 +1928,27 @@
         <translation>Es wurden keine Änderungen gefunden, die gespeichert werden müßten!</translation>
     </message>
     <message>
-        <location filename="referencoj_priakceptu.cpp" line="123"/>
+        <location filename="referencoj_priakceptu.cpp" line="124"/>
         <source>Citaĵo &apos;%1&apos; savis.</source>
         <translation>Literaturangabe &apos;%1&apos; wurde gespeichert.</translation>
     </message>
     <message>
-        <location filename="referencoj_priakceptu.cpp" line="144"/>
+        <location filename="referencoj_priakceptu.cpp" line="126"/>
+        <source>Citaĵo &apos;%1&apos; ĝisdatigis.</source>
+        <translation>Literaturangabe &apos;%1&apos; wurde aktualisiert.</translation>
+    </message>
+    <message>
+        <location filename="referencoj_priakceptu.cpp" line="147"/>
         <source>Eraro [020]!</source>
         <translation>Fehler [020]!</translation>
     </message>
     <message>
-        <location filename="referencoj_priakceptu.cpp" line="147"/>
+        <location filename="referencoj_priakceptu.cpp" line="150"/>
         <source>Malplena citaĵo estas neakceptebla!</source>
         <translation>Eine leere Literaturangabe ist inakzeptabel!</translation>
     </message>
     <message>
-        <location filename="referencoj_priakceptu.cpp" line="150"/>
+        <location filename="referencoj_priakceptu.cpp" line="153"/>
         <source>Malplena noto estas neakceptebla!</source>
         <translation>Ein leerer Literaturhinweis ist inakzeptabel!</translation>
     </message>

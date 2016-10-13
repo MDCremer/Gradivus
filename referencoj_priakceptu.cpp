@@ -120,7 +120,10 @@ void referencoj::priAkceptu()
      registrilo->aldonu(inverso);
      registrilo->plenumu(&informpeto,ordono);
      registrilo->fermu();
-     patraObjekto->spektakloMesagxon(tr("Cita\304\265o '%1' savis.").arg(QString(faktaArtikolo)));
+     if(ordono.startsWith("INSERT"))
+      patraObjekto->spektakloMesagxon(tr("Cita\304\265o '%1' savis.").arg(QString(faktaArtikolo)));
+     else
+      patraObjekto->spektakloMesagxon(tr("Cita\304\265o '%1' \304\235isdatigis.").arg(QString(faktaArtikolo)));
      sxargiAludoj();
      QList<QListWidgetItem *> kongruoj=ui->aludoj->findItems(faktaArtikolo,Qt::MatchExactly);
      if(kongruoj.size()>0)

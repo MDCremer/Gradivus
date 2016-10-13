@@ -15,7 +15,7 @@
 
 void datumojApogilo::priEksportu()
 {QString eligoDosiernomo=QFileDialog::getSaveFileName(this,tr("Dosiero selektado por sekurkopioj"),QDir::homePath()+
-  "/Gradivus/skriptoj/SQL/provizaro.sql",tr("SQL-dosiero")+" (*.sql)");
+  "/Gradivus/skriptoj/SQL/stako.sql",tr("SQL-dosiero")+" (*.sql)");
  if(!eligoDosiernomo.isNull())
  {QFile eligoDosiero(eligoDosiernomo);
   int linioj=0;

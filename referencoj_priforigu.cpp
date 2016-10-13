@@ -11,7 +11,7 @@ void referencoj::priForigu()
  if(datumbazo.open())
  {QSqlQuery informpeto;
   int rilatoj=0;
-  if(informpeto.exec("SELECT COUNT(*) FROM identigiloj WHERE citajxo='"+faktaAludo.replace("'","''")+"';"))
+  if(informpeto.exec("SELECT COUNT(*) FROM identigiloj WHERE literaturo='"+faktaAludo.replace("'","''")+"';"))
   {if(informpeto.first())
     rilatoj+=informpeto.value("COUNT(*)").toInt();
    else

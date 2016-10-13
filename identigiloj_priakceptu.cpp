@@ -1,5 +1,7 @@
 #include <QByteArray>
 #include <QDateTime>
+#include <QList>
+#include <QListWidgetItem>
 #include <QMessageBox>
 #include <QSqlDatabase>
 #include <QSqlError>
@@ -20,6 +22,12 @@ void identigiloj::priAkceptu()
     QByteArray malnovaLiteraturo,malnovaPagxo,malnovaObjektoKodo,malnovaSubskribo;
     qlonglong malnovaStato;
     int malnovaTipo;
+    QString aktualo(ui->etno->currentText().left(2));
+    aktualo.append(": ");
+    aktualo.append(ui->nomo->text().simplified());
+    aktualo.append(" [");
+    aktualo.append(ui->lingvo->currentText().left(2));
+    aktualo.append("]");
     if(informpeto.exec("SELECT tipo,literaturo,pagxo,uuid,subskribo,stato FROM identigiloj WHERE etno='"+
       ui->etno->currentText().left(2)+"' AND nomo='"+ui->nomo->text().simplified().replace("'","''")+"' AND lingvo='"+
       ui->lingvo->currentText().left(2)+"';"))
@@ -289,7 +297,20 @@ LUES ('");
      registrilo->aldonu(inverso);
      registrilo->plenumu(&informpeto,ordono);
      registrilo->fermu();
-     sxargi();
+     if(ordono.startsWith("INSERT"))
+      patraObjekto->spektakloMesagxon(tr("Identigilo '%1' savis.").arg(aktualo));
+     else
+      patraObjekto->spektakloMesagxon(tr("Identigilo '%1' \304\235isdatigis.").arg(aktualo));
+     aktualaIdentigilo.clear();
+     if(ui->limigiTipoj->currentIndex()>0||ui->lingvoLimigo->currentIndex()>0)
+     {ui->limigiTipoj->setCurrentIndex(0);
+      ui->lingvoLimigo->setCurrentIndex(0);
+     }
+     else
+      sxargi();
+     QList<QListWidgetItem *> kongruoj=ui->identigilojListo->findItems(aktualo,Qt::MatchExactly);
+     if(kongruoj.size()>0)
+      ui->identigilojListo->setCurrentItem(kongruoj.first());
     }
     datumbazo.close();
     if(!kontribuo.isEmpty())

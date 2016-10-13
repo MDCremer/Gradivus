@@ -72,9 +72,9 @@ int main(int argc,char *argv[])
     }
     else
      QMessageBox::warning(0,"Eraro [004]!","La listo de dosieroj por esti procesita ne povis esti malfermita!");
-    QFileInfo provizaro(QDir::homePath()+"/Gradivus/skriptoj/SQL/provizaro.sql");
+    QFileInfo provizaro(QDir::homePath()+"/Gradivus/skriptoj/SQL/stako.sql");
     if(provizaro.exists())
-    {QFile stoko(QDir::homePath()+"/Gradivus/skriptoj/SQL/provizaro.sql");
+    {QFile stoko(QDir::homePath()+"/Gradivus/skriptoj/SQL/stako.sql");
      if(stoko.open(QIODevice::ReadOnly|QIODevice::Text))
      {QTextStream enigo(&stoko);
       enigo.setCodec("UTF-8");
