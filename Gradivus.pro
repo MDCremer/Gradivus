@@ -46,7 +46,6 @@ SOURCES      += main.cpp\
                 identigiloj_prihistorialisto.cpp\
                 identigiloj_prikodosxangxo.cpp\
                 identigiloj_prikontribui.cpp\
-                identigiloj_prilimigitipoj.cpp\
                 identigiloj_prilingvolimigo.cpp\
                 identigiloj_prinovakodo.cpp\
                 identigiloj_priobjektokodo.cpp\
@@ -55,6 +54,11 @@ SOURCES      += main.cpp\
                 identigiloj_sxargi.cpp\
                 kodoselektado.cpp\
                 kodoselektado_destrojero.cpp\
+                kodoselektado_priapliku.cpp\
+                kodoselektado_pridevasenhavi.cpp\
+                kodoselektado_prielektajxosxangxo.cpp\
+                kodoselektado_prikompletigitaenigo.cpp\
+                kodoselektado_prirezignu.cpp\
                 kodoselektado_sxargi.cpp\
                 konfiguro.cpp\
                 konfiguro_destrojero.cpp\

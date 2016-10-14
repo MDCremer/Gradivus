@@ -23,7 +23,6 @@ class identigiloj:public QDialog
   void priHistoriaListo(QString teksto);
   void priKodoSxangxo(QString kodo);
   void priKontribui(bool kontrolita);
-  void priLimigiTipoj(QString teksto);
   void priLingvoLimigo(QString teksto);
   void priNovaKodo();
   void priObjektoKodo();

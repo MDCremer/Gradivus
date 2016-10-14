@@ -1,3 +1,4 @@
+#include <QCheckBox>
 #include <QComboBox>
 #include <QLineEdit>
 #include <QListWidget>
@@ -21,7 +22,7 @@ identigiloj::identigiloj(QWidget *gepatro):QDialog(gepatro),ui(new Ui::identigil
  connect(ui->objektoKodo,&QLineEdit::textChanged,this,&identigiloj::priKodoSxangxo);
  connect(ui->vakigu,&QPushButton::clicked,this,&identigiloj::priVakigu);
  connect(ui->lingvoLimigo,&QComboBox::currentTextChanged,this,&identigiloj::priLingvoLimigo);
- connect(ui->limigiTipoj,&QComboBox::currentTextChanged,this,&identigiloj::priLimigiTipoj);
+ connect(ui->limigiTipoj,&QComboBox::currentTextChanged,this,&identigiloj::priLingvoLimigo);
  connect(ui->identigilojListo,&QListWidget::itemSelectionChanged,this,&identigiloj::priElektajxoSxangxo);
  connect(ui->historiaListo,&QComboBox::currentTextChanged,this,&identigiloj::priHistoriaListo);
  connect(ui->novaKodo,&QToolButton::clicked,this,&identigiloj::priNovaKodo);

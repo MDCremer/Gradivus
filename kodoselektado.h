@@ -2,6 +2,7 @@
 #define KODOSELEKTADO_H
 
 #include <QDialog>
+#include <QString>
 #include <QWidget>
 #include "cxefafenestro.h"
 
@@ -14,10 +15,18 @@ class kodoSelektado : public QDialog
  public:
   explicit kodoSelektado(QWidget *gepatro,cxefaFenestro *avo);
   ~kodoSelektado();
+  QString akiruKodo() {return kodo;}
+ public slots:
+  void priApliku();
+  void priDevasEnhavi(bool kontrolita);
+  void priElektajxoSxangxo();
+  void priKompletigitaEnigu();
+  void priRezignu();
  private:
   void sxargi();
   cxefaFenestro *avaObjekto;
   Ui::kodoSelektado *ui;
+  QString kodo;
 };
 
 #endif // KODOSELEKTADO_H
