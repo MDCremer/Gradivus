@@ -8,12 +8,14 @@
 #include "ui_identigiloj.h"
 #include "cxefafenestro.h"
 #include "agordoj.h"
+#include "hipertekstopagxo.h"
 #include "statikajdatumoj.h"
 
 identigiloj::identigiloj(QWidget *gepatro):QDialog(gepatro),ui(new Ui::identigiloj)
 {ui->setupUi(this);
  registrilo=new rikordoRegistrilo(ui->malfaru);
  patraObjekto=(cxefaFenestro *)gepatro;
+ ui->referenco->setPage(new hipertekstoPagxo(this,patraObjekto));
  connect(ui->reiru,&QToolButton::clicked,this,&identigiloj::priReiru);
  connect(ui->identigilo,&QPushButton::clicked,this,&identigiloj::priObjektoKodo);
  connect(ui->fonto,&QPushButton::clicked,this,&identigiloj::priFonto);

@@ -8,6 +8,7 @@
 #include <QWidget>
 #include "ui_provajxo.h"
 #include "htmlmarkilo.h"
+#include "cxefafenestro.h"
 
 namespace Ui
 {class provajxo;
@@ -16,7 +17,7 @@ namespace Ui
 class provajxo:public QDialog
 {Q_OBJECT
  public:
-  explicit provajxo(QWidget *gepatro=0);
+  explicit provajxo(QWidget *gepatro,cxefaFenestro *avo);
   ~provajxo();
   void agordiCxefsxlosilo(QByteArray teksto) {ui->cxefsxlosilo->setText(teksto);}
   void agordiKodo(QByteArray teksto) {ui->kodo->setPlainText(teksto);}

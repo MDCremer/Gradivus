@@ -332,6 +332,16 @@
           <item row="1" column="1">
            <widget class="QLineEdit" name="transdonoAdreso"/>
           </item>
+          <item row="2" column="0">
+           <widget class="QLabel" name="label_5">
+            <property name="text">
+             <string>Vortaro:</string>
+            </property>
+           </widget>
+          </item>
+          <item row="2" column="1">
+           <widget class="QLineEdit" name="vortaro"/>
+          </item>
          </layout>
         </widget>
        </item>

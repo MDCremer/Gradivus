@@ -1,6 +1,40 @@
+#include <QDialog>
+#include <QString>
 #include "referencoj.h"
 #include "ui_referencoj.h"
+#include "cxefafenestro.h"
+#include "kodoselektado.h"
 
 void referencoj::priReferenceita()
-{enigi(REFERENCO_REFERENCEITA,"<a>","</a>",ui->referenceita);
-}
+{if(ui->teksto->hasFocus())
+ {QString ligilo;
+  if(!enigojAktivigita[REFERENCO_REFERENCEITA]||ui->teksto->textCursor().hasSelection())
+  {kodoSelektado selektado(this,patraObjekto);
+   if(selektado.exec()==QDialog::Accepted)
+   {ligilo=QString(patraObjekto->administranto.akiruValoro(AGORDO_VORTARO));
+    ligilo.append(selektado.akiruKodo());
+  }}
+  if(ui->teksto->textCursor().hasSelection())
+  {QString enigo("<a href='");
+   enigo.append(ligilo);
+   enigo.append(".html'>");
+   enigo.append(ui->teksto->textCursor().selectedText());
+   enigo.append("</a>");
+   ui->teksto->insertPlainText(enigo);
+   enigojAktivigita[REFERENCO_REFERENCEITA]=false;
+   ui->referenceita->setText("<a>");
+  }
+  else
+  {if(enigojAktivigita[REFERENCO_REFERENCEITA])
+   {ui->teksto->insertPlainText("</a>");
+    enigojAktivigita[REFERENCO_REFERENCEITA]=false;
+    ui->referenceita->setText("<a>");
+   }
+   else
+   {QString enigo("<a href='");
+    enigo.append(ligilo);
+    enigo.append(".html'>");
+    ui->teksto->insertPlainText(enigo);
+    enigojAktivigita[REFERENCO_REFERENCEITA]=true;
+    ui->referenceita->setText("</a>");
+}}}}

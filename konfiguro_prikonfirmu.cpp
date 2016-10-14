@@ -19,6 +19,8 @@ void konfiguro::priKonfirmu()
   ++sxangxoNombro;
  if(ui->transdonoAdreso->text()!=patraObjekto->administranto.akiruValoro(AGORDO_TRANSDONOADRESO))
   ++sxangxoNombro;
+ if(ui->vortaro->text()!=patraObjekto->administranto.akiruValoro(AGORDO_VORTARO))
+  ++sxangxoNombro;
  if((ui->kulturo->currentIndex()==0&&!patraObjekto->administranto.akiruValoro(AGORDO_LINGVO).isEmpty())||
    (ui->kulturo->currentIndex()>0&&ui->kulturo->currentText()!=patraObjekto->administranto.akiruValoro(AGORDO_LINGVO)))
   ++sxangxoNombro;
@@ -65,6 +67,18 @@ void konfiguro::priKonfirmu()
     dauxrigu=registrilo->plenumu(&informpeto,"UPDATE agordoj SET valoro='"+
       ui->transdonoAdreso->text().toUtf8().replace("'","''")+"' WHERE nomo='transdono adreso';");
     patraObjekto->administranto.agorduValoro(AGORDO_TRANSDONOADRESO,ui->transdonoAdreso->text().toUtf8());
+    progreso.setValue(++procesis);
+    if(dauxrigu)
+     dauxrigu=!progreso.wasCanceled();
+   }
+   if(dauxrigu&&ui->vortaro->text()!=patraObjekto->administranto.akiruValoro(AGORDO_VORTARO))
+   {if(procesis==0)
+     registrilo->komencu();
+    registrilo->aldonu("UPDATE agordoj SET valoro='"+
+      patraObjekto->administranto.akiruValoro(AGORDO_VORTARO).replace("'","''")+"' WHERE nomo='vortaro';");
+    dauxrigu=registrilo->plenumu(&informpeto,"UPDATE agordoj SET valoro='"+ui->vortaro->text().toUtf8().replace("'","''")+
+      "' WHERE nomo='vortaro';");
+    patraObjekto->administranto.agorduValoro(AGORDO_VORTARO,ui->vortaro->text().toUtf8());
     progreso.setValue(++procesis);
     if(dauxrigu)
      dauxrigu=!progreso.wasCanceled();

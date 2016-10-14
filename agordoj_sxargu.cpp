@@ -26,6 +26,8 @@ void agordoj::sxargu()
      valoroj[AGORDO_PASVORTO]=valoro;
     if(nomo=="transdono adreso")
      valoroj[AGORDO_TRANSDONOADRESO]=valoro;
+    if(nomo=="vortaro")
+     valoroj[AGORDO_VORTARO]=valoro;
   }}
   else
   if(informpeto.lastError().isValid())

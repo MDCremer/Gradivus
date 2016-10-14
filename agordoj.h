@@ -8,7 +8,8 @@
 #define AGORDO_LINGVO 1
 #define AGORDO_PASVORTO 2
 #define AGORDO_TRANSDONOADRESO 3
-#define AGORDO_STILO 4
+#define AGORDO_VORTARO 4
+#define AGORDO_STILO 5
 
 class agordoj
 {public:
@@ -21,7 +22,7 @@ class agordoj
   QByteArray akiruValoro(int nombro) {return valoroj[nombro];}
   void sxargu();
  private:
-  QByteArray valoroj[5];
+  QByteArray valoroj[6];
   int lingvaRangoj[LINGVAKVANTO];
   int lingvaKvanto;
 };

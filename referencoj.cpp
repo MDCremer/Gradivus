@@ -11,7 +11,7 @@
 
 referencoj::referencoj(QWidget *gepatro):QDialog(gepatro),ui(new Ui::referencoj)
 {ui->setupUi(this);
- ui->spektaklo->setPage(new hipertekstoPagxo());
+ ui->spektaklo->setPage(new hipertekstoPagxo(this,(cxefaFenestro *)gepatro));
  markilo=new htmlMarkilo(ui->teksto->document());
  registrilo=new rikordoRegistrilo(ui->malfaru);
  patraObjekto=(cxefaFenestro *)gepatro;

@@ -14,7 +14,7 @@
 
 pagxoReferenco::pagxoReferenco(QWidget *gepatro,cxefaFenestro *avo):QDialog(gepatro),ui(new Ui::pagxoReferenco)
 {ui->setupUi(this);
- ui->spektaklo->setPage(new hipertekstoPagxo());
+ ui->spektaklo->setPage(new hipertekstoPagxo(gepatro,avo));
  markilo=new htmlMarkilo(ui->redakto->document());
  avaObjekto=avo;
  connect(ui->rezignu,&QPushButton::clicked,this,&pagxoReferenco::priRezignu);

@@ -15,7 +15,7 @@ cxefaFenestro::cxefaFenestro(QWidget *gepatro):QMainWindow(gepatro),ui(new Ui::c
  foliumiloAgordoj->setFontSize(QWebEngineSettings::DefaultFontSize,16);
  foliumiloAgordoj->setFontFamily(QWebEngineSettings::SansSerifFont,"Noto Sans UI");
  ui->setupUi(this);
- ui->informaMontro->setPage(new hipertekstoPagxo());
+ ui->informaMontro->setPage(new hipertekstoPagxo(this,this));
  connect(ui->datumojApogilo,&QPushButton::clicked,this,&cxefaFenestro::priDatumojApogilo);
  connect(ui->konfiguro,&QPushButton::clicked,this,&cxefaFenestro::priKonfiguro);
  connect(ui->referencoj,&QPushButton::clicked,this,&cxefaFenestro::priReferencoj);

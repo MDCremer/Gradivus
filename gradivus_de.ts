@@ -1581,7 +1581,7 @@
     </message>
     <message>
         <location filename="identigiloj.ui" line="114"/>
-        <location filename="identigiloj.cpp" line="28"/>
+        <location filename="identigiloj.cpp" line="29"/>
         <source>neniu</source>
         <translation>keine</translation>
     </message>
@@ -1685,8 +1685,8 @@
     </message>
     <message>
         <location filename="kodoselektado.ui" line="106"/>
-        <location filename="kodoselektado.cpp" line="11"/>
         <location filename="kodoselektado.cpp" line="16"/>
+        <location filename="kodoselektado.cpp" line="21"/>
         <source>neniu</source>
         <translation>keine</translation>
     </message>
@@ -1724,6 +1724,16 @@
         <location filename="kodoselektado.ui" line="192"/>
         <source>Apliku</source>
         <translation>Übernehmen</translation>
+    </message>
+    <message>
+        <location filename="kodoselektado_sxargi.cpp" line="60"/>
+        <source>Eraro [048]!</source>
+        <translation>Fehler [048]!</translation>
+    </message>
+    <message>
+        <location filename="kodoselektado_sxargi.cpp" line="65"/>
+        <source>Eraro [047]!</source>
+        <translation>Fehler [047]!</translation>
     </message>
 </context>
 <context>

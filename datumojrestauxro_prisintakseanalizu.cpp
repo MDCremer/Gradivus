@@ -16,7 +16,7 @@ void datumojRestauxro::priSintakseAnalizu()
  QString teksto=ui->ordono->toPlainText();
  QByteArray subskribo;
  qlonglong stato;
- provajxo vido(this);
+ provajxo vido(this,patraObjekto);
  int indekso;
  QSqlDatabase datumbazo=QSqlDatabase::database();
  if(datumbazo.open())
