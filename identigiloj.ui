@@ -22,7 +22,7 @@
   <property name="locale">
    <locale language="C" country="AnyCountry"/>
   </property>
-  <layout class="QHBoxLayout" name="horizontalLayout_4">
+  <layout class="QHBoxLayout" name="horizontalLayout_5">
    <property name="leftMargin">
     <number>6</number>
    </property>
@@ -284,6 +284,50 @@
        <item row="2" column="1">
         <widget class="QComboBox" name="lingvo"/>
        </item>
+       <item row="3" column="0">
+        <widget class="QLabel" name="label_7">
+         <property name="text">
+          <string>Tipo:</string>
+         </property>
+        </widget>
+       </item>
+       <item row="3" column="1">
+        <widget class="QComboBox" name="tipo">
+         <property name="currentText">
+          <string>Plena identigilo</string>
+         </property>
+         <item>
+          <property name="text">
+           <string>Plena identigilo</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>Parte ŝparvojo</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>Ŝparvojo</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>Fabrikanta identigilo</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>Alnomo</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>Komisio kodo</string>
+          </property>
+         </item>
+        </widget>
+       </item>
        <item row="4" column="0">
         <widget class="QToolButton" name="fonto">
          <property name="sizePolicy">
@@ -319,6 +363,32 @@
           <string>Objekto kodo:</string>
          </property>
         </widget>
+       </item>
+       <item row="5" column="1">
+        <layout class="QHBoxLayout" name="horizontalLayout_4">
+         <item>
+          <widget class="QLineEdit" name="objektoKodo">
+           <property name="enabled">
+            <bool>true</bool>
+           </property>
+           <property name="font">
+            <font>
+             <italic>true</italic>
+            </font>
+           </property>
+           <property name="readOnly">
+            <bool>true</bool>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QToolButton" name="novaKodo">
+           <property name="text">
+            <string notr="true">⚒</string>
+           </property>
+          </widget>
+         </item>
+        </layout>
        </item>
        <item row="6" column="0">
         <widget class="QLabel" name="label_5">
@@ -368,65 +438,6 @@
          </property>
          <property name="text">
           <string/>
-         </property>
-        </widget>
-       </item>
-       <item row="3" column="0">
-        <widget class="QLabel" name="label_7">
-         <property name="text">
-          <string>Tipo:</string>
-         </property>
-        </widget>
-       </item>
-       <item row="3" column="1">
-        <widget class="QComboBox" name="tipo">
-         <property name="currentText">
-          <string>Milita identigilo</string>
-         </property>
-         <item>
-          <property name="text">
-           <string>Milita identigilo</string>
-          </property>
-         </item>
-         <item>
-          <property name="text">
-           <string>Parte ŝparvojo</string>
-          </property>
-         </item>
-         <item>
-          <property name="text">
-           <string>Ŝparvojo</string>
-          </property>
-         </item>
-         <item>
-          <property name="text">
-           <string>Fabrikanta identigilo</string>
-          </property>
-         </item>
-         <item>
-          <property name="text">
-           <string>Alnomo</string>
-          </property>
-         </item>
-         <item>
-          <property name="text">
-           <string>Komisio kodo</string>
-          </property>
-         </item>
-        </widget>
-       </item>
-       <item row="5" column="1">
-        <widget class="QLineEdit" name="objektoKodo">
-         <property name="enabled">
-          <bool>true</bool>
-         </property>
-         <property name="font">
-          <font>
-           <italic>true</italic>
-          </font>
-         </property>
-         <property name="readOnly">
-          <bool>true</bool>
          </property>
         </widget>
        </item>

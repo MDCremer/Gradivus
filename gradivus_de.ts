@@ -369,7 +369,7 @@
     <message>
         <location filename="cxefafenestro.cpp" line="36"/>
         <source>DE: germanoj</source>
-        <translation>DE: Deutsche</translation>
+        <translation>DE: Deutschen</translation>
     </message>
     <message>
         <location filename="cxefafenestro.cpp" line="36"/>
@@ -1523,64 +1523,65 @@
         <translation>Sprache:</translation>
     </message>
     <message>
-        <location filename="identigiloj.ui" line="296"/>
+        <location filename="identigiloj.ui" line="340"/>
         <source>Fonto:</source>
         <translation>Quelle:</translation>
     </message>
     <message>
-        <location filename="identigiloj.ui" line="319"/>
+        <location filename="identigiloj.ui" line="363"/>
         <source>Objekto kodo:</source>
         <translation>Kennung:</translation>
     </message>
     <message>
-        <location filename="identigiloj.ui" line="377"/>
+        <location filename="identigiloj.ui" line="290"/>
         <source>Tipo:</source>
         <translation>Typ:</translation>
     </message>
     <message>
-        <location filename="identigiloj.ui" line="393"/>
+        <location filename="identigiloj.ui" line="306"/>
         <source>Parte ŝparvojo</source>
         <translation>Teilweise Abkürzung</translation>
     </message>
     <message>
-        <location filename="identigiloj.ui" line="384"/>
-        <location filename="identigiloj.ui" line="388"/>
-        <source>Milita identigilo</source>
-        <translation>Militärische Bezeichnung</translation>
+        <location filename="identigiloj.ui" line="297"/>
+        <location filename="identigiloj.ui" line="301"/>
+        <source>Plena identigilo</source>
+        <oldsource>Milita identigilo</oldsource>
+        <translation>Vollständige Bezeichnung</translation>
     </message>
     <message>
-        <location filename="identigiloj.ui" line="398"/>
+        <location filename="identigiloj.ui" line="311"/>
         <source>Ŝparvojo</source>
         <translation>Abkürzung</translation>
     </message>
     <message>
-        <location filename="identigiloj.ui" line="403"/>
+        <location filename="identigiloj.ui" line="316"/>
         <source>Fabrikanta identigilo</source>
         <translation>Herstellerbezeichnung</translation>
     </message>
     <message>
-        <location filename="identigiloj.ui" line="408"/>
+        <location filename="identigiloj.ui" line="321"/>
         <source>Alnomo</source>
         <translation>Spitzname</translation>
     </message>
     <message>
-        <location filename="identigiloj.ui" line="413"/>
+        <location filename="identigiloj.ui" line="326"/>
         <source>Komisio kodo</source>
         <translation>Bestellkode</translation>
     </message>
     <message>
-        <location filename="identigiloj.ui" line="331"/>
+        <location filename="identigiloj.ui" line="401"/>
         <source>Subskribo:</source>
         <translation>Signatur:</translation>
     </message>
     <message>
-        <location filename="identigiloj.ui" line="358"/>
+        <location filename="identigiloj.ui" line="428"/>
         <source>Stato:</source>
         <translation>Stand:</translation>
     </message>
     <message>
         <location filename="identigiloj.ui" line="114"/>
-        <location filename="identigiloj.cpp" line="27"/>
+        <location filename="identigiloj.cpp" line="28"/>
         <source>neniu</source>
         <translation>keine</translation>
     </message>
@@ -1653,6 +1654,76 @@
         <location filename="identigiloj_sxargi.cpp" line="43"/>
         <source>Eraro [042]!</source>
         <translation>Fehler [042]!</translation>
+    </message>
+</context>
+<context>
+    <name>kodoSelektado</name>
+    <message>
+        <location filename="kodoselektado.ui" line="20"/>
+        <source>Kodo selektado</source>
+        <translation>Kennungsauswahl</translation>
+    </message>
+    <message>
+        <location filename="kodoselektado.ui" line="43"/>
+        <source>Etno limigo:</source>
+        <translation>Ethniebeschränkung:</translation>
+    </message>
+    <message>
+        <location filename="kodoselektado.ui" line="53"/>
+        <source>devas enhavi:</source>
+        <translation>muß enthalten:</translation>
+    </message>
+    <message>
+        <location filename="kodoselektado.ui" line="72"/>
+        <source>Lingvo limigo:</source>
+        <translation>Spracheinschränkung:</translation>
+    </message>
+    <message>
+        <location filename="kodoselektado.ui" line="93"/>
+        <source>Limigi tipoj:</source>
+        <translation>Typeinschränkung:</translation>
+    </message>
+    <message>
+        <location filename="kodoselektado.ui" line="106"/>
+        <location filename="kodoselektado.cpp" line="11"/>
+        <location filename="kodoselektado.cpp" line="16"/>
+        <source>neniu</source>
+        <translation>keine</translation>
+    </message>
+    <message>
+        <location filename="kodoselektado.ui" line="111"/>
+        <source>sen komisio kodoj</source>
+        <translation>ohne Bestellkodes</translation>
+    </message>
+    <message>
+        <location filename="kodoselektado.ui" line="116"/>
+        <source>ankaŭ sen kaj alnomoj</source>
+        <translation>auch ohne Spitznamen</translation>
+    </message>
+    <message>
+        <location filename="kodoselektado.ui" line="121"/>
+        <source>ankaŭ sen fabrikanta identigiloj</source>
+        <translation>auch ohne Herstellerbezeichnunen</translation>
+    </message>
+    <message>
+        <location filename="kodoselektado.ui" line="126"/>
+        <source>ankaŭ sen ŝparvojoj</source>
+        <translation>auch ohne Abkürzungen</translation>
+    </message>
+    <message>
+        <location filename="kodoselektado.ui" line="131"/>
+        <source>ankaŭ sen parte ŝparvojoj</source>
+        <translation>auch ohne teilweise Abkürzungen</translation>
+    </message>
+    <message>
+        <location filename="kodoselektado.ui" line="161"/>
+        <source>Rezignu</source>
+        <translation>Abbrechen</translation>
+    </message>
+    <message>
+        <location filename="kodoselektado.ui" line="192"/>
+        <source>Apliku</source>
+        <translation>Übernehmen</translation>
     </message>
 </context>
 <context>

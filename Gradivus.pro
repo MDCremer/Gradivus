@@ -48,10 +48,14 @@ SOURCES      += main.cpp\
                 identigiloj_prikontribui.cpp\
                 identigiloj_prilimigitipoj.cpp\
                 identigiloj_prilingvolimigo.cpp\
+                identigiloj_prinovakodo.cpp\
                 identigiloj_priobjektokodo.cpp\
                 identigiloj_prireiru.cpp\
                 identigiloj_privakigu.cpp\
                 identigiloj_sxargi.cpp\
+                kodoselektado.cpp\
+                kodoselektado_destrojero.cpp\
+                kodoselektado_sxargi.cpp\
                 konfiguro.cpp\
                 konfiguro_destrojero.cpp\
                 konfiguro_lingvoetikedosxangxo.cpp\
@@ -109,6 +113,7 @@ HEADERS      += agordoj.h\
                 hipertekstopagxo.h\
                 htmlmarkilo.h\
                 identigiloj.h\
+                kodoselektado.h\
                 konfiguro.h\
                 pagxoreferenco.h\
                 provajxo.h\
@@ -121,6 +126,7 @@ FORMS        += cxefafenestro.ui\
                 datumojapogilo.ui\
                 datumojrestauxro.ui\
                 identigiloj.ui\
+                kodoselektado.ui\
                 konfiguro.ui\
                 pagxoreferenco.ui\
                 provajxo.ui\

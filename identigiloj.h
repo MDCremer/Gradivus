@@ -25,6 +25,7 @@ class identigiloj:public QDialog
   void priKontribui(bool kontrolita);
   void priLimigiTipoj(QString teksto);
   void priLingvoLimigo(QString teksto);
+  void priNovaKodo();
   void priObjektoKodo();
   void priReiru();
   void priVakigu();

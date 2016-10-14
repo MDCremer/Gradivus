@@ -24,6 +24,7 @@ identigiloj::identigiloj(QWidget *gepatro):QDialog(gepatro),ui(new Ui::identigil
  connect(ui->limigiTipoj,&QComboBox::currentTextChanged,this,&identigiloj::priLimigiTipoj);
  connect(ui->identigilojListo,&QListWidget::itemSelectionChanged,this,&identigiloj::priElektajxoSxangxo);
  connect(ui->historiaListo,&QComboBox::currentTextChanged,this,&identigiloj::priHistoriaListo);
+ connect(ui->novaKodo,&QToolButton::clicked,this,&identigiloj::priNovaKodo);
  ui->lingvoLimigo->addItem(tr("neniu"));
  for(int indekso=0;indekso<patraObjekto->administranto.akiruLingvaKvanto();++indekso)
  {QString lingvoNomo=statikajDatumoj::lingvoNomoj[patraObjekto->administranto.akiruLingvaNombro(indekso)];
