@@ -9,6 +9,8 @@
 #include <QString>
 #include "datumojrestauxro.h"
 #include "ui_datumojrestauxro.h"
+#include "cxefafenestro.h"
+#include "agordoj.h"
 #include "provajxo.h"
 
 void datumojRestauxro::priSintakseAnalizu()
@@ -44,7 +46,8 @@ void datumojRestauxro::priSintakseAnalizu()
        html.append("<title>");
        html.append(aludo.replace("''","'"));
        html.append("</title>\n</head>\n<body>\n<p>");
-       html.append(kodo);
+       html.append(kodo.replace("\342\233\223\342\231\202\342\233\201/",
+         patraObjekto->administranto.akiruValoro(AGORDO_VORTARO)));
        html.append("</p>\n</body>\n</html>");
        vido.agordiVido(html);
        vido.agordiSubskribo(subskribo.replace("''","'"));
@@ -60,7 +63,8 @@ void datumojRestauxro::priSintakseAnalizu()
          html.append("<title>");
          html.append(aludo.replace("''","'"));
          html.append("</title>\n</head>\n<body>\n<p>");
-         html.append(malnovaKodo);
+         html.append(malnovaKodo.replace("\342\233\223\342\231\202\342\233\201/",
+           patraObjekto->administranto.akiruValoro(AGORDO_VORTARO)));
          html.append("</p>\n</body>\n</html>");
          vido.agordiMalnovaDatumoj(html);
          vido.agordiMalnovaSubskribo(malnovaSubskribo);

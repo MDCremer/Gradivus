@@ -8,6 +8,7 @@
 #include "pagxoreferenco.h"
 #include "ui_pagxoreferenco.h"
 #include "cxefafenestro.h"
+#include "agordoj.h"
 
 void pagxoReferenco::pagxosalto(int indekso)
 {if(indekso==1)
@@ -25,7 +26,8 @@ void pagxoReferenco::pagxosalto(int indekso)
     {QSqlQuery informpeto;
      if(informpeto.exec("SELECT html FROM literaturoj where aludo='"+faktaReferenco->text().replace("'","''")+"';"))
      {if(informpeto.first())
-      {html.append(qUncompress(informpeto.value("html").toByteArray()));
+      {html.append(qUncompress(informpeto.value("html").toByteArray()).replace("\342\233\223\342\231\202\342\233\201/",
+         avaObjekto->administranto.akiruValoro(AGORDO_VORTARO)));
        literaturo=faktaReferenco->text();
      }}
      else
@@ -44,7 +46,8 @@ void pagxoReferenco::pagxosalto(int indekso)
   else
    if(ui->redakto->toPlainText().simplified().isEmpty())
     ui->apliku->setEnabled(false);
-  html.append(ui->redakto->toPlainText().simplified());
+  html.append(ui->redakto->toPlainText().simplified().replace("\342\233\223\342\231\202\342\233\201/",
+    avaObjekto->administranto.akiruValoro(AGORDO_VORTARO)));
   pagxo=ui->redakto->toPlainText().simplified();
   html.append("</p>\n</body>\n</html>");
   ui->spektaklo->setHtml(html);

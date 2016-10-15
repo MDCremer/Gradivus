@@ -2,7 +2,6 @@
 #include <QString>
 #include "referencoj.h"
 #include "ui_referencoj.h"
-#include "cxefafenestro.h"
 #include "kodoselektado.h"
 
 void referencoj::priReferenceita()
@@ -11,7 +10,7 @@ void referencoj::priReferenceita()
   if(!enigojAktivigita[REFERENCO_REFERENCEITA]||ui->teksto->textCursor().hasSelection())
   {kodoSelektado selektado(this,patraObjekto);
    if(selektado.exec()==QDialog::Accepted)
-   {ligilo=QString(patraObjekto->administranto.akiruValoro(AGORDO_VORTARO));
+   {ligilo="\342\233\223\342\231\202\342\233\201/";
     ligilo.append(selektado.akiruKodo());
   }}
   if(ui->teksto->textCursor().hasSelection())

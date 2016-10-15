@@ -68,13 +68,15 @@ void identigiloj::priElektajxoSxangxo()
     if(!literaturo.isEmpty())
     {if(informpeto.exec("SELECT html FROM literaturoj WHERE aludo='"+literaturo.replace("'","''")+"';"))
      {if(informpeto.first())
-       html.append(qUncompress(informpeto.value("html").toByteArray()));
+       html.append(qUncompress(informpeto.value("html").toByteArray()).replace("\342\233\223\342\231\202\342\233\201/",
+         patraObjekto->administranto.akiruValoro(AGORDO_VORTARO)));
      }
      else
       if(informpeto.lastError().isValid())
        QMessageBox::warning(this,tr("Eraro [046]!"),informpeto.lastError().text());
     }
-    html.append(pagxo.toUtf8());
+    html.append(pagxo.toUtf8().replace("\342\233\223\342\231\202\342\233\201/",
+      patraObjekto->administranto.akiruValoro(AGORDO_VORTARO)));
     html.append("</p>\n</body>\n</html>");
     ui->referenco->setHtml(html);
     datumbazo.close();
