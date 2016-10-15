@@ -120,11 +120,11 @@ void identigiloj::priAkceptu()
        inverso.append("'");
        ordono.append("'");
       }
-      inverso.append("',subskribo='");
+      inverso.append(",subskribo='");
       inverso.append(malnovaSubskribo.replace("'","''"));
-      inverso.append("',stato=");
+      inverso.append("'',stato=");
       inverso.append(QString::number(malnovaStato).toUtf8());
-      ordono.append("',subskribo='");
+      ordono.append(",subskribo='");
       ordono.append(malnovaSubskribo.replace("'","''"));
       if(!malnovaSubskribo.contains(":"+patraObjekto->administranto.akiruValoro(AGORDO_NOMO)+":"))
       {ordono.append(patraObjekto->administranto.akiruValoro(AGORDO_NOMO).replace("'","''"));
@@ -146,6 +146,7 @@ void identigiloj::priAkceptu()
       ordono.append(ui->lingvo->currentText().left(2).toUtf8());
       inverso.append("';");
       ordono.append("';");
+      QMessageBox::information(this,"debug",ordono);
       if(ui->kontribui->isChecked())
       {kontribuo.append("INSERT OR REPLACE INTO identigiloj (etno,nomo,lingvo,tipo,literaturo,pagxo,uuid,subskribo,stato) V\
 ALUES ('");
