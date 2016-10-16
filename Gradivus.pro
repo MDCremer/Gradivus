@@ -43,10 +43,12 @@ SOURCES      += main.cpp\
                 identigiloj_priakceptu.cpp\
                 identigiloj_prielektajxosxangxo.cpp\
                 identigiloj_prifonto.cpp\
+                identigiloj_priforigu.cpp\
                 identigiloj_prihistorialisto.cpp\
                 identigiloj_prikodosxangxo.cpp\
                 identigiloj_prikontribui.cpp\
                 identigiloj_prilingvolimigo.cpp\
+                identigiloj_primalfaru.cpp\
                 identigiloj_prinovakodo.cpp\
                 identigiloj_priobjektokodo.cpp\
                 identigiloj_prireiru.cpp\

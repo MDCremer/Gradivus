@@ -19,12 +19,12 @@
         <translation>Fehler [012]!</translation>
     </message>
     <message>
-        <location filename="agordoj_sxargu.cpp" line="40"/>
+        <location filename="agordoj_sxargu.cpp" line="42"/>
         <source>Eraro [011]!</source>
         <translation>Fehler [011]!</translation>
     </message>
     <message>
-        <location filename="agordoj_sxargu.cpp" line="45"/>
+        <location filename="agordoj_sxargu.cpp" line="47"/>
         <source>Eraro [010]!</source>
         <translation>Fehler [010]!</translation>
     </message>
@@ -1293,47 +1293,47 @@
 <context>
     <name>datumojRestauxro</name>
     <message>
-        <location filename="datumojrestauxro_prisintakseanalizu.cpp" line="70"/>
+        <location filename="datumojrestauxro_prisintakseanalizu.cpp" line="74"/>
         <source>La citaĵo jam existas.</source>
         <translation>Die Literaturangabe ist bereits vorhanden.</translation>
     </message>
     <message>
-        <location filename="datumojrestauxro_prisintakseanalizu.cpp" line="73"/>
+        <location filename="datumojrestauxro_prisintakseanalizu.cpp" line="77"/>
         <source>Estas sama malnova citaĵo malsama enhavo.</source>
         <translation>Es gibt eine gleichalte Literaturangabe unterschiedlichen Inhalts.</translation>
     </message>
     <message>
-        <location filename="datumojrestauxro_prisintakseanalizu.cpp" line="76"/>
+        <location filename="datumojrestauxro_prisintakseanalizu.cpp" line="80"/>
         <source>Estas sama malnova citaĵo kun malsamaj subskriptoj.</source>
         <translation>Es gibt eine gleichalte Literaturangabe mit unterschiedlicher Signatur..</translation>
     </message>
     <message>
-        <location filename="datumojrestauxro_prisintakseanalizu.cpp" line="79"/>
+        <location filename="datumojrestauxro_prisintakseanalizu.cpp" line="83"/>
         <source>Estas jam disponebla ĝisdatigi via citaĵo.</source>
         <translation>Es gibt bereits eine neuere Literaturangabe.</translation>
     </message>
     <message>
-        <location filename="datumojrestauxro_prisintakseanalizu.cpp" line="82"/>
+        <location filename="datumojrestauxro_prisintakseanalizu.cpp" line="86"/>
         <source>Eksistas malnova citaĵo de la sama enhavo.</source>
         <translation>Es gibt eine ältere Literaturangabe desselben Inhalts.</translation>
     </message>
     <message>
-        <location filename="datumojrestauxro_prisintakseanalizu.cpp" line="84"/>
+        <location filename="datumojrestauxro_prisintakseanalizu.cpp" line="88"/>
         <source>La nuna bibliografio estas pli malnova.</source>
         <translation>Die vorliegende Literaturangabe ist älter.</translation>
     </message>
     <message>
-        <location filename="datumojrestauxro_prisintakseanalizu.cpp" line="89"/>
+        <location filename="datumojrestauxro_prisintakseanalizu.cpp" line="93"/>
         <source>Tia citaĵo ne estas disponebla ankoraŭ.</source>
         <translation>Es gibt noch keine solche Literaturangabe.</translation>
     </message>
     <message>
-        <location filename="datumojrestauxro_prisintakseanalizu.cpp" line="93"/>
+        <location filename="datumojrestauxro_prisintakseanalizu.cpp" line="97"/>
         <source>Eraro [028]!</source>
         <translation>Fehler [028]!</translation>
     </message>
     <message>
-        <location filename="datumojrestauxro_prisintakseanalizu.cpp" line="103"/>
+        <location filename="datumojrestauxro_prisintakseanalizu.cpp" line="107"/>
         <source>Eraro [027]!</source>
         <translation>Fehler [027]!</translation>
     </message>
@@ -1581,7 +1581,7 @@
     </message>
     <message>
         <location filename="identigiloj.ui" line="114"/>
-        <location filename="identigiloj.cpp" line="29"/>
+        <location filename="identigiloj.cpp" line="19"/>
         <source>neniu</source>
         <translation>keine</translation>
     </message>
@@ -1636,12 +1636,12 @@
         <translation>Fehler [045]!</translation>
     </message>
     <message>
-        <location filename="identigiloj_prielektajxosxangxo.cpp" line="75"/>
+        <location filename="identigiloj_prielektajxosxangxo.cpp" line="76"/>
         <source>Eraro [046]!</source>
         <translation>Fehler [046]!</translation>
     </message>
     <message>
-        <location filename="identigiloj_prielektajxosxangxo.cpp" line="85"/>
+        <location filename="identigiloj_prielektajxosxangxo.cpp" line="87"/>
         <source>Eraro [044]!</source>
         <translation>Fehler [044]!</translation>
     </message>
@@ -1654,6 +1654,26 @@
         <location filename="identigiloj_sxargi.cpp" line="43"/>
         <source>Eraro [042]!</source>
         <translation>Fehler [042]!</translation>
+    </message>
+    <message>
+        <location filename="identigiloj_priforigu.cpp" line="64"/>
+        <source>Eraro [050]!</source>
+        <translation>Fehler [050]!</translation>
+    </message>
+    <message>
+        <location filename="identigiloj_priforigu.cpp" line="71"/>
+        <source>Identigilo estis forigita!</source>
+        <translation>Die Bezeichnung wurde gelöscht!</translation>
+    </message>
+    <message>
+        <location filename="identigiloj_priforigu.cpp" line="77"/>
+        <source>Eraro [049]!</source>
+        <translation>Fehler [049]!</translation>
+    </message>
+    <message>
+        <location filename="identigiloj_primalfaru.cpp" line="15"/>
+        <source>Ŝanĝoj malfaritaj!</source>
+        <translation>Änderungen rückgängig gemacht!</translation>
     </message>
 </context>
 <context>
@@ -1759,6 +1779,11 @@
         <translation>Paßwort:</translation>
     </message>
     <message>
+        <location filename="konfiguro.ui" line="338"/>
+        <source>Vortaro:</source>
+        <translation>Lexikon:</translation>
+    </message>
+    <message>
         <location filename="konfiguro.ui" line="99"/>
         <source>Lingvoj</source>
         <translation>Sprachen</translation>
@@ -1779,12 +1804,12 @@
         <translation>Übertragungsadresse:</translation>
     </message>
     <message>
-        <location filename="konfiguro_prikonfirmu.cpp" line="33"/>
+        <location filename="konfiguro_prikonfirmu.cpp" line="35"/>
         <source>Abortu</source>
         <translation>Abbrechen</translation>
     </message>
     <message numerus="yes">
-        <location filename="konfiguro_prikonfirmu.cpp" line="111"/>
+        <location filename="konfiguro_prikonfirmu.cpp" line="125"/>
         <source>%n ŝanĝoj estas savitaj!</source>
         <translation>
             <numerusform>%n Änderung wurde gespeichert!</numerusform>
@@ -1792,17 +1817,17 @@
         </translation>
     </message>
     <message>
-        <location filename="konfiguro_prikonfirmu.cpp" line="118"/>
+        <location filename="konfiguro_prikonfirmu.cpp" line="132"/>
         <source>Ekzistas neniu ŝanĝo!</source>
         <translation>Es gibt keine Änderungen!</translation>
     </message>
     <message>
-        <location filename="konfiguro.ui" line="367"/>
+        <location filename="konfiguro.ui" line="377"/>
         <source>Malfaru</source>
         <translation>Rückgängig</translation>
     </message>
     <message>
-        <location filename="konfiguro.ui" line="374"/>
+        <location filename="konfiguro.ui" line="384"/>
         <source>Konfirmi</source>
         <translation>Bestätigen</translation>
     </message>
@@ -1812,12 +1837,12 @@
         <translation>Lokale Vorgabe</translation>
     </message>
     <message>
-        <location filename="konfiguro_prikonfirmu.cpp" line="33"/>
+        <location filename="konfiguro_prikonfirmu.cpp" line="35"/>
         <source>Stokado</source>
         <translation>Speicherung</translation>
     </message>
     <message>
-        <location filename="konfiguro_prikonfirmu.cpp" line="115"/>
+        <location filename="konfiguro_prikonfirmu.cpp" line="129"/>
         <source>Eraro [016]!</source>
         <translation>Fehler [016]!</translation>
     </message>
@@ -1875,12 +1900,12 @@
         <translation>Fehler [033]!</translation>
     </message>
     <message>
-        <location filename="pagxoreferenco_pagxosalto.cpp" line="33"/>
+        <location filename="pagxoreferenco_pagxosalto.cpp" line="35"/>
         <source>Eraro [036]!</source>
         <translation>Fehler [036]!</translation>
     </message>
     <message>
-        <location filename="pagxoreferenco_pagxosalto.cpp" line="38"/>
+        <location filename="pagxoreferenco_pagxosalto.cpp" line="40"/>
         <source>Eraro [035]!</source>
         <translation>Fehler [035]!</translation>
     </message>

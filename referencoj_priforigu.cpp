@@ -41,9 +41,9 @@ void referencoj::priForigu()
    registrilo->plenumu(&informpeto,ordono);
    registrilo->fermu();
    patraObjekto->spektakloMesagxon(tr("Cita\304\265o estis forigita!"));
-   sxargiAludoj();
   }
   datumbazo.close();
+  sxargiAludoj();
  }
  else
   if(datumbazo.lastError().isValid())

@@ -20,10 +20,12 @@ class identigiloj:public QDialog
   void priAkceptu();
   void priElektajxoSxangxo();
   void priFonto();
+  void priForigu();
   void priHistoriaListo(QString teksto);
   void priKodoSxangxo(QString kodo);
   void priKontribui(bool kontrolita);
   void priLingvoLimigo(QString teksto);
+  void priMalfaru();
   void priNovaKodo();
   void priObjektoKodo();
   void priReiru();

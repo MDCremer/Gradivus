@@ -16,6 +16,13 @@ identigiloj::identigiloj(QWidget *gepatro):QDialog(gepatro),ui(new Ui::identigil
  registrilo=new rikordoRegistrilo(ui->malfaru);
  patraObjekto=(cxefaFenestro *)gepatro;
  ui->referenco->setPage(new hipertekstoPagxo(this,patraObjekto));
+ ui->lingvoLimigo->addItem(tr("neniu"));
+ for(int indekso=0;indekso<patraObjekto->administranto.akiruLingvaKvanto();++indekso)
+ {QString lingvoNomo=statikajDatumoj::lingvoNomoj[patraObjekto->administranto.akiruLingvaNombro(indekso)];
+  ui->lingvoLimigo->addItem(lingvoNomo);
+  ui->lingvo->addItem(lingvoNomo);
+ }
+ ui->etno->addItems(patraObjekto->etnoNomoj);
  connect(ui->reiru,&QToolButton::clicked,this,&identigiloj::priReiru);
  connect(ui->identigilo,&QPushButton::clicked,this,&identigiloj::priObjektoKodo);
  connect(ui->fonto,&QPushButton::clicked,this,&identigiloj::priFonto);
@@ -28,11 +35,7 @@ identigiloj::identigiloj(QWidget *gepatro):QDialog(gepatro),ui(new Ui::identigil
  connect(ui->identigilojListo,&QListWidget::itemSelectionChanged,this,&identigiloj::priElektajxoSxangxo);
  connect(ui->historiaListo,&QComboBox::currentTextChanged,this,&identigiloj::priHistoriaListo);
  connect(ui->novaKodo,&QToolButton::clicked,this,&identigiloj::priNovaKodo);
- ui->lingvoLimigo->addItem(tr("neniu"));
- for(int indekso=0;indekso<patraObjekto->administranto.akiruLingvaKvanto();++indekso)
- {QString lingvoNomo=statikajDatumoj::lingvoNomoj[patraObjekto->administranto.akiruLingvaNombro(indekso)];
-  ui->lingvoLimigo->addItem(lingvoNomo);
-  ui->lingvo->addItem(lingvoNomo);
- }
- ui->etno->addItems(patraObjekto->etnoNomoj);
+ connect(ui->forigu,&QPushButton::clicked,this,&identigiloj::priForigu);
+ connect(ui->malfaru,&QPushButton::clicked,this,&identigiloj::priMalfaru);
+ sxargi();
 }

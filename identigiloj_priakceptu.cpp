@@ -146,7 +146,6 @@ void identigiloj::priAkceptu()
       ordono.append(ui->lingvo->currentText().left(2).toUtf8());
       inverso.append("';");
       ordono.append("';");
-      QMessageBox::information(this,"debug",ordono);
       if(ui->kontribui->isChecked())
       {kontribuo.append("INSERT OR REPLACE INTO identigiloj (etno,nomo,lingvo,tipo,literaturo,pagxo,uuid,subskribo,stato) V\
 ALUES ('");
