@@ -22,6 +22,14 @@ pagxoReferenco::pagxoReferenco(QWidget *gepatro,cxefaFenestro *avo):QDialog(gepa
  connect(ui->pagxoj,&QTabWidget::currentChanged,this,&pagxoReferenco::pagxosalto);
  connect(ui->apliku,&QPushButton::clicked,this,&pagxoReferenco::priApliku);
  connect(ui->citajxo,&QToolButton::clicked,this,&pagxoReferenco::priCitajxo);
+ connect(ui->forta,&QToolButton::clicked,this,&pagxoReferenco::priForta);
+ connect(ui->grasa,&QToolButton::clicked,this,&pagxoReferenco::priGrasa);
+ connect(ui->kursiva,&QToolButton::clicked,this,&pagxoReferenco::priKursiva);
+ connect(ui->substretika,&QToolButton::clicked,this,&pagxoReferenco::priSubstretika);
+ connect(ui->superskribita,&QToolButton::clicked,this,&pagxoReferenco::priSuperskribita);
+ connect(ui->suba,&QToolButton::clicked,this,&pagxoReferenco::priSuba);
+ connect(ui->referenceita,&QToolButton::clicked,this,&pagxoReferenco::priReferenceita);
+ connect(ui->minora,&QToolButton::clicked,this,&pagxoReferenco::priMinora);
  for(int indekso=0;indekso<9;++indekso)
   enigojAktivigita[indekso]=false;
  QSqlDatabase datumbazo=QSqlDatabase::database();

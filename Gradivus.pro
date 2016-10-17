@@ -80,7 +80,14 @@ SOURCES      += main.cpp\
                 pagxoreferenco_pagxosalto.cpp\
                 pagxoreferenco_priapliku.cpp\
                 pagxoreferenco_pricitajxo.cpp\
+                pagxoreferenco_priforta.cpp\
+                pagxoreferenco_prigrasa.cpp\
+                pagxoreferenco_prikursiva.cpp\
+                pagxoreferenco_prireferenceita.cpp\
                 pagxoreferenco_prirezignu.cpp\
+                pagxoreferenco_prisuba.cpp\
+                pagxoreferenco_prisubstretika.cpp\
+                pagxoreferenco_prisuperskribita.cpp\
                 pagxoreferenco_privakigu.cpp\
                 provajxo.cpp\
                 provajxo_destrojero.cpp\
@@ -113,7 +120,8 @@ SOURCES      += main.cpp\
                 rikordoregistrilo_plenumu.cpp\
                 sqlmarkilo.cpp\
                 sqlmarkilo_highlightblock.cpp\
-                statikajdatumoj.cpp
+                statikajdatumoj.cpp \
+    pagxoreferenco_priminora.cpp
 
 HEADERS      += agordoj.h\
                 cxefafenestro.h\

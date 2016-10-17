@@ -37,7 +37,15 @@ class pagxoReferenco:public QDialog
   void pagxosalto(int indekso);
   void priApliku();
   void priCitajxo();
+  void priForta();
+  void priGrasa();
+  void priKursiva();
+  void priMinora();
+  void priReferenceita();
   void priRezignu();
+  void priSuba();
+  void priSubstretika();
+  void priSuperskribita();
   void priVakigu();
  private:
   void enigi(int indekso,QString starto,QString fino,QToolButton *butono);
