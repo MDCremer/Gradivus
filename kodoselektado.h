@@ -10,7 +10,7 @@ namespace Ui
 {class kodoSelektado;
 }
 
-class kodoSelektado : public QDialog
+class kodoSelektado:public QDialog
 {Q_OBJECT
  public:
   explicit kodoSelektado(QWidget *gepatro,cxefaFenestro *avo);

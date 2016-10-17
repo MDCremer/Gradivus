@@ -1,4 +1,5 @@
 #include <QString>
+#include <QToolButton>
 #include "referencoj.h"
 #include "ui_referencoj.h"
 

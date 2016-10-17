@@ -37,5 +37,6 @@ identigiloj::identigiloj(QWidget *gepatro):QDialog(gepatro),ui(new Ui::identigil
  connect(ui->novaKodo,&QToolButton::clicked,this,&identigiloj::priNovaKodo);
  connect(ui->forigu,&QPushButton::clicked,this,&identigiloj::priForigu);
  connect(ui->malfaru,&QPushButton::clicked,this,&identigiloj::priMalfaru);
+ connect(ui->alternativoj,&QListWidget::itemSelectionChanged,this,&identigiloj::priAlternativojElekti);
  sxargi();
 }

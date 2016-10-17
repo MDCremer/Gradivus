@@ -18,6 +18,7 @@ class identigiloj:public QDialog
   ~identigiloj();
  public slots:
   void priAkceptu();
+  void priAlternativojElekti();
   void priElektajxoSxangxo();
   void priFonto();
   void priForigu();

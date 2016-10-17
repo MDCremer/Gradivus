@@ -41,6 +41,7 @@ SOURCES      += main.cpp\
                 identigiloj.cpp\
                 identigiloj_destrojero.cpp\
                 identigiloj_priakceptu.cpp\
+                identigiloj_prialternativojelekti.cpp\
                 identigiloj_prielektajxosxangxo.cpp\
                 identigiloj_prifonto.cpp\
                 identigiloj_priforigu.cpp\
@@ -74,9 +75,11 @@ SOURCES      += main.cpp\
                 konfiguro_prisupro.cpp\
                 pagxoreferenco.cpp\
                 pagxoreferenco_destrojero.cpp\
+                pagxoreferenco_enigi.cpp\
                 pagxoreferenco_agordiliteraturo.cpp\
                 pagxoreferenco_pagxosalto.cpp\
                 pagxoreferenco_priapliku.cpp\
+                pagxoreferenco_pricitajxo.cpp\
                 pagxoreferenco_prirezignu.cpp\
                 pagxoreferenco_privakigu.cpp\
                 provajxo.cpp\

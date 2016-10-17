@@ -308,6 +308,7 @@ LUES ('");
      }
      else
       sxargi();
+     ui->objektoKodo->clear();
      QList<QListWidgetItem *> kongruoj=ui->identigilojListo->findItems(aktualo,Qt::MatchExactly);
      if(kongruoj.size()>0)
       ui->identigilojListo->setCurrentItem(kongruoj.first());

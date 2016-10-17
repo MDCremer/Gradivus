@@ -36,9 +36,11 @@ class pagxoReferenco:public QDialog
  public slots:
   void pagxosalto(int indekso);
   void priApliku();
+  void priCitajxo();
   void priRezignu();
   void priVakigu();
  private:
+  void enigi(int indekso,QString starto,QString fino,QToolButton *butono);
   QString literaturo;
   QString pagxo;
   QString html;

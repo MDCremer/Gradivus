@@ -11,7 +11,7 @@ namespace Ui
 {class konfiguro;
 }
 
-class konfiguro : public QDialog
+class konfiguro:public QDialog
 {Q_OBJECT
  public:
   explicit konfiguro(QWidget *gepatro=0);
