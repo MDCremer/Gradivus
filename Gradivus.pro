@@ -83,6 +83,7 @@ SOURCES      += main.cpp\
                 pagxoreferenco_priforta.cpp\
                 pagxoreferenco_prigrasa.cpp\
                 pagxoreferenco_prikursiva.cpp\
+                pagxoreferenco_priminora.cpp\
                 pagxoreferenco_prireferenceita.cpp\
                 pagxoreferenco_prirezignu.cpp\
                 pagxoreferenco_prisuba.cpp\
@@ -120,8 +121,7 @@ SOURCES      += main.cpp\
                 rikordoregistrilo_plenumu.cpp\
                 sqlmarkilo.cpp\
                 sqlmarkilo_highlightblock.cpp\
-                statikajdatumoj.cpp \
-    pagxoreferenco_priminora.cpp
+                statikajdatumoj.cpp
 
 HEADERS      += agordoj.h\
                 cxefafenestro.h\
