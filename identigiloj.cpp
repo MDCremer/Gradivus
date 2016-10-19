@@ -16,6 +16,7 @@ identigiloj::identigiloj(QWidget *gepatro):QDialog(gepatro),ui(new Ui::identigil
  registrilo=new rikordoRegistrilo(ui->malfaru);
  patraObjekto=(cxefaFenestro *)gepatro;
  ui->referenco->setPage(new hipertekstoPagxo(this,patraObjekto));
+ ui->referenco->setHtml(patraObjekto->administranto.akiruValoro(AGORDO_STILO)+"</head>\n<body>\n</body>\n</html>");
  ui->lingvoLimigo->addItem(tr("neniu"));
  for(int indekso=0;indekso<patraObjekto->administranto.akiruLingvaKvanto();++indekso)
  {QString lingvoNomo=statikajDatumoj::lingvoNomoj[patraObjekto->administranto.akiruLingvaNombro(indekso)];

@@ -98,8 +98,28 @@ void datumojRestauxro::priSintakseAnalizu()
        vido.exec();
   }}}}}
   if(ui->sintakseAnalizu->text()=="identigiloj")
-  {
-  }
+  {QByteArray etno,nomo,lingvo,tipo,literaturo,pagxo,uuid;
+   interkonsento=QRegularExpression("\\(\\'[A-Z]{2}\\',").match(teksto);
+   if(interkonsento.hasMatch())
+   {etno=interkonsento.captured().mid(2,2).toUtf8();
+    indekso=interkonsento.capturedStart()+interkonsento.capturedLength();
+    interkonsento=QRegularExpression("\\'([^\\']+|\\'{2})+\\',").match(teksto,indekso);
+    if(interkonsento.hasMatch())
+    {nomo=interkonsento.captured().mid(1,interkonsento.captured().length()-3).toUtf8();
+     indekso=interkonsento.capturedStart()+interkonsento.capturedLength();
+     interkonsento=QRegularExpression("\\'[a-z]{2}\\',").match(teksto,indekso);
+     if(interkonsento.hasMatch())
+     {lingvo=interkonsento.captured().mid(1,interkonsento.captured().length()-3).toUtf8();
+      indekso=interkonsento.capturedStart()+interkonsento.capturedLength();
+      interkonsento=QRegularExpression("[0-9]+,").match(teksto,indekso);
+      if(interkonsento.hasMatch())
+      {tipo=interkonsento.captured().left(interkonsento.captured().length()-1).toUtf8();
+       indekso=interkonsento.capturedStart()+interkonsento.capturedLength();
+       interkonsento=QRegularExpression("(NULL|\\'([^\\']+|\\'{2})+\\'),").match(teksto,indekso);
+       if(interkonsento.hasMatch())
+       {if(interkonsento.captured()!="NULL,")
+         literaturo=interkonsento.captured().mid(1,interkonsento.captured().length()-3).toUtf8();
+  }}}}}}
   datumbazo.close();
  }
  else
