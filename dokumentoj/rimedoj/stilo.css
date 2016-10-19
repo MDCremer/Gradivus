@@ -18,3 +18,7 @@ h1,h2,h3,cite,em
 
 a
 {text-decoration:none;}
+
+td
+{vertical-align:top;
+}

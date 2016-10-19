@@ -1293,47 +1293,162 @@
 <context>
     <name>datumojRestauxro</name>
     <message>
-        <location filename="datumojrestauxro_prisintakseanalizu.cpp" line="74"/>
+        <location filename="datumojrestauxro_prisintakseanalizu.cpp" line="75"/>
         <source>La citaĵo jam existas.</source>
         <translation>Die Literaturangabe ist bereits vorhanden.</translation>
     </message>
     <message>
-        <location filename="datumojrestauxro_prisintakseanalizu.cpp" line="77"/>
+        <location filename="datumojrestauxro_prisintakseanalizu.cpp" line="78"/>
         <source>Estas sama malnova citaĵo malsama enhavo.</source>
         <translation>Es gibt eine gleichalte Literaturangabe unterschiedlichen Inhalts.</translation>
     </message>
     <message>
-        <location filename="datumojrestauxro_prisintakseanalizu.cpp" line="80"/>
+        <location filename="datumojrestauxro_prisintakseanalizu.cpp" line="81"/>
         <source>Estas sama malnova citaĵo kun malsamaj subskriptoj.</source>
         <translation>Es gibt eine gleichalte Literaturangabe mit unterschiedlicher Signatur..</translation>
     </message>
     <message>
-        <location filename="datumojrestauxro_prisintakseanalizu.cpp" line="83"/>
+        <location filename="datumojrestauxro_prisintakseanalizu.cpp" line="84"/>
         <source>Estas jam disponebla ĝisdatigi via citaĵo.</source>
         <translation>Es gibt bereits eine neuere Literaturangabe.</translation>
     </message>
     <message>
-        <location filename="datumojrestauxro_prisintakseanalizu.cpp" line="86"/>
+        <location filename="datumojrestauxro_prisintakseanalizu.cpp" line="87"/>
         <source>Eksistas malnova citaĵo de la sama enhavo.</source>
         <translation>Es gibt eine ältere Literaturangabe desselben Inhalts.</translation>
     </message>
     <message>
-        <location filename="datumojrestauxro_prisintakseanalizu.cpp" line="88"/>
+        <location filename="datumojrestauxro_prisintakseanalizu.cpp" line="89"/>
         <source>La nuna bibliografio estas pli malnova.</source>
         <translation>Die vorliegende Literaturangabe ist älter.</translation>
     </message>
     <message>
-        <location filename="datumojrestauxro_prisintakseanalizu.cpp" line="93"/>
+        <location filename="datumojrestauxro_prisintakseanalizu.cpp" line="94"/>
         <source>Tia citaĵo ne estas disponebla ankoraŭ.</source>
         <translation>Es gibt noch keine solche Literaturangabe.</translation>
     </message>
     <message>
-        <location filename="datumojrestauxro_prisintakseanalizu.cpp" line="97"/>
+        <location filename="datumojrestauxro_prisintakseanalizu.cpp" line="98"/>
         <source>Eraro [028]!</source>
         <translation>Fehler [028]!</translation>
     </message>
     <message>
-        <location filename="datumojrestauxro_prisintakseanalizu.cpp" line="107"/>
+        <location filename="datumojrestauxro_prisintakseanalizu.cpp" line="142"/>
+        <source>Plena identigilo</source>
+        <translation>Vollständige Bezeichnung</translation>
+    </message>
+    <message>
+        <location filename="datumojrestauxro_prisintakseanalizu.cpp" line="142"/>
+        <source>Parte ŝparvojo</source>
+        <translation>Teilweise Abkürzung</translation>
+    </message>
+    <message>
+        <location filename="datumojrestauxro_prisintakseanalizu.cpp" line="142"/>
+        <source>Ŝparvojo</source>
+        <translation>Abkürzung</translation>
+    </message>
+    <message>
+        <location filename="datumojrestauxro_prisintakseanalizu.cpp" line="143"/>
+        <source>Fabrikanta identigilo</source>
+        <translation>Herstellerbezeichnung</translation>
+    </message>
+    <message>
+        <location filename="datumojrestauxro_prisintakseanalizu.cpp" line="143"/>
+        <source>Alnomo</source>
+        <translation>Spitzname</translation>
+    </message>
+    <message>
+        <location filename="datumojrestauxro_prisintakseanalizu.cpp" line="143"/>
+        <source>Komisio kodo</source>
+        <translation>Bestellkode</translation>
+    </message>
+    <message>
+        <location filename="datumojrestauxro_prisintakseanalizu.cpp" line="148"/>
+        <location filename="datumojrestauxro_prisintakseanalizu.cpp" line="200"/>
+        <source>Tipo:</source>
+        <oldsource>Tipo: </oldsource>
+        <translation>Typ:</translation>
+    </message>
+    <message>
+        <location filename="datumojrestauxro_prisintakseanalizu.cpp" line="155"/>
+        <location filename="datumojrestauxro_prisintakseanalizu.cpp" line="207"/>
+        <source>Objekto kodo:</source>
+        <translation>Kennung:</translation>
+    </message>
+    <message>
+        <location filename="datumojrestauxro_prisintakseanalizu.cpp" line="159"/>
+        <location filename="datumojrestauxro_prisintakseanalizu.cpp" line="211"/>
+        <source>Fonto:</source>
+        <translation>Quelle:</translation>
+    </message>
+    <message>
+        <source>Objekto kodo: </source>
+        <translation>Kennung: </translation>
+    </message>
+    <message>
+        <location filename="datumojrestauxro_prisintakseanalizu.cpp" line="165"/>
+        <source>&lt;i&gt;(nekonata literaturo)&lt;/i&gt;</source>
+        <translation>&lt;i&gt;(unbekannte Literaturangabe)&lt;/i&gt;</translation>
+    </message>
+    <message>
+        <location filename="datumojrestauxro_prisintakseanalizu.cpp" line="169"/>
+        <source>Eraro [051]!</source>
+        <translation>Fehler [051]!</translation>
+    </message>
+    <message>
+        <location filename="datumojrestauxro_prisintakseanalizu.cpp" line="215"/>
+        <source>La identigilo jam existas.</source>
+        <oldsource>La literaturo jam existas.</oldsource>
+        <translation>Die Bezeichnung ist bereits vorhanden.</translation>
+    </message>
+    <message>
+        <location filename="datumojrestauxro_prisintakseanalizu.cpp" line="219"/>
+        <source>Estas sama malnova identigilo malsama enhavo.</source>
+        <oldsource>Estas sama malnova literaturo malsama enhavo.</oldsource>
+        <translation>Es gibt eine gleichalte Bezeichnung ungleichen Inhalts.</translation>
+    </message>
+    <message>
+        <location filename="datumojrestauxro_prisintakseanalizu.cpp" line="222"/>
+        <source>Estas sama malnova identigilo kun malsamaj subskriptoj.</source>
+        <oldsource>Estas sama malnova literaturo kun malsamaj subskriptoj.</oldsource>
+        <translation>Die Bezeichnung ist bereits mit einem unterschiedlichen Subskriptum vorhanden.</translation>
+    </message>
+    <message>
+        <location filename="datumojrestauxro_prisintakseanalizu.cpp" line="225"/>
+        <source>Estas jam disponebla ĝisdatigi via identigilo.</source>
+        <oldsource>Estas jam disponebla ĝisdatigi via literaturo.</oldsource>
+        <translation>Es ist bereits eine aktuelle Bezeichnung vorhanden.</translation>
+    </message>
+    <message>
+        <location filename="datumojrestauxro_prisintakseanalizu.cpp" line="228"/>
+        <source>Eksistas malnova identigilo de la sama enhavo.</source>
+        <oldsource>Eksistas malnova literaturo de la sama enhavo.</oldsource>
+        <translation>Es gibt eine ältere Bezeichnung desselben Inhalts.</translation>
+    </message>
+    <message>
+        <location filename="datumojrestauxro_prisintakseanalizu.cpp" line="230"/>
+        <source>La nuna identigilo estas pli malnova.</source>
+        <oldsource>La nuna literaturo estas pli malnova.</oldsource>
+        <translation>Die vorhandene Bezeichnung ist aktueller.</translation>
+    </message>
+    <message>
+        <location filename="datumojrestauxro_prisintakseanalizu.cpp" line="235"/>
+        <source>Tia identigilo ne estas disponebla ankoraŭ.</source>
+        <oldsource>Tia literaturo ne estas disponebla ankoraŭ.</oldsource>
+        <translation>Die Bezeichnung ist noch nicht vorhanden.</translation>
+    </message>
+    <message>
+        <location filename="datumojrestauxro_prisintakseanalizu.cpp" line="239"/>
+        <source>Eraro [052]!</source>
+        <translation>Fehler [052]!</translation>
+    </message>
+    <message>
+        <location filename="datumojrestauxro_prisintakseanalizu.cpp" line="251"/>
+        <source>Eraro [053]!</source>
+        <translation>Fehler [053]!</translation>
+    </message>
+    <message>
+        <location filename="datumojrestauxro_prisintakseanalizu.cpp" line="259"/>
         <source>Eraro [027]!</source>
         <translation>Fehler [027]!</translation>
     </message>
@@ -1581,7 +1696,7 @@
     </message>
     <message>
         <location filename="identigiloj.ui" line="114"/>
-        <location filename="identigiloj.cpp" line="19"/>
+        <location filename="identigiloj.cpp" line="20"/>
         <source>neniu</source>
         <translation>keine</translation>
     </message>
@@ -1616,17 +1731,17 @@
         <translation>Bezeichnung &apos;%1&apos; wurde aktualisiert.</translation>
     </message>
     <message>
-        <location filename="identigiloj_priakceptu.cpp" line="330"/>
+        <location filename="identigiloj_priakceptu.cpp" line="331"/>
         <source>Eraro [039]!</source>
         <translation>Fehler [039]!</translation>
     </message>
     <message>
-        <location filename="identigiloj_priakceptu.cpp" line="333"/>
+        <location filename="identigiloj_priakceptu.cpp" line="334"/>
         <source>Nomo sen objekto kodon estas neakceptebla!</source>
         <translation>Eine Bezeichnung ohne Objektkennung ist inakzeptabel!</translation>
     </message>
     <message>
-        <location filename="identigiloj_priakceptu.cpp" line="336"/>
+        <location filename="identigiloj_priakceptu.cpp" line="337"/>
         <source>Malplena etikedo estas neakceptebla!</source>
         <translation>Eine leere Bezeichnung ist inakzeptabel!</translation>
     </message>
@@ -1890,12 +2005,12 @@
         <translation>Übernehmen</translation>
     </message>
     <message>
-        <location filename="pagxoreferenco.cpp" line="35"/>
+        <location filename="pagxoreferenco.cpp" line="44"/>
         <source>Eraro [034]!</source>
         <translation>Fehler [034]!</translation>
     </message>
     <message>
-        <location filename="pagxoreferenco.cpp" line="40"/>
+        <location filename="pagxoreferenco.cpp" line="49"/>
         <source>Eraro [033]!</source>
         <translation>Fehler [033]!</translation>
     </message>
