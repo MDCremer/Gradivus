@@ -19,6 +19,7 @@ SOURCES      += main.cpp\
                 cxefafenestro_pridatumojapogilo.cpp\
                 cxefafenestro_pridatumojrestauxro.cpp\
                 cxefafenestro_priidentigiloj.cpp\
+                cxefafenestro_priindekso.cpp\
                 cxefafenestro_prikonfiguro.cpp\
                 cxefafenestro_primuta.cpp\
                 cxefafenestro_prireferencoj.cpp\

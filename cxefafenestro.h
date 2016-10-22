@@ -23,14 +23,15 @@ class cxefaFenestro:public QMainWindow
   QStringList etnoNomoj;
   agordoj administranto;
  public slots:
+  void kompletigitaRespondo(QNetworkReply *respondo);
   void priDatumojApogilo();
-  void priKonfiguro();
-  void priReferencoj();
-  void priMuta(int statuso);
-  void priStartoPagxo();
   void priDatumojRestauxro();
   void priIdentigiloj();
-  void kompletigitaRespondo(QNetworkReply *respondo);
+  void priIndekso();
+  void priKonfiguro();
+  void priMuta(int statuso);
+  void priReferencoj();
+  void priStartoPagxo();
  private:
   Ui::cxefaFenestro *ui;
 };
