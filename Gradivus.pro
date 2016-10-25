@@ -36,6 +36,7 @@ SOURCES      += main.cpp\
                 datumojrestauxro_prireiru.cpp\
                 datumojrestauxro_prisintakseanalizu.cpp\
                 datumojrestauxro_prisxargi.cpp\
+                eldono_indekso.cpp\
                 hipertekstopagxo_acceptnavigationrequest.cpp\
                 htmlmarkilo.cpp\
                 htmlmarkilo_highlightblock.cpp\
@@ -128,6 +129,7 @@ HEADERS      += agordoj.h\
                 cxefafenestro.h\
                 datumojapogilo.h\
                 datumojrestauxro.h\
+                eldono.h\
                 hipertekstopagxo.h\
                 htmlmarkilo.h\
                 identigiloj.h\

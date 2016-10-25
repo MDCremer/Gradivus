@@ -6,6 +6,7 @@
 #include "cxefafenestro.h"
 #include "ui_cxefafenestro.h"
 #include "agordoj.h"
+#include "eldono.h"
 
 void cxefaFenestro::priIndekso()
 {QByteArray html=administranto.akiruValoro(AGORDO_STILO);
@@ -17,6 +18,7 @@ void cxefaFenestro::priIndekso()
  QSqlDatabase datumbazo=QSqlDatabase::database();
  if(datumbazo.open())
  {QSqlQuery informpeto;
+  html.append(eldono::indekso(&informpeto));
   datumbazo.close();
  }
  else
