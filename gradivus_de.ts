@@ -28,6 +28,81 @@
         <source>Eraro [010]!</source>
         <translation>Fehler [010]!</translation>
     </message>
+    <message>
+        <location filename="eldono_indekso.cpp" line="16"/>
+        <source>Etno</source>
+        <translation>Ethnie</translation>
+    </message>
+    <message>
+        <location filename="eldono_indekso.cpp" line="18"/>
+        <source>Nomo</source>
+        <translation>Bezeichnung</translation>
+    </message>
+    <message>
+        <location filename="eldono_indekso.cpp" line="20"/>
+        <source>Lingvo</source>
+        <translation>Sprache</translation>
+    </message>
+    <message>
+        <location filename="eldono_indekso.cpp" line="22"/>
+        <source>Tipo</source>
+        <translation>Typ</translation>
+    </message>
+    <message>
+        <location filename="eldono_indekso.cpp" line="24"/>
+        <source>Fonto</source>
+        <translation>Quelle</translation>
+    </message>
+    <message>
+        <location filename="eldono_indekso.cpp" line="26"/>
+        <source>Alternativoj</source>
+        <translation>Alternative Bezeichnungen</translation>
+    </message>
+    <message>
+        <location filename="eldono_indekso.cpp" line="37"/>
+        <source>Eraro [055]!</source>
+        <translation>Fehler [055]!</translation>
+    </message>
+    <message>
+        <location filename="eldono_indekso.cpp" line="45"/>
+        <source>Plena identigilo</source>
+        <translation>Vollständige Bezeichnung</translation>
+    </message>
+    <message>
+        <location filename="eldono_indekso.cpp" line="45"/>
+        <source>Parte ŝparvojo</source>
+        <translation>Teilweise Abkürzung</translation>
+    </message>
+    <message>
+        <location filename="eldono_indekso.cpp" line="46"/>
+        <source>Ŝparvojo</source>
+        <translation>Abkürzung</translation>
+    </message>
+    <message>
+        <location filename="eldono_indekso.cpp" line="46"/>
+        <source>Fabrikanta identigilo</source>
+        <translation>Herstellerbezeichnung</translation>
+    </message>
+    <message>
+        <location filename="eldono_indekso.cpp" line="46"/>
+        <source>Alnomo</source>
+        <translation>Spitzname</translation>
+    </message>
+    <message>
+        <location filename="eldono_indekso.cpp" line="46"/>
+        <source>Komisio kodo</source>
+        <translation>Bestellkode</translation>
+    </message>
+    <message>
+        <location filename="eldono_indekso.cpp" line="59"/>
+        <source>Eraro [056]!</source>
+        <translation>Fehler [056]!</translation>
+    </message>
+    <message>
+        <location filename="eldono_indekso.cpp" line="74"/>
+        <source>Stato: </source>
+        <translation>Stand: </translation>
+    </message>
 </context>
 <context>
     <name>cxefaFenestro</name>
@@ -93,10 +168,10 @@
     </message>
     <message>
         <location filename="cxefafenestro.ui" line="260"/>
-        <location filename="cxefafenestro_priindekso.cpp" line="13"/>
-        <location filename="cxefafenestro_priindekso.cpp" line="15"/>
+        <location filename="cxefafenestro_priindekso.cpp" line="14"/>
+        <location filename="cxefafenestro_priindekso.cpp" line="16"/>
         <source>Indekso</source>
-        <translation>Stichwortverzeichnis</translation>
+        <translation>Register</translation>
     </message>
     <message>
         <location filename="cxefafenestro.ui" line="338"/>
@@ -1159,7 +1234,7 @@
         <translation>Netzwerkfehler: </translation>
     </message>
     <message>
-        <location filename="cxefafenestro_priindekso.cpp" line="24"/>
+        <location filename="cxefafenestro_priindekso.cpp" line="26"/>
         <source>Eraro [054]!</source>
         <translation>Fehler [054]!</translation>
     </message>

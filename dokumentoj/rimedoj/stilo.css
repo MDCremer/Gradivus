@@ -23,3 +23,9 @@ td
 {vertical-align:top;
  font-size:75%;
 }
+
+td.stato_kolumno
+{text-align:center;}
+
+#indekso
+{width:100%;}

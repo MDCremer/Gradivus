@@ -18,7 +18,7 @@ void cxefaFenestro::priIndekso()
  QSqlDatabase datumbazo=QSqlDatabase::database();
  if(datumbazo.open())
  {QSqlQuery informpeto;
-  html.append(eldono::indekso(&informpeto));
+  html.append(eldono::indekso(&informpeto,this));
   datumbazo.close();
  }
  else
