@@ -8,6 +8,7 @@
 class eldono
 {public:
   static QByteArray indekso(QSqlQuery *informpeto,cxefaFenestro *patraObjekto);
+  static QByteArray priskribo(QByteArray kodo,QSqlQuery *informpeto,cxefaFenestro *patraObjekto);
 };
 
 #endif // ELDONO_H

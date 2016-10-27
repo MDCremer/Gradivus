@@ -38,6 +38,7 @@ SOURCES      += main.cpp\
                 datumojrestauxro_prisintakseanalizu.cpp\
                 datumojrestauxro_prisxargi.cpp\
                 eldono_indekso.cpp\
+                eldono_priskribo.cpp\
                 hipertekstopagxo_acceptnavigationrequest.cpp\
                 htmlmarkilo.cpp\
                 htmlmarkilo_highlightblock.cpp\

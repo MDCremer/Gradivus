@@ -7,6 +7,7 @@
 #include <QStringList>
 #include <QWidget>
 #include "agordoj.h"
+#include "ui_cxefafenestro.h"
 
 namespace Ui
 {class cxefaFenestro;
@@ -20,6 +21,7 @@ class cxefaFenestro:public QMainWindow
   bool konsento(QWidget *gepatro);
   void montruInformo(QString dosiero);
   void spektakloMesagxon(QString mesagxo);
+  void montruPriskribo(QByteArray html) {ui->informaMontro->setHtml(html);}
   QStringList etnoNomoj;
   agordoj administranto;
  public slots:
