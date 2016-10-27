@@ -275,6 +275,13 @@
              </spacer>
             </item>
             <item>
+             <widget class="QPushButton" name="pdfEldono">
+              <property name="text">
+               <string notr="true">PDF</string>
+              </property>
+             </widget>
+            </item>
+            <item>
              <widget class="QCheckBox" name="muta">
               <property name="text">
                <string>muta</string>

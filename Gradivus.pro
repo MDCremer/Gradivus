@@ -22,6 +22,7 @@ SOURCES      += main.cpp\
                 cxefafenestro_priindekso.cpp\
                 cxefafenestro_prikonfiguro.cpp\
                 cxefafenestro_primuta.cpp\
+                cxefafenestro_pripdfeldono.cpp\
                 cxefafenestro_prireferencoj.cpp\
                 cxefafenestro_pristartopagxo.cpp\
                 cxefafenestro_spektaklomesagxon.cpp\
