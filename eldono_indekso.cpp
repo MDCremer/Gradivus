@@ -18,12 +18,10 @@ QByteArray eldono::indekso(QSqlQuery *informpeto,cxefaFenestro *patraObjekto)
  tablo.append(QObject::tr("Nomo"));
  tablo.append("</th>\n<th class='lingvo_kolumno'>");
  tablo.append(QObject::tr("Lingvo"));
- tablo.append("</th>\n<th class='tipo_kolumno'>");
- tablo.append(QObject::tr("Tipo"));
  tablo.append("</th>\n<th class='fonto_kolumno'>");
  tablo.append(QObject::tr("Fonto"));
- tablo.append("</th>\n<th class='alternativoj_kolumno'>");
- tablo.append(QObject::tr("Alternativoj"));
+ tablo.append("</th>\n<th class='sinonimoj_kolumno'>");
+ tablo.append(QObject::tr("Sinonimoj"));
  tablo.append("</th></tr>\n</thead>\n<tbody>\n");
  QListWidget *listo=new QListWidget();
  listo->setSortingEnabled(true);
@@ -62,15 +60,48 @@ QByteArray eldono::indekso(QSqlQuery *informpeto,cxefaFenestro *patraObjekto)
   tablo.append("</td>\n<td class='nomo_kolumno'><a href='");
   tablo.append(patraObjekto->administranto.akiruValoro(AGORDO_VORTARO));
   tablo.append(uuid);
-  tablo.append(".html'>");
-  tablo.append(nomo);
-  tablo.append("</a></td>\n<td class='lingvo_kolumno'>");
-  tablo.append(lingvo);
-  tablo.append("</td>\n<td class='tipo_kolumno'>");
+  tablo.append(".html' title='");
   tablo.append(tipoj[tipo].toUtf8());
-  tablo.append("</td><td colspan='2'></td></tr>\n");
+  tablo.append("'>");
+  tablo.append(nomo);
+  tablo.append("</a></td>\n<td class='lingvo_kolumno'>[");
+  tablo.append(lingvo);
+  tablo.append("]</td>\n<td class='fonto_kolumno'><p>");
+  if(!literaturo.isEmpty())
+  {if(informpeto->exec("SELECT html FROM literaturoj WHERE aludo='"+literaturo.replace("'","''")+"';"))
+   {if(informpeto->first())
+     tablo.append(qUncompress(informpeto->value("html").toByteArray()).replace("\342\233\223\342\231\202\342\233\201/",
+       patraObjekto->administranto.akiruValoro(AGORDO_VORTARO)));
+   }
+   else
+    if(informpeto->lastError().isValid())
+     QMessageBox::warning(patraObjekto,QObject::tr("Eraro [057]!"),informpeto->lastError().text());
+  }
+  if(!pagxo.isEmpty())
+   tablo.append(pagxo.replace("\342\233\223\342\231\202\342\233\201/",
+     patraObjekto->administranto.akiruValoro(AGORDO_VORTARO)));
+  tablo.append("</p></td>\n<td class='sinonimoj_kolumno'>");
+  QListWidget *sinonimoj=new QListWidget;
+  sinonimoj->setSortingEnabled(true);
+  if(informpeto->exec("SELECT nomo,lingvo FROM identigiloj WHERE etno='"+etno+"' AND uuid='"+uuid+"' AND nomo IS NOT '"+
+    nomo.replace("'","''")+"';"))
+  {while(informpeto->next())
+    sinonimoj->addItem(new QListWidgetItem(informpeto->value("nomo").toByteArray()+" ["+
+      informpeto->value("lingvo").toByteArray()+"]"));
+  }
+  else
+   if(informpeto->lastError().isValid())
+    QMessageBox::warning(patraObjekto,QObject::tr("Eraro [058]!"),informpeto->lastError().text());
+  for(int nombro=0;nombro<sinonimoj->count();++nombro)
+  {if(nombro>0)
+    tablo.append(", ");
+   tablo.append(sinonimoj->item(nombro)->text().toUtf8());
+  }
+  tablo.append("</td>\n</tr>\n");
+  delete sinonimoj;
+  delete aktualo;
  }
- tablo.append("</tbody>\n<tfood>\n<tr>\n<td class='stato_kolumno' colspan='6'>");
+ tablo.append("</tbody>\n<tfood>\n<tr>\n<td class='stato_kolumno' colspan='5'>");
  tablo.append(QObject::tr("Stato: "));
  tablo.append(QDateTime::currentDateTime().toString(Qt::SystemLocaleLongDate).toUtf8());
  tablo.append("</td>\n</tr>\n</tfoot>\n</table>\n");

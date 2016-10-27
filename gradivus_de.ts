@@ -44,62 +44,75 @@
         <translation>Sprache</translation>
     </message>
     <message>
-        <location filename="eldono_indekso.cpp" line="22"/>
         <source>Tipo</source>
         <translation>Typ</translation>
     </message>
     <message>
-        <location filename="eldono_indekso.cpp" line="24"/>
+        <location filename="eldono_indekso.cpp" line="22"/>
         <source>Fonto</source>
         <translation>Quelle</translation>
     </message>
     <message>
-        <location filename="eldono_indekso.cpp" line="26"/>
         <source>Alternativoj</source>
         <translation>Alternative Bezeichnungen</translation>
     </message>
     <message>
-        <location filename="eldono_indekso.cpp" line="37"/>
+        <location filename="eldono_indekso.cpp" line="24"/>
+        <source>Sinonimoj</source>
+        <translation>Synonyme</translation>
+    </message>
+    <message>
+        <location filename="eldono_indekso.cpp" line="35"/>
         <source>Eraro [055]!</source>
         <translation>Fehler [055]!</translation>
     </message>
     <message>
-        <location filename="eldono_indekso.cpp" line="45"/>
+        <location filename="eldono_indekso.cpp" line="43"/>
         <source>Plena identigilo</source>
         <translation>Vollständige Bezeichnung</translation>
     </message>
     <message>
-        <location filename="eldono_indekso.cpp" line="45"/>
+        <location filename="eldono_indekso.cpp" line="43"/>
         <source>Parte ŝparvojo</source>
         <translation>Teilweise Abkürzung</translation>
     </message>
     <message>
-        <location filename="eldono_indekso.cpp" line="46"/>
+        <location filename="eldono_indekso.cpp" line="44"/>
         <source>Ŝparvojo</source>
         <translation>Abkürzung</translation>
     </message>
     <message>
-        <location filename="eldono_indekso.cpp" line="46"/>
+        <location filename="eldono_indekso.cpp" line="44"/>
         <source>Fabrikanta identigilo</source>
         <translation>Herstellerbezeichnung</translation>
     </message>
     <message>
-        <location filename="eldono_indekso.cpp" line="46"/>
+        <location filename="eldono_indekso.cpp" line="44"/>
         <source>Alnomo</source>
         <translation>Spitzname</translation>
     </message>
     <message>
-        <location filename="eldono_indekso.cpp" line="46"/>
+        <location filename="eldono_indekso.cpp" line="44"/>
         <source>Komisio kodo</source>
         <translation>Bestellkode</translation>
     </message>
     <message>
-        <location filename="eldono_indekso.cpp" line="59"/>
+        <location filename="eldono_indekso.cpp" line="57"/>
         <source>Eraro [056]!</source>
         <translation>Fehler [056]!</translation>
     </message>
     <message>
-        <location filename="eldono_indekso.cpp" line="74"/>
+        <location filename="eldono_indekso.cpp" line="78"/>
+        <source>Eraro [057]!</source>
+        <translation>Fehler [057]!</translation>
+    </message>
+    <message>
+        <location filename="eldono_indekso.cpp" line="94"/>
+        <source>Eraro [058]!</source>
+        <translation>Fehler [058]!</translation>
+    </message>
+    <message>
+        <location filename="eldono_indekso.cpp" line="104"/>
         <source>Stato: </source>
         <translation>Stand: </translation>
     </message>

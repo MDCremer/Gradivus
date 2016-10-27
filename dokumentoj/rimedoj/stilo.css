@@ -19,13 +19,21 @@ h1,h2,h3,cite,em
 a
 {text-decoration:none;}
 
+th
+{color:LightGray;
+ background-color:SlateGray;
+}
+
 td
 {vertical-align:top;
  font-size:75%;
 }
 
 td.stato_kolumno
-{text-align:center;}
+{text-align:center;
+ color:LightGray;
+ background-color:SlateGray;  
+}
 
 #indekso
 {width:100%;}
