@@ -12,5 +12,5 @@ void cxefaFenestro::priPdfEldono()
  {if(!eldono.endsWith(".pdf"))
    eldono.append(".pdf");
   ui->informaMontro->page()->printToPdf(eldono);
-  QDesktopServices::openUrl(QUrl("file:"+eldono));
+  QDesktopServices::openUrl(QUrl("file://"+eldono));
 }}
