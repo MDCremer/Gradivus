@@ -23,6 +23,7 @@ class cxefaFenestro:public QMainWindow
   void spektakloMesagxon(QString mesagxo);
   void montruPriskribo(QByteArray html) {ui->informaMontro->setHtml(html);}
   QStringList etnoNomoj;
+  QStringList identigiloTipoj;
   agordoj administranto;
  public slots:
   void kompletigitaRespondo(QNetworkReply *respondo);
@@ -33,6 +34,7 @@ class cxefaFenestro:public QMainWindow
   void priKonfiguro();
   void priMuta(int statuso);
   void priPdfEldono();
+  void priPriskribo();
   void priReferencoj();
   void priStartoPagxo();
  private:

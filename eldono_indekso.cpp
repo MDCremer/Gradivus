@@ -40,8 +40,6 @@ QByteArray eldono::indekso(QSqlQuery *informpeto,cxefaFenestro *patraObjekto)
   QByteArray lingvo=aktualo->text().right(2).toUtf8();
   QByteArray literaturo,pagxo,uuid;
   int tipo=0;
-  QStringList tipoj=QStringList()<<QObject::tr("Plena identigilo")<<QObject::tr("Parte \305\235parvojo")<<
-    QObject::tr("\305\234parvojo")<<QObject::tr("Fabrikanta identigilo")<<QObject::tr("Alnomo")<<QObject::tr("Komisio kodo");
   if(informpeto->exec("SELECT tipo,literaturo,pagxo,uuid FROM identigiloj WHERE etno='"+etno+"' AND nomo='"+
     nomo.replace("'","''")+"' AND lingvo='"+lingvo+"';"))
   {if(informpeto->first())
@@ -61,7 +59,7 @@ QByteArray eldono::indekso(QSqlQuery *informpeto,cxefaFenestro *patraObjekto)
   tablo.append(patraObjekto->administranto.akiruValoro(AGORDO_VORTARO));
   tablo.append(uuid);
   tablo.append(".html' title='");
-  tablo.append(tipoj[tipo].toUtf8());
+  tablo.append(patraObjekto->identigiloTipoj[tipo].toUtf8());
   tablo.append("'>");
   tablo.append(nomo);
   tablo.append("</a></td>\n<td class='lingvo_kolumno'>[");

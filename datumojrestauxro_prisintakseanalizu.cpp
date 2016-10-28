@@ -139,8 +139,6 @@ void datumojRestauxro::priSintakseAnalizu()
            {stato=interkonsento.captured().left(interkonsento.captured().length()-2).toLongLong();
             vido.agordiCxefsxlosilo(etno+": "+nomo.replace("''","'")+" ["+lingvo+"]");
             vido.agordiKodo(pagxo);
-            QStringList tipoj=QStringList()<<tr("Plena identigilo")<<tr("Parte \305\235parvojo")<<tr("\305\234parvojo")<<
-              tr("Fabrikanta identigilo")<<tr("Alnomo")<<tr("Komisio kodo");
             QByteArray html=patraObjekto->administranto.akiruValoro(AGORDO_STILO);
             html.append("<title>");
             html.append(etno+": "+nomo.replace("''","'")+" ["+lingvo+"]");
@@ -148,7 +146,7 @@ void datumojRestauxro::priSintakseAnalizu()
             html.append(tr("Tipo:").toUtf8());
             html.append("</td>\n<td>");
             if(tipo.toInt()<5)
-             html.append(tipoj[tipo.toInt()]);
+             html.append(patraObjekto->identigiloTipoj[tipo.toInt()]);
             else
              html.append(tipo);
             html.append("</td>\n</tr>\n<tr>\n<td>");
@@ -200,7 +198,7 @@ void datumojRestauxro::priSintakseAnalizu()
               html.append(tr("Tipo:").toUtf8());
               html.append("</td>\n<td>");
               if(malnovaTipo.toInt()<5)
-               html.append(tipoj[malnovaTipo.toInt()]);
+               html.append(patraObjekto->identigiloTipoj[malnovaTipo.toInt()]);
               else
                html.append(malnovaTipo);
               html.append("</td>\n</tr>\n<tr>\n<td>");

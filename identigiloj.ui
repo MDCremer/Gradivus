@@ -313,6 +313,11 @@
          </item>
          <item>
           <property name="text">
+           <string>Kamuflada identigilo</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
            <string>Fabrikanta identigilo</string>
           </property>
          </item>

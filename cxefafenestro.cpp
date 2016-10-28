@@ -25,6 +25,7 @@ cxefaFenestro::cxefaFenestro(QWidget *gepatro):QMainWindow(gepatro),ui(new Ui::c
  connect(ui->identigiloj,&QPushButton::clicked,this,&cxefaFenestro::priIdentigiloj);
  connect(ui->indekso,&QPushButton::clicked,this,&cxefaFenestro::priIndekso);
  connect(ui->pdfEldono,&QPushButton::clicked,this,&cxefaFenestro::priPdfEldono);
+ connect(ui->priskribo,&QPushButton::clicked,this,&cxefaFenestro::priPriskribo);
  etnoNomoj=QStringList()<<tr("AD: andoranoj")<<tr("AE: anoj de Unui\304\235intaj Arabaj Emirlandoj")<<tr("AF: afganoj")
    <<tr("AG: antigvanoj kaj barbudanoj")<<tr("AL: albanoj")<<tr("AM: armenoj")<<tr("AO: angolanoj")<<tr("AR: argentinanoj")
    <<tr("AT: a\305\255stroj")<<tr("AU: a\305\255stralianoj")<<tr("AZ: azerbaj\304\235ananoj")
@@ -68,6 +69,8 @@ cxefaFenestro::cxefaFenestro(QWidget *gepatro):QMainWindow(gepatro),ui(new Ui::c
    <<tr("UZ: uzbekistananoj")<<tr("VA: vatikananoj")<<tr("VC: sent-vincentanoj kaj grenadinanoj")<<tr("VE: venezuelanoj")
    <<tr("VN: vjetnamoj")<<tr("VU: vanuatuanoj")<<tr("WS: samoanoj")<<tr("YE: jemenanoj")<<tr("ZA: sud-afrikanoj")
    <<tr("ZM: zambianoj")<<tr("ZW: zimbabvanoj");
+ identigiloTipoj=QStringList()<<tr("Plena identigilo")<<tr("Parte \305\235parvojo")<<tr("\305\234parvojo")<<
+   tr("Kamuflada identigilo")<<tr("Fabrikanta identigilo")<<tr("Alnomo")<<tr("Komisio kodo");
  administranto.sxargu();
  montruInformo("bonvenon");
 }
