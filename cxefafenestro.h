@@ -27,6 +27,7 @@ class cxefaFenestro:public QMainWindow
   agordoj administranto;
  public slots:
   void kompletigitaRespondo(QNetworkReply *respondo);
+  void priDatumbazoEkstrakto();
   void priDatumojApogilo();
   void priDatumojRestauxro();
   void priIdentigiloj();

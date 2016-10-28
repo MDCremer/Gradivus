@@ -16,6 +16,7 @@ SOURCES      += main.cpp\
                 cxefafenestro_kompletigitarespondo.cpp\
                 cxefafenestro_konsento.cpp\
                 cxefafenestro_montruinformo.cpp\
+                cxefafenestro_pridatumbazoekstrakto.cpp\
                 cxefafenestro_pridatumojapogilo.cpp\
                 cxefafenestro_pridatumojrestauxro.cpp\
                 cxefafenestro_priidentigiloj.cpp\

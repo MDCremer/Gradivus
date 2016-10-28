@@ -5,6 +5,7 @@ body
  background-repeat:repeat;
  display:block;
 }
+
 p
 {text-align:justify;}
 
@@ -18,6 +19,11 @@ h1,cite,em
 
 a
 {text-decoration:none;}
+
+header.identigiloj
+{color:LightGray;
+ background-color:DarkSlateGray;
+}
 
 th
 {color:LightGray;

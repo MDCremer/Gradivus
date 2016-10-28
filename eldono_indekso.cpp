@@ -27,7 +27,7 @@ QByteArray eldono::indekso(QSqlQuery *informpeto,cxefaFenestro *patraObjekto)
  listo->setSortingEnabled(true);
  if(informpeto->exec("SELECT etno,nomo,lingvo FROM identigiloj;"))
  {while(informpeto->next())
-   listo->addItem(new QListWidgetItem(informpeto->value("etno").toString()+informpeto->value("nomo").toString()+
+   listo->addItem(new QListWidgetItem(informpeto->value("etno").toString()+informpeto->value("nomo").toString()+" "+
      informpeto->value("lingvo").toString()));
  }
  else
@@ -36,7 +36,7 @@ QByteArray eldono::indekso(QSqlQuery *informpeto,cxefaFenestro *patraObjekto)
  while(listo->count()>0)
  {QListWidgetItem *aktualo=listo->takeItem(0);
   QByteArray etno=aktualo->text().left(2).toUtf8();
-  QByteArray nomo=aktualo->text().mid(2,aktualo->text().length()-4).toUtf8();
+  QByteArray nomo=aktualo->text().mid(2,aktualo->text().length()-5).toUtf8();
   QByteArray lingvo=aktualo->text().right(2).toUtf8();
   QByteArray literaturo,pagxo,uuid;
   int tipo=0;

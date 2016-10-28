@@ -9,7 +9,7 @@
 #include "cxefafenestro.h"
 
 QByteArray eldono::priskribo(QByteArray kodo,QSqlQuery *informpeto,cxefaFenestro *patraObjekto)
-{QByteArray teksto("<article class='priskribo'>\n");
+{QByteArray teksto("<article class='priskribo'>\n<header class='identigiloj'>\n");
  QListWidget *nomoj=new QListWidget();
  nomoj->setSortingEnabled(true);
  if(informpeto->exec("SELECT etno,nomo,lingvo,tipo FROM identigiloj WHERE uuid='"+kodo+"';"))
@@ -38,10 +38,10 @@ QByteArray eldono::priskribo(QByteArray kodo,QSqlQuery *informpeto,cxefaFenestro
    teksto.append(", ");
   teksto.append(nomoj->item(nombro)->text().mid(3,nomoj->item(nombro)->text().length()-5).toUtf8());
   teksto.append(" [");
-  teksto.append(nomoj->item(nombro)->text().right(2));
+  teksto.append(nomoj->item(nombro)->text().right(2).toUtf8());
   teksto.append("]");
  }
- teksto.append("</h2>\n");
+ teksto.append("</h2>\n</header>\n");
  delete nomoj;
  teksto.append("</article>\n");
  return teksto;
