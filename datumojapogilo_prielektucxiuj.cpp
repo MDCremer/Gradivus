@@ -6,4 +6,5 @@ void datumojApogilo::priElektuCxiuj()
  ui->lingvoj->setChecked(true);
  ui->literaturoj->setChecked(true);
  ui->identigiloj->setChecked(true);
+ ui->fontoj->setChecked(true);
 }

@@ -71,7 +71,7 @@ void datumojApogilo::priEksportu()
      eldono<<"-- Literaturoj\nBEGIN;\n";
      QByteArray ordono("SELECT aludo,QUOTE(html),subskribo,stato FROM literaturoj");
      if(ui->subskribo->isChecked())
-      ordono.append(" WHERE subskribon LIKE '%"+ui->subskriboInkluzivi->text().replace("'","''")+"%'");
+      ordono.append(" WHERE subskribo LIKE '%"+ui->subskriboInkluzivi->text().replace("'","''")+"%'");
      if(ui->nova->isChecked())
      {uint sekundoj=ui->novaOl->dateTime().toTime_t();
       ordono.append(ui->subskribo->isChecked()?" AND ":" WHERE ");
@@ -102,7 +102,7 @@ void datumojApogilo::priEksportu()
      eldono<<"-- Identigiloj\nBEGIN;\n";
      QByteArray ordono("SELECT etno,nomo,lingvo,tipo,literaturo,QUOTE(pagxo),uuid,subskribo,stato FROM identigiloj");
      if(ui->subskribo->isChecked())
-      ordono.append(" WHERE subskribon LIKE '%"+ui->subskriboInkluzivi->text().replace("'","''")+"%'");
+      ordono.append(" WHERE subskribo LIKE '%"+ui->subskriboInkluzivi->text().replace("'","''")+"%'");
      if(ui->nova->isChecked())
      {uint sekundoj=ui->novaOl->dateTime().toTime_t();
       ordono.append(ui->subskribo->isChecked()?" AND ":" WHERE ");
@@ -148,6 +148,52 @@ void datumojApogilo::priEksportu()
       if(informpeto.lastError().isValid())
        QMessageBox::warning(this,tr("Eraro [041]!"),informpeto.lastError().text());
      eldono<<"COMMIT;\n";
+    }
+    if(pli&&ui->fontoj->isChecked())
+    {patraObjekto->spektakloMesagxon(tr("Eksporti fontojn \342\200\246"));
+     eldono<<"-- Fontoj\nBEGIN;\n";
+     QByteArray ordono("SELECT uuid,aludo,literaturo,QUOTE(pagxo),subskribo,stato FROM fontoj");
+     if(ui->subskribo->isChecked())
+      ordono.append(" WHERE subskribo LIKE '%"+ui->subskriboInkluzivi->text().replace("'","''")+"%'");
+     if(ui->nova->isChecked())
+     {uint sekundoj=ui->novaOl->dateTime().toTime_t();
+      ordono.append(ui->subskribo->isChecked()?" AND ":" WHERE ");
+      ordono.append("stato>"+QString::number(sekundoj));
+     }
+     ordono.append(";");
+     if(informpeto.exec(ordono))
+     {while(pli&&informpeto.next())
+      {eldono<<"INSERT OR REPLACE INTO fontoj (uuid,aludo,";
+       if(!informpeto.value("literaturo").isNull())
+        eldono<<"literaturo,";
+       if(!informpeto.value("QUOTE(pagxo)").isNull())
+        eldono<<"pagxo,";
+       eldono<<"subskribo,stato) VALUES ('";
+       eldono<<informpeto.value("uuid").toByteArray();
+       eldono<<"','";
+       eldono<<informpeto.value("aludo").toByteArray();
+       eldono<<"',";
+       if(!informpeto.value("literaturo").isNull())
+       {eldono<<"'";
+        eldono<<informpeto.value("literaturo").toByteArray().replace("'","''");
+        eldono<<"',";
+       }
+       if(!informpeto.value("QUOTE(pagxo)").isNull())
+       {eldono<<informpeto.value("QUOTE(pagxo)").toByteArray();
+        eldono<<",";
+       }
+       eldono<<"'";
+       eldono<<informpeto.value("subskribo").toByteArray().replace("'","''");
+       eldono<<"',";
+       eldono<<informpeto.value("stato").toByteArray();
+       eldono<<");\n";
+       progreso.setValue(++linioj);
+       pli=!progreso.wasCanceled();
+     }}
+     else
+      if(informpeto.lastError().isValid())
+       QMessageBox::warning(this,tr("Eraro [062]!"),informpeto.lastError().text());
+     eldono<<"COMMIT;";
     }
     datumbazo.close();
     patraObjekto->spektakloMesagxon(tr("Eksportitaj %1 registroj!").arg(linioj));

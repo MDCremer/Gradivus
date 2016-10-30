@@ -28,5 +28,6 @@ kodoSelektado::kodoSelektado(QWidget *gepatro,cxefaFenestro *avo):QDialog(gepatr
  connect(ui->etnoLimigo,&QComboBox::currentTextChanged,this,&kodoSelektado::priKompletigitaEnigu);
  connect(ui->lingvoLimigo,&QComboBox::currentTextChanged,this,&kodoSelektado::priKompletigitaEnigu);
  connect(ui->limigiTipoj,&QComboBox::currentTextChanged,this,&kodoSelektado::priKompletigitaEnigu);
+ connect(ui->listo,&QListWidget::itemDoubleClicked,this,&kodoSelektado::priDuobleAlklako);
  sxargi();
 }

@@ -2,6 +2,7 @@
 #define KODOSELEKTADO_H
 
 #include <QDialog>
+#include <QListWidgetItem>
 #include <QString>
 #include <QWidget>
 #include "cxefafenestro.h"
@@ -19,6 +20,7 @@ class kodoSelektado:public QDialog
  public slots:
   void priApliku();
   void priDevasEnhavi(bool kontrolita);
+  void priDuobleAlklako(QListWidgetItem *aktualo);
   void priElektajxoSxangxo();
   void priKompletigitaEnigu();
   void priRezignu();

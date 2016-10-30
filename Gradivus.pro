@@ -19,6 +19,7 @@ SOURCES      += main.cpp\
                 cxefafenestro_pridatumbazoekstrakto.cpp\
                 cxefafenestro_pridatumojapogilo.cpp\
                 cxefafenestro_pridatumojrestauxro.cpp\
+                cxefafenestro_prifontoj.cpp\
                 cxefafenestro_priidentigiloj.cpp\
                 cxefafenestro_priindekso.cpp\
                 cxefafenestro_prikonfiguro.cpp\
@@ -41,6 +42,9 @@ SOURCES      += main.cpp\
                 datumojrestauxro_prisxargi.cpp\
                 eldono_indekso.cpp\
                 eldono_priskribo.cpp\
+                fontoj.cpp\
+                fontoj_destrojero.cpp\
+                fontoj_priselektado.cpp\
                 hipertekstopagxo_acceptnavigationrequest.cpp\
                 htmlmarkilo.cpp\
                 htmlmarkilo_highlightblock.cpp\
@@ -65,6 +69,7 @@ SOURCES      += main.cpp\
                 kodoselektado_destrojero.cpp\
                 kodoselektado_priapliku.cpp\
                 kodoselektado_pridevasenhavi.cpp\
+                kodoselektado_priduoblealklako.cpp\
                 kodoselektado_prielektajxosxangxo.cpp\
                 kodoselektado_prikompletigitaenigo.cpp\
                 kodoselektado_prirezignu.cpp\
@@ -134,6 +139,7 @@ HEADERS      += agordoj.h\
                 datumojapogilo.h\
                 datumojrestauxro.h\
                 eldono.h\
+                fontoj.h\
                 hipertekstopagxo.h\
                 htmlmarkilo.h\
                 identigiloj.h\
@@ -149,6 +155,7 @@ HEADERS      += agordoj.h\
 FORMS        += cxefafenestro.ui\
                 datumojapogilo.ui\
                 datumojrestauxro.ui\
+                fontoj.ui\
                 identigiloj.ui\
                 kodoselektado.ui\
                 konfiguro.ui\

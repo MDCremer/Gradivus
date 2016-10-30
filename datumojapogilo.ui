@@ -186,6 +186,13 @@
               </property>
              </widget>
             </item>
+            <item row="4" column="0">
+             <widget class="QCheckBox" name="fontoj">
+              <property name="text">
+               <string>Fontoj</string>
+              </property>
+             </widget>
+            </item>
            </layout>
           </item>
           <item>

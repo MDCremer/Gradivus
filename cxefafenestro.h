@@ -30,6 +30,7 @@ class cxefaFenestro:public QMainWindow
   void priDatumbazoEkstrakto();
   void priDatumojApogilo();
   void priDatumojRestauxro();
+  void priFontoj();
   void priIdentigiloj();
   void priIndekso();
   void priKonfiguro();

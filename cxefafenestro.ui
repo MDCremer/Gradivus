@@ -215,6 +215,13 @@
              </widget>
             </item>
             <item>
+             <widget class="QPushButton" name="fontoj">
+              <property name="text">
+               <string>Fontoj</string>
+              </property>
+             </widget>
+            </item>
+            <item>
              <spacer name="verticalSpacer_3">
               <property name="orientation">
                <enum>Qt::Vertical</enum>

@@ -44,17 +44,9 @@
         <translation>Sprache</translation>
     </message>
     <message>
-        <source>Tipo</source>
-        <translation>Typ</translation>
-    </message>
-    <message>
         <location filename="eldono_indekso.cpp" line="22"/>
         <source>Fonto</source>
         <translation>Quelle</translation>
-    </message>
-    <message>
-        <source>Alternativoj</source>
-        <translation>Alternative Bezeichnungen</translation>
     </message>
     <message>
         <location filename="eldono_indekso.cpp" line="24"/>
@@ -65,30 +57,6 @@
         <location filename="eldono_indekso.cpp" line="35"/>
         <source>Eraro [055]!</source>
         <translation>Fehler [055]!</translation>
-    </message>
-    <message>
-        <source>Plena identigilo</source>
-        <translation>Vollständige Bezeichnung</translation>
-    </message>
-    <message>
-        <source>Parte ŝparvojo</source>
-        <translation>Teilweise Abkürzung</translation>
-    </message>
-    <message>
-        <source>Ŝparvojo</source>
-        <translation>Abkürzung</translation>
-    </message>
-    <message>
-        <source>Fabrikanta identigilo</source>
-        <translation>Herstellerbezeichnung</translation>
-    </message>
-    <message>
-        <source>Alnomo</source>
-        <translation>Spitzname</translation>
-    </message>
-    <message>
-        <source>Komisio kodo</source>
-        <translation>Bestellkode</translation>
     </message>
     <message>
         <location filename="eldono_indekso.cpp" line="55"/>
@@ -179,50 +147,55 @@
         <translation>Bibliographie</translation>
     </message>
     <message>
-        <location filename="cxefafenestro.ui" line="260"/>
+        <location filename="cxefafenestro.ui" line="220"/>
+        <source>Fontoj</source>
+        <translation>Quellenangaben</translation>
+    </message>
+    <message>
+        <location filename="cxefafenestro.ui" line="267"/>
         <source>Starto paĝo</source>
         <translation>Startseite</translation>
     </message>
     <message>
-        <location filename="cxefafenestro.ui" line="267"/>
+        <location filename="cxefafenestro.ui" line="274"/>
         <location filename="cxefafenestro_priindekso.cpp" line="14"/>
         <location filename="cxefafenestro_priindekso.cpp" line="16"/>
         <source>Indekso</source>
         <translation>Register</translation>
     </message>
     <message>
-        <location filename="cxefafenestro.ui" line="274"/>
+        <location filename="cxefafenestro.ui" line="281"/>
         <location filename="cxefafenestro_pripriskribo.cpp" line="16"/>
         <source>Priskribo</source>
         <translation>Beschreibung</translation>
     </message>
     <message>
-        <location filename="cxefafenestro.ui" line="297"/>
+        <location filename="cxefafenestro.ui" line="304"/>
         <source>Eldono</source>
         <translation>Ausgabe</translation>
     </message>
     <message>
-        <location filename="cxefafenestro.ui" line="362"/>
+        <location filename="cxefafenestro.ui" line="369"/>
         <source>Page 1</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="cxefafenestro.ui" line="375"/>
+        <location filename="cxefafenestro.ui" line="382"/>
         <source>Page 2</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="cxefafenestro.ui" line="242"/>
+        <location filename="cxefafenestro.ui" line="249"/>
         <source>Vido</source>
         <translation>Ansicht</translation>
     </message>
     <message>
-        <location filename="cxefafenestro.ui" line="304"/>
+        <location filename="cxefafenestro.ui" line="311"/>
         <source>muta</source>
         <translation>stumm</translation>
     </message>
     <message>
-        <location filename="cxefafenestro.ui" line="326"/>
+        <location filename="cxefafenestro.ui" line="333"/>
         <source>Mapo</source>
         <translation>Karte</translation>
     </message>
@@ -267,1029 +240,1029 @@
         <translation>ist es besser, auf eine Übertragung der Daten zu verzichten.</translation>
     </message>
     <message>
-        <location filename="cxefafenestro.cpp" line="30"/>
+        <location filename="cxefafenestro.cpp" line="31"/>
         <source>AD: andoranoj</source>
         <translation>AD: Andorraner</translation>
     </message>
     <message>
-        <location filename="cxefafenestro.cpp" line="30"/>
+        <location filename="cxefafenestro.cpp" line="31"/>
         <source>AE: anoj de Unuiĝintaj Arabaj Emirlandoj</source>
-        <translation type="unfinished"></translation>
+        <translation>AE: Einwohner der Vereinigten Arabischen Emirate</translation>
     </message>
     <message>
-        <location filename="cxefafenestro.cpp" line="30"/>
+        <location filename="cxefafenestro.cpp" line="31"/>
         <source>AF: afganoj</source>
         <translation>AF: Afghanen</translation>
     </message>
     <message>
-        <location filename="cxefafenestro.cpp" line="31"/>
+        <location filename="cxefafenestro.cpp" line="32"/>
         <source>AG: antigvanoj kaj barbudanoj</source>
         <translation>AG: Antiguaner und Barbadorianer</translation>
     </message>
     <message>
-        <location filename="cxefafenestro.cpp" line="31"/>
+        <location filename="cxefafenestro.cpp" line="32"/>
         <source>AL: albanoj</source>
         <translation>AL: Albaner</translation>
     </message>
     <message>
-        <location filename="cxefafenestro.cpp" line="31"/>
+        <location filename="cxefafenestro.cpp" line="32"/>
         <source>AM: armenoj</source>
         <translation>AM: Armenier</translation>
     </message>
     <message>
-        <location filename="cxefafenestro.cpp" line="31"/>
+        <location filename="cxefafenestro.cpp" line="32"/>
         <source>AO: angolanoj</source>
         <translation>AO: Angolaner</translation>
     </message>
     <message>
-        <location filename="cxefafenestro.cpp" line="31"/>
+        <location filename="cxefafenestro.cpp" line="32"/>
         <source>AR: argentinanoj</source>
         <translation>AR: Argentinier</translation>
     </message>
     <message>
-        <location filename="cxefafenestro.cpp" line="32"/>
+        <location filename="cxefafenestro.cpp" line="33"/>
         <source>AT: aŭstroj</source>
         <translation>AT: Österreicher</translation>
     </message>
     <message>
-        <location filename="cxefafenestro.cpp" line="32"/>
+        <location filename="cxefafenestro.cpp" line="33"/>
         <source>AU: aŭstralianoj</source>
         <translation>AU: Australier</translation>
     </message>
     <message>
-        <location filename="cxefafenestro.cpp" line="32"/>
+        <location filename="cxefafenestro.cpp" line="33"/>
         <source>AZ: azerbajĝananoj</source>
         <translation>AZ: Aserbaidschaner</translation>
     </message>
     <message>
-        <location filename="cxefafenestro.cpp" line="33"/>
+        <location filename="cxefafenestro.cpp" line="34"/>
         <source>BA: bosnoj kaj hercegovinanoj</source>
         <translation>BA: Bosnier</translation>
     </message>
     <message>
-        <location filename="cxefafenestro.cpp" line="33"/>
+        <location filename="cxefafenestro.cpp" line="34"/>
         <source>BB: barbadanoj</source>
         <translation>BB: Barbadier</translation>
     </message>
     <message>
-        <location filename="cxefafenestro.cpp" line="33"/>
+        <location filename="cxefafenestro.cpp" line="34"/>
         <source>BD: bangladeĝanoj</source>
         <translation>BD: Bangladescher</translation>
     </message>
     <message>
-        <location filename="cxefafenestro.cpp" line="33"/>
+        <location filename="cxefafenestro.cpp" line="34"/>
         <source>BE: belgoj</source>
         <translation>BE: Belgier</translation>
     </message>
     <message>
-        <location filename="cxefafenestro.cpp" line="34"/>
+        <location filename="cxefafenestro.cpp" line="35"/>
         <source>BF: burkinanoj</source>
         <translation>BF: Burkiner</translation>
     </message>
     <message>
-        <location filename="cxefafenestro.cpp" line="34"/>
+        <location filename="cxefafenestro.cpp" line="35"/>
         <source>BG: bulgaroj</source>
         <translation>BG: Bulgaren</translation>
     </message>
     <message>
-        <location filename="cxefafenestro.cpp" line="34"/>
+        <location filename="cxefafenestro.cpp" line="35"/>
         <source>BH: barejnanoj</source>
         <translation>BH: Bahrainer</translation>
     </message>
     <message>
-        <location filename="cxefafenestro.cpp" line="34"/>
+        <location filename="cxefafenestro.cpp" line="35"/>
         <source>BI: burundanoj</source>
         <translation>BI: Bouraner</translation>
     </message>
     <message>
-        <location filename="cxefafenestro.cpp" line="34"/>
+        <location filename="cxefafenestro.cpp" line="35"/>
         <source>BJ: beninanoj</source>
         <translation>BJ: Beniner</translation>
     </message>
     <message>
-        <location filename="cxefafenestro.cpp" line="35"/>
+        <location filename="cxefafenestro.cpp" line="36"/>
         <source>BN: brunejanoj</source>
         <translation>BN: Bruneier</translation>
     </message>
     <message>
-        <location filename="cxefafenestro.cpp" line="35"/>
+        <location filename="cxefafenestro.cpp" line="36"/>
         <source>BO: bolivianoj</source>
         <translation>BO: Bolivianer</translation>
     </message>
     <message>
-        <location filename="cxefafenestro.cpp" line="35"/>
+        <location filename="cxefafenestro.cpp" line="36"/>
         <source>BR: brazilanoj</source>
         <translation>BR: Brasilianer</translation>
     </message>
     <message>
-        <location filename="cxefafenestro.cpp" line="35"/>
+        <location filename="cxefafenestro.cpp" line="36"/>
         <source>BS: bahamanoj</source>
         <translation>BS: Bahamaer</translation>
     </message>
     <message>
-        <location filename="cxefafenestro.cpp" line="35"/>
+        <location filename="cxefafenestro.cpp" line="36"/>
         <source>BT: butananoj</source>
         <translation>BT: Bhutaner</translation>
     </message>
     <message>
-        <location filename="cxefafenestro.cpp" line="36"/>
+        <location filename="cxefafenestro.cpp" line="37"/>
         <source>BW: bocvananoj</source>
         <translation>BW: Botsuaner</translation>
     </message>
     <message>
-        <location filename="cxefafenestro.cpp" line="36"/>
+        <location filename="cxefafenestro.cpp" line="37"/>
         <source>BY: belarusoj</source>
         <translation>BY: Weißrussen</translation>
     </message>
     <message>
-        <location filename="cxefafenestro.cpp" line="36"/>
+        <location filename="cxefafenestro.cpp" line="37"/>
         <source>BZ: belizanoj</source>
         <translation>BZ: Belizer</translation>
     </message>
     <message>
-        <location filename="cxefafenestro.cpp" line="36"/>
+        <location filename="cxefafenestro.cpp" line="37"/>
         <source>CA: kanadanoj</source>
         <translation>CA: Kanadier</translation>
     </message>
     <message>
-        <location filename="cxefafenestro.cpp" line="37"/>
+        <location filename="cxefafenestro.cpp" line="38"/>
         <source>CD: anoj de Demokratia Respubliko Kongo</source>
         <translation>CD: Bewohner der Dem. Republik Kongo</translation>
     </message>
     <message>
-        <location filename="cxefafenestro.cpp" line="37"/>
+        <location filename="cxefafenestro.cpp" line="38"/>
         <source>CF: centrafrikanoj</source>
         <translation>CF: Zentralafrikaner</translation>
     </message>
     <message>
-        <location filename="cxefafenestro.cpp" line="37"/>
+        <location filename="cxefafenestro.cpp" line="38"/>
         <source>CG: anoj de Respubliko Kongo</source>
         <translation>CG: Kongolesen</translation>
     </message>
     <message>
-        <location filename="cxefafenestro.cpp" line="38"/>
+        <location filename="cxefafenestro.cpp" line="39"/>
         <source>CH: svisoj</source>
         <translation>CH: Schweizer</translation>
     </message>
     <message>
-        <location filename="cxefafenestro.cpp" line="38"/>
+        <location filename="cxefafenestro.cpp" line="39"/>
         <source>CI: eburbordanoj</source>
         <translation>CI: Ivorer</translation>
     </message>
     <message>
-        <location filename="cxefafenestro.cpp" line="38"/>
+        <location filename="cxefafenestro.cpp" line="39"/>
         <source>CL: ĉilianoj</source>
         <translation>CL: Chilenen</translation>
     </message>
     <message>
-        <location filename="cxefafenestro.cpp" line="38"/>
+        <location filename="cxefafenestro.cpp" line="39"/>
         <source>CM: kamerunanoj</source>
         <translation>CM: Kameruner</translation>
     </message>
     <message>
-        <location filename="cxefafenestro.cpp" line="38"/>
+        <location filename="cxefafenestro.cpp" line="39"/>
         <source>CN: ĉinoj</source>
         <translation>CN: Chinesen</translation>
     </message>
     <message>
-        <location filename="cxefafenestro.cpp" line="39"/>
+        <location filename="cxefafenestro.cpp" line="40"/>
         <source>CO: kolombianoj</source>
         <translation>CO: Kolumbianer</translation>
     </message>
     <message>
-        <location filename="cxefafenestro.cpp" line="39"/>
+        <location filename="cxefafenestro.cpp" line="40"/>
         <source>CR: kostarikanoj</source>
         <translation>CR: Costarikaner</translation>
     </message>
     <message>
-        <location filename="cxefafenestro.cpp" line="39"/>
+        <location filename="cxefafenestro.cpp" line="40"/>
         <source>CU: kubanoj</source>
         <translation>CU: Kubaner</translation>
     </message>
     <message>
-        <location filename="cxefafenestro.cpp" line="39"/>
+        <location filename="cxefafenestro.cpp" line="40"/>
         <source>CV: kaboverdanoj</source>
         <translation>CV: Bewohner der Kapverdischen Inseln</translation>
     </message>
     <message>
-        <location filename="cxefafenestro.cpp" line="39"/>
+        <location filename="cxefafenestro.cpp" line="40"/>
         <source>CY: kipranoj</source>
         <translation>CY: Zyprer</translation>
     </message>
     <message>
-        <location filename="cxefafenestro.cpp" line="40"/>
+        <location filename="cxefafenestro.cpp" line="41"/>
         <source>DE: germanoj</source>
         <translation>DE: Deutschen</translation>
     </message>
     <message>
-        <location filename="cxefafenestro.cpp" line="40"/>
+        <location filename="cxefafenestro.cpp" line="41"/>
         <source>DJ: ĝibutianoj</source>
         <translation>DJ: Dschibuter</translation>
     </message>
     <message>
-        <location filename="cxefafenestro.cpp" line="40"/>
+        <location filename="cxefafenestro.cpp" line="41"/>
         <source>DK: danoj</source>
         <translation>DK: Dänen</translation>
     </message>
     <message>
-        <location filename="cxefafenestro.cpp" line="40"/>
+        <location filename="cxefafenestro.cpp" line="41"/>
         <source>DM: dominikanoj</source>
         <translation>DM: Dominicaner</translation>
     </message>
     <message>
-        <location filename="cxefafenestro.cpp" line="40"/>
+        <location filename="cxefafenestro.cpp" line="41"/>
         <source>CZ: ĉeĥoj</source>
         <translation>CZ: Tschechen</translation>
     </message>
     <message>
-        <location filename="cxefafenestro.cpp" line="41"/>
+        <location filename="cxefafenestro.cpp" line="42"/>
         <source>DO: dominganoj</source>
         <translation>DO: Dominikaner</translation>
     </message>
     <message>
-        <location filename="cxefafenestro.cpp" line="41"/>
+        <location filename="cxefafenestro.cpp" line="42"/>
         <source>DZ: alĝerianoj</source>
         <translation>DZ: Algerier</translation>
     </message>
     <message>
-        <location filename="cxefafenestro.cpp" line="41"/>
+        <location filename="cxefafenestro.cpp" line="42"/>
         <source>EC: ekvadoranoj</source>
         <translation>EC: Ecuadorianer</translation>
     </message>
     <message>
-        <location filename="cxefafenestro.cpp" line="41"/>
+        <location filename="cxefafenestro.cpp" line="42"/>
         <source>EE: estonoj</source>
         <translation>EE: Esten</translation>
     </message>
     <message>
-        <location filename="cxefafenestro.cpp" line="41"/>
+        <location filename="cxefafenestro.cpp" line="42"/>
         <source>EG: egiptoj</source>
         <translation>EG: Ägypter</translation>
     </message>
     <message>
-        <location filename="cxefafenestro.cpp" line="42"/>
+        <location filename="cxefafenestro.cpp" line="43"/>
         <source>ER: eritreanoj</source>
         <translation>ER: Eritreer</translation>
     </message>
     <message>
-        <location filename="cxefafenestro.cpp" line="42"/>
+        <location filename="cxefafenestro.cpp" line="43"/>
         <source>ES: hispanoj</source>
         <translation>ES: Spanier</translation>
     </message>
     <message>
-        <location filename="cxefafenestro.cpp" line="42"/>
+        <location filename="cxefafenestro.cpp" line="43"/>
         <source>ET: etiopoj</source>
         <translation>ET: Äthiopier</translation>
     </message>
     <message>
-        <location filename="cxefafenestro.cpp" line="42"/>
+        <location filename="cxefafenestro.cpp" line="43"/>
         <source>FI: finnoj</source>
         <translation>FI: Finnen</translation>
     </message>
     <message>
-        <location filename="cxefafenestro.cpp" line="42"/>
+        <location filename="cxefafenestro.cpp" line="43"/>
         <source>FJ: fiĝianoj</source>
         <translation>FJ: Fidschianer</translation>
     </message>
     <message>
-        <location filename="cxefafenestro.cpp" line="43"/>
+        <location filename="cxefafenestro.cpp" line="44"/>
         <source>FO: feroanoj</source>
         <translation>FO: Faröer</translation>
     </message>
     <message>
-        <location filename="cxefafenestro.cpp" line="43"/>
+        <location filename="cxefafenestro.cpp" line="44"/>
         <source>FR: francoj</source>
         <translation>FR: Franzosen</translation>
     </message>
     <message>
-        <location filename="cxefafenestro.cpp" line="43"/>
+        <location filename="cxefafenestro.cpp" line="44"/>
         <source>GA: gabonanoj</source>
         <translation>GA: Gabuner</translation>
     </message>
     <message>
-        <location filename="cxefafenestro.cpp" line="43"/>
+        <location filename="cxefafenestro.cpp" line="44"/>
         <source>GB: britoj</source>
         <translation>GB: Briten</translation>
     </message>
     <message>
-        <location filename="cxefafenestro.cpp" line="43"/>
+        <location filename="cxefafenestro.cpp" line="44"/>
         <source>GD: grenadanoj</source>
         <translation>GD: Grenadier</translation>
     </message>
     <message>
-        <location filename="cxefafenestro.cpp" line="43"/>
+        <location filename="cxefafenestro.cpp" line="44"/>
         <source>GE: kartveloj</source>
         <translation>GE: Georgier</translation>
     </message>
     <message>
-        <location filename="cxefafenestro.cpp" line="44"/>
+        <location filename="cxefafenestro.cpp" line="45"/>
         <source>GH: ganaanoj</source>
         <translation>GH: Ghanaer</translation>
     </message>
     <message>
-        <location filename="cxefafenestro.cpp" line="44"/>
+        <location filename="cxefafenestro.cpp" line="45"/>
         <source>GL: gronlandanoj</source>
         <translation>GL: Grönländer</translation>
     </message>
     <message>
-        <location filename="cxefafenestro.cpp" line="44"/>
+        <location filename="cxefafenestro.cpp" line="45"/>
         <source>GM: gambianoj</source>
         <translation>GM: Gambier</translation>
     </message>
     <message>
-        <location filename="cxefafenestro.cpp" line="44"/>
+        <location filename="cxefafenestro.cpp" line="45"/>
         <source>GN: gvineanoj</source>
         <translation>GN: Guineer</translation>
     </message>
     <message>
-        <location filename="cxefafenestro.cpp" line="44"/>
+        <location filename="cxefafenestro.cpp" line="45"/>
         <source>GQ: anoj de Ekvatora Gvineo</source>
         <translation>GQ: Äquatorialguineer</translation>
     </message>
     <message>
-        <location filename="cxefafenestro.cpp" line="45"/>
+        <location filename="cxefafenestro.cpp" line="46"/>
         <source>GR: grekoj</source>
         <translation>GR: Griechen</translation>
     </message>
     <message>
-        <location filename="cxefafenestro.cpp" line="45"/>
+        <location filename="cxefafenestro.cpp" line="46"/>
         <source>GT: gvatemalanoj</source>
         <translation>GT: Guatemaler</translation>
     </message>
     <message>
-        <location filename="cxefafenestro.cpp" line="45"/>
+        <location filename="cxefafenestro.cpp" line="46"/>
         <source>GW: gvineo-bisaŭanoj</source>
         <translation>GW: Bewohner von Guinea-Bissau</translation>
     </message>
     <message>
-        <location filename="cxefafenestro.cpp" line="45"/>
+        <location filename="cxefafenestro.cpp" line="46"/>
         <source>GY: gujananoj</source>
         <translation>GY: Guyaner</translation>
     </message>
     <message>
-        <location filename="cxefafenestro.cpp" line="45"/>
+        <location filename="cxefafenestro.cpp" line="46"/>
         <source>HN: honduranoj</source>
         <translation>HN: Honduraner</translation>
     </message>
     <message>
-        <location filename="cxefafenestro.cpp" line="46"/>
+        <location filename="cxefafenestro.cpp" line="47"/>
         <source>HR: kroatoj</source>
         <translation>HR: Kroaten</translation>
     </message>
     <message>
-        <location filename="cxefafenestro.cpp" line="46"/>
+        <location filename="cxefafenestro.cpp" line="47"/>
         <source>HT: haitianoj</source>
         <translation>HT: Haitianer</translation>
     </message>
     <message>
-        <location filename="cxefafenestro.cpp" line="46"/>
+        <location filename="cxefafenestro.cpp" line="47"/>
         <source>HU: hungaroj</source>
         <translation>HU: Ungarn</translation>
     </message>
     <message>
-        <location filename="cxefafenestro.cpp" line="46"/>
+        <location filename="cxefafenestro.cpp" line="47"/>
         <source>ID: indonezianoj</source>
         <translation>ID: Indonesier</translation>
     </message>
     <message>
-        <location filename="cxefafenestro.cpp" line="46"/>
+        <location filename="cxefafenestro.cpp" line="47"/>
         <source>IE: irlandanoj</source>
         <translation>IE: Iren</translation>
     </message>
     <message>
-        <location filename="cxefafenestro.cpp" line="47"/>
+        <location filename="cxefafenestro.cpp" line="48"/>
         <source>IL: israelanoj</source>
         <translation>IL: Israelis</translation>
     </message>
     <message>
-        <location filename="cxefafenestro.cpp" line="47"/>
+        <location filename="cxefafenestro.cpp" line="48"/>
         <source>IN: baratanoj</source>
         <translation>IN: Inder</translation>
     </message>
     <message>
-        <location filename="cxefafenestro.cpp" line="47"/>
+        <location filename="cxefafenestro.cpp" line="48"/>
         <source>IQ: irakanoj</source>
         <translation>IQ: Iraker</translation>
     </message>
     <message>
-        <location filename="cxefafenestro.cpp" line="47"/>
+        <location filename="cxefafenestro.cpp" line="48"/>
         <source>IR: irananoj</source>
         <translation>IR: Iraner</translation>
     </message>
     <message>
-        <location filename="cxefafenestro.cpp" line="47"/>
+        <location filename="cxefafenestro.cpp" line="48"/>
         <source>IS: islandanoj</source>
         <translation>IS: Isländer</translation>
     </message>
     <message>
-        <location filename="cxefafenestro.cpp" line="48"/>
+        <location filename="cxefafenestro.cpp" line="49"/>
         <source>IT: italoj</source>
         <translation>IT: Italiener</translation>
     </message>
     <message>
-        <location filename="cxefafenestro.cpp" line="48"/>
+        <location filename="cxefafenestro.cpp" line="49"/>
         <source>JM: jamajkanoj</source>
         <translation>JM: Jamaikaner</translation>
     </message>
     <message>
-        <location filename="cxefafenestro.cpp" line="48"/>
+        <location filename="cxefafenestro.cpp" line="49"/>
         <source>JO: jordanianoj</source>
         <translation>JO: Jordanier</translation>
     </message>
     <message>
-        <location filename="cxefafenestro.cpp" line="48"/>
+        <location filename="cxefafenestro.cpp" line="49"/>
         <source>JP: japanoj</source>
         <translation>JP: Japaner</translation>
     </message>
     <message>
-        <location filename="cxefafenestro.cpp" line="48"/>
+        <location filename="cxefafenestro.cpp" line="49"/>
         <source>KE: kenjanoj</source>
         <translation>KE: Kenianer</translation>
     </message>
     <message>
-        <location filename="cxefafenestro.cpp" line="49"/>
+        <location filename="cxefafenestro.cpp" line="50"/>
         <source>KG: kirgistananoj</source>
         <translation>KG: Kirgisen</translation>
     </message>
     <message>
-        <location filename="cxefafenestro.cpp" line="49"/>
+        <location filename="cxefafenestro.cpp" line="50"/>
         <source>KH: kamboĝanoj</source>
         <translation>KH: Kambodschaner</translation>
     </message>
     <message>
-        <location filename="cxefafenestro.cpp" line="49"/>
+        <location filename="cxefafenestro.cpp" line="50"/>
         <source>KI: kiribatanoj</source>
         <translation>KI: Kiribatier</translation>
     </message>
     <message>
-        <location filename="cxefafenestro.cpp" line="49"/>
+        <location filename="cxefafenestro.cpp" line="50"/>
         <source>KM: komoranoj</source>
         <translation>KM: Komorer</translation>
     </message>
     <message>
-        <location filename="cxefafenestro.cpp" line="50"/>
+        <location filename="cxefafenestro.cpp" line="51"/>
         <source>KN: anoj de Sankta Kristoforo kaj Neviso</source>
-        <translation type="unfinished"></translation>
+        <translation>KN: Einwohner von St. Kitts und Nevis</translation>
     </message>
     <message>
-        <location filename="cxefafenestro.cpp" line="50"/>
+        <location filename="cxefafenestro.cpp" line="51"/>
         <source>KP: nord-koreanoj</source>
         <translation>KP: Nordkoreaner</translation>
     </message>
     <message>
-        <location filename="cxefafenestro.cpp" line="50"/>
+        <location filename="cxefafenestro.cpp" line="51"/>
         <source>KR: koreanoj</source>
         <translation>KR: Koreaner</translation>
     </message>
     <message>
-        <location filename="cxefafenestro.cpp" line="50"/>
+        <location filename="cxefafenestro.cpp" line="51"/>
         <source>KU: kurdoj</source>
         <translation>KU: Kurden</translation>
     </message>
     <message>
-        <location filename="cxefafenestro.cpp" line="51"/>
+        <location filename="cxefafenestro.cpp" line="52"/>
         <source>KW: kuvajtanoj</source>
         <translation>KW: Kuwaiter</translation>
     </message>
     <message>
-        <location filename="cxefafenestro.cpp" line="51"/>
+        <location filename="cxefafenestro.cpp" line="52"/>
         <source>KZ: kazaĥstananoj</source>
         <translation>KZ: Kasachen</translation>
     </message>
     <message>
-        <location filename="cxefafenestro.cpp" line="51"/>
+        <location filename="cxefafenestro.cpp" line="52"/>
         <source>LA: laosanoj</source>
         <translation>LA: Laoten</translation>
     </message>
     <message>
-        <location filename="cxefafenestro.cpp" line="51"/>
+        <location filename="cxefafenestro.cpp" line="52"/>
         <source>LB: libananoj</source>
         <translation>LB: Libanesen</translation>
     </message>
     <message>
-        <location filename="cxefafenestro.cpp" line="51"/>
+        <location filename="cxefafenestro.cpp" line="52"/>
         <source>LC: sent-lucianoj</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="cxefafenestro.cpp" line="52"/>
+        <location filename="cxefafenestro.cpp" line="53"/>
         <source>LI: liĥtenŝtejnanoj</source>
         <translation>LI: Liechtensteiner</translation>
     </message>
     <message>
-        <location filename="cxefafenestro.cpp" line="52"/>
+        <location filename="cxefafenestro.cpp" line="53"/>
         <source>LK: srilankanoj</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="cxefafenestro.cpp" line="52"/>
+        <location filename="cxefafenestro.cpp" line="53"/>
         <source>LR: liberianoj</source>
         <translation>LR: Liberianer</translation>
     </message>
     <message>
-        <location filename="cxefafenestro.cpp" line="52"/>
+        <location filename="cxefafenestro.cpp" line="53"/>
         <source>LS: lesotanoj</source>
         <translation>LS: Basotho</translation>
     </message>
     <message>
-        <location filename="cxefafenestro.cpp" line="53"/>
+        <location filename="cxefafenestro.cpp" line="54"/>
         <source>LT: litovoj</source>
         <translation>LT: Litauer</translation>
     </message>
     <message>
-        <location filename="cxefafenestro.cpp" line="53"/>
+        <location filename="cxefafenestro.cpp" line="54"/>
         <source>LU: luksemburganoj</source>
         <translation>LU: Luxemburger</translation>
     </message>
     <message>
-        <location filename="cxefafenestro.cpp" line="53"/>
+        <location filename="cxefafenestro.cpp" line="54"/>
         <source>LV: latvoj</source>
         <translation>LV: Letten</translation>
     </message>
     <message>
-        <location filename="cxefafenestro.cpp" line="53"/>
+        <location filename="cxefafenestro.cpp" line="54"/>
         <source>LY: libianoj</source>
         <translation>LY: Libyer</translation>
     </message>
     <message>
-        <location filename="cxefafenestro.cpp" line="53"/>
+        <location filename="cxefafenestro.cpp" line="54"/>
         <source>MA: marokanoj</source>
         <translation>MA: Marokkaner</translation>
     </message>
     <message>
-        <location filename="cxefafenestro.cpp" line="54"/>
+        <location filename="cxefafenestro.cpp" line="55"/>
         <source>MC: monakanoj</source>
         <translation>MC: Monegassen</translation>
     </message>
     <message>
-        <location filename="cxefafenestro.cpp" line="54"/>
+        <location filename="cxefafenestro.cpp" line="55"/>
         <source>MD: moldavoj</source>
         <translation>MD: Moldawier</translation>
     </message>
     <message>
-        <location filename="cxefafenestro.cpp" line="54"/>
+        <location filename="cxefafenestro.cpp" line="55"/>
         <source>ME: montenegranoj</source>
         <translation>ME: Montenegriner</translation>
     </message>
     <message>
-        <location filename="cxefafenestro.cpp" line="54"/>
+        <location filename="cxefafenestro.cpp" line="55"/>
         <source>MG: madagaskaranoj</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="cxefafenestro.cpp" line="54"/>
+        <location filename="cxefafenestro.cpp" line="55"/>
         <source>MH: marŝalanoj</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="cxefafenestro.cpp" line="55"/>
+        <location filename="cxefafenestro.cpp" line="56"/>
         <source>MK: makedonoj</source>
         <translation>MK: Makedonier</translation>
     </message>
     <message>
-        <location filename="cxefafenestro.cpp" line="55"/>
+        <location filename="cxefafenestro.cpp" line="56"/>
         <source>ML: malianoj</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="cxefafenestro.cpp" line="55"/>
+        <location filename="cxefafenestro.cpp" line="56"/>
         <source>MM: birmanoj</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="cxefafenestro.cpp" line="55"/>
+        <location filename="cxefafenestro.cpp" line="56"/>
         <source>MN: mongoloj</source>
         <translation>MN: Mongolen</translation>
     </message>
     <message>
-        <location filename="cxefafenestro.cpp" line="55"/>
+        <location filename="cxefafenestro.cpp" line="56"/>
         <source>MO: makaanoj</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="cxefafenestro.cpp" line="56"/>
+        <location filename="cxefafenestro.cpp" line="57"/>
         <source>MR: maŭritanoj</source>
         <translation>MR: Mauretanier</translation>
     </message>
     <message>
-        <location filename="cxefafenestro.cpp" line="56"/>
+        <location filename="cxefafenestro.cpp" line="57"/>
         <source>MT: maltanoj</source>
         <translation>MT: Malteser</translation>
     </message>
     <message>
-        <location filename="cxefafenestro.cpp" line="56"/>
+        <location filename="cxefafenestro.cpp" line="57"/>
         <source>MU: maŭricianoj</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="cxefafenestro.cpp" line="56"/>
+        <location filename="cxefafenestro.cpp" line="57"/>
         <source>MV: maldivanoj</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="cxefafenestro.cpp" line="57"/>
+        <location filename="cxefafenestro.cpp" line="58"/>
         <source>MW: malavianoj</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="cxefafenestro.cpp" line="57"/>
+        <location filename="cxefafenestro.cpp" line="58"/>
         <source>MX: meksikanoj</source>
         <translation>MX: Mexikaner</translation>
     </message>
     <message>
-        <location filename="cxefafenestro.cpp" line="57"/>
+        <location filename="cxefafenestro.cpp" line="58"/>
         <source>MY: malajzianoj</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="cxefafenestro.cpp" line="57"/>
+        <location filename="cxefafenestro.cpp" line="58"/>
         <source>MZ: mozambikanoj</source>
         <translation>MZ: Mozambikaner</translation>
     </message>
     <message>
-        <location filename="cxefafenestro.cpp" line="57"/>
+        <location filename="cxefafenestro.cpp" line="58"/>
         <source>NA: namibianoj</source>
         <translation>NA: Namibier</translation>
     </message>
     <message>
-        <location filename="cxefafenestro.cpp" line="58"/>
+        <location filename="cxefafenestro.cpp" line="59"/>
         <source>NE: niĝeranoj</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="cxefafenestro.cpp" line="58"/>
+        <location filename="cxefafenestro.cpp" line="59"/>
         <source>NG: niĝerianoj</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="cxefafenestro.cpp" line="58"/>
+        <location filename="cxefafenestro.cpp" line="59"/>
         <source>NI: nikeragvanoj</source>
         <translation>NL: Niederländer</translation>
     </message>
     <message>
-        <location filename="cxefafenestro.cpp" line="58"/>
+        <location filename="cxefafenestro.cpp" line="59"/>
         <source>NL: nederlandanoj</source>
         <translation>NL: Niederländer</translation>
     </message>
     <message>
-        <location filename="cxefafenestro.cpp" line="59"/>
+        <location filename="cxefafenestro.cpp" line="60"/>
         <source>NO: norvegoj</source>
         <translation>NO: Norweger</translation>
     </message>
     <message>
-        <location filename="cxefafenestro.cpp" line="59"/>
+        <location filename="cxefafenestro.cpp" line="60"/>
         <source>NP: nepalanoj</source>
         <translation>NP: Nepalesen</translation>
     </message>
     <message>
-        <location filename="cxefafenestro.cpp" line="59"/>
+        <location filename="cxefafenestro.cpp" line="60"/>
         <source>NR: nauranoj</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="cxefafenestro.cpp" line="59"/>
+        <location filename="cxefafenestro.cpp" line="60"/>
         <source>NZ: nov-zelandanoj</source>
         <translation>NZ: Neuseeländer</translation>
     </message>
     <message>
-        <location filename="cxefafenestro.cpp" line="59"/>
+        <location filename="cxefafenestro.cpp" line="60"/>
         <source>OM: omananoj</source>
         <translation>OM: Omaner</translation>
     </message>
     <message>
-        <location filename="cxefafenestro.cpp" line="60"/>
+        <location filename="cxefafenestro.cpp" line="61"/>
         <source>PA: panamanoj</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="cxefafenestro.cpp" line="60"/>
+        <location filename="cxefafenestro.cpp" line="61"/>
         <source>PE: peruanoj</source>
         <translation>PE: Peruaner</translation>
     </message>
     <message>
-        <location filename="cxefafenestro.cpp" line="60"/>
+        <location filename="cxefafenestro.cpp" line="61"/>
         <source>PG: papuanoj</source>
-        <translation type="unfinished"></translation>
+        <translation>PG: Papuaner</translation>
     </message>
     <message>
-        <location filename="cxefafenestro.cpp" line="60"/>
+        <location filename="cxefafenestro.cpp" line="61"/>
         <source>PK: pakistananoj</source>
         <translation>PK: Pakistaner</translation>
     </message>
     <message>
-        <location filename="cxefafenestro.cpp" line="60"/>
+        <location filename="cxefafenestro.cpp" line="61"/>
         <source>PL: poloj</source>
         <translation>PL: Polen</translation>
     </message>
     <message>
-        <location filename="cxefafenestro.cpp" line="61"/>
+        <location filename="cxefafenestro.cpp" line="62"/>
         <source>PR: portorikanoj</source>
         <translation>PR: Portoricaner</translation>
     </message>
     <message>
-        <location filename="cxefafenestro.cpp" line="61"/>
+        <location filename="cxefafenestro.cpp" line="62"/>
         <source>PS: palestinanoj</source>
         <translation>PS: Palästinenser</translation>
     </message>
     <message>
-        <location filename="cxefafenestro.cpp" line="61"/>
+        <location filename="cxefafenestro.cpp" line="62"/>
         <source>PT: portugaloj</source>
         <translation>PT: Portugiesen</translation>
     </message>
     <message>
-        <location filename="cxefafenestro.cpp" line="61"/>
+        <location filename="cxefafenestro.cpp" line="62"/>
         <source>PW: palaŭanoj</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="cxefafenestro.cpp" line="62"/>
+        <location filename="cxefafenestro.cpp" line="63"/>
         <source>PY: paragvajanoj</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="cxefafenestro.cpp" line="62"/>
+        <location filename="cxefafenestro.cpp" line="63"/>
         <source>QR: kataranoj</source>
         <translation>QR: Katarer</translation>
     </message>
     <message>
-        <location filename="cxefafenestro.cpp" line="62"/>
+        <location filename="cxefafenestro.cpp" line="63"/>
         <source>RO: rumanuoj</source>
         <translation>RO: Rumänen</translation>
     </message>
     <message>
-        <location filename="cxefafenestro.cpp" line="62"/>
+        <location filename="cxefafenestro.cpp" line="63"/>
         <source>RS: serboj</source>
         <translation>RS: Serben</translation>
     </message>
     <message>
-        <location filename="cxefafenestro.cpp" line="62"/>
+        <location filename="cxefafenestro.cpp" line="63"/>
         <source>RU: rusoj</source>
         <translation>RU: Russen</translation>
     </message>
     <message>
-        <location filename="cxefafenestro.cpp" line="62"/>
+        <location filename="cxefafenestro.cpp" line="63"/>
         <source>RW: ruandanoj</source>
         <translation>RW: Ruander</translation>
     </message>
     <message>
-        <location filename="cxefafenestro.cpp" line="63"/>
+        <location filename="cxefafenestro.cpp" line="64"/>
         <source>SA: saud-araboj</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="cxefafenestro.cpp" line="63"/>
+        <location filename="cxefafenestro.cpp" line="64"/>
         <source>SC: sejŝelanoj</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="cxefafenestro.cpp" line="63"/>
+        <location filename="cxefafenestro.cpp" line="64"/>
         <source>SD: sudananoj</source>
         <translation>SD: Sudanesen</translation>
     </message>
     <message>
-        <location filename="cxefafenestro.cpp" line="63"/>
+        <location filename="cxefafenestro.cpp" line="64"/>
         <source>SE: svedoj</source>
         <translation>SE: Schweden</translation>
     </message>
     <message>
-        <location filename="cxefafenestro.cpp" line="63"/>
+        <location filename="cxefafenestro.cpp" line="64"/>
         <source>SG: singapuranoj</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="cxefafenestro.cpp" line="64"/>
+        <location filename="cxefafenestro.cpp" line="65"/>
         <source>SK: slovakoj</source>
         <translation>SK: Slowaken</translation>
     </message>
     <message>
-        <location filename="cxefafenestro.cpp" line="64"/>
+        <location filename="cxefafenestro.cpp" line="65"/>
         <source>SI: slovenoj</source>
         <translation>SI: Slovenen</translation>
     </message>
     <message>
-        <location filename="cxefafenestro.cpp" line="64"/>
+        <location filename="cxefafenestro.cpp" line="65"/>
         <source>SM: sanmariananoj</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="cxefafenestro.cpp" line="64"/>
+        <location filename="cxefafenestro.cpp" line="65"/>
         <source>SN: senegaleanoj</source>
         <translation>SN: Senegalesen</translation>
     </message>
     <message>
-        <location filename="cxefafenestro.cpp" line="64"/>
+        <location filename="cxefafenestro.cpp" line="65"/>
         <source>SO: somaloj</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="cxefafenestro.cpp" line="65"/>
+        <location filename="cxefafenestro.cpp" line="66"/>
         <source>SR: surinamanoj</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="cxefafenestro.cpp" line="65"/>
+        <location filename="cxefafenestro.cpp" line="66"/>
         <source>SS: sud-sudananoj</source>
         <translation>SS: Südsudaner</translation>
     </message>
     <message>
-        <location filename="cxefafenestro.cpp" line="65"/>
+        <location filename="cxefafenestro.cpp" line="66"/>
         <source>ST: saotomeanoj</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="cxefafenestro.cpp" line="65"/>
+        <location filename="cxefafenestro.cpp" line="66"/>
         <source>SV: salvadoranoj</source>
         <translation>SV: Salvadorianer</translation>
     </message>
     <message>
-        <location filename="cxefafenestro.cpp" line="65"/>
+        <location filename="cxefafenestro.cpp" line="66"/>
         <source>SY: sirianoj</source>
         <translation>SY: Syrer</translation>
     </message>
     <message>
-        <location filename="cxefafenestro.cpp" line="66"/>
+        <location filename="cxefafenestro.cpp" line="67"/>
         <source>SZ: svazioj</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="cxefafenestro.cpp" line="66"/>
+        <location filename="cxefafenestro.cpp" line="67"/>
         <source>TB: tibetanoj</source>
         <translation>TB: Tibeter</translation>
     </message>
     <message>
-        <location filename="cxefafenestro.cpp" line="66"/>
+        <location filename="cxefafenestro.cpp" line="67"/>
         <source>TG: togolanoj</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="cxefafenestro.cpp" line="66"/>
+        <location filename="cxefafenestro.cpp" line="67"/>
         <source>TH: tajoj</source>
         <translation>TH: Tailänder</translation>
     </message>
     <message>
-        <location filename="cxefafenestro.cpp" line="66"/>
+        <location filename="cxefafenestro.cpp" line="67"/>
         <source>TD: ĉadanoj</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="cxefafenestro.cpp" line="67"/>
+        <location filename="cxefafenestro.cpp" line="68"/>
         <source>TJ: taĝikistananoj</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="cxefafenestro.cpp" line="67"/>
+        <location filename="cxefafenestro.cpp" line="68"/>
         <source>TL: orienta-timoranoj</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="cxefafenestro.cpp" line="67"/>
+        <location filename="cxefafenestro.cpp" line="68"/>
         <source>TN: tunizianoj</source>
         <translation>TN: Tunesier</translation>
     </message>
     <message>
-        <location filename="cxefafenestro.cpp" line="67"/>
+        <location filename="cxefafenestro.cpp" line="68"/>
         <source>TM: turkmenoj</source>
         <translation>TM: Turkmenen</translation>
     </message>
     <message>
-        <location filename="cxefafenestro.cpp" line="68"/>
+        <location filename="cxefafenestro.cpp" line="69"/>
         <source>TO: tonganoj</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="cxefafenestro.cpp" line="68"/>
+        <location filename="cxefafenestro.cpp" line="69"/>
         <source>TR: turkoj</source>
         <translation>TR: Türken</translation>
     </message>
     <message>
-        <location filename="cxefafenestro.cpp" line="68"/>
+        <location filename="cxefafenestro.cpp" line="69"/>
         <source>TT: trinidadanoj kaj tobaganoj</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="cxefafenestro.cpp" line="68"/>
+        <location filename="cxefafenestro.cpp" line="69"/>
         <source>TV: tuvalanoj</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="cxefafenestro.cpp" line="68"/>
+        <location filename="cxefafenestro.cpp" line="69"/>
         <source>TW: tajvananoj</source>
         <translation>TW: Taiwanesen</translation>
     </message>
     <message>
-        <location filename="cxefafenestro.cpp" line="69"/>
+        <location filename="cxefafenestro.cpp" line="70"/>
         <source>TZ: tanzanianoj</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="cxefafenestro.cpp" line="69"/>
+        <location filename="cxefafenestro.cpp" line="70"/>
         <source>UA: ukrajnanoj</source>
         <translation>UA: Ukrainer</translation>
     </message>
     <message>
-        <location filename="cxefafenestro.cpp" line="69"/>
+        <location filename="cxefafenestro.cpp" line="70"/>
         <source>UG: ugandanoj</source>
         <translation>UG: Ugander</translation>
     </message>
     <message>
-        <location filename="cxefafenestro.cpp" line="69"/>
+        <location filename="cxefafenestro.cpp" line="70"/>
         <source>US: usonanoj</source>
         <translation>US: US-Amerikaner</translation>
     </message>
     <message>
-        <location filename="cxefafenestro.cpp" line="69"/>
+        <location filename="cxefafenestro.cpp" line="70"/>
         <source>UY: urugvajanoj</source>
         <translation>UY: Uruguayer</translation>
     </message>
     <message>
-        <location filename="cxefafenestro.cpp" line="70"/>
+        <location filename="cxefafenestro.cpp" line="71"/>
         <source>UZ: uzbekistananoj</source>
         <translation>UZ: Usbeken</translation>
     </message>
     <message>
-        <location filename="cxefafenestro.cpp" line="70"/>
+        <location filename="cxefafenestro.cpp" line="71"/>
         <source>VA: vatikananoj</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="cxefafenestro.cpp" line="70"/>
+        <location filename="cxefafenestro.cpp" line="71"/>
         <source>VC: sent-vincentanoj kaj grenadinanoj</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="cxefafenestro.cpp" line="70"/>
+        <location filename="cxefafenestro.cpp" line="71"/>
         <source>VE: venezuelanoj</source>
         <translation>VE: Venezuelaner</translation>
     </message>
     <message>
-        <location filename="cxefafenestro.cpp" line="71"/>
+        <location filename="cxefafenestro.cpp" line="72"/>
         <source>VN: vjetnamoj</source>
         <translation>VN: Vietnamesen</translation>
     </message>
     <message>
-        <location filename="cxefafenestro.cpp" line="71"/>
+        <location filename="cxefafenestro.cpp" line="72"/>
         <source>VU: vanuatuanoj</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="cxefafenestro.cpp" line="71"/>
+        <location filename="cxefafenestro.cpp" line="72"/>
         <source>WS: samoanoj</source>
         <translation>WS: Samoaner</translation>
     </message>
     <message>
-        <location filename="cxefafenestro.cpp" line="71"/>
+        <location filename="cxefafenestro.cpp" line="72"/>
         <source>YE: jemenanoj</source>
         <translation>YE: Jemeniten</translation>
     </message>
     <message>
-        <location filename="cxefafenestro.cpp" line="71"/>
+        <location filename="cxefafenestro.cpp" line="72"/>
         <source>ZA: sud-afrikanoj</source>
         <translation>ZA: Südafrikaner</translation>
     </message>
     <message>
-        <location filename="cxefafenestro.cpp" line="72"/>
+        <location filename="cxefafenestro.cpp" line="73"/>
         <source>ZM: zambianoj</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="cxefafenestro.cpp" line="72"/>
+        <location filename="cxefafenestro.cpp" line="73"/>
         <source>ZW: zimbabvanoj</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="cxefafenestro.cpp" line="73"/>
+        <location filename="cxefafenestro.cpp" line="74"/>
         <source>Plena identigilo</source>
-        <translation type="unfinished">Vollständige Bezeichnung</translation>
+        <translation>Vollständige Bezeichnung</translation>
     </message>
     <message>
-        <location filename="cxefafenestro.cpp" line="73"/>
+        <location filename="cxefafenestro.cpp" line="74"/>
         <source>Parte ŝparvojo</source>
-        <translation type="unfinished">Teilweise Abkürzung</translation>
+        <translation>Teilweise Abkürzung</translation>
     </message>
     <message>
-        <location filename="cxefafenestro.cpp" line="73"/>
+        <location filename="cxefafenestro.cpp" line="74"/>
         <source>Ŝparvojo</source>
-        <translation type="unfinished">Abkürzung</translation>
+        <translation>Abkürzung</translation>
     </message>
     <message>
-        <location filename="cxefafenestro.cpp" line="74"/>
+        <location filename="cxefafenestro.cpp" line="75"/>
         <source>Kamuflada identigilo</source>
-        <translation type="unfinished"></translation>
+        <translation>Tarnbezeichnung</translation>
     </message>
     <message>
-        <location filename="cxefafenestro.cpp" line="74"/>
+        <location filename="cxefafenestro.cpp" line="75"/>
         <source>Fabrikanta identigilo</source>
-        <translation type="unfinished">Herstellerbezeichnung</translation>
+        <translation>Herstellerbezeichnung</translation>
     </message>
     <message>
-        <location filename="cxefafenestro.cpp" line="74"/>
+        <location filename="cxefafenestro.cpp" line="75"/>
         <source>Alnomo</source>
-        <translation type="unfinished">Spitzname</translation>
+        <translation>Spitzname</translation>
     </message>
     <message>
-        <location filename="cxefafenestro.cpp" line="74"/>
+        <location filename="cxefafenestro.cpp" line="75"/>
         <source>Komisio kodo</source>
-        <translation type="unfinished">Bestellkode</translation>
+        <translation>Bestellkode</translation>
     </message>
     <message>
         <location filename="cxefafenestro_kompletigitarespondo.cpp" line="8"/>
@@ -1304,12 +1277,12 @@
     <message>
         <location filename="cxefafenestro_pripdfeldono.cpp" line="9"/>
         <source>Dosiero selektado por eldono</source>
-        <translation type="unfinished"></translation>
+        <translation>Dateiauswahl zur Ausgabe</translation>
     </message>
     <message>
         <location filename="cxefafenestro_pripdfeldono.cpp" line="10"/>
         <source>PDF-dosiero</source>
-        <translation type="unfinished"></translation>
+        <translation>PDF-Datei</translation>
     </message>
     <message>
         <location filename="cxefafenestro_pripriskribo.cpp" line="27"/>
@@ -1360,7 +1333,12 @@
         <translation>Sprachen</translation>
     </message>
     <message>
-        <location filename="datumojapogilo.ui" line="227"/>
+        <location filename="datumojapogilo.ui" line="192"/>
+        <source>Fontoj</source>
+        <translation>Quellenangaben</translation>
+    </message>
+    <message>
+        <location filename="datumojapogilo.ui" line="234"/>
         <source>Rezignu</source>
         <translation>Abbrechen</translation>
     </message>
@@ -1372,10 +1350,10 @@
     <message>
         <location filename="datumojapogilo.ui" line="185"/>
         <source>Literaturoj</source>
-        <translation>Quellenangaben</translation>
+        <translation>Literaturangaben</translation>
     </message>
     <message>
-        <location filename="datumojapogilo.ui" line="196"/>
+        <location filename="datumojapogilo.ui" line="203"/>
         <source>Elektu ĉiuj</source>
         <translation>Alle auswählen</translation>
     </message>
@@ -1385,7 +1363,7 @@
         <translation>Abbrechen</translation>
     </message>
     <message>
-        <location filename="datumojapogilo.ui" line="250"/>
+        <location filename="datumojapogilo.ui" line="257"/>
         <source>Eksportu</source>
         <translation>Exportieren</translation>
     </message>
@@ -1432,7 +1410,7 @@
     <message>
         <location filename="datumojapogilo_prieksportu.cpp" line="101"/>
         <source>Eksporti identigilojn …</source>
-        <translation>Bezeichnungen werden gesichert…</translation>
+        <translation>Bezeichnungen werden gesichert …</translation>
     </message>
     <message>
         <location filename="datumojapogilo_prieksportu.cpp" line="97"/>
@@ -1446,11 +1424,21 @@
     </message>
     <message>
         <location filename="datumojapogilo_prieksportu.cpp" line="153"/>
+        <source>Eksporti fontojn …</source>
+        <translation>Quellenangaben werden gesichert …</translation>
+    </message>
+    <message>
+        <location filename="datumojapogilo_prieksportu.cpp" line="195"/>
+        <source>Eraro [062]!</source>
+        <translation>Fehler [062]!</translation>
+    </message>
+    <message>
+        <location filename="datumojapogilo_prieksportu.cpp" line="199"/>
         <source>Eksportitaj %1 registroj!</source>
         <translation>%1 Datensätze wurden gesichert!</translation>
     </message>
     <message>
-        <location filename="datumojapogilo_prieksportu.cpp" line="157"/>
+        <location filename="datumojapogilo_prieksportu.cpp" line="203"/>
         <source>Eraro [007]!</source>
         <translation>Fehler [007]!</translation>
     </message>
@@ -1498,34 +1486,9 @@
         <translation>Fehler [028]!</translation>
     </message>
     <message>
-        <source>Plena identigilo</source>
-        <translation>Vollständige Bezeichnung</translation>
-    </message>
-    <message>
-        <source>Parte ŝparvojo</source>
-        <translation>Teilweise Abkürzung</translation>
-    </message>
-    <message>
-        <source>Ŝparvojo</source>
-        <translation>Abkürzung</translation>
-    </message>
-    <message>
-        <source>Fabrikanta identigilo</source>
-        <translation>Herstellerbezeichnung</translation>
-    </message>
-    <message>
-        <source>Alnomo</source>
-        <translation>Spitzname</translation>
-    </message>
-    <message>
-        <source>Komisio kodo</source>
-        <translation>Bestellkode</translation>
-    </message>
-    <message>
         <location filename="datumojrestauxro_prisintakseanalizu.cpp" line="146"/>
         <location filename="datumojrestauxro_prisintakseanalizu.cpp" line="198"/>
         <source>Tipo:</source>
-        <oldsource>Tipo: </oldsource>
         <translation>Typ:</translation>
     </message>
     <message>
@@ -1557,43 +1520,36 @@
     <message>
         <location filename="datumojrestauxro_prisintakseanalizu.cpp" line="213"/>
         <source>La identigilo jam existas.</source>
-        <oldsource>La literaturo jam existas.</oldsource>
         <translation>Die Bezeichnung ist bereits vorhanden.</translation>
     </message>
     <message>
         <location filename="datumojrestauxro_prisintakseanalizu.cpp" line="217"/>
         <source>Estas sama malnova identigilo malsama enhavo.</source>
-        <oldsource>Estas sama malnova literaturo malsama enhavo.</oldsource>
         <translation>Es gibt eine gleichalte Bezeichnung ungleichen Inhalts.</translation>
     </message>
     <message>
         <location filename="datumojrestauxro_prisintakseanalizu.cpp" line="220"/>
         <source>Estas sama malnova identigilo kun malsamaj subskriptoj.</source>
-        <oldsource>Estas sama malnova literaturo kun malsamaj subskriptoj.</oldsource>
         <translation>Die Bezeichnung ist bereits mit einem unterschiedlichen Subskriptum vorhanden.</translation>
     </message>
     <message>
         <location filename="datumojrestauxro_prisintakseanalizu.cpp" line="223"/>
         <source>Estas jam disponebla ĝisdatigi via identigilo.</source>
-        <oldsource>Estas jam disponebla ĝisdatigi via literaturo.</oldsource>
         <translation>Es ist bereits eine aktuelle Bezeichnung vorhanden.</translation>
     </message>
     <message>
         <location filename="datumojrestauxro_prisintakseanalizu.cpp" line="226"/>
         <source>Eksistas malnova identigilo de la sama enhavo.</source>
-        <oldsource>Eksistas malnova literaturo de la sama enhavo.</oldsource>
         <translation>Es gibt eine ältere Bezeichnung desselben Inhalts.</translation>
     </message>
     <message>
         <location filename="datumojrestauxro_prisintakseanalizu.cpp" line="228"/>
         <source>La nuna identigilo estas pli malnova.</source>
-        <oldsource>La nuna literaturo estas pli malnova.</oldsource>
         <translation>Die vorhandene Bezeichnung ist aktueller.</translation>
     </message>
     <message>
         <location filename="datumojrestauxro_prisintakseanalizu.cpp" line="233"/>
         <source>Tia identigilo ne estas disponebla ankoraŭ.</source>
-        <oldsource>Tia literaturo ne estas disponebla ankoraŭ.</oldsource>
         <translation>Die Bezeichnung ist noch nicht vorhanden.</translation>
     </message>
     <message>
@@ -1715,6 +1671,62 @@
     </message>
 </context>
 <context>
+    <name>fontoj</name>
+    <message>
+        <location filename="fontoj.ui" line="20"/>
+        <location filename="fontoj.ui" line="111"/>
+        <source>Fontoj</source>
+        <translation>Quellenangaben</translation>
+    </message>
+    <message>
+        <location filename="fontoj.ui" line="47"/>
+        <source>Koncepto</source>
+        <translation>Konzept</translation>
+    </message>
+    <message>
+        <location filename="fontoj.ui" line="65"/>
+        <source>Selektado</source>
+        <translation>Auswahl</translation>
+    </message>
+    <message>
+        <location filename="fontoj.ui" line="171"/>
+        <source>Malfaru</source>
+        <translation>Rückgängig</translation>
+    </message>
+    <message>
+        <location filename="fontoj.ui" line="178"/>
+        <location filename="fontoj.ui" line="189"/>
+        <location filename="fontoj.ui" line="196"/>
+        <source>PushButton</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="fontoj.ui" line="212"/>
+        <source>Aludo:</source>
+        <translation>Hinweis:</translation>
+    </message>
+    <message>
+        <location filename="fontoj.ui" line="232"/>
+        <source>...</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="fontoj.ui" line="247"/>
+        <source>Subskribo:</source>
+        <translation>Signatur:</translation>
+    </message>
+    <message>
+        <location filename="fontoj.ui" line="271"/>
+        <source>Stato:</source>
+        <translation>Stand:</translation>
+    </message>
+    <message>
+        <location filename="fontoj.ui" line="299"/>
+        <source>kontribui</source>
+        <translation>übertragen</translation>
+    </message>
+</context>
+<context>
     <name>hipertekstoPagxo</name>
     <message>
         <location filename="hipertekstopagxo_acceptnavigationrequest.cpp" line="21"/>
@@ -1810,6 +1822,11 @@
         <translation>Sprache:</translation>
     </message>
     <message>
+        <location filename="identigiloj.ui" line="316"/>
+        <source>Kamuflada identigilo</source>
+        <translation>Tarnbezeichnung</translation>
+    </message>
+    <message>
         <location filename="identigiloj.ui" line="345"/>
         <source>Fonto:</source>
         <translation>Quelle:</translation>
@@ -1833,7 +1850,6 @@
         <location filename="identigiloj.ui" line="297"/>
         <location filename="identigiloj.ui" line="301"/>
         <source>Plena identigilo</source>
-        <oldsource>Milita identigilo</oldsource>
         <translation>Vollständige Bezeichnung</translation>
     </message>
     <message>
