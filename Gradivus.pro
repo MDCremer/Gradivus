@@ -44,7 +44,10 @@ SOURCES      += main.cpp\
                 eldono_priskribo.cpp\
                 fontoj.cpp\
                 fontoj_destrojero.cpp\
+                fontoj_prienigo.cpp\
+                fontoj_prireiru.cpp\
                 fontoj_priselektado.cpp\
+                fontoj_sxargi.cpp\
                 hipertekstopagxo_acceptnavigationrequest.cpp\
                 htmlmarkilo.cpp\
                 htmlmarkilo_highlightblock.cpp\

@@ -148,12 +148,17 @@
           <number>6</number>
          </property>
          <item>
-          <widget class="QListWidget" name="listWidget_2">
+          <widget class="QListWidget" name="listo">
            <property name="sizePolicy">
             <sizepolicy hsizetype="Maximum" vsizetype="Expanding">
              <horstretch>0</horstretch>
              <verstretch>0</verstretch>
             </sizepolicy>
+           </property>
+           <property name="font">
+            <font>
+             <pointsize>9</pointsize>
+            </font>
            </property>
            <property name="alternatingRowColors">
             <bool>true</bool>
@@ -173,9 +178,12 @@
             </widget>
            </item>
            <item>
-            <widget class="QPushButton" name="pushButton_2">
+            <widget class="QPushButton" name="akceptu">
+             <property name="enabled">
+              <bool>false</bool>
+             </property>
              <property name="text">
-              <string>PushButton</string>
+              <string>Akceptu</string>
              </property>
             </widget>
            </item>
@@ -184,16 +192,16 @@
          <item>
           <layout class="QHBoxLayout" name="horizontalLayout_3">
            <item>
-            <widget class="QPushButton" name="pushButton_4">
+            <widget class="QPushButton" name="forigu">
              <property name="text">
-              <string>PushButton</string>
+              <string>Forigu</string>
              </property>
             </widget>
            </item>
            <item>
-            <widget class="QPushButton" name="pushButton_3">
+            <widget class="QPushButton" name="vakigu">
              <property name="text">
-              <string>PushButton</string>
+              <string>Vakigu</string>
              </property>
             </widget>
            </item>
@@ -227,9 +235,9 @@
            </widget>
           </item>
           <item row="1" column="0">
-           <widget class="QToolButton" name="toolButton">
+           <widget class="QToolButton" name="enigo">
             <property name="text">
-             <string>...</string>
+             <string>Fonto:</string>
             </property>
            </widget>
           </item>
@@ -256,7 +264,7 @@
              </font>
             </property>
             <property name="text">
-             <string notr="true">TextLabel</string>
+             <string notr="true"/>
             </property>
            </widget>
           </item>
@@ -280,7 +288,7 @@
              </font>
             </property>
             <property name="text">
-             <string notr="true">TextLabel</string>
+             <string notr="true"/>
             </property>
            </widget>
           </item>

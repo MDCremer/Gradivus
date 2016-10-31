@@ -3,6 +3,7 @@
 
 #include <QByteArray>
 #include <QDialog>
+#include <QString>
 #include <QWidget>
 #include "cxefafenestro.h"
 #include "rikordoregistrilo.h"
@@ -17,12 +18,17 @@ class fontoj:public QDialog
   explicit fontoj(QWidget *gepatro);
   ~fontoj();
  public slots:
+  void priEnigo();
+  void priReiru();
   void priSelektado();
  private:
+  void sxargi();
   Ui::fontoj *ui;
   cxefaFenestro *patraObjekto;
   rikordoRegistrilo *registrilo;
   QByteArray ajxo;
+  QString literaturo;
+  QString pagxo;
 };
 
 #endif // FONTOJ_H

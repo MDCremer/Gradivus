@@ -11,7 +11,6 @@ void fontoj::priSelektado()
 {kodoSelektado selektado(this,patraObjekto);
  if(selektado.exec()==QDialog::Accepted)
  {ajxo=selektado.akiruKodo().toUtf8();
-  ui->fonto->setEnabled(true);
   QSqlDatabase datumbazo=QSqlDatabase::database();
   if(datumbazo.open())
   {QSqlQuery informpeto;
@@ -28,4 +27,6 @@ void fontoj::priSelektado()
   else
    if(datumbazo.lastError().isValid())
     QMessageBox::critical(this,tr("Eraro [063]!"),datumbazo.lastError().text());
+  sxargi();
+  ui->fonto->setEnabled(true);
 }}

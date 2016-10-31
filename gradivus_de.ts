@@ -1689,41 +1689,69 @@
         <translation>Auswahl</translation>
     </message>
     <message>
-        <location filename="fontoj.ui" line="171"/>
+        <location filename="fontoj.ui" line="176"/>
         <source>Malfaru</source>
         <translation>Rückgängig</translation>
     </message>
     <message>
-        <location filename="fontoj.ui" line="178"/>
-        <location filename="fontoj.ui" line="189"/>
-        <location filename="fontoj.ui" line="196"/>
-        <source>PushButton</source>
-        <translation type="unfinished"></translation>
+        <location filename="fontoj.ui" line="183"/>
+        <source>Akceptu</source>
+        <translation>Übernehmen</translation>
     </message>
     <message>
-        <location filename="fontoj.ui" line="212"/>
+        <location filename="fontoj.ui" line="194"/>
+        <source>Forigu</source>
+        <translation>Löschen</translation>
+    </message>
+    <message>
+        <location filename="fontoj.ui" line="201"/>
+        <source>Vakigu</source>
+        <translation>Leeren</translation>
+    </message>
+    <message>
+        <location filename="fontoj.ui" line="217"/>
         <source>Aludo:</source>
         <translation>Hinweis:</translation>
     </message>
     <message>
-        <location filename="fontoj.ui" line="232"/>
-        <source>...</source>
-        <translation type="unfinished"></translation>
+        <location filename="fontoj.ui" line="237"/>
+        <source>Fonto:</source>
+        <translation>Quelle:</translation>
     </message>
     <message>
-        <location filename="fontoj.ui" line="247"/>
+        <location filename="fontoj.ui" line="252"/>
         <source>Subskribo:</source>
         <translation>Signatur:</translation>
     </message>
     <message>
-        <location filename="fontoj.ui" line="271"/>
+        <location filename="fontoj.ui" line="276"/>
         <source>Stato:</source>
         <translation>Stand:</translation>
     </message>
     <message>
-        <location filename="fontoj.ui" line="299"/>
+        <location filename="fontoj.ui" line="304"/>
         <source>kontribui</source>
         <translation>übertragen</translation>
+    </message>
+    <message>
+        <location filename="fontoj_priselektado.cpp" line="24"/>
+        <source>Eraro [064]!</source>
+        <translation>Fehler [064]!</translation>
+    </message>
+    <message>
+        <location filename="fontoj_priselektado.cpp" line="29"/>
+        <source>Eraro [063]!</source>
+        <translation>Fehler [063]!</translation>
+    </message>
+    <message>
+        <location filename="fontoj_sxargi.cpp" line="20"/>
+        <source>Eraro [066]!</source>
+        <translation>Fehler [066]!</translation>
+    </message>
+    <message>
+        <location filename="fontoj_sxargi.cpp" line="25"/>
+        <source>Eraro [065]!</source>
+        <translation>Fehler [065]!</translation>
     </message>
 </context>
 <context>
