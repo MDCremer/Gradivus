@@ -18,9 +18,12 @@ class fontoj:public QDialog
   explicit fontoj(QWidget *gepatro);
   ~fontoj();
  public slots:
+  void priAkceptu();
   void priEnigo();
+  void priKontribui(bool kontrolita);
   void priReiru();
   void priSelektado();
+  void priVakigu();
  private:
   void sxargi();
   Ui::fontoj *ui;

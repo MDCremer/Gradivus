@@ -1,3 +1,5 @@
+#include <QCheckBox>
+#include <QPushButton>
 #include <QToolButton>
 #include "fontoj.h"
 #include "ui_fontoj.h"
@@ -14,4 +16,7 @@ fontoj::fontoj(QWidget *gepatro):QDialog(gepatro),ui(new Ui::fontoj)
  connect(ui->selektado,&QToolButton::clicked,this,&fontoj::priSelektado);
  connect(ui->reiru,&QToolButton::clicked,this,&fontoj::priReiru);
  connect(ui->enigo,&QToolButton::clicked,this,&fontoj::priEnigo);
+ connect(ui->kontribui,&QCheckBox::toggled,this,&fontoj::priKontribui);
+ connect(ui->vakigu,&QPushButton::clicked,this,&fontoj::priVakigu);
+ connect(ui->akceptu,&QPushButton::clicked,this,&fontoj::priAkceptu);
 }

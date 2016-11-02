@@ -44,9 +44,12 @@ SOURCES      += main.cpp\
                 eldono_priskribo.cpp\
                 fontoj.cpp\
                 fontoj_destrojero.cpp\
+                fontoj_priakceptu.cpp\
                 fontoj_prienigo.cpp\
+                fontoj_prikontribui.cpp\
                 fontoj_prireiru.cpp\
                 fontoj_priselektado.cpp\
+                fontoj_privakigu.cpp\
                 fontoj_sxargi.cpp\
                 hipertekstopagxo_acceptnavigationrequest.cpp\
                 htmlmarkilo.cpp\

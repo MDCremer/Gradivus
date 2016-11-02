@@ -125,9 +125,6 @@
       </property>
       <item>
        <widget class="QFrame" name="frame">
-        <property name="enabled">
-         <bool>false</bool>
-        </property>
         <property name="frameShape">
          <enum>QFrame::StyledPanel</enum>
         </property>
@@ -169,36 +166,29 @@
           </widget>
          </item>
          <item>
-          <layout class="QHBoxLayout" name="horizontalLayout_4">
-           <item>
+          <layout class="QGridLayout" name="gridLayout">
+           <item row="0" column="0">
             <widget class="QPushButton" name="malfaru">
              <property name="text">
               <string>Malfaru</string>
              </property>
             </widget>
            </item>
-           <item>
+           <item row="0" column="1">
             <widget class="QPushButton" name="akceptu">
-             <property name="enabled">
-              <bool>false</bool>
-             </property>
              <property name="text">
               <string>Akceptu</string>
              </property>
             </widget>
            </item>
-          </layout>
-         </item>
-         <item>
-          <layout class="QHBoxLayout" name="horizontalLayout_3">
-           <item>
+           <item row="1" column="0">
             <widget class="QPushButton" name="forigu">
              <property name="text">
               <string>Forigu</string>
              </property>
             </widget>
            </item>
-           <item>
+           <item row="1" column="1">
             <widget class="QPushButton" name="vakigu">
              <property name="text">
               <string>Vakigu</string>
