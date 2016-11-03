@@ -41,5 +41,8 @@ td.stato_kolumno
  background-color:SlateGray;  
 }
 
+td.fonto_kolumno
+{text-align:justify;}
+
 #indekso
 {width:100%;}

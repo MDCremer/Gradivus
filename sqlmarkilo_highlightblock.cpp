@@ -22,6 +22,14 @@ void sqlMarkilo::highlightBlock(const QString &teksto)
   asociitaButono->setText("identigiloj");
   rekonis=true;
  }
+ interkonsento=fontoj.match(teksto);
+ if(interkonsento.hasMatch())
+ {int indekso=interkonsento.capturedStart();
+  int longo=interkonsento.capturedLength();
+  setFormat(indekso,longo,rekonisStrukturo);
+  asociitaButono->setText("fontoj");
+  rekonis=true;
+ }
  asociitaButono->setEnabled(rekonis);
  if(!rekonis)
   asociitaButono->setText(tr("nekonata"));

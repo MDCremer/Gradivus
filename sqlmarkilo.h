@@ -17,6 +17,7 @@ class sqlMarkilo:public QSyntaxHighlighter
   QToolButton *asociitaButono;
   QRegularExpression literaturoj;
   QRegularExpression identigiloj;
+  QRegularExpression fontoj;
   QTextCharFormat rekonisStrukturo;
 };
 

@@ -79,9 +79,41 @@
         <translation>Stand: </translation>
     </message>
     <message>
-        <location filename="eldono_priskribo.cpp" line="22"/>
+        <location filename="eldono_priskribo.cpp" line="24"/>
         <source>Eraro [061]!</source>
         <translation>Fehler [061]!</translation>
+    </message>
+    <message>
+        <location filename="eldono_priskribo.cpp" line="57"/>
+        <source>Eraro [075]!</source>
+        <translation>Fehler [075]!</translation>
+    </message>
+    <message>
+        <location filename="eldono_priskribo.cpp" line="60"/>
+        <source>Fontoj</source>
+        <translation>Quellenangaben</translation>
+    </message>
+    <message>
+        <location filename="eldono_priskribo.cpp" line="77"/>
+        <source>Eraro [076]!</source>
+        <oldsource>Eraro [076!</oldsource>
+        <translation>Fehler [076]!</translation>
+    </message>
+    <message>
+        <location filename="eldono_priskribo.cpp" line="86"/>
+        <source>Eraro [077]!</source>
+        <translation>Fehler [077]!</translation>
+    </message>
+    <message>
+        <location filename="eldono_priskribo.cpp" line="111"/>
+        <source>Eraro [078]!</source>
+        <oldsource>Eraro [078!</oldsource>
+        <translation>Fehler [078]!</translation>
+    </message>
+    <message>
+        <location filename="eldono_priskribo.cpp" line="120"/>
+        <source>Eraro [079]!</source>
+        <translation>Fehler [079]!</translation>
     </message>
 </context>
 <context>
@@ -2470,22 +2502,27 @@
         <translation>Fehler [025]!</translation>
     </message>
     <message>
-        <location filename="referencoj_priforigu.cpp" line="22"/>
+        <location filename="referencoj_priforigu.cpp" line="26"/>
+        <source>Eraro [074]!</source>
+        <translation>Fehler [074]!</translation>
+    </message>
+    <message>
+        <location filename="referencoj_priforigu.cpp" line="29"/>
         <source>Ĝi troviĝas %1 referencoj al tiu citaĵo!</source>
         <translation>Es finden sich %1 Bezüge auf diese Literaturangabe!</translation>
     </message>
     <message>
-        <location filename="referencoj_priforigu.cpp" line="35"/>
+        <location filename="referencoj_priforigu.cpp" line="42"/>
         <source>Eraro [026]!</source>
         <translation>Fehler [026]!</translation>
     </message>
     <message>
-        <location filename="referencoj_priforigu.cpp" line="43"/>
+        <location filename="referencoj_priforigu.cpp" line="50"/>
         <source>Citaĵo estis forigita!</source>
         <translation>Literaturangabe wurde gelöscht!</translation>
     </message>
     <message>
-        <location filename="referencoj_priforigu.cpp" line="50"/>
+        <location filename="referencoj_priforigu.cpp" line="57"/>
         <source>Eraro [024]!</source>
         <translation>Fehler [024]!</translation>
     </message>
@@ -2498,7 +2535,7 @@
 <context>
     <name>sqlMarkilo</name>
     <message>
-        <location filename="sqlmarkilo_highlightblock.cpp" line="27"/>
+        <location filename="sqlmarkilo_highlightblock.cpp" line="35"/>
         <source>nekonata</source>
         <translation>unbekannt</translation>
     </message>

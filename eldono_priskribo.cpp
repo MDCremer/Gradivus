@@ -5,6 +5,8 @@
 #include <QObject>
 #include <QSqlError>
 #include <QSqlQuery>
+#include <QString>
+#include <QStringList>
 #include "eldono.h"
 #include "cxefafenestro.h"
 
@@ -43,6 +45,87 @@ QByteArray eldono::priskribo(QByteArray kodo,QSqlQuery *informpeto,cxefaFenestro
  }
  teksto.append("</h2>\n</header>\n");
  delete nomoj;
+ QStringList referencoj;
+ QListWidget *fontoj=new QListWidget();
+ fontoj->setSortingEnabled(true);
+ if(informpeto->exec("SELECT aludo FROM fontoj WHERE uuid='"+kodo+"';"))
+ {while(informpeto->next())
+   fontoj->addItem(new QListWidgetItem(informpeto->value("aludo").toString()));
+ }
+ else
+  if(informpeto->lastError().isValid())
+   QMessageBox::warning(patraObjekto,QObject::tr("Eraro [075]!"),informpeto->lastError().text());
+ if(fontoj->count()>0)
+ {teksto.append("<footer class='fontoj'>\n<h3>");
+  teksto.append(QObject::tr("Fontoj"));
+  teksto.append("</h3>\n<table>\n");
+  for(int nombro=0;nombro<referencoj.length();++nombro)
+  {teksto.append("<tr>\n<td class='indekso_kolumno'><sup>[");
+   teksto.append(QString::number(nombro+1).toUtf8());
+   teksto.append("]</sup></td>\n<td class='fonto_kolumno'>");
+   QByteArray literaturo,pagxo;
+   if(informpeto->exec("SELECT literaturo,pagxo FROM fontoj WHERE uuid='"+kodo+"' AND aludo='"+referencoj[nombro]+"';"))
+   {if(informpeto->first())
+    {if(!informpeto->value("literaturo").isNull())
+      literaturo=informpeto->value("literaturo").toByteArray();
+     if(!informpeto->value("pagxo").isNull())
+      pagxo=qUncompress(informpeto->value("pagxo").toByteArray()).replace("\342\233\223\342\231\202\342\233\201/",
+        patraObjekto->administranto.akiruValoro(AGORDO_VORTARO));
+   }}
+   else
+    if(informpeto->lastError().isValid())
+     QMessageBox::warning(patraObjekto,QObject::tr("Eraro [076]!"),informpeto->lastError().text());
+   if(!literaturo.isEmpty())
+   {if(informpeto->exec("SELECT html FROM literaturoj WHERE aludo='"+literaturo.replace("'","''")+"';"))
+    {if(informpeto->first())
+      teksto.append(qUncompress(informpeto->value("html").toByteArray()).replace("\342\233\223\342\231\202\342\233\201/",
+        patraObjekto->administranto.akiruValoro(AGORDO_VORTARO)));
+    }
+    else
+     if(informpeto->lastError().isValid())
+      QMessageBox::warning(patraObjekto,QObject::tr("Eraro [077]!"),informpeto->lastError().text());
+   }
+   teksto.append(pagxo);
+   teksto.append("</td>\n");
+   QList<QListWidgetItem *> kongruoj=fontoj->findItems(referencoj[nombro],Qt::MatchExactly);
+   if(kongruoj.size()>0)
+    delete fontoj->takeItem(fontoj->row(kongruoj.first()));
+  }
+  int nombro=referencoj.length()+1;
+  while(fontoj->count()>0)
+  {QListWidgetItem *aktualo=fontoj->takeItem(0);
+   teksto.append("<tr>\n<td><sup>[");
+   teksto.append(QString::number(nombro++).toUtf8());
+   teksto.append("]</sup></td>\n<td>");
+   QByteArray literaturo,pagxo;
+   if(informpeto->exec("SELECT literaturo,pagxo FROM fontoj WHERE uuid='"+kodo+"' AND aludo='"+aktualo->text()+"';"))
+   {if(informpeto->first())
+    {if(!informpeto->value("literaturo").isNull())
+      literaturo=informpeto->value("literaturo").toByteArray();
+     if(!informpeto->value("pagxo").isNull())
+      pagxo=qUncompress(informpeto->value("pagxo").toByteArray()).replace("\342\233\223\342\231\202\342\233\201/",
+        patraObjekto->administranto.akiruValoro(AGORDO_VORTARO));
+   }}
+   else
+    if(informpeto->lastError().isValid())
+     QMessageBox::warning(patraObjekto,QObject::tr("Eraro [078]!"),informpeto->lastError().text());
+   if(!literaturo.isEmpty())
+   {if(informpeto->exec("SELECT html FROM literaturoj WHERE aludo='"+literaturo.replace("'","''")+"';"))
+    {if(informpeto->first())
+      teksto.append(qUncompress(informpeto->value("html").toByteArray()).replace("\342\233\223\342\231\202\342\233\201/",
+        patraObjekto->administranto.akiruValoro(AGORDO_VORTARO)));
+    }
+    else
+     if(informpeto->lastError().isValid())
+      QMessageBox::warning(patraObjekto,QObject::tr("Eraro [079]!"),informpeto->lastError().text());
+   }
+   teksto.append(pagxo);
+   teksto.append("</td>\n");
+   delete aktualo;
+  }
+  teksto.append("</table>\n</footer>\n");
+ }
+ delete fontoj;
  teksto.append("</article>\n");
  return teksto;
 }

@@ -64,7 +64,7 @@ QByteArray eldono::indekso(QSqlQuery *informpeto,cxefaFenestro *patraObjekto)
   tablo.append(nomo);
   tablo.append("</a></td>\n<td class='lingvo_kolumno'>[");
   tablo.append(lingvo);
-  tablo.append("]</td>\n<td class='fonto_kolumno'><p>");
+  tablo.append("]</td>\n<td class='fonto_kolumno'>");
   if(!literaturo.isEmpty())
   {if(informpeto->exec("SELECT html FROM literaturoj WHERE aludo='"+literaturo.replace("'","''")+"';"))
    {if(informpeto->first())
@@ -78,7 +78,7 @@ QByteArray eldono::indekso(QSqlQuery *informpeto,cxefaFenestro *patraObjekto)
   if(!pagxo.isEmpty())
    tablo.append(pagxo.replace("\342\233\223\342\231\202\342\233\201/",
      patraObjekto->administranto.akiruValoro(AGORDO_VORTARO)));
-  tablo.append("</p></td>\n<td class='sinonimoj_kolumno'>");
+  tablo.append("</td>\n<td class='sinonimoj_kolumno'>");
   QListWidget *sinonimoj=new QListWidget;
   sinonimoj->setSortingEnabled(true);
   if(informpeto->exec("SELECT nomo,lingvo FROM identigiloj WHERE etno='"+etno+"' AND uuid='"+uuid+"' AND nomo IS NOT '"+

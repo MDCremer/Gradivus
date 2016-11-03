@@ -18,6 +18,13 @@ void referencoj::priForigu()
     if(informpeto.lastError().isValid())
      QMessageBox::critical(this,tr("Eraro [025]!"),informpeto.lastError().text());
   }
+  if(informpeto.exec("SELECT COUNT(*) FROM fontoj WHERE literaturo='"+faktaAludo.replace("'","''")+"';"))
+  {if(informpeto.first())
+    rilatoj+=informpeto.value("COUNT(*)").toInt();
+   else
+    if(informpeto.lastError().isValid())
+     QMessageBox::critical(this,tr("Eraro [074]!"),informpeto.lastError().text());
+  }
   if(rilatoj>0)
    patraObjekto->spektakloMesagxon(tr("\304\234i trovi\304\235as %1 referencoj al tiu cita\304\265o!").arg(rilatoj));
   else
