@@ -19,4 +19,6 @@ fontoj::fontoj(QWidget *gepatro):QDialog(gepatro),ui(new Ui::fontoj)
  connect(ui->kontribui,&QCheckBox::toggled,this,&fontoj::priKontribui);
  connect(ui->vakigu,&QPushButton::clicked,this,&fontoj::priVakigu);
  connect(ui->akceptu,&QPushButton::clicked,this,&fontoj::priAkceptu);
+ connect(ui->listo,&QListWidget::itemSelectionChanged,this,&fontoj::priElektajxoSxangxo);
+ connect(ui->malfaru,&QPushButton::clicked,this,&fontoj::priMalfaru);
 }

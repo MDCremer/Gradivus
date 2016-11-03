@@ -236,6 +236,7 @@ void fontoj::priAkceptu()
      patraObjekto->spektakloMesagxon(tr("Fonto '%1' savis.").arg(aktualo));
     else
      patraObjekto->spektakloMesagxon(tr("Fonto '%1' \304\235isdatigis.").arg(aktualo));
+    aktualaFonto.clear();
     sxargi();
     QList<QListWidgetItem *> kongruoj=ui->listo->findItems(aktualo,Qt::MatchExactly);
     if(kongruoj.size()>0)

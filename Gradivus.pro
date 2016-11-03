@@ -45,8 +45,11 @@ SOURCES      += main.cpp\
                 fontoj.cpp\
                 fontoj_destrojero.cpp\
                 fontoj_priakceptu.cpp\
+                fontoj_prielektajxosxangxo.cpp\
                 fontoj_prienigo.cpp\
+                fontoj_priforigu.cpp\
                 fontoj_prikontribui.cpp\
+                fontoj_primalfaru.cpp\
                 fontoj_prireiru.cpp\
                 fontoj_priselektado.cpp\
                 fontoj_privakigu.cpp\

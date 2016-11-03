@@ -19,8 +19,11 @@ class fontoj:public QDialog
   ~fontoj();
  public slots:
   void priAkceptu();
+  void priElektajxoSxangxo();
   void priEnigo();
+  void priForigu();
   void priKontribui(bool kontrolita);
+  void priMalfaru();
   void priReiru();
   void priSelektado();
   void priVakigu();
@@ -32,6 +35,7 @@ class fontoj:public QDialog
   QByteArray ajxo;
   QString literaturo;
   QString pagxo;
+  QString aktualaFonto;
 };
 
 #endif // FONTOJ_H

@@ -1689,47 +1689,47 @@
         <translation>Auswahl</translation>
     </message>
     <message>
-        <location filename="fontoj.ui" line="176"/>
+        <location filename="fontoj.ui" line="173"/>
         <source>Malfaru</source>
         <translation>Rückgängig</translation>
     </message>
     <message>
-        <location filename="fontoj.ui" line="183"/>
+        <location filename="fontoj.ui" line="180"/>
         <source>Akceptu</source>
         <translation>Übernehmen</translation>
     </message>
     <message>
-        <location filename="fontoj.ui" line="194"/>
+        <location filename="fontoj.ui" line="187"/>
         <source>Forigu</source>
         <translation>Löschen</translation>
     </message>
     <message>
-        <location filename="fontoj.ui" line="201"/>
+        <location filename="fontoj.ui" line="194"/>
         <source>Vakigu</source>
         <translation>Leeren</translation>
     </message>
     <message>
-        <location filename="fontoj.ui" line="217"/>
+        <location filename="fontoj.ui" line="210"/>
         <source>Aludo:</source>
         <translation>Hinweis:</translation>
     </message>
     <message>
-        <location filename="fontoj.ui" line="237"/>
+        <location filename="fontoj.ui" line="230"/>
         <source>Fonto:</source>
         <translation>Quelle:</translation>
     </message>
     <message>
-        <location filename="fontoj.ui" line="252"/>
+        <location filename="fontoj.ui" line="245"/>
         <source>Subskribo:</source>
         <translation>Signatur:</translation>
     </message>
     <message>
-        <location filename="fontoj.ui" line="276"/>
+        <location filename="fontoj.ui" line="269"/>
         <source>Stato:</source>
         <translation>Stand:</translation>
     </message>
     <message>
-        <location filename="fontoj.ui" line="304"/>
+        <location filename="fontoj.ui" line="297"/>
         <source>kontribui</source>
         <translation>übertragen</translation>
     </message>
@@ -1752,6 +1752,71 @@
         <location filename="fontoj_sxargi.cpp" line="25"/>
         <source>Eraro [065]!</source>
         <translation>Fehler [065]!</translation>
+    </message>
+    <message>
+        <location filename="fontoj_priakceptu.cpp" line="38"/>
+        <source>Eraro [068]!</source>
+        <translation>Fehler [068]!</translation>
+    </message>
+    <message>
+        <location filename="fontoj_priakceptu.cpp" line="172"/>
+        <source>Neniuj ŝanĝoj estis malkovritaj, kiu devus esti stokita!</source>
+        <translation>Es wurden keine Änderungen gefunden, die gespeichert werden müßten!</translation>
+    </message>
+    <message>
+        <location filename="fontoj_priakceptu.cpp" line="236"/>
+        <source>Fonto &apos;%1&apos; savis.</source>
+        <translation>Quellenangabe &apos;%1&apos; wurde gespeichert.</translation>
+    </message>
+    <message>
+        <location filename="fontoj_priakceptu.cpp" line="238"/>
+        <source>Fonto &apos;%1&apos; ĝisdatigis.</source>
+        <translation>Quellenangabe &apos;%1&apos; wurde aktualisiert.</translation>
+    </message>
+    <message>
+        <location filename="fontoj_priakceptu.cpp" line="260"/>
+        <source>Eraro [067]!</source>
+        <translation>Fehler [067]!</translation>
+    </message>
+    <message>
+        <location filename="fontoj_priakceptu.cpp" line="263"/>
+        <source>Malplena referenco estas neakceptebla!</source>
+        <translation>Eine leere Quellenangabe ist inakzeptabel!</translation>
+    </message>
+    <message>
+        <location filename="fontoj_prielektajxosxangxo.cpp" line="43"/>
+        <source>Eraro [070]!</source>
+        <translation>Fehler [070]!</translation>
+    </message>
+    <message>
+        <location filename="fontoj_prielektajxosxangxo.cpp" line="54"/>
+        <source>Eraro [071]!</source>
+        <translation>Fehler [071]!</translation>
+    </message>
+    <message>
+        <location filename="fontoj_prielektajxosxangxo.cpp" line="64"/>
+        <source>Eraro [069]!</source>
+        <translation>Fehler [069]!</translation>
+    </message>
+    <message>
+        <location filename="fontoj_priforigu.cpp" line="56"/>
+        <source>Eraro [073]!</source>
+        <translation>Fehler [073]!</translation>
+    </message>
+    <message>
+        <location filename="fontoj_priforigu.cpp" line="61"/>
+        <source>Fonto estis forigita!</source>
+        <translation>Die Quellenangabe wurde gelöscht!</translation>
+    </message>
+    <message>
+        <location filename="fontoj_priforigu.cpp" line="67"/>
+        <source>Eraro [072]!</source>
+        <translation>Fehler [072]!</translation>
+    </message>
+    <message>
+        <location filename="fontoj_primalfaru.cpp" line="14"/>
+        <source>Ŝanĝoj malfaritaj!</source>
+        <translation>Änderungen rückgängig gemacht!</translation>
     </message>
 </context>
 <context>
@@ -1987,17 +2052,17 @@
         <translation>Fehler [042]!</translation>
     </message>
     <message>
-        <location filename="identigiloj_priforigu.cpp" line="64"/>
+        <location filename="identigiloj_priforigu.cpp" line="66"/>
         <source>Eraro [050]!</source>
         <translation>Fehler [050]!</translation>
     </message>
     <message>
-        <location filename="identigiloj_priforigu.cpp" line="71"/>
+        <location filename="identigiloj_priforigu.cpp" line="73"/>
         <source>Identigilo estis forigita!</source>
         <translation>Die Bezeichnung wurde gelöscht!</translation>
     </message>
     <message>
-        <location filename="identigiloj_priforigu.cpp" line="77"/>
+        <location filename="identigiloj_priforigu.cpp" line="79"/>
         <source>Eraro [049]!</source>
         <translation>Fehler [049]!</translation>
     </message>

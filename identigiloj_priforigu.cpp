@@ -1,3 +1,4 @@
+#include <QByteArray>
 #include <QList>
 #include <QListWidgetItem>
 #include <QMessageBox>
@@ -7,6 +8,7 @@
 #include "identigiloj.h"
 #include "ui_identigiloj.h"
 #include "cxefafenestro.h"
+#include "rikordoregistrilo.h"
 
 void identigiloj::priForigu()
 {QList<QListWidgetItem *> elektajxoj=ui->identigilojListo->selectedItems();
