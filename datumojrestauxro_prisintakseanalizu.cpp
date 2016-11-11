@@ -1,5 +1,7 @@
 #include <QByteArray>
 #include <QDateTime>
+#include <QListWidget>
+#include <QListWidgetItem>
 #include <QMessageBox>
 #include <QRegularExpression>
 #include <QRegularExpressionMatch>
@@ -282,7 +284,46 @@ void datumojRestauxro::priSintakseAnalizu()
          QByteArray html=patraObjekto->administranto.akiruValoro(AGORDO_STILO);
          html.append("<title>");
          html.append(uuid+":"+aludo);
-         html.append("</title>\n</head>\n<body>\n<p>");
+         html.append("</title>\n</head>\n<body>\n<table>\n<tr>\n<td>");
+         html.append(tr("Identigiloj:"));
+         html.append("</td>\n<td>");
+         QListWidget *nomoj=new QListWidget();
+         nomoj->setSortingEnabled(true);
+         if(informpeto.exec("SELECT etno,nomo,lingvo,tipo FROM identigiloj WHERE uuid='"+uuid+"';"))
+         {while(informpeto.next())
+           nomoj->addItem(new QListWidgetItem(informpeto.value("etno").toString()+informpeto.value("tipo").toString()+
+             informpeto.value("nomo").toString()+informpeto.value("lingvo").toString()));
+         }
+         else
+          if(informpeto.lastError().isValid())
+           QMessageBox::critical(this,tr("Eraro [083]!"),informpeto.lastError().text());
+         QByteArray identigiloj,aktualaEtno("xx");
+         if(nomoj->count()==0)
+          identigiloj.append(tr("<i>(nekonata koncepto)</i>"));
+         else
+         {bool unua=true;
+          for(int nombro=0;nombro<nomoj->count();++nombro)
+          {if(!nomoj->item(nombro)->text().startsWith(aktualaEtno))
+           {if(nombro>0)
+             identigiloj.append(" ");
+            aktualaEtno=nomoj->item(nombro)->text().left(2).toUtf8();
+            identigiloj.append(aktualaEtno);
+            identigiloj.append(": ");
+            unua=true;
+           }
+           if(unua)
+            unua=false;
+           else
+            identigiloj.append(", ");
+           identigiloj.append(nomoj->item(nombro)->text().mid(3,nomoj->item(nombro)->text().length()-5).toUtf8());
+           identigiloj.append(" [");
+           identigiloj.append(nomoj->item(nombro)->text().right(2).toUtf8());
+           identigiloj.append("]");
+         }}
+         html.append(identigiloj);
+         html.append("</td>\n</tr>\n<td>");
+         html.append(tr("Fonto:"));
+         html.append("</td>\n<td>");
          if(informpeto.exec("SELECT html FROM literaturoj WHERE aludo='"+literaturo+"';"))
          {if(informpeto.first())
            html.append("<i>"+qUncompress(informpeto.value("html").toByteArray())+"</i>");
@@ -294,7 +335,7 @@ void datumojRestauxro::priSintakseAnalizu()
            QMessageBox::critical(this,tr("Eraro [080]!"),informpeto.lastError().text());
          html.append(pagxo.replace("\342\233\223\342\231\202\342\233\201/",
            patraObjekto->administranto.akiruValoro(AGORDO_VORTARO)));
-         html.append("</p>\n</body>\n</html>");
+         html.append("</td>\n</tr>\n</table></body>\n</html>");
          vido.agordiVido(html);
          vido.agordiSubskribo(subskribo.replace("''","'"));
          QDateTime tempo;
@@ -319,7 +360,13 @@ void datumojRestauxro::priSintakseAnalizu()
            html=patraObjekto->administranto.akiruValoro(AGORDO_STILO);
            html.append("<title>");
            html.append(uuid+":"+aludo);
-           html.append("</title>\n</head>\n<body>\n<p>");
+           html.append("</title>\n</head>\n<body>\n<table>\n<tr>\n<td>");
+           html.append(tr("Identigiloj:"));
+           html.append("</td>\n<td>");
+           html.append(identigiloj);
+           html.append("</td>\n</tr>\n<td>");
+           html.append(tr("Fonto:"));
+           html.append("</td>\n<td>");
            if(literaturo==malnovaLiteraturo&&pagxo==malnovaPagxo&&subskribo.replace("''","'")==malnovaSubskribo&&
              stato==malnovaStato)
             vido.agordiRekomendo(tr("La fonto jam existas."));
@@ -356,7 +403,7 @@ void datumojRestauxro::priSintakseAnalizu()
             QMessageBox::critical(this,tr("Eraro [082]!"),informpeto.lastError().text());
           html.append(malnovaPagxo.replace("\342\233\223\342\231\202\342\233\201/",
             patraObjekto->administranto.akiruValoro(AGORDO_VORTARO)));
-          html.append("</p>\n</body>\n</html>");
+          html.append("</td>\n</tr>\n</table></body>\n</html>");
           vido.agordiMalnovaDatumoj(html);
          }
          vido.exec();
