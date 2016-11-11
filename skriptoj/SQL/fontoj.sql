@@ -5,5 +5,6 @@ CREATE TABLE IF NOT EXISTS fontoj
  pagxo BLOB,
  subskribo TEXT NOT NULL,
  stato INTEGER NOT NULL,
- PRIMARY KEY(uuid,aludo)
+ PRIMARY KEY(uuid,aludo),
+ FOREIGN KEY(literaturo) REFERENCES literaturoj(aludo)
 );

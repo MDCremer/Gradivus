@@ -193,6 +193,13 @@
               </property>
              </widget>
             </item>
+            <item row="5" column="0">
+             <widget class="QCheckBox" name="priskriboj">
+              <property name="text">
+               <string>Priskriboj</string>
+              </property>
+             </widget>
+            </item>
            </layout>
           </item>
           <item>

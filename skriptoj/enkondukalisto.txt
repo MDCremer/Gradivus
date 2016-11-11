@@ -3,3 +3,4 @@ lingvoj.sql
 literaturoj.sql
 identigiloj.sql
 fontoj.sql
+priskriboj.sql

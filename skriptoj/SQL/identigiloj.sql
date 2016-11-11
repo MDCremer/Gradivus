@@ -8,7 +8,8 @@ CREATE TABLE IF NOT EXISTS identigiloj
  uuid TEXT NOT NULL,
  subskribo TEXT NOT NULL,
  stato INTEGER NOT NULL,
- PRIMARY KEY(etno,nomo,lingvo)
+ PRIMARY KEY(etno,nomo,lingvo),
+ FOREIGN KEY(literaturo) REFERENCES literaturoj(aludo)
 );
 
 CREATE INDEX IF NOT EXISTS markoj ON identigiloj (etno,nomo);
