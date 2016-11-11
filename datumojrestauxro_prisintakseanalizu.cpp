@@ -238,18 +238,129 @@ void datumojRestauxro::priSintakseAnalizu()
             if(havebla)
             {if(informpeto.exec("SELECT html FROM literaturoj WHERE aludo='"+malnovaLiteraturo.replace("'","''")+"';"))
              {if(informpeto.first())
-              {html.append(qUncompress(informpeto.value("html").toByteArray()));
-               html.append(malnovaPagxo.replace("\342\233\223\342\231\202\342\233\201/",
-                 patraObjekto->administranto.akiruValoro(AGORDO_VORTARO)));
-               html.append("</td>\n</tr>\n</table>\n</body>\n</html>");
-               vido.agordiMalnovaDatumoj(html);
-             }}
+               html.append(qUncompress(informpeto.value("html").toByteArray()));
+             }
              else
               if(informpeto.lastError().isValid())
                QMessageBox::critical(this,tr("Eraro [053]!"),informpeto.lastError().text());
+             html.append(malnovaPagxo.replace("\342\233\223\342\231\202\342\233\201/",
+               patraObjekto->administranto.akiruValoro(AGORDO_VORTARO)));
+             html.append("</td>\n</tr>\n</table>\n</body>\n</html>");
+             vido.agordiMalnovaDatumoj(html);
             }
             vido.exec();
   }}}}}}}}}}
+  if(ui->sintakseAnalizu->text()=="fontoj")
+  {QByteArray aludo,literaturo,pagxo,uuid;
+   interkonsento=QRegularExpression("\\(\\'[a-zA-Z0-9_-]{22}\\',").match(teksto);
+   if(interkonsento.hasMatch())
+   {uuid=interkonsento.captured().mid(2,22).toUtf8();
+    indekso=interkonsento.capturedStart()+interkonsento.capturedLength();
+    interkonsento=QRegularExpression("\\'[a-zA-Z0-9]{3}\\',").match(teksto,indekso);
+    if(interkonsento.hasMatch())
+    {aludo=interkonsento.captured().mid(1,3).toUtf8();
+     indekso=interkonsento.capturedStart()+interkonsento.capturedLength();
+     interkonsento=QRegularExpression("(NULL|\\'([^\\']+|\\'{2})+\\'),").match(teksto,indekso);
+     if(interkonsento.hasMatch())
+     {if(interkonsento.captured()!="NULL,")
+       literaturo=interkonsento.captured().mid(1,interkonsento.capturedLength()-3).toUtf8();
+      indekso=interkonsento.capturedStart()+interkonsento.capturedLength();
+      interkonsento=QRegularExpression("(NULL|[xX]\\'([0-9A-Fa-f]{2})+\\'),").match(teksto,indekso);
+      if(interkonsento.hasMatch())
+      {if(interkonsento.captured()!="NULL,")
+        pagxo=qUncompress(QByteArray::fromHex(interkonsento.captured().mid(2,interkonsento.capturedLength()-3).toUtf8()));
+       indekso=interkonsento.capturedStart()+interkonsento.capturedLength();
+       interkonsento=QRegularExpression("\\':([^\\']+|\\'{2})+:\\'").match(teksto,indekso);
+       if(interkonsento.hasMatch())
+       {subskribo=interkonsento.captured().mid(1,interkonsento.captured().length()-2).toUtf8();
+        indekso=interkonsento.capturedStart()+interkonsento.capturedLength();
+        interkonsento=QRegularExpression("[0-9]+\\);").match(teksto,indekso);
+        if(interkonsento.hasMatch())
+        {stato=interkonsento.captured().left(interkonsento.captured().length()-2).toLongLong();
+         vido.agordiCxefsxlosilo(uuid+":"+aludo);
+         vido.agordiKodo(pagxo);
+         QByteArray html=patraObjekto->administranto.akiruValoro(AGORDO_STILO);
+         html.append("<title>");
+         html.append(uuid+":"+aludo);
+         html.append("</title>\n</head>\n<body>\n<p>");
+         if(informpeto.exec("SELECT html FROM literaturoj WHERE aludo='"+literaturo+"';"))
+         {if(informpeto.first())
+           html.append("<i>"+qUncompress(informpeto.value("html").toByteArray())+"</i>");
+          else
+           html.append(tr("<i>(nekonata literaturo)</i>").toUtf8()+literaturo);
+         }
+         else
+          if(informpeto.lastError().isValid())
+           QMessageBox::critical(this,tr("Eraro [080]!"),informpeto.lastError().text());
+         html.append(pagxo.replace("\342\233\223\342\231\202\342\233\201/",
+           patraObjekto->administranto.akiruValoro(AGORDO_VORTARO)));
+         html.append("</p>\n</body>\n</html>");
+         vido.agordiVido(html);
+         vido.agordiSubskribo(subskribo.replace("''","'"));
+         QDateTime tempo;
+         tempo.setTime_t(stato);
+         vido.agordiStato(tempo.toString(Qt::SystemLocaleLongDate));
+         QByteArray malnovaLiteraturo,malnovaPagxo,malnovaSubskribo;
+         qlonglong malnovaStato;
+         bool havebla=false;
+         if(informpeto.exec("SELECT literaturo,pagxo,subskribo,stato FROM fontoj WHERE uuid='"+uuid+"' AND aludo='"+aludo+
+           "';"))
+         {if(informpeto.first())
+          {if(!informpeto.value("literaturo").isNull())
+            malnovaLiteraturo=informpeto.value("literaturo").toByteArray();
+           if(!informpeto.value("pagxo").isNull())
+            malnovaPagxo=qUncompress(informpeto.value("pagxo").toByteArray());
+           malnovaSubskribo=informpeto.value("subskribo").toByteArray();
+           malnovaStato=informpeto.value("stato").toLongLong();
+           havebla=true;
+           vido.agordiMalnovaSubskribo(malnovaSubskribo);
+           tempo.setTime_t(malnovaStato);
+           vido.agordiMalnovaStato(tempo.toString(Qt::SystemLocaleLongDate));
+           html=patraObjekto->administranto.akiruValoro(AGORDO_STILO);
+           html.append("<title>");
+           html.append(uuid+":"+aludo);
+           html.append("</title>\n</head>\n<body>\n<p>");
+           if(literaturo==malnovaLiteraturo&&pagxo==malnovaPagxo&&subskribo.replace("''","'")==malnovaSubskribo&&
+             stato==malnovaStato)
+            vido.agordiRekomendo(tr("La fonto jam existas."));
+           else
+           {if(stato==malnovaStato&&(literaturo!=malnovaLiteraturo||pagxo!=malnovaPagxo))
+             vido.agordiRekomendo(tr("Estas sama malnova fonto malsama enhavo."));
+            else
+            {if(stato==malnovaStato)
+              vido.agordiRekomendo(tr("Estas sama malnova fonto kun malsamaj subskriptoj."));
+             else
+             {if(stato<malnovaStato)
+               vido.agordiRekomendo(tr("Estas jam disponebla \304\235isdatigi via fonto."));
+              else
+              {if(stato>malnovaStato&&literaturo==malnovaLiteraturo&&pagxo==malnovaPagxo)
+                vido.agordiRekomendo(tr("Eksistas malnova fonto de la sama enhavo."));
+               else
+                vido.agordiRekomendo(tr("La nuna fonto estas pli malnova."));
+          }}}}}
+          else
+          {vido.agordiMalnovaSubskribo("");
+           vido.agordiMalnovaStato("");
+           vido.agordiRekomendo(tr("Tia fonto ne estas disponebla ankora\305\255."));
+         }}
+         else
+          if(informpeto.lastError().isValid())
+           QMessageBox::critical(this,tr("Eraro [081]!"),informpeto.lastError().text());
+         if(havebla)
+         {if(informpeto.exec("SELECT html FROM literaturoj WHERE aludo='"+malnovaLiteraturo.replace("'","''")+"';"))
+          {if(informpeto.first())
+            html.append(qUncompress(informpeto.value("html").toByteArray()));
+          }
+          else
+           if(informpeto.lastError().isValid())
+            QMessageBox::critical(this,tr("Eraro [082]!"),informpeto.lastError().text());
+          html.append(malnovaPagxo.replace("\342\233\223\342\231\202\342\233\201/",
+            patraObjekto->administranto.akiruValoro(AGORDO_VORTARO)));
+          html.append("</p>\n</body>\n</html>");
+          vido.agordiMalnovaDatumoj(html);
+         }
+         vido.exec();
+  }}}}}}}
   datumbazo.close();
  }
  else
