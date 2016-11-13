@@ -10,7 +10,8 @@
 void fontoj::priSelektado()
 {kodoSelektado selektado(this,patraObjekto);
  if(selektado.exec()==QDialog::Accepted)
- {ajxo=selektado.akiruKodo().toUtf8();
+ {ui->identigiloj->clear();
+  ajxo=selektado.akiruKodo().toUtf8();
   QSqlDatabase datumbazo=QSqlDatabase::database();
   if(datumbazo.open())
   {QSqlQuery informpeto;

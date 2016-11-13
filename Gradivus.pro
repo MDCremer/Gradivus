@@ -110,6 +110,8 @@ SOURCES      += main.cpp\
                 pagxoreferenco_prisubstretika.cpp\
                 pagxoreferenco_prisuperskribita.cpp\
                 pagxoreferenco_privakigu.cpp\
+                priskribo.cpp\
+                priskribo_destrojero.cpp\
                 provajxo.cpp\
                 provajxo_destrojero.cpp\
                 provajxo_prireiru.cpp\
@@ -155,6 +157,7 @@ HEADERS      += agordoj.h\
                 kodoselektado.h\
                 konfiguro.h\
                 pagxoreferenco.h\
+                priskribo.h\
                 provajxo.h\
                 referencoj.h\
                 rikordoregistrilo.h\
@@ -169,6 +172,7 @@ FORMS        += cxefafenestro.ui\
                 kodoselektado.ui\
                 konfiguro.ui\
                 pagxoreferenco.ui\
+                priskribo.ui\
                 provajxo.ui\
                 referencoj.ui
 
