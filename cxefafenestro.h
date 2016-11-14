@@ -37,6 +37,7 @@ class cxefaFenestro:public QMainWindow
   void priMuta(int statuso);
   void priPdfEldono();
   void priPriskribo();
+  void priPriskriboj();
   void priReferencoj();
   void priStartoPagxo();
  private:

@@ -87,7 +87,7 @@
    <item>
     <widget class="QGroupBox" name="priskriboGrupo">
      <property name="enabled">
-      <bool>true</bool>
+      <bool>false</bool>
      </property>
      <property name="sizePolicy">
       <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
@@ -146,7 +146,7 @@
             <item>
              <widget class="QComboBox" name="lingvo">
               <property name="sizePolicy">
-               <sizepolicy hsizetype="Minimum" vsizetype="Fixed">
+               <sizepolicy hsizetype="Preferred" vsizetype="Fixed">
                 <horstretch>0</horstretch>
                 <verstretch>0</verstretch>
                </sizepolicy>
@@ -156,10 +156,16 @@
             <item>
              <widget class="QToolBox" name="toolBox">
               <property name="sizePolicy">
-               <sizepolicy hsizetype="Minimum" vsizetype="Expanding">
+               <sizepolicy hsizetype="Preferred" vsizetype="Expanding">
                 <horstretch>0</horstretch>
                 <verstretch>0</verstretch>
                </sizepolicy>
+              </property>
+              <property name="maximumSize">
+               <size>
+                <width>180</width>
+                <height>16777215</height>
+               </size>
               </property>
               <property name="currentIndex">
                <number>4</number>
@@ -169,8 +175,8 @@
                 <rect>
                  <x>0</x>
                  <y>0</y>
-                 <width>361</width>
-                 <height>129</height>
+                 <width>180</width>
+                 <height>102</height>
                 </rect>
                </property>
                <attribute name="label">
@@ -208,19 +214,6 @@
                  </widget>
                 </item>
                 <item>
-                 <widget class="QToolButton" name="datumbazo">
-                  <property name="sizePolicy">
-                   <sizepolicy hsizetype="Minimum" vsizetype="Fixed">
-                    <horstretch>0</horstretch>
-                    <verstretch>0</verstretch>
-                   </sizepolicy>
-                  </property>
-                  <property name="text">
-                   <string>Referenco en la datumbazo</string>
-                  </property>
-                 </widget>
-                </item>
-                <item>
                  <widget class="QToolButton" name="fonto">
                   <property name="sizePolicy">
                    <sizepolicy hsizetype="Minimum" vsizetype="Fixed">
@@ -228,8 +221,13 @@
                     <verstretch>0</verstretch>
                    </sizepolicy>
                   </property>
+                  <property name="font">
+                   <font>
+                    <family>Monospace</family>
+                   </font>
+                  </property>
                   <property name="text">
-                   <string>Referenco al fonto</string>
+                   <string notr="true">[x]</string>
                   </property>
                  </widget>
                 </item>
@@ -265,7 +263,7 @@
                 <rect>
                  <x>0</x>
                  <y>0</y>
-                 <width>361</width>
+                 <width>166</width>
                  <height>294</height>
                 </rect>
                </property>
@@ -486,7 +484,7 @@
                 <rect>
                  <x>0</x>
                  <y>0</y>
-                 <width>361</width>
+                 <width>166</width>
                  <height>357</height>
                 </rect>
                </property>
@@ -747,7 +745,7 @@
                 <rect>
                  <x>0</x>
                  <y>0</y>
-                 <width>361</width>
+                 <width>166</width>
                  <height>267</height>
                 </rect>
                </property>
@@ -950,7 +948,7 @@
                 <rect>
                  <x>0</x>
                  <y>0</y>
-                 <width>361</width>
+                 <width>166</width>
                  <height>231</height>
                 </rect>
                </property>
@@ -1127,8 +1125,8 @@
                <property name="geometry">
                 <rect>
                  <x>0</x>
-                 <y>-98</y>
-                 <width>361</width>
+                 <y>0</y>
+                 <width>166</width>
                  <height>168</height>
                 </rect>
                </property>
@@ -1263,7 +1261,7 @@
             <item>
              <widget class="QToolButton" name="vakigu">
               <property name="sizePolicy">
-               <sizepolicy hsizetype="Minimum" vsizetype="Fixed">
+               <sizepolicy hsizetype="Preferred" vsizetype="Fixed">
                 <horstretch>0</horstretch>
                 <verstretch>0</verstretch>
                </sizepolicy>

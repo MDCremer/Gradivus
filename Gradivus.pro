@@ -26,6 +26,7 @@ SOURCES      += main.cpp\
                 cxefafenestro_primuta.cpp\
                 cxefafenestro_pripdfeldono.cpp\
                 cxefafenestro_pripriskribo.cpp\
+                cxefafenestro_pripriskriboj.cpp\
                 cxefafenestro_prireferencoj.cpp\
                 cxefafenestro_pristartopagxo.cpp\
                 cxefafenestro_spektaklomesagxon.cpp\
@@ -112,6 +113,7 @@ SOURCES      += main.cpp\
                 pagxoreferenco_privakigu.cpp\
                 priskribo.cpp\
                 priskribo_destrojero.cpp\
+                priskribo_priselektado.cpp\
                 provajxo.cpp\
                 provajxo_destrojero.cpp\
                 provajxo_prireiru.cpp\
