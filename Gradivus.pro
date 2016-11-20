@@ -113,6 +113,10 @@ SOURCES      += main.cpp\
                 pagxoreferenco_privakigu.cpp\
                 priskribo.cpp\
                 priskribo_destrojero.cpp\
+                priskribo_enigi.cpp\
+                priskribo_prikontribui.cpp\
+                priskribo_prireferenceita.cpp\
+                priskribo_prireiru.cpp\
                 priskribo_priselektado.cpp\
                 provajxo.cpp\
                 provajxo_destrojero.cpp\

@@ -7,6 +7,7 @@
 #include "referencoj.h"
 #include "ui_referencoj.h"
 #include "hipertekstopagxo.h"
+#include "htmlmarkilo.h"
 #include "rikordoregistrilo.h"
 
 referencoj::referencoj(QWidget *gepatro):QDialog(gepatro),ui(new Ui::referencoj)

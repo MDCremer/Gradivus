@@ -16,7 +16,9 @@ void referencoj::priReferenceita()
   if(ui->teksto->textCursor().hasSelection())
   {QString enigo("<a href='");
    enigo.append(ligilo);
-   enigo.append(".html'>");
+   if(!ligilo.isEmpty())
+    enigo.append(".html");
+   enigo.append("'>");
    enigo.append(ui->teksto->textCursor().selectedText());
    enigo.append("</a>");
    ui->teksto->insertPlainText(enigo);
@@ -32,7 +34,9 @@ void referencoj::priReferenceita()
    else
    {QString enigo("<a href='");
     enigo.append(ligilo);
-    enigo.append(".html'>");
+    if(!ligilo.isEmpty())
+     enigo.append(".html");
+    enigo.append("'>");
     ui->teksto->insertPlainText(enigo);
     enigojAktivigita[REFERENCO_REFERENCEITA]=true;
     ui->referenceita->setText("</a>");

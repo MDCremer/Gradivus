@@ -2,5 +2,7 @@
 #include "ui_priskribo.h"
 
 priskribo::~priskribo()
-{delete ui;
+{delete registrilo;
+ delete ui;
+ delete markilo;
 }

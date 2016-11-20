@@ -16,7 +16,9 @@ void pagxoReferenco::priReferenceita()
   if(ui->redakto->textCursor().hasSelection())
   {QString enigo("<a href='");
    enigo.append(ligilo);
-   enigo.append(".html'>");
+   if(!ligilo.isEmpty())
+    enigo.append(".html");
+   enigo.append("'>");
    enigo.append(ui->redakto->textCursor().selectedText());
    enigo.append("</a>");
    ui->redakto->insertPlainText(enigo);
@@ -32,7 +34,9 @@ void pagxoReferenco::priReferenceita()
    else
    {QString enigo("<a href='");
     enigo.append(ligilo);
-    enigo.append(".html'>");
+    if(!ligilo.isEmpty())
+     enigo.append(".html");
+    enigo.append("'>");
     ui->redakto->insertPlainText(enigo);
     enigojAktivigita[PAGXOREFERENCO_REFERENCEITA]=true;
     ui->referenceita->setText("</a>");

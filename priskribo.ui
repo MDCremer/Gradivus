@@ -211,6 +211,9 @@
                   <property name="text">
                    <string notr="true">&lt;a&gt;</string>
                   </property>
+                  <property name="toolButtonStyle">
+                   <enum>Qt::ToolButtonTextOnly</enum>
+                  </property>
                  </widget>
                 </item>
                 <item>
@@ -840,7 +843,7 @@
                    </font>
                   </property>
                   <property name="text">
-                   <string>text-align:</string>
+                   <string notr="true">text-align:</string>
                   </property>
                  </widget>
                 </item>
@@ -883,7 +886,7 @@
                    </font>
                   </property>
                   <property name="text">
-                   <string>left;</string>
+                   <string notr="true">left;</string>
                   </property>
                  </widget>
                 </item>
