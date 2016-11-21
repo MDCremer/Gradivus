@@ -1,5 +1,6 @@
 #include <QDialog>
 #include <QPushButton>
+#include <QTabWidget>
 #include <QToolButton>
 #include "priskribo.h"
 #include "ui_priskribo.h"
@@ -24,4 +25,7 @@ priskribo::priskribo(QWidget *gepatro):QDialog(gepatro),ui(new Ui::priskribo)
  connect(ui->reiru,&QToolButton::clicked,this,&priskribo::priReiru);
  connect(ui->kontribui,&QCheckBox::toggled,this,&priskribo::priKontribui);
  connect(ui->a,&QToolButton::clicked,this,&priskribo::priReferenceita);
+ connect(ui->cite,&QToolButton::clicked,this,&priskribo::priCitajxo);
+ connect(ui->img,&QToolButton::clicked,this,&priskribo::priBildo);
+ connect(ui->tekstoEnigi,&QTabWidget::currentChanged,this,&priskribo::pagxoSxangxo);
 }

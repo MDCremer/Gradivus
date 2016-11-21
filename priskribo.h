@@ -5,12 +5,14 @@
 #include <QDialog>
 #include <QString>
 #include <QToolButton>
+#include <QVector>
 #include <QWidget>
 #include "cxefafenestro.h"
 #include "htmlmarkilo.h"
 #include "rikordoregistrilo.h"
 
 #define PRISKRIBO_REFERENCEITA 0
+#define PRISKRIBO_CITAJXO 1
 
 namespace Ui
 {class priskribo;
@@ -22,6 +24,9 @@ class priskribo:public QDialog
   explicit priskribo(QWidget *gepatro);
   ~priskribo();
  public slots:
+  void pagxoSxangxo(int indekso);
+  void priBildo();
+  void priCitajxo();
   void priKontribui(bool kontrolita);
   void priReferenceita();
   void priReiru();
@@ -32,6 +37,7 @@ class priskribo:public QDialog
   cxefaFenestro *patraObjekto;
   htmlMarkilo *markilo;
   rikordoRegistrilo *registrilo;
+  QVector<QByteArray> bildoj;
   QByteArray ajxo;
   bool enigojAktivigita[36];
 };

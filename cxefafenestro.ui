@@ -368,12 +368,12 @@
             <rect>
              <x>0</x>
              <y>0</y>
-             <width>98</width>
-             <height>28</height>
+             <width>68</width>
+             <height>647</height>
             </rect>
            </property>
            <attribute name="label">
-            <string>Page 1</string>
+            <string notr="true">Page 1</string>
            </attribute>
           </widget>
           <widget class="QWidget" name="page_3">
@@ -386,7 +386,7 @@
             </rect>
            </property>
            <attribute name="label">
-            <string>Page 2</string>
+            <string notr="true">Page 2</string>
            </attribute>
           </widget>
          </widget>

@@ -96,7 +96,6 @@
     <message>
         <location filename="eldono_priskribo.cpp" line="77"/>
         <source>Eraro [076]!</source>
-        <oldsource>Eraro [076!</oldsource>
         <translation>Fehler [076]!</translation>
     </message>
     <message>
@@ -107,7 +106,6 @@
     <message>
         <location filename="eldono_priskribo.cpp" line="111"/>
         <source>Eraro [078]!</source>
-        <oldsource>Eraro [078!</oldsource>
         <translation>Fehler [078]!</translation>
     </message>
     <message>
@@ -210,16 +208,6 @@
         <location filename="cxefafenestro.ui" line="311"/>
         <source>Eldono</source>
         <translation>Ausgabe</translation>
-    </message>
-    <message>
-        <location filename="cxefafenestro.ui" line="376"/>
-        <source>Page 1</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="cxefafenestro.ui" line="389"/>
-        <source>Page 2</source>
-        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="cxefafenestro.ui" line="256"/>
@@ -1558,10 +1546,6 @@
         <translation>Quelle:</translation>
     </message>
     <message>
-        <source>Objekto kodo: </source>
-        <translation>Kennung: </translation>
-    </message>
-    <message>
         <location filename="datumojrestauxro_prisintakseanalizu.cpp" line="165"/>
         <location filename="datumojrestauxro_prisintakseanalizu.cpp" line="331"/>
         <source>&lt;i&gt;(nekonata literaturo)&lt;/i&gt;</source>
@@ -2456,67 +2440,67 @@
         <translation>Einbettungen</translation>
     </message>
     <message>
-        <location filename="priskribo.ui" line="271"/>
+        <location filename="priskribo.ui" line="274"/>
         <source>Listoj kaj tabeloj</source>
         <translation>Listen und Tabellen</translation>
     </message>
     <message>
-        <location filename="priskribo.ui" line="492"/>
+        <location filename="priskribo.ui" line="495"/>
         <source>Markadoj</source>
         <translation>Auszeichnungen</translation>
     </message>
     <message>
-        <location filename="priskribo.ui" line="753"/>
+        <location filename="priskribo.ui" line="756"/>
         <source>Ĝisrandigo</source>
         <translation>Ausrichtung</translation>
     </message>
     <message>
-        <location filename="priskribo.ui" line="843"/>
-        <source>text-align:</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="priskribo.ui" line="886"/>
-        <source>left;</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="priskribo.ui" line="956"/>
+        <location filename="priskribo.ui" line="959"/>
         <source>Strukturo</source>
         <translation>Struktur</translation>
     </message>
     <message>
-        <location filename="priskribo.ui" line="1134"/>
+        <location filename="priskribo.ui" line="1137"/>
         <source>Titoloj</source>
         <translation>Überschriften</translation>
     </message>
     <message>
-        <location filename="priskribo.ui" line="1270"/>
+        <location filename="priskribo.ui" line="1273"/>
         <source>Vakigu</source>
         <translation>Leeren</translation>
     </message>
     <message>
-        <location filename="priskribo.ui" line="1283"/>
+        <location filename="priskribo.ui" line="1292"/>
         <source>Vidi</source>
         <translation>Anzeigen</translation>
     </message>
     <message>
-        <location filename="priskribo.ui" line="1318"/>
+        <location filename="priskribo.ui" line="1327"/>
         <source>kontribui</source>
         <translation>übertragen</translation>
     </message>
     <message>
-        <location filename="priskribo.ui" line="1343"/>
+        <location filename="priskribo.ui" line="1352"/>
         <source>Akceptu</source>
         <translation>Übernehmen</translation>
     </message>
     <message>
-        <location filename="priskribo.ui" line="1384"/>
+        <location filename="priskribo.ui" line="1396"/>
+        <source>Stato:</source>
+        <translation>Stand:</translation>
+    </message>
+    <message>
+        <location filename="priskribo.ui" line="1372"/>
+        <source>Subskribo:</source>
+        <translation>Signatur:</translation>
+    </message>
+    <message>
+        <location filename="priskribo.ui" line="1445"/>
         <source>Forigu</source>
         <translation>Löschen</translation>
     </message>
     <message>
-        <location filename="priskribo.ui" line="1394"/>
+        <location filename="priskribo.ui" line="1455"/>
         <source>Malfaru</source>
         <translation>Rückgängig</translation>
     </message>

@@ -114,6 +114,9 @@ SOURCES      += main.cpp\
                 priskribo.cpp\
                 priskribo_destrojero.cpp\
                 priskribo_enigi.cpp\
+                priskribo_pagxosxangxo.cpp\
+                priskribo_pribildo.cpp\
+                priskribo_pricitajxo.cpp\
                 priskribo_prikontribui.cpp\
                 priskribo_prireferenceita.cpp\
                 priskribo_prireiru.cpp\
@@ -187,11 +190,13 @@ TRANSLATIONS += gradivus_de.ts
 RESOURCES    += gradivus.qrc
 
 desktop.commands     = $(COPY_FILE) $$PWD/Gradivus.desktop $$(HOME)/Gradivus
+bildoj.commands      = $(COPY_DIR) $$PWD/bildoj $$(HOME)/Gradivus
 dokumentoj.commands  = $(COPY_DIR) $$PWD/dokumentoj $$(HOME)/Gradivus
 skriptoj.commands    = $(COPY_DIR) $$PWD/skriptoj $$(HOME)/Gradivus
 first.depends        = $(first) skriptoj dokumentoj desktop
 export (first.depends)
 export (desktop.commands)
+export (bildoj.commands)
 export (dokumentoj.commands)
 export (skriptoj.commands)
-QMAKE_EXTRA_TARGETS += first desktop dokumentoj skriptoj
+QMAKE_EXTRA_TARGETS += first desktop bildoj dokumentoj skriptoj

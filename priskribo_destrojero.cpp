@@ -5,4 +5,5 @@ priskribo::~priskribo()
 {delete registrilo;
  delete ui;
  delete markilo;
+ bildoj.clear();
 }
