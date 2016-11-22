@@ -1776,6 +1776,54 @@
     </message>
 </context>
 <context>
+    <name>fontoSelektado</name>
+    <message>
+        <location filename="fontoselektado.ui" line="20"/>
+        <source>Fonto elekti</source>
+        <translation>Quellenangabe auswählen</translation>
+    </message>
+    <message>
+        <location filename="fontoselektado.ui" line="73"/>
+        <source>Rezignu</source>
+        <translation>Abbrechen</translation>
+    </message>
+    <message>
+        <location filename="fontoselektado.ui" line="104"/>
+        <source>Apliku</source>
+        <translation>Übernehmen</translation>
+    </message>
+    <message>
+        <location filename="fontoselektado.cpp" line="36"/>
+        <source>Eraro [088]!</source>
+        <translation>Fehler [088]!</translation>
+    </message>
+    <message>
+        <location filename="fontoselektado.cpp" line="41"/>
+        <source>Eraro [087]!</source>
+        <translation>Fehler [087]!</translation>
+    </message>
+    <message>
+        <location filename="fontoselektado.cpp" line="45"/>
+        <source>Tiu konceptu ne referencoj estas stokitaj.</source>
+        <translation>Zu diesem Konzept sind keine Quellenangaben gespeichert.</translation>
+    </message>
+    <message>
+        <location filename="fontoselektado_prielektajxosxangxo.cpp" line="33"/>
+        <source>Eraro [090]!</source>
+        <translation>Fehler [090]!</translation>
+    </message>
+    <message>
+        <location filename="fontoselektado_prielektajxosxangxo.cpp" line="44"/>
+        <source>Eraro [091]!</source>
+        <translation>Fehler [091]!</translation>
+    </message>
+    <message>
+        <location filename="fontoselektado_prielektajxosxangxo.cpp" line="54"/>
+        <source>Eraro [089]!</source>
+        <translation>Fehler [089]!</translation>
+    </message>
+</context>
+<context>
     <name>fontoj</name>
     <message>
         <location filename="fontoj.ui" line="20"/>
@@ -2513,6 +2561,16 @@
         <location filename="priskribo_priselektado.cpp" line="30"/>
         <source>Eraro [085]!</source>
         <translation>Fehler [085]!</translation>
+    </message>
+    <message>
+        <location filename="priskribo_pribildo.cpp" line="20"/>
+        <source>Inkluzivas bildo</source>
+        <translation>Bild einbinden</translation>
+    </message>
+    <message>
+        <location filename="priskribo_pribildo.cpp" line="29"/>
+        <source>Dosiero ne povis esti malfermita!</source>
+        <translation>Die Datei konnte nicht geöffnet werden!</translation>
     </message>
 </context>
 <context>

@@ -28,4 +28,5 @@ priskribo::priskribo(QWidget *gepatro):QDialog(gepatro),ui(new Ui::priskribo)
  connect(ui->cite,&QToolButton::clicked,this,&priskribo::priCitajxo);
  connect(ui->img,&QToolButton::clicked,this,&priskribo::priBildo);
  connect(ui->tekstoEnigi,&QTabWidget::currentChanged,this,&priskribo::pagxoSxangxo);
+ connect(ui->fonto,&QToolButton::clicked,this,&priskribo::priFonto);
 }

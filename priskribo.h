@@ -27,6 +27,7 @@ class priskribo:public QDialog
   void pagxoSxangxo(int indekso);
   void priBildo();
   void priCitajxo();
+  void priFonto();
   void priKontribui(bool kontrolita);
   void priReferenceita();
   void priReiru();

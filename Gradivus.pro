@@ -55,6 +55,11 @@ SOURCES      += main.cpp\
                 fontoj_priselektado.cpp\
                 fontoj_privakigu.cpp\
                 fontoj_sxargi.cpp\
+                fontoselektado.cpp\
+                fontoselektado_destrojero.cpp\
+                fontoselektado_priapliku.cpp\
+                fontoselektado_prielektajxosxangxo.cpp\
+                fontoselektado_prirezignu.cpp\
                 hipertekstopagxo_acceptnavigationrequest.cpp\
                 htmlmarkilo.cpp\
                 htmlmarkilo_highlightblock.cpp\
@@ -117,6 +122,7 @@ SOURCES      += main.cpp\
                 priskribo_pagxosxangxo.cpp\
                 priskribo_pribildo.cpp\
                 priskribo_pricitajxo.cpp\
+                priskribo_prifonto.cpp\
                 priskribo_prikontribui.cpp\
                 priskribo_prireferenceita.cpp\
                 priskribo_prireiru.cpp\
@@ -160,6 +166,7 @@ HEADERS      += agordoj.h\
                 datumojrestauxro.h\
                 eldono.h\
                 fontoj.h\
+                fontoselektado.h\
                 hipertekstopagxo.h\
                 htmlmarkilo.h\
                 identigiloj.h\
@@ -177,6 +184,7 @@ FORMS        += cxefafenestro.ui\
                 datumojapogilo.ui\
                 datumojrestauxro.ui\
                 fontoj.ui\
+                fontoselektado.ui\
                 identigiloj.ui\
                 kodoselektado.ui\
                 konfiguro.ui\
