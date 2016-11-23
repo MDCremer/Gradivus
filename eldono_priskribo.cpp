@@ -3,6 +3,9 @@
 #include <QListWidgetItem>
 #include <QMessageBox>
 #include <QObject>
+#include <QRegularExpression>
+#include <QRegularExpressionMatch>
+#include <QRegularExpressionMatchIterator>
 #include <QSqlError>
 #include <QSqlQuery>
 #include <QString>
@@ -46,6 +49,29 @@ QByteArray eldono::priskribo(QByteArray kodo,QSqlQuery *informpeto,cxefaFenestro
  teksto.append("</h2>\n</header>\n");
  delete nomoj;
  QStringList referencoj;
+ if(informpeto->exec("SELECT teksto FROM priskriboj,lingvoj WHERE uuid='"+kodo+"' AND mallongigo=lingvo ORDER BY rango;"))
+ {if(informpeto->first())
+  {QByteArray priskribo=qUncompress(informpeto->value("teksto").toByteArray()).
+     replace("\342\233\223\342\231\202\342\233\201/",patraObjekto->administranto.akiruValoro(AGORDO_VORTARO));
+   QRegularExpressionMatchIterator interkonsento=
+     QRegularExpression("\343\200\226\360\237\223\226[A-Za-z0-9]{3}\343\200\227").globalMatch(priskribo);
+   while(interkonsento.hasNext())
+   {QRegularExpressionMatch kongruo=interkonsento.next();
+    if(kongruo.hasMatch())
+    {int nombro=referencoj.indexOf(QRegularExpression(kongruo.captured().mid(3,3)));
+     if(nombro>-1)
+      priskribo.replace(kongruo.captured().toUtf8(),"<sup>["+QByteArray::number(nombro)+"]</sup>");
+     else
+     {referencoj<<kongruo.captured().mid(3,3);
+      priskribo.replace(kongruo.captured().toUtf8(),"<sup>["+QByteArray::number(referencoj.length())+"]</sup>");
+   }}}
+   teksto.append("<section class='teksto'>\n");
+   teksto.append(priskribo);
+   teksto.append("</section>\n");
+ }}
+ else
+  if(informpeto->lastError().isValid())
+   QMessageBox::warning(patraObjekto,QObject::tr("Eraro [098]!"),informpeto->lastError().text());
  QListWidget *fontoj=new QListWidget();
  fontoj->setSortingEnabled(true);
  if(informpeto->exec("SELECT aludo FROM fontoj WHERE uuid='"+kodo+"';"))

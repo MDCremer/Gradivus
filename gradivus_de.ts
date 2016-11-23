@@ -79,37 +79,42 @@
         <translation>Stand: </translation>
     </message>
     <message>
-        <location filename="eldono_priskribo.cpp" line="24"/>
+        <location filename="eldono_priskribo.cpp" line="27"/>
         <source>Eraro [061]!</source>
         <translation>Fehler [061]!</translation>
     </message>
     <message>
-        <location filename="eldono_priskribo.cpp" line="57"/>
+        <location filename="eldono_priskribo.cpp" line="74"/>
+        <source>Eraro [098]!</source>
+        <translation>Fehler [098]!</translation>
+    </message>
+    <message>
+        <location filename="eldono_priskribo.cpp" line="83"/>
         <source>Eraro [075]!</source>
         <translation>Fehler [075]!</translation>
     </message>
     <message>
-        <location filename="eldono_priskribo.cpp" line="60"/>
+        <location filename="eldono_priskribo.cpp" line="86"/>
         <source>Fontoj</source>
         <translation>Quellenangaben</translation>
     </message>
     <message>
-        <location filename="eldono_priskribo.cpp" line="77"/>
+        <location filename="eldono_priskribo.cpp" line="103"/>
         <source>Eraro [076]!</source>
         <translation>Fehler [076]!</translation>
     </message>
     <message>
-        <location filename="eldono_priskribo.cpp" line="86"/>
+        <location filename="eldono_priskribo.cpp" line="112"/>
         <source>Eraro [077]!</source>
         <translation>Fehler [077]!</translation>
     </message>
     <message>
-        <location filename="eldono_priskribo.cpp" line="111"/>
+        <location filename="eldono_priskribo.cpp" line="137"/>
         <source>Eraro [078]!</source>
         <translation>Fehler [078]!</translation>
     </message>
     <message>
-        <location filename="eldono_priskribo.cpp" line="120"/>
+        <location filename="eldono_priskribo.cpp" line="146"/>
         <source>Eraro [079]!</source>
         <translation>Fehler [079]!</translation>
     </message>
@@ -2571,6 +2576,61 @@
         <location filename="priskribo_pribildo.cpp" line="29"/>
         <source>Dosiero ne povis esti malfermita!</source>
         <translation>Die Datei konnte nicht geöffnet werden!</translation>
+    </message>
+    <message>
+        <location filename="priskribo_priakceptu.cpp" line="32"/>
+        <source>Eraro [093]!</source>
+        <translation>Fehler [093]!</translation>
+    </message>
+    <message>
+        <location filename="priskribo_priakceptu.cpp" line="99"/>
+        <source>Neniuj ŝanĝoj estis malkovritaj, kiu devus esti stokita!</source>
+        <translation>Es wurden keine Änderungen gefunden, die gespeichert werden müßten!</translation>
+    </message>
+    <message>
+        <location filename="priskribo_priakceptu.cpp" line="137"/>
+        <source>Priskribo savis.</source>
+        <translation>Beschreibung wurde gespeichert.</translation>
+    </message>
+    <message>
+        <location filename="priskribo_priakceptu.cpp" line="139"/>
+        <source>Priskribo ĝisdatigis.</source>
+        <translation>Beschreibung wurde aktualisiert.</translation>
+    </message>
+    <message>
+        <location filename="priskribo_priakceptu.cpp" line="158"/>
+        <source>Eraro [092]!</source>
+        <translation>Fehler [092]!</translation>
+    </message>
+    <message>
+        <location filename="priskribo_priforigu.cpp" line="31"/>
+        <source>Eraro [097]!</source>
+        <translation>Fehler [097]!</translation>
+    </message>
+    <message>
+        <location filename="priskribo_priforigu.cpp" line="41"/>
+        <source>Priskribo estis forigita!</source>
+        <translation>Die Beschreibung wurde gelöscht!</translation>
+    </message>
+    <message>
+        <location filename="priskribo_priforigu.cpp" line="48"/>
+        <source>Eraro [096]!</source>
+        <translation>Fehler [096]!</translation>
+    </message>
+    <message>
+        <location filename="priskribo_prilingvo.cpp" line="48"/>
+        <source>Eraro [095]!</source>
+        <translation>Fehler [095]!</translation>
+    </message>
+    <message>
+        <location filename="priskribo_prilingvo.cpp" line="53"/>
+        <source>Eraro [094]!</source>
+        <translation>Fehler [094]!</translation>
+    </message>
+    <message>
+        <location filename="priskribo_primalfaru.cpp" line="8"/>
+        <source>Ŝanĝoj malfaritaj!</source>
+        <translation>Änderungen rückgängig gemacht!</translation>
     </message>
 </context>
 <context>

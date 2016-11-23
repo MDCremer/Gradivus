@@ -35,6 +35,7 @@ class priskribo:public QDialog
   void priBildo();
   void priCitajxo();
   void priFonto();
+  void priForigu();
   void priKontribui(bool kontrolita);
   void priLingvo(QString lingvo);
   void priMalfaru();

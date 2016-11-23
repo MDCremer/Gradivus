@@ -16,14 +16,14 @@ void referencoj::priForigu()
     rilatoj+=informpeto.value("COUNT(*)").toInt();
    else
     if(informpeto.lastError().isValid())
-     QMessageBox::critical(this,tr("Eraro [025]!"),informpeto.lastError().text());
+     QMessageBox::warning(this,tr("Eraro [025]!"),informpeto.lastError().text());
   }
   if(informpeto.exec("SELECT COUNT(*) FROM fontoj WHERE literaturo='"+faktaAludo.replace("'","''")+"';"))
   {if(informpeto.first())
     rilatoj+=informpeto.value("COUNT(*)").toInt();
    else
     if(informpeto.lastError().isValid())
-     QMessageBox::critical(this,tr("Eraro [074]!"),informpeto.lastError().text());
+     QMessageBox::warning(this,tr("Eraro [074]!"),informpeto.lastError().text());
   }
   if(rilatoj>0)
    patraObjekto->spektakloMesagxon(tr("\304\234i trovi\304\235as %1 referencoj al tiu cita\304\265o!").arg(rilatoj));
@@ -39,9 +39,9 @@ void referencoj::priForigu()
    }}
    else
     if(informpeto.lastError().isValid())
-     QMessageBox::critical(this,tr("Eraro [026]!"),informpeto.lastError().text());
+     QMessageBox::warning(this,tr("Eraro [026]!"),informpeto.lastError().text());
    QByteArray inverso("INSERT INTO literaturoj (aludo,html,subskribo,stato) VALUES ('"+faktaAludo.replace("'","''"));
-   inverso.append("',"+html+",'"+subskribo+"',"+QString::number(stato).toUtf8()+");");
+   inverso.append("',"+html+",'"+subskribo.replace("'","''")+"',"+QString::number(stato).toUtf8()+");");
    QByteArray ordono("DELETE FROM literaturoj WHERE aludo='"+faktaAludo.replace("'","''")+"';");
    registrilo->komencu();
    registrilo->aldonu(inverso);

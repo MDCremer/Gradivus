@@ -124,6 +124,7 @@ SOURCES      += main.cpp\
                 priskribo_pribildo.cpp\
                 priskribo_pricitajxo.cpp\
                 priskribo_prifonto.cpp\
+                priskribo_priforigu.cpp\
                 priskribo_prikontribui.cpp\
                 priskribo_prilingvo.cpp\
                 priskribo_primalfaru.cpp\
