@@ -127,6 +127,12 @@ SOURCES      += main.cpp\
                 priskribo_prireferenceita.cpp\
                 priskribo_prireiru.cpp\
                 priskribo_priselektado.cpp\
+                priskribo_prititolodua.cpp\
+                priskribo_prititolokvara.cpp\
+                priskribo_prititolokvina.cpp\
+                priskribo_prititolosesa.cpp\
+                priskribo_prititolotria.cpp\
+                priskribo_prititolounua.cpp\
                 provajxo.cpp\
                 provajxo_destrojero.cpp\
                 provajxo_prireiru.cpp\

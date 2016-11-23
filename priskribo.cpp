@@ -29,4 +29,10 @@ priskribo::priskribo(QWidget *gepatro):QDialog(gepatro),ui(new Ui::priskribo)
  connect(ui->img,&QToolButton::clicked,this,&priskribo::priBildo);
  connect(ui->tekstoEnigi,&QTabWidget::currentChanged,this,&priskribo::pagxoSxangxo);
  connect(ui->fonto,&QToolButton::clicked,this,&priskribo::priFonto);
+ connect(ui->h1,&QToolButton::clicked,this,&priskribo::priTitoloUnua);
+ connect(ui->h2,&QToolButton::clicked,this,&priskribo::priTitoloDua);
+ connect(ui->h3,&QToolButton::clicked,this,&priskribo::priTitoloTria);
+ connect(ui->h4,&QToolButton::clicked,this,&priskribo::priTitoloKvara);
+ connect(ui->h5,&QToolButton::clicked,this,&priskribo::priTitoloKvina);
+ connect(ui->h6,&QToolButton::clicked,this,&priskribo::priTitoloSesa);
 }

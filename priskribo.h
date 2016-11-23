@@ -13,6 +13,12 @@
 
 #define PRISKRIBO_REFERENCEITA 0
 #define PRISKRIBO_CITAJXO 1
+#define PRISKRIBO_TITOLOUNUA 2
+#define PRISKRIBO_TITOLODUA 3
+#define PRISKRIBO_TITOLOTRIA 4
+#define PRISKRIBO_TITOLOKVARA 5
+#define PRISKRIBO_TITOLOKVINA 6
+#define PRISKRIBO_TITOLOSESA 7
 
 namespace Ui
 {class priskribo;
@@ -32,6 +38,12 @@ class priskribo:public QDialog
   void priReferenceita();
   void priReiru();
   void priSelektado();
+  void priTitoloUnua();
+  void priTitoloDua();
+  void priTitoloTria();
+  void priTitoloKvara();
+  void priTitoloKvina();
+  void priTitoloSesa();
  private:
   void enigi(int indekso,QString starto,QString fino,QToolButton *butono);
   Ui::priskribo *ui;
