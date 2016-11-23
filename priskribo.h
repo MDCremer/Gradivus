@@ -31,10 +31,13 @@ class priskribo:public QDialog
   ~priskribo();
  public slots:
   void pagxoSxangxo(int indekso);
+  void priAkceptu();
   void priBildo();
   void priCitajxo();
   void priFonto();
   void priKontribui(bool kontrolita);
+  void priLingvo(QString lingvo);
+  void priMalfaru();
   void priReferenceita();
   void priReiru();
   void priSelektado();

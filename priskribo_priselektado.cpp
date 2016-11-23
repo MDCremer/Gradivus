@@ -29,5 +29,7 @@ void priskribo::priSelektado()
    if(datumbazo.lastError().isValid())
     QMessageBox::critical(this,tr("Eraro [085]!"),datumbazo.lastError().text());
   ui->priskriboGrupo->setEnabled(true);
+  ui->lingvo->setCurrentIndex(-1);
+  ui->lingvo->setCurrentIndex(0);
   ui->teksto->setFocus();
 }}

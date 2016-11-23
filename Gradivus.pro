@@ -120,10 +120,13 @@ SOURCES      += main.cpp\
                 priskribo_destrojero.cpp\
                 priskribo_enigi.cpp\
                 priskribo_pagxosxangxo.cpp\
+                priskribo_priakceptu.cpp\
                 priskribo_pribildo.cpp\
                 priskribo_pricitajxo.cpp\
                 priskribo_prifonto.cpp\
                 priskribo_prikontribui.cpp\
+                priskribo_prilingvo.cpp\
+                priskribo_primalfaru.cpp\
                 priskribo_prireferenceita.cpp\
                 priskribo_prireiru.cpp\
                 priskribo_priselektado.cpp\

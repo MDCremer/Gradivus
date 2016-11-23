@@ -782,7 +782,7 @@
                    </font>
                   </property>
                   <property name="text">
-                   <string notr="true">style=&quot;&quot;</string>
+                   <string notr="true">style=''</string>
                   </property>
                  </widget>
                 </item>
@@ -800,7 +800,7 @@
                    </font>
                   </property>
                   <property name="text">
-                   <string notr="true">class=&quot;&quot;</string>
+                   <string notr="true">class=''</string>
                   </property>
                  </widget>
                 </item>
@@ -818,7 +818,7 @@
                    </font>
                   </property>
                   <property name="text">
-                   <string notr="true">title=&quot;&quot;</string>
+                   <string notr="true">title=''</string>
                   </property>
                  </widget>
                 </item>
@@ -1129,7 +1129,7 @@
                 <rect>
                  <x>0</x>
                  <y>0</y>
-                 <width>166</width>
+                 <width>180</width>
                  <height>168</height>
                 </rect>
                </property>

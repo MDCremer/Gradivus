@@ -1,3 +1,4 @@
+#include <QComboBox>
 #include <QDialog>
 #include <QPushButton>
 #include <QTabWidget>
@@ -35,4 +36,7 @@ priskribo::priskribo(QWidget *gepatro):QDialog(gepatro),ui(new Ui::priskribo)
  connect(ui->h4,&QToolButton::clicked,this,&priskribo::priTitoloKvara);
  connect(ui->h5,&QToolButton::clicked,this,&priskribo::priTitoloKvina);
  connect(ui->h6,&QToolButton::clicked,this,&priskribo::priTitoloSesa);
+ connect(ui->akceptu,&QPushButton::clicked,this,&priskribo::priAkceptu);
+ connect(ui->malfaru,&QPushButton::clicked,this,&priskribo::priMalfaru);
+ connect(ui->lingvo,&QComboBox::currentTextChanged,this,&priskribo::priLingvo);
 }

@@ -46,7 +46,7 @@ void identigiloj::priAkceptu()
      if(informpeto.lastError().isValid())
       QMessageBox::critical(this,tr("Eraro [040]!"),informpeto.lastError().text());
     QByteArray ordono,inverso,kontribuo;
-    QByteArray tempo=QString::number(QDateTime::currentDateTime().toTime_t()).toUtf8();
+    QByteArray tempo=QByteArray::number(QDateTime::currentDateTime().toTime_t());
     if(havebla)
     {if(ui->tipo->currentIndex()!=malnovaTipo||literaturo!=QString(malnovaLiteraturo)||pagxo!=QString(malnovaPagxo)||
        ui->objektoKodo->text()!=QString(malnovaObjektoKodo))

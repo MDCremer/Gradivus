@@ -36,7 +36,7 @@ void referencoj::priAkceptu()
      if(informpeto.lastError().isValid())
       QMessageBox::critical(this,tr("Eraro [021]!"),informpeto.lastError().text());
     QByteArray ordono,inverso,kontribuo;
-    QByteArray tempo=QString::number(QDateTime::currentDateTime().toTime_t()).toUtf8();
+    QByteArray tempo=QByteArray::number(QDateTime::currentDateTime().toTime_t());
     if(havebla)
     {if(malnovaHtml!=ui->teksto->toPlainText().simplified())
      {inverso.append("UPDATE literaturoj SET html=x'");
@@ -44,7 +44,7 @@ void referencoj::priAkceptu()
       inverso.append("',subskribo='");
       inverso.append(malnovaSubskribo.replace("'","''"));
       inverso.append("',stato=");
-      inverso.append(QString::number(malnovaStato).toUtf8());
+      inverso.append(QByteArray::number(malnovaStato));
       inverso.append(" WHERE aludo='");
       inverso.append(faktaArtikolo.replace("'","''"));
       inverso.append("';");
