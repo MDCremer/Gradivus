@@ -294,8 +294,13 @@
        <item row="3" column="1">
         <widget class="QComboBox" name="tipo">
          <property name="currentText">
-          <string>Plena identigilo</string>
+          <string>Ĉefa identigilo</string>
          </property>
+         <item>
+          <property name="text">
+           <string>Ĉefa identigilo</string>
+          </property>
+         </item>
          <item>
           <property name="text">
            <string>Plena identigilo</string>

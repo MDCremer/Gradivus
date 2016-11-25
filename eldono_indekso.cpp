@@ -25,7 +25,7 @@ QByteArray eldono::indekso(QSqlQuery *informpeto,cxefaFenestro *patraObjekto)
  tablo.append("</th></tr>\n</thead>\n<tbody>\n");
  QListWidget *listo=new QListWidget();
  listo->setSortingEnabled(true);
- if(informpeto->exec("SELECT etno,nomo,lingvo FROM identigiloj;"))
+ if(informpeto->exec("SELECT etno,nomo,lingvo FROM identigiloj WHERE uuid IN (SELECT DISTINCT uuid FROM priskriboj);"))
  {while(informpeto->next())
    listo->addItem(new QListWidgetItem(informpeto->value("etno").toString()+informpeto->value("nomo").toString()+" "+
      informpeto->value("lingvo").toString()));

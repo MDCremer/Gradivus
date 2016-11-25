@@ -72,8 +72,8 @@ cxefaFenestro::cxefaFenestro(QWidget *gepatro):QMainWindow(gepatro),ui(new Ui::c
    <<tr("UZ: uzbekistananoj")<<tr("VA: vatikananoj")<<tr("VC: sent-vincentanoj kaj grenadinanoj")<<tr("VE: venezuelanoj")
    <<tr("VN: vjetnamoj")<<tr("VU: vanuatuanoj")<<tr("WS: samoanoj")<<tr("YE: jemenanoj")<<tr("ZA: sud-afrikanoj")
    <<tr("ZM: zambianoj")<<tr("ZW: zimbabvanoj");
- identigiloTipoj=QStringList()<<tr("Plena identigilo")<<tr("Parte \305\235parvojo")<<tr("\305\234parvojo")<<
-   tr("Kamuflada identigilo")<<tr("Fabrikanta identigilo")<<tr("Alnomo")<<tr("Komisio kodo");
+ identigiloTipoj=QStringList()<<tr("\304\210efa identigilo")<<tr("Plena identigilo")<<tr("Parte \305\235parvojo")<<
+   tr("\305\234parvojo")<<tr("Kamuflada identigilo")<<tr("Fabrikanta identigilo")<<tr("Alnomo")<<tr("Komisio kodo");
  administranto.sxargu();
  montruInformo("bonvenon");
 }

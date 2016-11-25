@@ -44,7 +44,7 @@ void priskribo::priAkceptu()
     inverso.append(malnovaSubskribo.replace("'","''"));
     inverso.append("',stato=");
     inverso.append(QByteArray::number(malnovaStato));
-    inverso.append("' WHERE uuid='");
+    inverso.append(" WHERE uuid='");
     inverso.append(ajxo);
     inverso.append("' AND lingvo='");
     inverso.append(lingvo);
@@ -59,7 +59,7 @@ void priskribo::priAkceptu()
     }
     ordono.append("',stato=");
     ordono.append(tempo);
-    ordono.append("' WHERE uuid='");
+    ordono.append(" WHERE uuid='");
     ordono.append(ajxo);
     ordono.append("' AND lingvo='");
     ordono.append(lingvo);

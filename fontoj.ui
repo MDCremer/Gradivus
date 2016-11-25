@@ -214,7 +214,10 @@
           <item row="0" column="1">
            <widget class="QLineEdit" name="aludo">
             <property name="inputMask">
-             <string notr="true">nnn;0</string>
+             <string notr="true">nnn</string>
+            </property>
+            <property name="text">
+             <string notr="true">000</string>
             </property>
             <property name="maxLength">
              <number>3</number>

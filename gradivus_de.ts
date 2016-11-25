@@ -1271,6 +1271,11 @@
     </message>
     <message>
         <location filename="cxefafenestro.cpp" line="75"/>
+        <source>Ĉefa identigilo</source>
+        <translation>Hauptbezeichnung</translation>
+    </message>
+    <message>
+        <location filename="cxefafenestro.cpp" line="76"/>
         <source>Ŝparvojo</source>
         <translation>Abkürzung</translation>
     </message>
@@ -1872,22 +1877,22 @@
         <translation>Hinweis:</translation>
     </message>
     <message>
-        <location filename="fontoj.ui" line="230"/>
+        <location filename="fontoj.ui" line="233"/>
         <source>Fonto:</source>
         <translation>Quelle:</translation>
     </message>
     <message>
-        <location filename="fontoj.ui" line="245"/>
+        <location filename="fontoj.ui" line="248"/>
         <source>Subskribo:</source>
         <translation>Signatur:</translation>
     </message>
     <message>
-        <location filename="fontoj.ui" line="269"/>
+        <location filename="fontoj.ui" line="272"/>
         <source>Stato:</source>
         <translation>Stand:</translation>
     </message>
     <message>
-        <location filename="fontoj.ui" line="295"/>
+        <location filename="fontoj.ui" line="298"/>
         <source>kontribui</source>
         <translation>übertragen</translation>
     </message>
@@ -1912,34 +1917,39 @@
         <translation>Fehler [065]!</translation>
     </message>
     <message>
-        <location filename="fontoj_priakceptu.cpp" line="38"/>
+        <location filename="fontoj_priakceptu.cpp" line="39"/>
         <source>Eraro [068]!</source>
         <translation>Fehler [068]!</translation>
     </message>
     <message>
-        <location filename="fontoj_priakceptu.cpp" line="172"/>
+        <location filename="fontoj_priakceptu.cpp" line="173"/>
         <source>Neniuj ŝanĝoj estis malkovritaj, kiu devus esti stokita!</source>
         <translation>Es wurden keine Änderungen gefunden, die gespeichert werden müßten!</translation>
     </message>
     <message>
-        <location filename="fontoj_priakceptu.cpp" line="236"/>
+        <location filename="fontoj_priakceptu.cpp" line="237"/>
         <source>Fonto &apos;%1&apos; savis.</source>
         <translation>Quellenangabe &apos;%1&apos; wurde gespeichert.</translation>
     </message>
     <message>
-        <location filename="fontoj_priakceptu.cpp" line="238"/>
+        <location filename="fontoj_priakceptu.cpp" line="239"/>
         <source>Fonto &apos;%1&apos; ĝisdatigis.</source>
         <translation>Quellenangabe &apos;%1&apos; wurde aktualisiert.</translation>
     </message>
     <message>
-        <location filename="fontoj_priakceptu.cpp" line="260"/>
+        <location filename="fontoj_priakceptu.cpp" line="261"/>
         <source>Eraro [067]!</source>
         <translation>Fehler [067]!</translation>
     </message>
     <message>
-        <location filename="fontoj_priakceptu.cpp" line="263"/>
+        <location filename="fontoj_priakceptu.cpp" line="264"/>
         <source>Malplena referenco estas neakceptebla!</source>
         <translation>Eine leere Quellenangabe ist inakzeptabel!</translation>
+    </message>
+    <message>
+        <location filename="fontoj_priakceptu.cpp" line="267"/>
+        <source>La aludo estu tri signojn longa!</source>
+        <translation>Der Hinweis muß drei Zeichen lang sein!</translation>
     </message>
     <message>
         <location filename="fontoj_prielektajxosxangxo.cpp" line="43"/>
@@ -2073,17 +2083,23 @@
         <translation>Sprache:</translation>
     </message>
     <message>
-        <location filename="identigiloj.ui" line="316"/>
+        <location filename="identigiloj.ui" line="297"/>
+        <location filename="identigiloj.ui" line="301"/>
+        <source>Ĉefa identigilo</source>
+        <translation>Hauptbezeichnung</translation>
+    </message>
+    <message>
+        <location filename="identigiloj.ui" line="321"/>
         <source>Kamuflada identigilo</source>
         <translation>Tarnbezeichnung</translation>
     </message>
     <message>
-        <location filename="identigiloj.ui" line="345"/>
+        <location filename="identigiloj.ui" line="350"/>
         <source>Fonto:</source>
         <translation>Quelle:</translation>
     </message>
     <message>
-        <location filename="identigiloj.ui" line="368"/>
+        <location filename="identigiloj.ui" line="373"/>
         <source>Objekto kodo:</source>
         <translation>Kennung:</translation>
     </message>
@@ -2093,43 +2109,42 @@
         <translation>Typ:</translation>
     </message>
     <message>
-        <location filename="identigiloj.ui" line="306"/>
+        <location filename="identigiloj.ui" line="311"/>
         <source>Parte ŝparvojo</source>
         <translation>Teilweise Abkürzung</translation>
     </message>
     <message>
-        <location filename="identigiloj.ui" line="297"/>
-        <location filename="identigiloj.ui" line="301"/>
+        <location filename="identigiloj.ui" line="306"/>
         <source>Plena identigilo</source>
         <translation>Vollständige Bezeichnung</translation>
     </message>
     <message>
-        <location filename="identigiloj.ui" line="311"/>
+        <location filename="identigiloj.ui" line="316"/>
         <source>Ŝparvojo</source>
         <translation>Abkürzung</translation>
     </message>
     <message>
-        <location filename="identigiloj.ui" line="321"/>
+        <location filename="identigiloj.ui" line="326"/>
         <source>Fabrikanta identigilo</source>
         <translation>Herstellerbezeichnung</translation>
     </message>
     <message>
-        <location filename="identigiloj.ui" line="326"/>
+        <location filename="identigiloj.ui" line="331"/>
         <source>Alnomo</source>
         <translation>Spitzname</translation>
     </message>
     <message>
-        <location filename="identigiloj.ui" line="331"/>
+        <location filename="identigiloj.ui" line="336"/>
         <source>Komisio kodo</source>
         <translation>Bestellkode</translation>
     </message>
     <message>
-        <location filename="identigiloj.ui" line="406"/>
+        <location filename="identigiloj.ui" line="411"/>
         <source>Subskribo:</source>
         <translation>Signatur:</translation>
     </message>
     <message>
-        <location filename="identigiloj.ui" line="433"/>
+        <location filename="identigiloj.ui" line="438"/>
         <source>Stato:</source>
         <translation>Stand:</translation>
     </message>
