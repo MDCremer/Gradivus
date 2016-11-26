@@ -48,6 +48,7 @@ void priskribo::priBildo()
    enigo.append("' src='\342\234\202");
    enigo.append(QByteArray::number(bildoj.count()));
    enigo.append("\360\237\223\267'>");
+   ui->teksto->setFocus();
    ui->teksto->insertPlainText(enigo);
    bildoj<<"data:image/jpg;base64,"+bildoDatumoj.toBase64();
 }}}

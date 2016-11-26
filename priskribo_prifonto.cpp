@@ -9,5 +9,6 @@ void priskribo::priFonto()
  {QByteArray enigo("\343\200\226\360\237\223\226");
   enigo.append(selektado.akiruAludo());
   enigo.append("\343\200\227");
+  ui->teksto->setFocus();
   ui->teksto->insertPlainText(enigo);
 }}

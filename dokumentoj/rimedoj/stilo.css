@@ -44,5 +44,30 @@ td.stato_kolumno
 td.fonto_kolumno
 {text-align:justify;}
 
+figure
+{display:table;
+ width:1px;
+ margin:0em;
+ padding:0em;
+}
+
+figure.dekstre
+{float:right;
+ margin-left:0.5em;
+}
+
+figure.maldekstre
+{float:left;
+ margin-right:0.5em;
+}
+
+figcaption
+{display:table-caption;
+ caption-side:bottom;
+ text-align:justify;
+ font-style:italic;
+ font-size:75%;
+}
+
 #indekso
 {width:100%;}

@@ -122,8 +122,8 @@ void identigiloj::priAkceptu()
       }
       inverso.append(",subskribo='");
       inverso.append(malnovaSubskribo.replace("'","''"));
-      inverso.append("'',stato=");
-      inverso.append(QString::number(malnovaStato).toUtf8());
+      inverso.append("',stato=");
+      inverso.append(QByteArray::number(malnovaStato));
       ordono.append(",subskribo='");
       ordono.append(malnovaSubskribo.replace("'","''"));
       if(!malnovaSubskribo.contains(":"+patraObjekto->administranto.akiruValoro(AGORDO_NOMO)+":"))

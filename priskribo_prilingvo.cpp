@@ -20,9 +20,9 @@ void priskribo::priLingvo(QString lingvo)
      int indekso=teksto.indexOf("src=");
      while(indekso>-1)
      {if(teksto[indekso+5]!=QChar(9986))
-      {int starto=teksto.indexOf("\"",indekso);
+      {int starto=teksto.indexOf("'",indekso);
        if(starto>-1)
-       {int fino=teksto.indexOf("\"",starto+1);
+       {int fino=teksto.indexOf("'",starto+1);
         if(fino>-1)
         {QString bildo=teksto.mid(starto+1,fino-(starto+1));
          teksto.replace(bildo,"\342\234\202"+QString::number(bildoj.count())+"\360\237\223\267");
