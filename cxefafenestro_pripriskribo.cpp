@@ -19,7 +19,7 @@ void cxefaFenestro::priPriskribo()
   QSqlDatabase datumbazo=QSqlDatabase::database();
   if(datumbazo.open())
   {QSqlQuery informpeto;
-   html.append(eldono::priskribo(selektado.akiruKodo().toUtf8(),&informpeto,this));
+   html.append(eldono::priskribo(selektado.akiruKodo().toUtf8(),&informpeto,this,false));
    datumbazo.close();
   }
   else

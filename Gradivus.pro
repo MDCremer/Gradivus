@@ -128,6 +128,7 @@ SOURCES      += main.cpp\
                 priskribo_prikontribui.cpp\
                 priskribo_prilingvo.cpp\
                 priskribo_primalfaru.cpp\
+                priskribo_priparagrafo.cpp\
                 priskribo_prireferenceita.cpp\
                 priskribo_prireiru.cpp\
                 priskribo_priselektado.cpp\

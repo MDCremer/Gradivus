@@ -25,7 +25,7 @@ bool hipertekstoPagxo::acceptNavigationRequest(const QUrl &url,NavigationType ty
    if(datumbazo.open())
    {QSqlQuery informpeto;
     html.append(eldono::priskribo(url.toString().mid(radikon->administranto.akiruValoro(AGORDO_VORTARO).length(),
-      22).toUtf8(),&informpeto,radikon));
+      22).toUtf8(),&informpeto,radikon,false));
     datumbazo.close();
    }
    else

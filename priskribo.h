@@ -19,6 +19,7 @@
 #define PRISKRIBO_TITOLOKVARA 5
 #define PRISKRIBO_TITOLOKVINA 6
 #define PRISKRIBO_TITOLOSESA 7
+#define PRISKRIBO_PARAGRAFO 8
 
 namespace Ui
 {class priskribo;
@@ -39,6 +40,7 @@ class priskribo:public QDialog
   void priKontribui(bool kontrolita);
   void priLingvo(QString lingvo);
   void priMalfaru();
+  void priParagrafo();
   void priReferenceita();
   void priReiru();
   void priSelektado();

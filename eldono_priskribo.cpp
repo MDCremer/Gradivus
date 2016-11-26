@@ -13,7 +13,7 @@
 #include "eldono.h"
 #include "cxefafenestro.h"
 
-QByteArray eldono::priskribo(QByteArray kodo,QSqlQuery *informpeto,cxefaFenestro *patraObjekto)
+QByteArray eldono::priskribo(QByteArray kodo,QSqlQuery *informpeto,cxefaFenestro *patraObjekto,bool pura)
 {QByteArray teksto("<article class='priskribo'>\n<header class='identigiloj'>\n");
  QListWidget *nomoj=new QListWidget();
  nomoj->setSortingEnabled(true);
@@ -49,7 +49,8 @@ QByteArray eldono::priskribo(QByteArray kodo,QSqlQuery *informpeto,cxefaFenestro
  teksto.append("</h2>\n</header>\n");
  delete nomoj;
  QStringList referencoj;
- if(informpeto->exec("SELECT teksto FROM priskriboj,lingvoj WHERE uuid='"+kodo+"' AND mallongigo=lingvo ORDER BY rango;"))
+ if(informpeto->exec("SELECT teksto,subskribo FROM priskriboj,lingvoj WHERE uuid='"+kodo+
+   "' AND mallongigo=lingvo ORDER BY rango;"))
  {if(informpeto->first())
   {QByteArray priskribo=qUncompress(informpeto->value("teksto").toByteArray()).
      replace("\342\233\223\342\231\202\342\233\201/",patraObjekto->administranto.akiruValoro(AGORDO_VORTARO));
@@ -60,13 +61,19 @@ QByteArray eldono::priskribo(QByteArray kodo,QSqlQuery *informpeto,cxefaFenestro
     if(kongruo.hasMatch())
     {int nombro=referencoj.indexOf(QRegularExpression(kongruo.captured().mid(3,3)));
      if(nombro>-1)
-      priskribo.replace(kongruo.captured().toUtf8(),"<sup>["+QByteArray::number(nombro)+"]</sup>");
+      priskribo.replace(kongruo.captured().toUtf8(),"<sup>[<a href='#"+kongruo.captured().mid(3,3).toUtf8()+"'>"+
+        QByteArray::number(nombro)+"</a>]</sup>");
      else
      {referencoj<<kongruo.captured().mid(3,3);
-      priskribo.replace(kongruo.captured().toUtf8(),"<sup>["+QByteArray::number(referencoj.length())+"]</sup>");
+      priskribo.replace(kongruo.captured().toUtf8(),"<sup>[<a href='#"+kongruo.captured().mid(3,3).toUtf8()+"'>"+
+        QByteArray::number(referencoj.length())+"</a>]</sup>");
    }}}
    teksto.append("<section class='teksto'>\n");
    teksto.append(priskribo);
+   teksto.append("<p class='subskribo'>[");
+   QByteArray subskribo=informpeto->value("subskribo").toByteArray();
+   teksto.append(subskribo.mid(1,subskribo.length()-2));
+   teksto.append("]</p>\n");
    teksto.append("</section>\n");
  }}
  else
@@ -86,9 +93,9 @@ QByteArray eldono::priskribo(QByteArray kodo,QSqlQuery *informpeto,cxefaFenestro
   teksto.append(QObject::tr("Fontoj"));
   teksto.append("</h3>\n<table>\n");
   for(int nombro=0;nombro<referencoj.length();++nombro)
-  {teksto.append("<tr>\n<td class='indekso_kolumno'><sup>[");
+  {teksto.append("<tr>\n<td class='indekso_kolumno'><sup>[<a id='"+referencoj[nombro]+"'>");
    teksto.append(QString::number(nombro+1).toUtf8());
-   teksto.append("]</sup></td>\n<td class='fonto_kolumno'>");
+   teksto.append("</a>]</sup></td>\n<td class='fonto_kolumno'>");
    QByteArray literaturo,pagxo;
    if(informpeto->exec("SELECT literaturo,pagxo FROM fontoj WHERE uuid='"+kodo+"' AND aludo='"+referencoj[nombro]+"';"))
    {if(informpeto->first())

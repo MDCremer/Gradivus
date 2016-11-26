@@ -1,7 +1,5 @@
-#include <QDesktopServices>
 #include <QFileDialog>
 #include <QtWebEngineWidgets>
-#include <QUrl>
 #include "cxefafenestro.h"
 #include "ui_cxefafenestro.h"
 
@@ -12,5 +10,4 @@ void cxefaFenestro::priPdfEldono()
  {if(!eldono.endsWith(".pdf"))
    eldono.append(".pdf");
   ui->informaMontro->page()->printToPdf(eldono);
-  QDesktopServices::openUrl(QUrl("file://"+eldono));
 }}

@@ -40,4 +40,5 @@ priskribo::priskribo(QWidget *gepatro):QDialog(gepatro),ui(new Ui::priskribo)
  connect(ui->malfaru,&QPushButton::clicked,this,&priskribo::priMalfaru);
  connect(ui->lingvo,&QComboBox::currentTextChanged,this,&priskribo::priLingvo);
  connect(ui->forigu,&QPushButton::clicked,this,&priskribo::priForigu);
+ connect(ui->p,&QToolButton::clicked,this,&priskribo::priParagrafo);
 }
