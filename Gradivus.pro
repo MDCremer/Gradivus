@@ -124,14 +124,17 @@ SOURCES      += main.cpp\
                 priskribo_pribildo.cpp\
                 priskribo_priblokocitajxo.cpp\
                 priskribo_pricitajxo.cpp\
+                priskribo_pridekstre.cpp\
                 priskribo_prifiguro.cpp\
                 priskribo_prifigurotitolo.cpp\
                 priskribo_prifonto.cpp\
                 priskribo_priforigu.cpp\
+                priskribo_priglita.cpp\
                 priskribo_priklaso.cpp\
                 priskribo_prikontribui.cpp\
                 priskribo_prilingvo.cpp\
                 priskribo_prilinifaldo.cpp\
+                priskribo_primaldekstre.cpp\
                 priskribo_primalfaru.cpp\
                 priskribo_primargxeno.cpp\
                 priskribo_priparagrafo.cpp\
@@ -141,6 +144,7 @@ SOURCES      += main.cpp\
                 priskribo_priselektado.cpp\
                 priskribo_pristilo.cpp\
                 priskribo_pristreko.cpp\
+                priskribo_pritekstogxisrandigo.cpp\
                 priskribo_prititolo.cpp\
                 priskribo_prititolodua.cpp\
                 priskribo_prititolokvara.cpp\

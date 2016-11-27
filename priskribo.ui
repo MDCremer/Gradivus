@@ -848,7 +848,7 @@
                  </widget>
                 </item>
                 <item>
-                 <widget class="QToolButton" name="float_">
+                 <widget class="QToolButton" name="glita">
                   <property name="sizePolicy">
                    <sizepolicy hsizetype="Minimum" vsizetype="Fixed">
                     <horstretch>0</horstretch>

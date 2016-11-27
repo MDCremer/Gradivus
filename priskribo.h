@@ -41,14 +41,17 @@ class priskribo:public QDialog
   void priBildo();
   void priBlokoCitajxo();
   void priCitajxo();
+  void priDekstre();
   void priFiguro();
   void priFiguroTitolo();
   void priFonto();
   void priForigu();
+  void priGlita();
   void priKlaso();
   void priKontribui(bool kontrolita);
   void priLingvo(QString lingvo);
   void priLinifaldo();
+  void priMaldekstre();
   void priMalfaru();
   void priMargxeno();
   void priParagrafo();
@@ -58,6 +61,7 @@ class priskribo:public QDialog
   void priSelektado();
   void priStilo();
   void priStreko();
+  void priTekstoGxisrandigo();
   void priTitolo();
   void priTitoloUnua();
   void priTitoloDua();
