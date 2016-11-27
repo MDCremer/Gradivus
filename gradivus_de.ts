@@ -1297,7 +1297,7 @@
     <message>
         <location filename="cxefafenestro.cpp" line="76"/>
         <source>Komisio kodo</source>
-        <translation>Bestellkode</translation>
+        <translation>Anforderungszeichen</translation>
     </message>
     <message>
         <location filename="cxefafenestro_kompletigitarespondo.cpp" line="8"/>
@@ -2136,7 +2136,7 @@
     <message>
         <location filename="identigiloj.ui" line="336"/>
         <source>Komisio kodo</source>
-        <translation>Bestellkode</translation>
+        <translation>Anforderungszeichen</translation>
     </message>
     <message>
         <location filename="identigiloj.ui" line="411"/>
