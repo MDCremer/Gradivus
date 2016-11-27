@@ -787,7 +787,7 @@
                  </widget>
                 </item>
                 <item>
-                 <widget class="QToolButton" name="class_2">
+                 <widget class="QToolButton" name="klaso">
                   <property name="sizePolicy">
                    <sizepolicy hsizetype="Minimum" vsizetype="Fixed">
                     <horstretch>0</horstretch>

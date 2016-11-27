@@ -22,6 +22,9 @@
 #define PRISKRIBO_PARAGRAFO 8
 #define PRISKRIBO_SEKCIO 9
 #define PRISKRIBO_BLOKOCITAJXO 10
+#define PRISKRIBO_FIGURO 11
+#define PRISKRIBO_FIGUROTITOLO 12
+#define PRISKRIBO_MARGXENO 13
 
 namespace Ui
 {class priskribo;
@@ -38,18 +41,24 @@ class priskribo:public QDialog
   void priBildo();
   void priBlokoCitajxo();
   void priCitajxo();
+  void priFiguro();
+  void priFiguroTitolo();
   void priFonto();
   void priForigu();
+  void priKlaso();
   void priKontribui(bool kontrolita);
   void priLingvo(QString lingvo);
   void priLinifaldo();
   void priMalfaru();
+  void priMargxeno();
   void priParagrafo();
   void priReferenceita();
   void priReiru();
   void priSekcio();
   void priSelektado();
+  void priStilo();
   void priStreko();
+  void priTitolo();
   void priTitoloUnua();
   void priTitoloDua();
   void priTitoloTria();

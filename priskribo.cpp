@@ -45,4 +45,10 @@ priskribo::priskribo(QWidget *gepatro):QDialog(gepatro),ui(new Ui::priskribo)
  connect(ui->hr,&QToolButton::clicked,this,&priskribo::priStreko);
  connect(ui->div,&QToolButton::clicked,this,&priskribo::priSekcio);
  connect(ui->blockquote,&QToolButton::clicked,this,&priskribo::priBlokoCitajxo);
+ connect(ui->figure,&QToolButton::clicked,this,&priskribo::priFiguro);
+ connect(ui->figcaption,&QToolButton::clicked,this,&priskribo::priFiguroTitolo);
+ connect(ui->aside,&QToolButton::clicked,this,&priskribo::priMargxeno);
+ connect(ui->style,&QToolButton::clicked,this,&priskribo::priStilo);
+ connect(ui->klaso,&QToolButton::clicked,this,&priskribo::priKlaso);
+ connect(ui->title,&QToolButton::clicked,this,&priskribo::priTitolo);
 }
