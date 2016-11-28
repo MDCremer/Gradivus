@@ -2,3 +2,4 @@
 Type=Application
 Name=Gradivus
 Exec=$HOME/Gradivus/binaroj/Gradivus
+Icon=$HOME/Gradivus/bildoj/Gradivus.svg

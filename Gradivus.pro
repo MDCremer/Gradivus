@@ -123,12 +123,14 @@ SOURCES      += main.cpp\
                 priskribo_priakceptu.cpp\
                 priskribo_pribildo.cpp\
                 priskribo_priblokocitajxo.cpp\
+                priskribo_pricentrigu.cpp\
                 priskribo_pricitajxo.cpp\
                 priskribo_pridekstre.cpp\
                 priskribo_prifiguro.cpp\
                 priskribo_prifigurotitolo.cpp\
                 priskribo_prifonto.cpp\
                 priskribo_priforigu.cpp\
+                priskribo_prigxisrandigu.cpp\
                 priskribo_priglita.cpp\
                 priskribo_priklaso.cpp\
                 priskribo_prikontribui.cpp\
@@ -226,7 +228,7 @@ desktop.commands     = $(COPY_FILE) $$PWD/Gradivus.desktop $$(HOME)/Gradivus
 bildoj.commands      = $(COPY_DIR) $$PWD/bildoj $$(HOME)/Gradivus
 dokumentoj.commands  = $(COPY_DIR) $$PWD/dokumentoj $$(HOME)/Gradivus
 skriptoj.commands    = $(COPY_DIR) $$PWD/skriptoj $$(HOME)/Gradivus
-first.depends        = $(first) skriptoj dokumentoj desktop
+first.depends        = $(first) skriptoj dokumentoj bildoj desktop
 export (first.depends)
 export (desktop.commands)
 export (bildoj.commands)

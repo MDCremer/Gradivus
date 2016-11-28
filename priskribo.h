@@ -40,12 +40,14 @@ class priskribo:public QDialog
   void priAkceptu();
   void priBildo();
   void priBlokoCitajxo();
+  void priCentrigu();
   void priCitajxo();
   void priDekstre();
   void priFiguro();
   void priFiguroTitolo();
   void priFonto();
   void priForigu();
+  void priGxisrandigu();
   void priGlita();
   void priKlaso();
   void priKontribui(bool kontrolita);

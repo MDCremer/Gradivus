@@ -19,6 +19,10 @@
   <property name="windowTitle">
    <string>Gradivo (www.gradivus.de)</string>
   </property>
+  <property name="windowIcon">
+   <iconset resource="gradivus.qrc">
+    <normaloff>:/Gradivus.svg</normaloff>:/Gradivus.svg</iconset>
+  </property>
   <property name="locale">
    <locale language="C" country="AnyCountry"/>
   </property>
@@ -368,8 +372,8 @@
             <rect>
              <x>0</x>
              <y>0</y>
-             <width>68</width>
-             <height>647</height>
+             <width>98</width>
+             <height>28</height>
             </rect>
            </property>
            <attribute name="label">
@@ -418,6 +422,8 @@
    <container>1</container>
   </customwidget>
  </customwidgets>
- <resources/>
+ <resources>
+  <include location="gradivus.qrc"/>
+ </resources>
  <connections/>
 </ui>

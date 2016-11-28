@@ -2,4 +2,7 @@
     <qresource prefix="/tradukajoj">
         <file>gradivus_de.qm</file>
     </qresource>
+    <qresource prefix="/">
+        <file>Gradivus.svg</file>
+    </qresource>
 </RCC>
