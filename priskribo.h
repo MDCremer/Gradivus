@@ -25,6 +25,11 @@
 #define PRISKRIBO_FIGURO 11
 #define PRISKRIBO_FIGUROTITOLO 12
 #define PRISKRIBO_MARGXENO 13
+#define PRISKRIBO_GRASA 14
+#define PRISKRIBO_FORTA 15
+#define PRISKRIBO_KURSIVA 16
+#define PRISKRIBO_EMFAZA 17
+#define PRISKRIBO_DIFINO 18
 
 namespace Ui
 {class priskribo;
@@ -43,14 +48,19 @@ class priskribo:public QDialog
   void priCentrigu();
   void priCitajxo();
   void priDekstre();
+  void priDifino();
+  void priEmfaza();
   void priFiguro();
   void priFiguroTitolo();
   void priFonto();
   void priForigu();
-  void priGxisrandigu();
+  void priForta();
   void priGlita();
+  void priGrasa();
+  void priGxisrandigu();
   void priKlaso();
   void priKontribui(bool kontrolita);
+  void priKursiva();
   void priLingvo(QString lingvo);
   void priLinifaldo();
   void priMaldekstre();

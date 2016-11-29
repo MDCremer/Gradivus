@@ -57,4 +57,9 @@ priskribo::priskribo(QWidget *gepatro):QDialog(gepatro),ui(new Ui::priskribo)
  connect(ui->right,&QToolButton::clicked,this,&priskribo::priDekstre);
  connect(ui->center,&QToolButton::clicked,this,&priskribo::priCentrigu);
  connect(ui->justify,&QToolButton::clicked,this,&priskribo::priGxisrandigu);
+ connect(ui->b,&QToolButton::clicked,this,&priskribo::priGrasa);
+ connect(ui->strong,&QToolButton::clicked,this,&priskribo::priForta);
+ connect(ui->i,&QToolButton::clicked,this,&priskribo::priKursiva);
+ connect(ui->em,&QToolButton::clicked,this,&priskribo::priEmfaza);
+ connect(ui->dfn,&QToolButton::clicked,this,&priskribo::priDifino);
 }
