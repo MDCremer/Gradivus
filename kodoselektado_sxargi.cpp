@@ -45,7 +45,7 @@ void kodoSelektado::sxargi()
     ordono.append(" WHERE tipo<");
    else
     ordono.append(" AND tipo<");
-   ordono.append(QString::number(6-ui->limigiTipoj->currentIndex()));
+   ordono.append(QString::number(7-ui->limigiTipoj->currentIndex()));
   }
   ordono.append(";");
   if(informpeto.exec(ordono))

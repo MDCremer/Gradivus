@@ -131,6 +131,11 @@
          <string>ankaŭ sen parte ŝparvojoj</string>
         </property>
        </item>
+       <item>
+        <property name="text">
+         <string>nur ĉefa identigiloj</string>
+        </property>
+       </item>
       </widget>
      </item>
     </layout>

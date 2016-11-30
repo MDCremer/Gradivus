@@ -69,4 +69,15 @@ priskribo::priskribo(QWidget *gepatro):QDialog(gepatro),ui(new Ui::priskribo)
  connect(ui->sup,&QToolButton::clicked,this,&priskribo::priSuperskribita);
  connect(ui->sub,&QToolButton::clicked,this,&priskribo::priSuba);
  connect(ui->small,&QToolButton::clicked,this,&priskribo::priMinora);
+ connect(ui->ul,&QToolButton::clicked,this,&priskribo::priNeordigitaListo);
+ connect(ui->ol,&QToolButton::clicked,this,&priskribo::priOrdigitaListo);
+ connect(ui->li,&QToolButton::clicked,this,&priskribo::priListoEro);
+ connect(ui->dl,&QToolButton::clicked,this,&priskribo::priDifinoListo);
+ connect(ui->dt,&QToolButton::clicked,this,&priskribo::priDifinoListoEro);
+ connect(ui->dd,&QToolButton::clicked,this,&priskribo::priDifinoListoTeksto);
+ connect(ui->table,&QToolButton::clicked,this,&priskribo::priTabelo);
+ connect(ui->thead,&QToolButton::clicked,this,&priskribo::priTabeloKapo);
+ connect(ui->tr,&QToolButton::clicked,this,&priskribo::priTabeloVico);
+ connect(ui->td,&QToolButton::clicked,this,&priskribo::priTabeloCxelo);
+ connect(ui->vakigu,&QToolButton::clicked,this,&priskribo::priVakigu);
 }

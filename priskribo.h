@@ -37,6 +37,16 @@
 #define PRISKRIBO_SUPERSKRIBITA 23
 #define PRISKRIBO_SUBA 24
 #define PRISKRIBO_MINORA 25
+#define PRISKRIBO_NEORDIGITALISTO 26
+#define PRISKRIBO_ORDIGITALISTO 27
+#define PRISKRIBO_LISTOERO 28
+#define PRISKRIBO_DIFINOLISTO 29
+#define PRISKRIBO_DIFINOLISTOERO 30
+#define PRISKRIBO_DIFINOLISTOTEKSTO 31
+#define PRISKRIBO_TABELO 32
+#define PRISKRIBO_TABELOKAPO 33
+#define PRISKRIBO_TABELOVICO 34
+#define PRISKRIBO_TABELOCXELO 35
 
 namespace Ui
 {class priskribo;
@@ -57,6 +67,9 @@ class priskribo:public QDialog
   void priCitajxo();
   void priDekstre();
   void priDifino();
+  void priDifinoListo();
+  void priDifinoListoEro();
+  void priDifinoListoTeksto();
   void priEmfaza();
   void priFiguro();
   void priFiguroTitolo();
@@ -72,10 +85,13 @@ class priskribo:public QDialog
   void priKursiva();
   void priLingvo(QString lingvo);
   void priLinifaldo();
+  void priListoEro();
   void priMaldekstre();
   void priMalfaru();
   void priMargxeno();
   void priMinora();
+  void priNeordigitaListo();
+  void priOrdigitaListo();
   void priParagrafo();
   void priReferenceita();
   void priReiru();
@@ -87,6 +103,10 @@ class priskribo:public QDialog
   void priSuba();
   void priSubstretika();
   void priSuperskribita();
+  void priTabelo();
+  void priTabeloCxelo();
+  void priTabeloKapo();
+  void priTabeloVico();
   void priTekstoGxisrandigo();
   void priTitolo();
   void priTitoloUnua();
@@ -95,6 +115,7 @@ class priskribo:public QDialog
   void priTitoloKvara();
   void priTitoloKvina();
   void priTitoloSesa();
+  void priVakigu();
  private:
   void enigi(int indekso,QString starto,QString fino,QToolButton *butono);
   Ui::priskribo *ui;
