@@ -30,7 +30,12 @@ htmlMarkilo::htmlMarkilo(QTextDocument *gepatro):QSyntaxHighlighter(gepatro)
    "<\\s*[Tt][Hh][Ee][Aa][Dd](\\s+(([Ss][Tt][Yy][Ll][Ee])|([Cc][Ll][Aa][Ss][Ss]))\\s*=\\s*([\"'][^\"']*[\"']))*\\s*>"<<
    "<\\s*(([Ff][Ii][Gg][Uu][Rr][Ee])|([Ff][Ii][Gg][Cc][Aa][Pp][Tt][Ii][Oo][Nn]))(\\s+(([Ss][Tt][Yy][Ll][Ee])|([Cc][Ll][Aa]\
 [Ss][Ss]))\\s*=\\s*([\"'][^\"']*[\"']))*\\s*>"<<
-   "<\\s*/(([Ff][Ii][Gg][Uu][Rr][Ee])|([Ff][Ii][Gg][Cc][Aa][Pp][Tt][Ii][Oo][Nn]))\\s*>";
+   "<\\s*/(([Ff][Ii][Gg][Uu][Rr][Ee])|([Ff][Ii][Gg][Cc][Aa][Pp][Tt][Ii][Oo][Nn]))\\s*>"<<
+   "<\\s*[Pp][Rr][Ee](\\s+(([Ss][Tt][Yy][Ll][Ee])|([Cc][Ll][Aa][Ss][Ss]))\\s*=\\s*([\"'][^\"']*[\"']))*\\s*>"<<
+   "<\\s*/[Pp][Rr][Ee]\\s*>"<<"<\\s*/[Aa][Ss][Ii][Dd][Ee]\\s*>"<<"<\\s*/[Dd][Ii][Vv]\\s*>"<<"<\\s*/[Ss][Aa][Mm][Pp]\\s*>"<<
+   "<\\s*[Aa][Ss][Ii][Dd][Ee](\\s+(([Ss][Tt][Yy][Ll][Ee])|([Cc][Ll][Aa][Ss][Ss]))\\s*=\\s*([\"'][^\"']*[\"']))*\\s*>"<<
+   "<\\s*[Dd][Ii][Vv](\\s+(([Ss][Tt][Yy][Ll][Ee])|([Cc][Ll][Aa][Ss][Ss]))\\s*=\\s*([\"'][^\"']*[\"']))*\\s*>"<<
+   "<\\s*[Ss][Aa][Mm][Pp](\\s+(([Ss][Tt][Yy][Ll][Ee])|([Cc][Ll][Aa][Ss][Ss]))\\s*=\\s*([\"'][^\"']*[\"']))*\\s*>";                                            ;
  foreach(const QString &sxablono,sxlosilvortoSxablonoj)
  {regulo.sxablono=QRegExp(sxablono);
   regulo.arangxo=sxlosilvortoArangxo;

@@ -30,6 +30,13 @@
 #define PRISKRIBO_KURSIVA 16
 #define PRISKRIBO_EMFAZA 17
 #define PRISKRIBO_DIFINO 18
+#define PRISKRIBO_SPECIMENO 19
+#define PRISKRIBO_KODO 20
+#define PRISKRIBO_APRIORA 21
+#define PRISKRIBO_SUBSTRETIKA 22
+#define PRISKRIBO_SUPERSKRIBITA 23
+#define PRISKRIBO_SUBA 24
+#define PRISKRIBO_MINORA 25
 
 namespace Ui
 {class priskribo;
@@ -43,6 +50,7 @@ class priskribo:public QDialog
  public slots:
   void pagxoSxangxo(int indekso);
   void priAkceptu();
+  void priApriora();
   void priBildo();
   void priBlokoCitajxo();
   void priCentrigu();
@@ -59,6 +67,7 @@ class priskribo:public QDialog
   void priGrasa();
   void priGxisrandigu();
   void priKlaso();
+  void priKodo();
   void priKontribui(bool kontrolita);
   void priKursiva();
   void priLingvo(QString lingvo);
@@ -66,13 +75,18 @@ class priskribo:public QDialog
   void priMaldekstre();
   void priMalfaru();
   void priMargxeno();
+  void priMinora();
   void priParagrafo();
   void priReferenceita();
   void priReiru();
   void priSekcio();
   void priSelektado();
+  void priSpecimeno();
   void priStilo();
   void priStreko();
+  void priSuba();
+  void priSubstretika();
+  void priSuperskribita();
   void priTekstoGxisrandigo();
   void priTitolo();
   void priTitoloUnua();
