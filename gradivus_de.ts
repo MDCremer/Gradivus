@@ -84,37 +84,37 @@
         <translation>Fehler [061]!</translation>
     </message>
     <message>
-        <location filename="eldono_priskribo.cpp" line="74"/>
+        <location filename="eldono_priskribo.cpp" line="81"/>
         <source>Eraro [098]!</source>
         <translation>Fehler [098]!</translation>
     </message>
     <message>
-        <location filename="eldono_priskribo.cpp" line="83"/>
+        <location filename="eldono_priskribo.cpp" line="90"/>
         <source>Eraro [075]!</source>
         <translation>Fehler [075]!</translation>
     </message>
     <message>
-        <location filename="eldono_priskribo.cpp" line="86"/>
+        <location filename="eldono_priskribo.cpp" line="93"/>
         <source>Fontoj</source>
         <translation>Quellenangaben</translation>
     </message>
     <message>
-        <location filename="eldono_priskribo.cpp" line="103"/>
+        <location filename="eldono_priskribo.cpp" line="110"/>
         <source>Eraro [076]!</source>
         <translation>Fehler [076]!</translation>
     </message>
     <message>
-        <location filename="eldono_priskribo.cpp" line="112"/>
+        <location filename="eldono_priskribo.cpp" line="119"/>
         <source>Eraro [077]!</source>
         <translation>Fehler [077]!</translation>
     </message>
     <message>
-        <location filename="eldono_priskribo.cpp" line="137"/>
+        <location filename="eldono_priskribo.cpp" line="144"/>
         <source>Eraro [078]!</source>
         <translation>Fehler [078]!</translation>
     </message>
     <message>
-        <location filename="eldono_priskribo.cpp" line="146"/>
+        <location filename="eldono_priskribo.cpp" line="153"/>
         <source>Eraro [079]!</source>
         <translation>Fehler [079]!</translation>
     </message>
@@ -127,105 +127,105 @@
         <translation>Gradivus (www.gradivus.de)</translation>
     </message>
     <message>
-        <location filename="cxefafenestro.ui" line="52"/>
+        <location filename="cxefafenestro.ui" line="56"/>
         <source>Informo</source>
         <translation>Information</translation>
     </message>
     <message>
-        <location filename="cxefafenestro.ui" line="94"/>
+        <location filename="cxefafenestro.ui" line="98"/>
         <source>Agordoj</source>
         <translation>Einstellungen</translation>
     </message>
     <message>
-        <location filename="cxefafenestro.ui" line="112"/>
+        <location filename="cxefafenestro.ui" line="116"/>
         <source>Konfiguro</source>
         <translation>Konfiguration</translation>
     </message>
     <message>
-        <location filename="cxefafenestro.ui" line="119"/>
+        <location filename="cxefafenestro.ui" line="123"/>
         <source>Datumoj apogilo</source>
         <translation>Datensicherung</translation>
     </message>
     <message>
-        <location filename="cxefafenestro.ui" line="126"/>
+        <location filename="cxefafenestro.ui" line="130"/>
         <source>Datumoj restaŭro</source>
         <translation>Datenwiederherstellung</translation>
     </message>
     <message>
-        <location filename="cxefafenestro.ui" line="133"/>
+        <location filename="cxefafenestro.ui" line="137"/>
         <source>Datumbazo ekstrakto</source>
         <translation>Datenbankauszug</translation>
     </message>
     <message>
-        <location filename="cxefafenestro.ui" line="162"/>
+        <location filename="cxefafenestro.ui" line="166"/>
         <source>Reprezentadoj</source>
         <translation>Darstellungen</translation>
     </message>
     <message>
-        <location filename="cxefafenestro.ui" line="175"/>
+        <location filename="cxefafenestro.ui" line="179"/>
         <source>Kartoj redaktilo</source>
         <translation>Spielfeldbearbeitung</translation>
     </message>
     <message>
-        <location filename="cxefafenestro.ui" line="188"/>
+        <location filename="cxefafenestro.ui" line="192"/>
         <source>Aludo Laboro</source>
         <translation>Nachschlagewerk</translation>
     </message>
     <message>
-        <location filename="cxefafenestro.ui" line="206"/>
+        <location filename="cxefafenestro.ui" line="210"/>
         <source>Identigiloj</source>
         <translation>Bezeichnungen</translation>
     </message>
     <message>
-        <location filename="cxefafenestro.ui" line="213"/>
+        <location filename="cxefafenestro.ui" line="217"/>
         <source>Bibliografio</source>
         <translation>Bibliographie</translation>
     </message>
     <message>
-        <location filename="cxefafenestro.ui" line="220"/>
+        <location filename="cxefafenestro.ui" line="224"/>
         <source>Fontoj</source>
         <translation>Quellenangaben</translation>
     </message>
     <message>
-        <location filename="cxefafenestro.ui" line="227"/>
+        <location filename="cxefafenestro.ui" line="231"/>
         <source>Priskriboj</source>
         <translation>Beschreibungen</translation>
     </message>
     <message>
-        <location filename="cxefafenestro.ui" line="274"/>
+        <location filename="cxefafenestro.ui" line="278"/>
         <source>Starto paĝo</source>
         <translation>Startseite</translation>
     </message>
     <message>
-        <location filename="cxefafenestro.ui" line="281"/>
+        <location filename="cxefafenestro.ui" line="285"/>
         <location filename="cxefafenestro_priindekso.cpp" line="14"/>
         <location filename="cxefafenestro_priindekso.cpp" line="16"/>
         <source>Indekso</source>
         <translation>Register</translation>
     </message>
     <message>
-        <location filename="cxefafenestro.ui" line="288"/>
+        <location filename="cxefafenestro.ui" line="292"/>
         <location filename="cxefafenestro_pripriskribo.cpp" line="16"/>
         <source>Priskribo</source>
         <translation>Beschreibung</translation>
     </message>
     <message>
-        <location filename="cxefafenestro.ui" line="311"/>
+        <location filename="cxefafenestro.ui" line="315"/>
         <source>Eldono</source>
         <translation>Ausgabe</translation>
     </message>
     <message>
-        <location filename="cxefafenestro.ui" line="256"/>
+        <location filename="cxefafenestro.ui" line="260"/>
         <source>Vido</source>
         <translation>Ansicht</translation>
     </message>
     <message>
-        <location filename="cxefafenestro.ui" line="318"/>
+        <location filename="cxefafenestro.ui" line="322"/>
         <source>muta</source>
         <translation>stumm</translation>
     </message>
     <message>
-        <location filename="cxefafenestro.ui" line="340"/>
+        <location filename="cxefafenestro.ui" line="344"/>
         <source>Mapo</source>
         <translation>Karte</translation>
     </message>
@@ -1310,12 +1310,12 @@
         <translation>Fehler [054]!</translation>
     </message>
     <message>
-        <location filename="cxefafenestro_pripdfeldono.cpp" line="9"/>
+        <location filename="cxefafenestro_pripdfeldono.cpp" line="7"/>
         <source>Dosiero selektado por eldono</source>
         <translation>Dateiauswahl zur Ausgabe</translation>
     </message>
     <message>
-        <location filename="cxefafenestro_pripdfeldono.cpp" line="10"/>
+        <location filename="cxefafenestro_pripdfeldono.cpp" line="8"/>
         <source>PDF-dosiero</source>
         <translation>PDF-Datei</translation>
     </message>
@@ -2305,12 +2305,17 @@
         <translation>auch ohne teilweise Abkürzungen</translation>
     </message>
     <message>
-        <location filename="kodoselektado.ui" line="161"/>
+        <location filename="kodoselektado.ui" line="136"/>
+        <source>nur ĉefa identigiloj</source>
+        <translation>nur Hauptbezeichnungen</translation>
+    </message>
+    <message>
+        <location filename="kodoselektado.ui" line="166"/>
         <source>Rezignu</source>
         <translation>Abbrechen</translation>
     </message>
     <message>
-        <location filename="kodoselektado.ui" line="192"/>
+        <location filename="kodoselektado.ui" line="197"/>
         <source>Apliku</source>
         <translation>Übernehmen</translation>
     </message>
@@ -2845,7 +2850,7 @@
 <context>
     <name>sqlMarkilo</name>
     <message>
-        <location filename="sqlmarkilo_highlightblock.cpp" line="35"/>
+        <location filename="sqlmarkilo_highlightblock.cpp" line="43"/>
         <source>nekonata</source>
         <translation>unbekannt</translation>
     </message>

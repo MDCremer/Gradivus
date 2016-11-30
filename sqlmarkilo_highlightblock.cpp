@@ -1,3 +1,4 @@
+#include <QRegExp>
 #include <QRegularExpressionMatch>
 #include <QString>
 #include <QToolButton>
@@ -28,6 +29,13 @@ void sqlMarkilo::highlightBlock(const QString &teksto)
   int longo=interkonsento.capturedLength();
   setFormat(indekso,longo,rekonisStrukturo);
   asociitaButono->setText("fontoj");
+  rekonis=true;
+ }
+ int indekso=priskriboj.indexIn(teksto);
+ if(indekso>-1)
+ {int longo=priskriboj.matchedLength();
+  setFormat(indekso,longo,rekonisStrukturo);
+  asociitaButono->setText("priskriboj");
   rekonis=true;
  }
  asociitaButono->setEnabled(rekonis);

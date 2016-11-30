@@ -1,6 +1,7 @@
 #ifndef SQLMARKILO_H
 #define SQLMARKILO_H
 
+#include <QRegExp>
 #include <QRegularExpression>
 #include <QString>
 #include <QSyntaxHighlighter>
@@ -18,6 +19,7 @@ class sqlMarkilo:public QSyntaxHighlighter
   QRegularExpression literaturoj;
   QRegularExpression identigiloj;
   QRegularExpression fontoj;
+  QRegExp priskriboj;
   QTextCharFormat rekonisStrukturo;
 };
 
