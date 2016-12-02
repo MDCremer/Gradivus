@@ -6,6 +6,7 @@
 #include <QRegExp>
 #include <QRegularExpression>
 #include <QRegularExpressionMatch>
+#include <QRegularExpressionMatchIterator>
 #include <QSqlDatabase>
 #include <QSqlError>
 #include <QSqlQuery>
@@ -410,7 +411,7 @@ void datumojRestauxro::priSintakseAnalizu()
          vido.exec();
   }}}}}}}
   if(ui->sintakseAnalizu->text()=="priskriboj")
-  {QByteArray uuid,lingvo,html;
+  {QByteArray uuid,lingvo,priskribo;
    interkonsento=QRegularExpression("\\(\\'[a-zA-Z0-9_-]{22}\\',").match(teksto);
    if(interkonsento.hasMatch())
    {uuid=interkonsento.captured().mid(2,22).toUtf8();
@@ -423,7 +424,7 @@ void datumojRestauxro::priSintakseAnalizu()
      int priskriboIndekso=priskriboInterkonsento.indexIn(teksto);
      if(priskriboIndekso>-1)
      {int longo=priskriboInterkonsento.matchedLength();
-      html=qUncompress(QByteArray::fromHex(teksto.mid(priskriboIndekso+2,longo-3).toUtf8()));
+      priskribo=qUncompress(QByteArray::fromHex(teksto.mid(priskriboIndekso+2,longo-3).toUtf8()));
       indekso=priskriboIndekso+longo;
       interkonsento=QRegularExpression("\\':([^\\']+|\\'{2})+:\\'").match(teksto,indekso);
       if(interkonsento.hasMatch())
@@ -433,11 +434,78 @@ void datumojRestauxro::priSintakseAnalizu()
        if(interkonsento.hasMatch())
        {stato=interkonsento.captured().left(interkonsento.captured().length()-2).toLongLong();
         vido.agordiCxefsxlosilo(uuid+" ("+lingvo+")");
-        vido.agordiKodo(html);
+        vido.agordiKodo(priskribo);
         vido.agordiSubskribo(subskribo.replace("''","'"));
         QDateTime tempo;
         tempo.setTime_t(stato);
         vido.agordiStato(tempo.toString(Qt::SystemLocaleLongDate));
+        QByteArray html=patraObjekto->administranto.akiruValoro(AGORDO_STILO);
+        html.append("<title>");
+        html.append(uuid+" ("+lingvo+")");
+        html.append("</title>\n</head>\n<body>\n<article>\n");
+        QRegularExpressionMatchIterator kongruo=
+          QRegularExpression("\343\200\226\360\237\223\226[A-Za-z0-9]{3}\343\200\227").globalMatch(priskribo);
+        while(kongruo.hasNext())
+        {interkonsento=kongruo.next();
+         if(interkonsento.hasMatch())
+          priskribo.replace(interkonsento.captured().toUtf8(),"<sup>[<i>"+interkonsento.captured().mid(3,3).toUtf8()+
+            "</i>]</sup>");
+        }
+        html.append(priskribo.replace("\342\233\223\342\231\202\342\233\201/",
+          patraObjekto->administranto.akiruValoro(AGORDO_VORTARO)));
+        html.append("</article>\n</body>\n</html>");
+        vido.agordiVido(html);
+        QByteArray malnovaTeksto,malnovaSubskribo;
+        qlonglong malnovaStato;
+        if(informpeto.exec("SELECT teksto,subskribo,stato FROM priskriboj WHERE uuid='"+uuid+"' AND lingvo='"+lingvo+"';"))
+        {if(informpeto.first())
+         {malnovaTeksto=qUncompress(informpeto.value("teksto").toByteArray());
+          malnovaSubskribo=informpeto.value("subskribo").toByteArray();
+          malnovaStato=informpeto.value("stato").toLongLong();
+          vido.agordiMalnovaSubskribo(malnovaSubskribo);
+          tempo.setTime_t(malnovaStato);
+          vido.agordiMalnovaStato(tempo.toString(Qt::SystemLocaleLongDate));
+          html=patraObjekto->administranto.akiruValoro(AGORDO_STILO);
+          html.append("<title>");
+          html.append(uuid+" ("+lingvo+")");
+          html.append("</title>\n</head>\n<body>\n<article>\n");
+          QRegularExpressionMatchIterator kongruo=
+            QRegularExpression("\343\200\226\360\237\223\226[A-Za-z0-9]{3}\343\200\227").globalMatch(malnovaTeksto);
+          while(kongruo.hasNext())
+          {interkonsento=kongruo.next();
+           if(interkonsento.hasMatch())
+            malnovaTeksto.replace(interkonsento.captured().toUtf8(),"<sup>[<i>"+interkonsento.captured().mid(3,3).toUtf8()+
+              "</i>]</sup>");
+          }
+          html.append(malnovaTeksto.replace("\342\233\223\342\231\202\342\233\201/",
+            patraObjekto->administranto.akiruValoro(AGORDO_VORTARO)));
+          html.append("</article>\n</body>\n</html>");
+          vido.agordiMalnovaDatumoj(html);
+          if(priskribo==malnovaTeksto&&subskribo.replace("''","'")==malnovaSubskribo&&stato==malnovaStato)
+           vido.agordiRekomendo(tr("La priskribo jam existas."));
+          else
+          {if(stato==malnovaStato&&priskribo!=malnovaTeksto)
+            vido.agordiRekomendo(tr("Estas sama malnova priskribo malsama enhavo."));
+           else
+           {if(stato==malnovaStato)
+             vido.agordiRekomendo(tr("Estas sama malnova priskribo kun malsamaj subskriptoj."));
+            else
+            {if(stato<malnovaStato)
+              vido.agordiRekomendo(tr("Estas jam disponebla \304\235isdatigi via priskribo."));
+             else
+             {if(stato>malnovaStato&&priskribo==malnovaTeksto)
+               vido.agordiRekomendo(tr("Eksistas malnova priskribo de la sama enhavo."));
+              else
+               vido.agordiRekomendo(tr("La nuna priskribo estas pli malnova."));
+         }}}}}
+         else
+         {vido.agordiMalnovaSubskribo("");
+          vido.agordiMalnovaStato("");
+          vido.agordiRekomendo(tr("Tia priskribo ne estas disponebla ankora\305\255."));
+        }}
+        else
+         if(informpeto.lastError().isValid())
+          QMessageBox::critical(this,tr("Eraro [099]!"),informpeto.lastError().text());
         vido.exec();
   }}}}}}
   datumbazo.close();
