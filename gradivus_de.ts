@@ -1496,189 +1496,189 @@
 <context>
     <name>datumojRestauxro</name>
     <message>
-        <location filename="datumojrestauxro_prisintakseanalizu.cpp" line="77"/>
+        <location filename="datumojrestauxro_prisintakseanalizu.cpp" line="78"/>
         <source>La citaĵo jam existas.</source>
         <translation>Die Literaturangabe ist bereits vorhanden.</translation>
     </message>
     <message>
-        <location filename="datumojrestauxro_prisintakseanalizu.cpp" line="80"/>
+        <location filename="datumojrestauxro_prisintakseanalizu.cpp" line="81"/>
         <source>Estas sama malnova citaĵo malsama enhavo.</source>
         <translation>Es gibt eine gleichalte Literaturangabe unterschiedlichen Inhalts.</translation>
     </message>
     <message>
-        <location filename="datumojrestauxro_prisintakseanalizu.cpp" line="83"/>
+        <location filename="datumojrestauxro_prisintakseanalizu.cpp" line="84"/>
         <source>Estas sama malnova citaĵo kun malsamaj subskriptoj.</source>
         <translation>Es gibt eine gleichalte Literaturangabe mit unterschiedlicher Signatur.</translation>
     </message>
     <message>
-        <location filename="datumojrestauxro_prisintakseanalizu.cpp" line="86"/>
+        <location filename="datumojrestauxro_prisintakseanalizu.cpp" line="87"/>
         <source>Estas jam disponebla ĝisdatigi via citaĵo.</source>
         <translation>Es gibt bereits eine neuere Literaturangabe.</translation>
     </message>
     <message>
-        <location filename="datumojrestauxro_prisintakseanalizu.cpp" line="89"/>
+        <location filename="datumojrestauxro_prisintakseanalizu.cpp" line="90"/>
         <source>Eksistas malnova citaĵo de la sama enhavo.</source>
         <translation>Es gibt eine ältere Literaturangabe desselben Inhalts.</translation>
     </message>
     <message>
-        <location filename="datumojrestauxro_prisintakseanalizu.cpp" line="91"/>
+        <location filename="datumojrestauxro_prisintakseanalizu.cpp" line="92"/>
         <source>La nuna bibliografio estas pli malnova.</source>
         <translation>Die vorliegende Literaturangabe ist älter.</translation>
     </message>
     <message>
-        <location filename="datumojrestauxro_prisintakseanalizu.cpp" line="96"/>
+        <location filename="datumojrestauxro_prisintakseanalizu.cpp" line="97"/>
         <source>Tia citaĵo ne estas disponebla ankoraŭ.</source>
         <translation>Es gibt noch keine solche Literaturangabe.</translation>
     </message>
     <message>
-        <location filename="datumojrestauxro_prisintakseanalizu.cpp" line="100"/>
+        <location filename="datumojrestauxro_prisintakseanalizu.cpp" line="101"/>
         <source>Eraro [028]!</source>
         <translation>Fehler [028]!</translation>
     </message>
     <message>
-        <location filename="datumojrestauxro_prisintakseanalizu.cpp" line="148"/>
-        <location filename="datumojrestauxro_prisintakseanalizu.cpp" line="200"/>
+        <location filename="datumojrestauxro_prisintakseanalizu.cpp" line="149"/>
+        <location filename="datumojrestauxro_prisintakseanalizu.cpp" line="201"/>
         <source>Tipo:</source>
         <translation>Typ:</translation>
     </message>
     <message>
-        <location filename="datumojrestauxro_prisintakseanalizu.cpp" line="155"/>
-        <location filename="datumojrestauxro_prisintakseanalizu.cpp" line="207"/>
+        <location filename="datumojrestauxro_prisintakseanalizu.cpp" line="156"/>
+        <location filename="datumojrestauxro_prisintakseanalizu.cpp" line="208"/>
         <source>Objekto kodo:</source>
         <translation>Kennung:</translation>
     </message>
     <message>
-        <location filename="datumojrestauxro_prisintakseanalizu.cpp" line="159"/>
-        <location filename="datumojrestauxro_prisintakseanalizu.cpp" line="211"/>
-        <location filename="datumojrestauxro_prisintakseanalizu.cpp" line="325"/>
-        <location filename="datumojrestauxro_prisintakseanalizu.cpp" line="368"/>
+        <location filename="datumojrestauxro_prisintakseanalizu.cpp" line="160"/>
+        <location filename="datumojrestauxro_prisintakseanalizu.cpp" line="212"/>
+        <location filename="datumojrestauxro_prisintakseanalizu.cpp" line="326"/>
+        <location filename="datumojrestauxro_prisintakseanalizu.cpp" line="369"/>
         <source>Fonto:</source>
         <translation>Quelle:</translation>
     </message>
     <message>
-        <location filename="datumojrestauxro_prisintakseanalizu.cpp" line="165"/>
-        <location filename="datumojrestauxro_prisintakseanalizu.cpp" line="331"/>
+        <location filename="datumojrestauxro_prisintakseanalizu.cpp" line="166"/>
+        <location filename="datumojrestauxro_prisintakseanalizu.cpp" line="332"/>
         <source>&lt;i&gt;(nekonata literaturo)&lt;/i&gt;</source>
         <translation>&lt;i&gt;(unbekannte Literaturangabe)&lt;/i&gt;</translation>
     </message>
     <message>
-        <location filename="datumojrestauxro_prisintakseanalizu.cpp" line="169"/>
+        <location filename="datumojrestauxro_prisintakseanalizu.cpp" line="170"/>
         <source>Eraro [051]!</source>
         <translation>Fehler [051]!</translation>
     </message>
     <message>
-        <location filename="datumojrestauxro_prisintakseanalizu.cpp" line="215"/>
+        <location filename="datumojrestauxro_prisintakseanalizu.cpp" line="216"/>
         <source>La identigilo jam existas.</source>
         <translation>Die Bezeichnung ist bereits vorhanden.</translation>
     </message>
     <message>
-        <location filename="datumojrestauxro_prisintakseanalizu.cpp" line="219"/>
+        <location filename="datumojrestauxro_prisintakseanalizu.cpp" line="220"/>
         <source>Estas sama malnova identigilo malsama enhavo.</source>
         <translation>Es gibt eine gleichalte Bezeichnung ungleichen Inhalts.</translation>
     </message>
     <message>
-        <location filename="datumojrestauxro_prisintakseanalizu.cpp" line="222"/>
+        <location filename="datumojrestauxro_prisintakseanalizu.cpp" line="223"/>
         <source>Estas sama malnova identigilo kun malsamaj subskriptoj.</source>
         <translation>Die Bezeichnung ist bereits mit einem unterschiedlichen Subskriptum vorhanden.</translation>
     </message>
     <message>
-        <location filename="datumojrestauxro_prisintakseanalizu.cpp" line="225"/>
+        <location filename="datumojrestauxro_prisintakseanalizu.cpp" line="226"/>
         <source>Estas jam disponebla ĝisdatigi via identigilo.</source>
         <translation>Es ist bereits eine aktuelle Bezeichnung vorhanden.</translation>
     </message>
     <message>
-        <location filename="datumojrestauxro_prisintakseanalizu.cpp" line="228"/>
+        <location filename="datumojrestauxro_prisintakseanalizu.cpp" line="229"/>
         <source>Eksistas malnova identigilo de la sama enhavo.</source>
         <translation>Es gibt eine ältere Bezeichnung desselben Inhalts.</translation>
     </message>
     <message>
-        <location filename="datumojrestauxro_prisintakseanalizu.cpp" line="230"/>
+        <location filename="datumojrestauxro_prisintakseanalizu.cpp" line="231"/>
         <source>La nuna identigilo estas pli malnova.</source>
         <translation>Die vorhandene Bezeichnung ist aktueller.</translation>
     </message>
     <message>
-        <location filename="datumojrestauxro_prisintakseanalizu.cpp" line="235"/>
+        <location filename="datumojrestauxro_prisintakseanalizu.cpp" line="236"/>
         <source>Tia identigilo ne estas disponebla ankoraŭ.</source>
         <translation>Die Bezeichnung ist noch nicht vorhanden.</translation>
     </message>
     <message>
-        <location filename="datumojrestauxro_prisintakseanalizu.cpp" line="239"/>
+        <location filename="datumojrestauxro_prisintakseanalizu.cpp" line="240"/>
         <source>Eraro [052]!</source>
         <translation>Fehler [052]!</translation>
     </message>
     <message>
-        <location filename="datumojrestauxro_prisintakseanalizu.cpp" line="247"/>
+        <location filename="datumojrestauxro_prisintakseanalizu.cpp" line="248"/>
         <source>Eraro [053]!</source>
         <translation>Fehler [053]!</translation>
     </message>
     <message>
-        <location filename="datumojrestauxro_prisintakseanalizu.cpp" line="288"/>
-        <location filename="datumojrestauxro_prisintakseanalizu.cpp" line="364"/>
+        <location filename="datumojrestauxro_prisintakseanalizu.cpp" line="289"/>
+        <location filename="datumojrestauxro_prisintakseanalizu.cpp" line="365"/>
         <source>Identigiloj:</source>
         <translation>Bezeichnungen:</translation>
     </message>
     <message>
-        <location filename="datumojrestauxro_prisintakseanalizu.cpp" line="299"/>
+        <location filename="datumojrestauxro_prisintakseanalizu.cpp" line="300"/>
         <source>Eraro [083]!</source>
         <translation>Fehler [083]!</translation>
     </message>
     <message>
-        <location filename="datumojrestauxro_prisintakseanalizu.cpp" line="302"/>
+        <location filename="datumojrestauxro_prisintakseanalizu.cpp" line="303"/>
         <source>&lt;i&gt;(nekonata koncepto)&lt;/i&gt;</source>
         <translation>&lt;i&gt;(unbekanntes Konzept)&lt;/i&gt;</translation>
     </message>
     <message>
-        <location filename="datumojrestauxro_prisintakseanalizu.cpp" line="335"/>
+        <location filename="datumojrestauxro_prisintakseanalizu.cpp" line="336"/>
         <source>Eraro [080]!</source>
         <translation>Fehler [080]!</translation>
     </message>
     <message>
-        <location filename="datumojrestauxro_prisintakseanalizu.cpp" line="372"/>
+        <location filename="datumojrestauxro_prisintakseanalizu.cpp" line="373"/>
         <source>La fonto jam existas.</source>
         <translation>Die Quellenangabe ist bereits vorhanden.</translation>
     </message>
     <message>
-        <location filename="datumojrestauxro_prisintakseanalizu.cpp" line="375"/>
+        <location filename="datumojrestauxro_prisintakseanalizu.cpp" line="376"/>
         <source>Estas sama malnova fonto malsama enhavo.</source>
         <translation>Es gibt eine gleichalte Quellenangabe unterschiedlichen Inhalts.</translation>
     </message>
     <message>
-        <location filename="datumojrestauxro_prisintakseanalizu.cpp" line="378"/>
+        <location filename="datumojrestauxro_prisintakseanalizu.cpp" line="379"/>
         <source>Estas sama malnova fonto kun malsamaj subskriptoj.</source>
         <translation>Es gibt eine gleichalte Quellenangabe mit unterschiedlicher Signatur.</translation>
     </message>
     <message>
-        <location filename="datumojrestauxro_prisintakseanalizu.cpp" line="381"/>
+        <location filename="datumojrestauxro_prisintakseanalizu.cpp" line="382"/>
         <source>Estas jam disponebla ĝisdatigi via fonto.</source>
         <translation>Es ist bereits eine aktuelle Quellenangabe vorhanden.</translation>
     </message>
     <message>
-        <location filename="datumojrestauxro_prisintakseanalizu.cpp" line="384"/>
+        <location filename="datumojrestauxro_prisintakseanalizu.cpp" line="385"/>
         <source>Eksistas malnova fonto de la sama enhavo.</source>
         <translation>Es gibt eine ältere Quellenangabe desselben Inhalts.</translation>
     </message>
     <message>
-        <location filename="datumojrestauxro_prisintakseanalizu.cpp" line="386"/>
+        <location filename="datumojrestauxro_prisintakseanalizu.cpp" line="387"/>
         <source>La nuna fonto estas pli malnova.</source>
         <translation>Die vorhandene Quellenangabe ist aktueller.</translation>
     </message>
     <message>
-        <location filename="datumojrestauxro_prisintakseanalizu.cpp" line="391"/>
+        <location filename="datumojrestauxro_prisintakseanalizu.cpp" line="392"/>
         <source>Tia fonto ne estas disponebla ankoraŭ.</source>
         <translation>Die Quellenangabe ist noch nicht vorhanden.</translation>
     </message>
     <message>
-        <location filename="datumojrestauxro_prisintakseanalizu.cpp" line="395"/>
+        <location filename="datumojrestauxro_prisintakseanalizu.cpp" line="396"/>
         <source>Eraro [081]!</source>
         <translation>Fehler [081]!</translation>
     </message>
     <message>
-        <location filename="datumojrestauxro_prisintakseanalizu.cpp" line="403"/>
+        <location filename="datumojrestauxro_prisintakseanalizu.cpp" line="404"/>
         <source>Eraro [082]!</source>
         <translation>Fehler [082]!</translation>
     </message>
     <message>
-        <location filename="datumojrestauxro_prisintakseanalizu.cpp" line="415"/>
+        <location filename="datumojrestauxro_prisintakseanalizu.cpp" line="447"/>
         <source>Eraro [027]!</source>
         <translation>Fehler [027]!</translation>
     </message>
@@ -1837,7 +1837,7 @@
     <name>fontoj</name>
     <message>
         <location filename="fontoj.ui" line="20"/>
-        <location filename="fontoj.ui" line="111"/>
+        <location filename="fontoj.ui" line="168"/>
         <source>Fontoj</source>
         <translation>Quellenangaben</translation>
     </message>
@@ -1852,47 +1852,53 @@
         <translation>Auswahl</translation>
     </message>
     <message>
-        <location filename="fontoj.ui" line="173"/>
+        <location filename="fontoj.ui" line="130"/>
+        <source>Amerikaj soldatoj de la 28a Divido ĉe la venko parado (aŭgusto 19, 1944).</source>
+        <oldsource>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Amerikaj soldatoj de la 28a Divido ĉe la venko parado (a&lt;a name=&quot;tw-target-text&quot;/&gt;ŭgusto 19, 1944).&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</oldsource>
+        <translation type="unfinished">Amerikanische Soldaten der 28. Division bei der Siegesparade auf den Champs Elysees (19. August 1944).</translation>
+    </message>
+    <message>
+        <location filename="fontoj.ui" line="230"/>
         <source>Malfaru</source>
         <translation>Rückgängig</translation>
     </message>
     <message>
-        <location filename="fontoj.ui" line="180"/>
+        <location filename="fontoj.ui" line="237"/>
         <source>Akceptu</source>
         <translation>Übernehmen</translation>
     </message>
     <message>
-        <location filename="fontoj.ui" line="187"/>
+        <location filename="fontoj.ui" line="244"/>
         <source>Forigu</source>
         <translation>Löschen</translation>
     </message>
     <message>
-        <location filename="fontoj.ui" line="194"/>
+        <location filename="fontoj.ui" line="251"/>
         <source>Vakigu</source>
         <translation>Leeren</translation>
     </message>
     <message>
-        <location filename="fontoj.ui" line="210"/>
+        <location filename="fontoj.ui" line="267"/>
         <source>Aludo:</source>
         <translation>Hinweis:</translation>
     </message>
     <message>
-        <location filename="fontoj.ui" line="233"/>
+        <location filename="fontoj.ui" line="290"/>
         <source>Fonto:</source>
         <translation>Quelle:</translation>
     </message>
     <message>
-        <location filename="fontoj.ui" line="248"/>
+        <location filename="fontoj.ui" line="305"/>
         <source>Subskribo:</source>
         <translation>Signatur:</translation>
     </message>
     <message>
-        <location filename="fontoj.ui" line="272"/>
+        <location filename="fontoj.ui" line="329"/>
         <source>Stato:</source>
         <translation>Stand:</translation>
     </message>
     <message>
-        <location filename="fontoj.ui" line="298"/>
+        <location filename="fontoj.ui" line="355"/>
         <source>kontribui</source>
         <translation>übertragen</translation>
     </message>
@@ -1967,17 +1973,17 @@
         <translation>Fehler [069]!</translation>
     </message>
     <message>
-        <location filename="fontoj_priforigu.cpp" line="56"/>
+        <location filename="fontoj_priforigu.cpp" line="55"/>
         <source>Eraro [073]!</source>
         <translation>Fehler [073]!</translation>
     </message>
     <message>
-        <location filename="fontoj_priforigu.cpp" line="61"/>
+        <location filename="fontoj_priforigu.cpp" line="60"/>
         <source>Fonto estis forigita!</source>
         <translation>Die Quellenangabe wurde gelöscht!</translation>
     </message>
     <message>
-        <location filename="fontoj_priforigu.cpp" line="67"/>
+        <location filename="fontoj_priforigu.cpp" line="66"/>
         <source>Eraro [072]!</source>
         <translation>Fehler [072]!</translation>
     </message>
@@ -2488,7 +2494,7 @@
     <name>priskribo</name>
     <message>
         <location filename="priskribo.ui" line="20"/>
-        <location filename="priskribo.ui" line="99"/>
+        <location filename="priskribo.ui" line="147"/>
         <source>Priskribo</source>
         <translation>Beschreibung</translation>
     </message>
@@ -2503,77 +2509,83 @@
         <translation>Auswahl</translation>
     </message>
     <message>
-        <location filename="priskribo.ui" line="129"/>
+        <location filename="priskribo.ui" line="106"/>
+        <source>Afgana Soldatoj en la 50&apos;oj.</source>
+        <oldsource>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Afgana Soldatoj en la 50&apos;oj.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</oldsource>
+        <translation>Afghanische Soldaten in den 1950er-Jahren.</translation>
+    </message>
+    <message>
+        <location filename="priskribo.ui" line="177"/>
         <source>Redakti</source>
         <translation>Bearbeiten</translation>
     </message>
     <message>
-        <location filename="priskribo.ui" line="183"/>
+        <location filename="priskribo.ui" line="231"/>
         <source>Enkorpigoj</source>
         <translation>Einbettungen</translation>
     </message>
     <message>
-        <location filename="priskribo.ui" line="274"/>
+        <location filename="priskribo.ui" line="322"/>
         <source>Listoj kaj tabeloj</source>
         <translation>Listen und Tabellen</translation>
     </message>
     <message>
-        <location filename="priskribo.ui" line="495"/>
+        <location filename="priskribo.ui" line="543"/>
         <source>Markadoj</source>
         <translation>Auszeichnungen</translation>
     </message>
     <message>
-        <location filename="priskribo.ui" line="756"/>
+        <location filename="priskribo.ui" line="804"/>
         <source>Ĝisrandigo</source>
         <translation>Ausrichtung</translation>
     </message>
     <message>
-        <location filename="priskribo.ui" line="959"/>
+        <location filename="priskribo.ui" line="1007"/>
         <source>Strukturo</source>
         <translation>Struktur</translation>
     </message>
     <message>
-        <location filename="priskribo.ui" line="1137"/>
+        <location filename="priskribo.ui" line="1185"/>
         <source>Titoloj</source>
         <translation>Überschriften</translation>
     </message>
     <message>
-        <location filename="priskribo.ui" line="1273"/>
+        <location filename="priskribo.ui" line="1321"/>
         <source>Vakigu</source>
         <translation>Leeren</translation>
     </message>
     <message>
-        <location filename="priskribo.ui" line="1292"/>
+        <location filename="priskribo.ui" line="1340"/>
         <source>Vidi</source>
         <translation>Anzeigen</translation>
     </message>
     <message>
-        <location filename="priskribo.ui" line="1327"/>
+        <location filename="priskribo.ui" line="1375"/>
         <source>kontribui</source>
         <translation>übertragen</translation>
     </message>
     <message>
-        <location filename="priskribo.ui" line="1352"/>
+        <location filename="priskribo.ui" line="1400"/>
         <source>Akceptu</source>
         <translation>Übernehmen</translation>
     </message>
     <message>
-        <location filename="priskribo.ui" line="1396"/>
+        <location filename="priskribo.ui" line="1444"/>
         <source>Stato:</source>
         <translation>Stand:</translation>
     </message>
     <message>
-        <location filename="priskribo.ui" line="1372"/>
+        <location filename="priskribo.ui" line="1420"/>
         <source>Subskribo:</source>
         <translation>Signatur:</translation>
     </message>
     <message>
-        <location filename="priskribo.ui" line="1445"/>
+        <location filename="priskribo.ui" line="1497"/>
         <source>Forigu</source>
         <translation>Löschen</translation>
     </message>
     <message>
-        <location filename="priskribo.ui" line="1455"/>
+        <location filename="priskribo.ui" line="1507"/>
         <source>Malfaru</source>
         <translation>Rückgängig</translation>
     </message>

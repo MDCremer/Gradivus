@@ -4,5 +4,8 @@
     </qresource>
     <qresource prefix="/">
         <file>Gradivus.svg</file>
+        <file>28thInfantry.jpg</file>
+        <file>TurkishMachineGuns.jpg</file>
+        <file>1950s_Afghan_Army_soldiers.jpg</file>
     </qresource>
 </RCC>

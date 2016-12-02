@@ -3,6 +3,7 @@
 #include <QListWidget>
 #include <QListWidgetItem>
 #include <QMessageBox>
+#include <QRegExp>
 #include <QRegularExpression>
 #include <QRegularExpressionMatch>
 #include <QSqlDatabase>
@@ -408,6 +409,37 @@ void datumojRestauxro::priSintakseAnalizu()
          }
          vido.exec();
   }}}}}}}
+  if(ui->sintakseAnalizu->text()=="priskriboj")
+  {QByteArray uuid,lingvo,html;
+   interkonsento=QRegularExpression("\\(\\'[a-zA-Z0-9_-]{22}\\',").match(teksto);
+   if(interkonsento.hasMatch())
+   {uuid=interkonsento.captured().mid(2,22).toUtf8();
+    indekso=interkonsento.capturedStart()+interkonsento.capturedLength();
+    interkonsento=QRegularExpression("\\'[a-z]{2}\\',").match(teksto,indekso);
+    if(interkonsento.hasMatch())
+    {lingvo=interkonsento.captured().mid(1,interkonsento.capturedLength()-3).toUtf8();
+     indekso=interkonsento.capturedStart()+interkonsento.capturedLength();
+     QRegExp priskriboInterkonsento("[xX]\\'([0-9A-Fa-f]{2})+\\'");
+     int priskriboIndekso=priskriboInterkonsento.indexIn(teksto);
+     if(priskriboIndekso>-1)
+     {int longo=priskriboInterkonsento.matchedLength();
+      html=qUncompress(QByteArray::fromHex(teksto.mid(priskriboIndekso+2,longo-3).toUtf8()));
+      indekso=priskriboIndekso+longo;
+      interkonsento=QRegularExpression("\\':([^\\']+|\\'{2})+:\\'").match(teksto,indekso);
+      if(interkonsento.hasMatch())
+      {subskribo=interkonsento.captured().mid(1,interkonsento.captured().length()-2).toUtf8();
+       indekso=interkonsento.capturedStart()+interkonsento.capturedLength();
+       interkonsento=QRegularExpression("[0-9]+\\);").match(teksto,indekso);
+       if(interkonsento.hasMatch())
+       {stato=interkonsento.captured().left(interkonsento.captured().length()-2).toLongLong();
+        vido.agordiCxefsxlosilo(uuid+" ("+lingvo+")");
+        vido.agordiKodo(html);
+        vido.agordiSubskribo(subskribo.replace("''","'"));
+        QDateTime tempo;
+        tempo.setTime_t(stato);
+        vido.agordiStato(tempo.toString(Qt::SystemLocaleLongDate));
+        vido.exec();
+  }}}}}}
   datumbazo.close();
  }
  else

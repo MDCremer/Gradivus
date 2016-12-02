@@ -13,8 +13,7 @@
 void fontoj::priForigu()
 {QList<QListWidgetItem *> elektajxoj=ui->listo->selectedItems();
  if(elektajxoj.length()>0)
- {QListWidgetItem *aktualo=elektajxoj.first();
-  QByteArray inverso,ordono;
+ {QByteArray inverso,ordono;
   ordono.append("DELETE FROM fontoj WHERE uuid='");
   ordono.append(ajxo);
   ordono.append("' AND aludo='");

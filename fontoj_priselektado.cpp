@@ -29,5 +29,5 @@ void fontoj::priSelektado()
    if(datumbazo.lastError().isValid())
     QMessageBox::critical(this,tr("Eraro [063]!"),datumbazo.lastError().text());
   sxargi();
-  ui->fonto->setEnabled(true);
+  ui->aliro->setCurrentIndex(1);
 }}
