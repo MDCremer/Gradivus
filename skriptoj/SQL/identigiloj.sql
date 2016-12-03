@@ -5,10 +5,11 @@ CREATE TABLE IF NOT EXISTS identigiloj
  tipo INTEGER NOT NULL,
  literaturo TEXT,
  pagxo BLOB,
- uuid TEXT NOT NULL,
+ uuid CHAR(22) NOT NULL,
  subskribo TEXT NOT NULL,
  stato INTEGER NOT NULL,
  PRIMARY KEY(etno,nomo,lingvo),
+ FOREIGN KEY(lingvo) REFERENCES lingvoj(mallongigo),
  FOREIGN KEY(literaturo) REFERENCES literaturoj(aludo)
 );
 

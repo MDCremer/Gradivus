@@ -4,3 +4,4 @@ literaturoj.sql
 identigiloj.sql
 fontoj.sql
 priskriboj.sql
+semantikajrilatoj.sql

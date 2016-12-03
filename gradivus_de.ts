@@ -1378,7 +1378,12 @@
         <translation>Beschreibungen</translation>
     </message>
     <message>
-        <location filename="datumojapogilo.ui" line="241"/>
+        <location filename="datumojapogilo.ui" line="206"/>
+        <source>simantikaj rilatoj</source>
+        <translation>Semantische Beziehungen</translation>
+    </message>
+    <message>
+        <location filename="datumojapogilo.ui" line="248"/>
         <source>Rezignu</source>
         <translation>Abbrechen</translation>
     </message>
@@ -1393,7 +1398,7 @@
         <translation>Literaturangaben</translation>
     </message>
     <message>
-        <location filename="datumojapogilo.ui" line="210"/>
+        <location filename="datumojapogilo.ui" line="217"/>
         <source>Elektu ĉiuj</source>
         <translation>Alle auswählen</translation>
     </message>
@@ -1403,7 +1408,7 @@
         <translation>Abbrechen</translation>
     </message>
     <message>
-        <location filename="datumojapogilo.ui" line="264"/>
+        <location filename="datumojapogilo.ui" line="271"/>
         <source>Eksportu</source>
         <translation>Exportieren</translation>
     </message>
@@ -1483,12 +1488,17 @@
         <translation>Fehler [084]!</translation>
     </message>
     <message>
-        <location filename="datumojapogilo_prieksportu.cpp" line="232"/>
+        <location filename="datumojapogilo_prieksportu.cpp" line="248"/>
+        <source>Eraro [100]!</source>
+        <translation>Fehler [100]!</translation>
+    </message>
+    <message>
+        <location filename="datumojapogilo_prieksportu.cpp" line="252"/>
         <source>Eksportitaj %1 registroj!</source>
         <translation>%1 Datensätze wurden gesichert!</translation>
     </message>
     <message>
-        <location filename="datumojapogilo_prieksportu.cpp" line="236"/>
+        <location filename="datumojapogilo_prieksportu.cpp" line="256"/>
         <source>Eraro [007]!</source>
         <translation>Fehler [007]!</translation>
     </message>

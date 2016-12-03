@@ -8,4 +8,5 @@ void datumojApogilo::priElektuCxiuj()
  ui->identigiloj->setChecked(true);
  ui->fontoj->setChecked(true);
  ui->priskriboj->setChecked(true);
+ ui->semantikajRilatoj->setChecked(true);
 }
