@@ -40,6 +40,7 @@ class cxefaFenestro:public QMainWindow
   void priPriskriboj();
   void priReferencoj();
   void priStartoPagxo();
+  void priTezauxro();
  private:
   Ui::cxefaFenestro *ui;
 };

@@ -30,6 +30,7 @@ SOURCES      += main.cpp\
                 cxefafenestro_prireferencoj.cpp\
                 cxefafenestro_pristartopagxo.cpp\
                 cxefafenestro_spektaklomesagxon.cpp\
+                cxefafenestro_pritezauxro.cpp\
                 datumojapogilo.cpp\
                 datumojapogilo_destrojero.cpp\
                 datumojapogilo_prieksportu.cpp\
@@ -208,7 +209,9 @@ SOURCES      += main.cpp\
                 rikordoregistrilo_plenumu.cpp\
                 sqlmarkilo.cpp\
                 sqlmarkilo_highlightblock.cpp\
-                statikajdatumoj.cpp
+                statikajdatumoj.cpp\
+                tezauxro.cpp\
+                tezauxro_destrojero.cpp
 
 HEADERS      += agordoj.h\
                 cxefafenestro.h\
@@ -228,7 +231,8 @@ HEADERS      += agordoj.h\
                 referencoj.h\
                 rikordoregistrilo.h\
                 sqlmarkilo.h\
-                statikajdatumoj.h
+                statikajdatumoj.h\
+                tezauxro.h
 
 FORMS        += cxefafenestro.ui\
                 datumojapogilo.ui\
@@ -241,7 +245,8 @@ FORMS        += cxefafenestro.ui\
                 pagxoreferenco.ui\
                 priskribo.ui\
                 provajxo.ui\
-                referencoj.ui
+                referencoj.ui\
+                tezauxro.ui
 
 TRANSLATIONS += gradivus_de.ts
 

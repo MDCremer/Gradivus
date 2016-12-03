@@ -29,6 +29,7 @@ cxefaFenestro::cxefaFenestro(QWidget *gepatro):QMainWindow(gepatro),ui(new Ui::c
  connect(ui->datumbazoEkstrakto,&QPushButton::clicked,this,&cxefaFenestro::priDatumbazoEkstrakto);
  connect(ui->fontoj,&QPushButton::clicked,this,&cxefaFenestro::priFontoj);
  connect(ui->priskriboj,&QPushButton::clicked,this,&cxefaFenestro::priPriskriboj);
+ connect(ui->tezauxro,&QPushButton::clicked,this,&cxefaFenestro::priTezauxro);
  etnoNomoj=QStringList()<<tr("AD: andoranoj")<<tr("AE: anoj de Unui\304\235intaj Arabaj Emirlandoj")<<tr("AF: afganoj")
    <<tr("AG: antigvanoj kaj barbudanoj")<<tr("AL: albanoj")<<tr("AM: armenoj")<<tr("AO: angolanoj")<<tr("AR: argentinanoj")
    <<tr("AT: a\305\255stroj")<<tr("AU: a\305\255stralianoj")<<tr("AZ: azerbaj\304\235ananoj")
