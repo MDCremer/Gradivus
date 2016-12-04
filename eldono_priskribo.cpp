@@ -13,7 +13,7 @@
 #include "eldono.h"
 #include "cxefafenestro.h"
 
-QByteArray eldono::priskribo(QByteArray kodo,QSqlQuery *informpeto,cxefaFenestro *patraObjekto,bool pura)
+QByteArray eldono::priskribo(QByteArray kodo,QSqlQuery *informpeto,cxefaFenestro *patraObjekto,int grado)
 {QByteArray teksto("<article class='priskribo'>\n<header class='identigiloj'>\n");
  QListWidget *nomoj=new QListWidget();
  nomoj->setSortingEnabled(true);

@@ -31,6 +31,8 @@ SOURCES      += main.cpp\
                 cxefafenestro_pristartopagxo.cpp\
                 cxefafenestro_spektaklomesagxon.cpp\
                 cxefafenestro_pritezauxro.cpp\
+                datumbazoekstrakto.cpp\
+                datumbazoekstrakto_destrojero.cpp\
                 datumojapogilo.cpp\
                 datumojapogilo_destrojero.cpp\
                 datumojapogilo_prieksportu.cpp\
@@ -215,6 +217,7 @@ SOURCES      += main.cpp\
 
 HEADERS      += agordoj.h\
                 cxefafenestro.h\
+                datumbazoekstrakto.h\
                 datumojapogilo.h\
                 datumojrestauxro.h\
                 eldono.h\
@@ -235,6 +238,7 @@ HEADERS      += agordoj.h\
                 tezauxro.h
 
 FORMS        += cxefafenestro.ui\
+                datumbazoekstrakto.ui\
                 datumojapogilo.ui\
                 datumojrestauxro.ui\
                 fontoj.ui\

@@ -1,3 +1,5 @@
+#include <QDialog>
+#include <QWidget>
 #include "tezauxro.h"
 #include "ui_tezauxro.h"
 #include "cxefafenestro.h"

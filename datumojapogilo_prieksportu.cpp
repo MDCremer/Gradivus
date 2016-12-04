@@ -231,15 +231,35 @@ void datumojApogilo::priEksportu()
     if(pli&&ui->semantikajRilatoj->isChecked())
     {patraObjekto->spektakloMesagxon(tr("Eksporti semantikajn rilatojn \342\200\246"));
      eldono<<"-- Semantikaj rilatoj\nBEGIN;\n";
-     if(informpeto.exec("SELECT subjekto,rilato,objekto FROM semantikajrilatoj;"))
+     QByteArray ordono("SELECT subjekto,rilato,objekto,aludo,subskribo,stato FROM semantikajrilatoj");
+     if(ui->subskribo->isChecked())
+      ordono.append(" WHERE subskribo LIKE '%"+ui->subskriboInkluzivi->text().replace("'","''")+"%'");
+     if(ui->nova->isChecked())
+     {uint sekundoj=ui->novaOl->dateTime().toTime_t();
+      ordono.append(ui->subskribo->isChecked()?" AND ":" WHERE ");
+      ordono.append("stato>"+QString::number(sekundoj));
+     }
+     ordono.append(";");
+     if(informpeto.exec(ordono))
      {while(pli&&informpeto.next())
-      {eldono<<"INSERT OR REPLACE INTO semantikajrilatoj (subjekto,rilato,objekto) VALUES ('";
+      {eldono<<"INSERT OR REPLACE INTO semantikajrilatoj (subjekto,rilato,objekto";
+       if(!informpeto.value("aludo").isNull())
+        eldono<<",aludo";
+       eldono<<") VALUES ('";
        eldono<<informpeto.value("subjekto").toByteArray();
        eldono<<"',";
        eldono<<informpeto.value("rilato").toByteArray();
        eldono<<",'";
        eldono<<informpeto.value("objekto").toByteArray();
-       eldono<<"');\n";
+       if(!informpeto.value("aludo").isNull())
+       {eldono<<"','";
+        eldono<<informpeto.value("aludo").toByteArray();
+       }
+       eldono<<"','";
+       eldono<<informpeto.value("subskribo").toByteArray().replace("'","''");
+       eldono<<"',";
+       eldono<<informpeto.value("stato").toByteArray();
+       eldono<<");\n";
        progreso.setValue(++linioj);
        pli=!progreso.wasCanceled();
      }}

@@ -1331,6 +1331,54 @@
     </message>
 </context>
 <context>
+    <name>datumbazoEkstrakto</name>
+    <message>
+        <location filename="datumbazoekstrakto.ui" line="20"/>
+        <source>Datumbazo ekstrakto</source>
+        <translation>Datenbankauszug</translation>
+    </message>
+    <message>
+        <location filename="datumbazoekstrakto.ui" line="47"/>
+        <source>Eldono</source>
+        <translation>Ausgabe</translation>
+    </message>
+    <message>
+        <location filename="datumbazoekstrakto.ui" line="53"/>
+        <source>Dosierujo:</source>
+        <translation>Verzeichnis:</translation>
+    </message>
+    <message>
+        <location filename="datumbazoekstrakto.ui" line="67"/>
+        <source>Indekso:</source>
+        <translation>Register:</translation>
+    </message>
+    <message>
+        <location filename="datumbazoekstrakto.ui" line="81"/>
+        <source>Artikoloj:</source>
+        <translation>Artikel:</translation>
+    </message>
+    <message>
+        <location filename="datumbazoekstrakto.ui" line="104"/>
+        <source>Grado</source>
+        <translation>Umfang</translation>
+    </message>
+    <message>
+        <location filename="datumbazoekstrakto.ui" line="116"/>
+        <source>nur savu bildoj kai sonoj tiel kiel referencoj al ĝi kiam malkaŝo estas permesita</source>
+        <translation>nur Bilder und Geräusche sichern, bei denen die Weitergabe erlaubt ist</translation>
+    </message>
+    <message>
+        <location filename="datumbazoekstrakto.ui" line="129"/>
+        <source>Rezignu</source>
+        <translation>Abbrechen</translation>
+    </message>
+    <message>
+        <location filename="datumbazoekstrakto.ui" line="152"/>
+        <source>Ekstrakto</source>
+        <translation>Auszug erstellen</translation>
+    </message>
+</context>
+<context>
     <name>datumojApogilo</name>
     <message>
         <location filename="datumojapogilo.ui" line="23"/>
@@ -1498,17 +1546,17 @@
         <translation>Semantische Beziehungen werden gesichert …</translation>
     </message>
     <message>
-        <location filename="datumojapogilo_prieksportu.cpp" line="248"/>
+        <location filename="datumojapogilo_prieksportu.cpp" line="255"/>
         <source>Eraro [100]!</source>
         <translation>Fehler [100]!</translation>
     </message>
     <message>
-        <location filename="datumojapogilo_prieksportu.cpp" line="252"/>
+        <location filename="datumojapogilo_prieksportu.cpp" line="259"/>
         <source>Eksportitaj %1 registroj!</source>
         <translation>%1 Datensätze wurden gesichert!</translation>
     </message>
     <message>
-        <location filename="datumojapogilo_prieksportu.cpp" line="256"/>
+        <location filename="datumojapogilo_prieksportu.cpp" line="263"/>
         <source>Eraro [007]!</source>
         <translation>Fehler [007]!</translation>
     </message>

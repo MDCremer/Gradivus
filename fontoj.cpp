@@ -1,6 +1,8 @@
 #include <QCheckBox>
+#include <QDialog>
 #include <QPushButton>
 #include <QToolButton>
+#include <QWidget>
 #include "fontoj.h"
 #include "ui_fontoj.h"
 #include "cxefafenestro.h"
