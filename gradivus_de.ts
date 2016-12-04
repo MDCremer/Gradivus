@@ -1364,8 +1364,9 @@
     </message>
     <message>
         <location filename="datumbazoekstrakto.ui" line="116"/>
-        <source>nur savu bildoj kai sonoj tiel kiel referencoj al ĝi kiam malkaŝo estas permesita</source>
-        <translation>nur Bilder und Geräusche sichern, bei denen die Weitergabe erlaubt ist</translation>
+        <source>nur eldonu bildoj kai sonoj tiel kiel referencoj al ĝi kiam malkaŝo estas permesita</source>
+        <oldsource>nur savu bildoj kai sonoj tiel kiel referencoj al ĝi kiam malkaŝo estas permesita</oldsource>
+        <translation>nur Bilder und Geräusche ausgeben, bei denen die Weitergabe erlaubt ist</translation>
     </message>
     <message>
         <location filename="datumbazoekstrakto.ui" line="129"/>
@@ -1376,6 +1377,51 @@
         <location filename="datumbazoekstrakto.ui" line="152"/>
         <source>Ekstrakto</source>
         <translation>Auszug erstellen</translation>
+    </message>
+    <message>
+        <location filename="datumbazoekstrakto_priekstrakto.cpp" line="48"/>
+        <source>Ekstrakti</source>
+        <translation>Auszug erstellen</translation>
+    </message>
+    <message>
+        <location filename="datumbazoekstrakto_priekstrakto.cpp" line="48"/>
+        <source>Abortu</source>
+        <translation>Abbrechen</translation>
+    </message>
+    <message>
+        <location filename="datumbazoekstrakto_priekstrakto.cpp" line="60"/>
+        <source>La eligo dosiero por la artikolo (%1) ne malfermis!</source>
+        <translation>Die Ausgabedatei für den Artikel (%1) könnte nicht geöffnet werden!</translation>
+    </message>
+    <message>
+        <location filename="datumbazoekstrakto_priekstrakto.cpp" line="70"/>
+        <source>La eligo dosiero por la registro ne malfermis!</source>
+        <translation>Die Ausgabedatei für das Register konnte nicht geöffnet werden!</translation>
+    </message>
+    <message>
+        <location filename="datumbazoekstrakto_priekstrakto.cpp" line="73"/>
+        <source>La modelo por la artikoloj estas malebligita!</source>
+        <translation>Das Schema für die Artikelausgabe ist unbrauchbar!</translation>
+    </message>
+    <message>
+        <location filename="datumbazoekstrakto_priekstrakto.cpp" line="76"/>
+        <source>La specifita modelo por la artikoloj ne ekzistas!</source>
+        <translation>Das angegebene Schema für die Artikelausgabe existiert nicht!</translation>
+    </message>
+    <message>
+        <location filename="datumbazoekstrakto_priekstrakto.cpp" line="79"/>
+        <source>La modelo por la registro estas malebligita!</source>
+        <translation>Das Schema für die Ausgabe des Registers ist unbrauchbar!</translation>
+    </message>
+    <message>
+        <location filename="datumbazoekstrakto_priekstrakto.cpp" line="82"/>
+        <source>La specifita modelo por la registro ne ekzistas!</source>
+        <translation>Das angegebene Schema für das Register existiert nicht!</translation>
+    </message>
+    <message>
+        <location filename="datumbazoekstrakto_priekstrakto.cpp" line="85"/>
+        <source>La donita dosierujo ne ekzistas!</source>
+        <translation>Das angegebene Verzeichnis existiert nicht!</translation>
     </message>
 </context>
 <context>
@@ -1546,17 +1592,17 @@
         <translation>Semantische Beziehungen werden gesichert …</translation>
     </message>
     <message>
-        <location filename="datumojapogilo_prieksportu.cpp" line="255"/>
+        <location filename="datumojapogilo_prieksportu.cpp" line="268"/>
         <source>Eraro [100]!</source>
         <translation>Fehler [100]!</translation>
     </message>
     <message>
-        <location filename="datumojapogilo_prieksportu.cpp" line="259"/>
+        <location filename="datumojapogilo_prieksportu.cpp" line="272"/>
         <source>Eksportitaj %1 registroj!</source>
         <translation>%1 Datensätze wurden gesichert!</translation>
     </message>
     <message>
-        <location filename="datumojapogilo_prieksportu.cpp" line="263"/>
+        <location filename="datumojapogilo_prieksportu.cpp" line="276"/>
         <source>Eraro [007]!</source>
         <translation>Fehler [007]!</translation>
     </message>

@@ -33,6 +33,8 @@ SOURCES      += main.cpp\
                 cxefafenestro_pritezauxro.cpp\
                 datumbazoekstrakto.cpp\
                 datumbazoekstrakto_destrojero.cpp\
+                datumbazoekstrakto_priekstrakto.cpp\
+                datumbazoekstrakto_prirezignu.cpp\
                 datumojapogilo.cpp\
                 datumojapogilo_destrojero.cpp\
                 datumojapogilo_prieksportu.cpp\
