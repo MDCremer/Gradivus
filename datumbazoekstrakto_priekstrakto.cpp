@@ -64,6 +64,7 @@ void datumbazoEkstrakto::priEkstrakto()
           pli=false;
         }}
         progreso.setValue(kodoj.size());
+        patraObjekto->spektakloMesagxon(tr("%1 dosieroj estas savitaj.").arg(kodoj.size()+1));
         datumbazo.close();
         if(pli)
          accept();

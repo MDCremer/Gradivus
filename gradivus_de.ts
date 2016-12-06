@@ -1394,32 +1394,37 @@
         <translation>Die Ausgabedatei für den Artikel (%1) könnte nicht geöffnet werden!</translation>
     </message>
     <message>
-        <location filename="datumbazoekstrakto_priekstrakto.cpp" line="73"/>
+        <location filename="datumbazoekstrakto_priekstrakto.cpp" line="67"/>
+        <source>%1 dosieroj estas savitaj.</source>
+        <translation>%1 Dateien wurden gespeichert.</translation>
+    </message>
+    <message>
+        <location filename="datumbazoekstrakto_priekstrakto.cpp" line="74"/>
         <source>La eligo dosiero por la registro ne malfermis!</source>
         <translation>Die Ausgabedatei für das Register konnte nicht geöffnet werden!</translation>
     </message>
     <message>
-        <location filename="datumbazoekstrakto_priekstrakto.cpp" line="76"/>
+        <location filename="datumbazoekstrakto_priekstrakto.cpp" line="77"/>
         <source>La modelo por la artikoloj estas malebligita!</source>
         <translation>Das Schema für die Artikelausgabe ist unbrauchbar!</translation>
     </message>
     <message>
-        <location filename="datumbazoekstrakto_priekstrakto.cpp" line="79"/>
+        <location filename="datumbazoekstrakto_priekstrakto.cpp" line="80"/>
         <source>La specifita modelo por la artikoloj ne ekzistas!</source>
         <translation>Das angegebene Schema für die Artikelausgabe existiert nicht!</translation>
     </message>
     <message>
-        <location filename="datumbazoekstrakto_priekstrakto.cpp" line="82"/>
+        <location filename="datumbazoekstrakto_priekstrakto.cpp" line="83"/>
         <source>La modelo por la registro estas malebligita!</source>
         <translation>Das Schema für die Ausgabe des Registers ist unbrauchbar!</translation>
     </message>
     <message>
-        <location filename="datumbazoekstrakto_priekstrakto.cpp" line="85"/>
+        <location filename="datumbazoekstrakto_priekstrakto.cpp" line="86"/>
         <source>La specifita modelo por la registro ne ekzistas!</source>
         <translation>Das angegebene Schema für das Register existiert nicht!</translation>
     </message>
     <message>
-        <location filename="datumbazoekstrakto_priekstrakto.cpp" line="88"/>
+        <location filename="datumbazoekstrakto_priekstrakto.cpp" line="89"/>
         <source>La donita dosierujo ne ekzistas!</source>
         <translation>Das angegebene Verzeichnis existiert nicht!</translation>
     </message>
