@@ -1363,65 +1363,80 @@
         <translation>Umfang</translation>
     </message>
     <message>
-        <location filename="datumbazoekstrakto.ui" line="116"/>
+        <location filename="datumbazoekstrakto.ui" line="122"/>
         <source>nur eldonu bildoj kai sonoj tiel kiel referencoj al ĝi kiam malkaŝo estas permesita</source>
         <oldsource>nur savu bildoj kai sonoj tiel kiel referencoj al ĝi kiam malkaŝo estas permesita</oldsource>
         <translation>nur Bilder und Geräusche ausgeben, bei denen die Weitergabe erlaubt ist</translation>
     </message>
     <message>
-        <location filename="datumbazoekstrakto.ui" line="129"/>
+        <location filename="datumbazoekstrakto.ui" line="137"/>
         <source>Rezignu</source>
         <translation>Abbrechen</translation>
     </message>
     <message>
-        <location filename="datumbazoekstrakto.ui" line="152"/>
+        <location filename="datumbazoekstrakto.ui" line="160"/>
         <source>Ekstrakto</source>
         <translation>Auszug erstellen</translation>
     </message>
     <message>
-        <location filename="datumbazoekstrakto_priekstrakto.cpp" line="48"/>
+        <location filename="datumbazoekstrakto_priekstrakto.cpp" line="51"/>
         <source>Ekstrakti</source>
         <translation>Auszug erstellen</translation>
     </message>
     <message>
-        <location filename="datumbazoekstrakto_priekstrakto.cpp" line="48"/>
+        <location filename="datumbazoekstrakto_priekstrakto.cpp" line="51"/>
         <source>Abortu</source>
         <translation>Abbrechen</translation>
     </message>
     <message>
-        <location filename="datumbazoekstrakto_priekstrakto.cpp" line="60"/>
+        <location filename="datumbazoekstrakto_priekstrakto.cpp" line="63"/>
         <source>La eligo dosiero por la artikolo (%1) ne malfermis!</source>
         <translation>Die Ausgabedatei für den Artikel (%1) könnte nicht geöffnet werden!</translation>
     </message>
     <message>
-        <location filename="datumbazoekstrakto_priekstrakto.cpp" line="70"/>
+        <location filename="datumbazoekstrakto_priekstrakto.cpp" line="73"/>
         <source>La eligo dosiero por la registro ne malfermis!</source>
         <translation>Die Ausgabedatei für das Register konnte nicht geöffnet werden!</translation>
     </message>
     <message>
-        <location filename="datumbazoekstrakto_priekstrakto.cpp" line="73"/>
+        <location filename="datumbazoekstrakto_priekstrakto.cpp" line="76"/>
         <source>La modelo por la artikoloj estas malebligita!</source>
         <translation>Das Schema für die Artikelausgabe ist unbrauchbar!</translation>
     </message>
     <message>
-        <location filename="datumbazoekstrakto_priekstrakto.cpp" line="76"/>
+        <location filename="datumbazoekstrakto_priekstrakto.cpp" line="79"/>
         <source>La specifita modelo por la artikoloj ne ekzistas!</source>
         <translation>Das angegebene Schema für die Artikelausgabe existiert nicht!</translation>
     </message>
     <message>
-        <location filename="datumbazoekstrakto_priekstrakto.cpp" line="79"/>
+        <location filename="datumbazoekstrakto_priekstrakto.cpp" line="82"/>
         <source>La modelo por la registro estas malebligita!</source>
         <translation>Das Schema für die Ausgabe des Registers ist unbrauchbar!</translation>
     </message>
     <message>
-        <location filename="datumbazoekstrakto_priekstrakto.cpp" line="82"/>
+        <location filename="datumbazoekstrakto_priekstrakto.cpp" line="85"/>
         <source>La specifita modelo por la registro ne ekzistas!</source>
         <translation>Das angegebene Schema für das Register existiert nicht!</translation>
     </message>
     <message>
-        <location filename="datumbazoekstrakto_priekstrakto.cpp" line="85"/>
+        <location filename="datumbazoekstrakto_priekstrakto.cpp" line="88"/>
         <source>La donita dosierujo ne ekzistas!</source>
         <translation>Das angegebene Verzeichnis existiert nicht!</translation>
+    </message>
+    <message>
+        <location filename="datumbazoekstrakto_priartikoloj.cpp" line="8"/>
+        <source>Modelo por artikoloj</source>
+        <translation>Schema für Artikel</translation>
+    </message>
+    <message>
+        <location filename="datumbazoekstrakto_pridosierujo.cpp" line="8"/>
+        <source>Dosierujo por ekstrakto</source>
+        <translation>Ausgabeverzeichnis</translation>
+    </message>
+    <message>
+        <location filename="datumbazoekstrakto_priindekso.cpp" line="8"/>
+        <source>Modelo por indekso</source>
+        <translation>Schema für das Register</translation>
     </message>
 </context>
 <context>

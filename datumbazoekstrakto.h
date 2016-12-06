@@ -15,7 +15,10 @@ class datumbazoEkstrakto:public QDialog
   explicit datumbazoEkstrakto(QWidget *gepatro);
   ~datumbazoEkstrakto();
  public slots:
+  void priArtikoloj();
+  void priDosierujo();
   void priEkstrakto();
+  void priIndekso();
   void priRezignu();
  private:
   Ui::datumbazoEkstrakto *ui;

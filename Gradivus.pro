@@ -33,7 +33,10 @@ SOURCES      += main.cpp\
                 cxefafenestro_pritezauxro.cpp\
                 datumbazoekstrakto.cpp\
                 datumbazoekstrakto_destrojero.cpp\
+                datumbazoekstrakto_priartikoloj.cpp\
+                datumbazoekstrakto_pridosierujo.cpp\
                 datumbazoekstrakto_priekstrakto.cpp\
+                datumbazoekstrakto_priindekso.cpp\
                 datumbazoekstrakto_prirezignu.cpp\
                 datumojapogilo.cpp\
                 datumojapogilo_destrojero.cpp\

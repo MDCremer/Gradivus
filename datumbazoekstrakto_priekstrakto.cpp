@@ -45,11 +45,14 @@ void datumbazoEkstrakto::priEkstrakto()
           QMessageBox::warning(0,"Eraro [101]!",informpeto.lastError().text());
          pli=false;
         }
+        int grado=0;
+        if(!ui->permesita->isChecked())
+         grado=1;
         QProgressDialog progreso(tr("Ekstrakti"),tr("Abortu"),0,kodoj.size(),this);
         progreso.setModal(true);
         for(int nombro=0;nombro<kodoj.size();++nombro)
         {QByteArray eligo(artikoloModelo);
-         eligo.replace("<!-- GRADIVUS -->",eldono::priskribo(kodoj.at(nombro).toUtf8(),&informpeto,patraObjekto,1));
+         eligo.replace("<!-- GRADIVUS -->",eldono::priskribo(kodoj.at(nombro).toUtf8(),&informpeto,patraObjekto,grado));
          QFile artikoloEligo(ui->dosierujo->text()+"/"+kodoj.at(nombro)+".html");
          if(artikoloEligo.open(QIODevice::WriteOnly|QIODevice::Text))
          {artikoloEligo.write(eligo);
