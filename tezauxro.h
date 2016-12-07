@@ -1,6 +1,7 @@
 #ifndef TEZAUXRO_H
 #define TEZAUXRO_H
 
+#include <QByteArray>
 #include <QDialog>
 #include <QWidget>
 #include "cxefafenestro.h"
@@ -14,9 +15,13 @@ class tezauxro:public QDialog
  public:
   explicit tezauxro(QWidget *gepatro);
   ~tezauxro();
+ public slots:
+  void priReiru();
+  void priSelektado();
  private:
   Ui::tezauxro *ui;
   cxefaFenestro *patraObjekto;
+  QByteArray ajxo;
 };
 
 #endif // TEZAUXRO_H

@@ -218,7 +218,9 @@ SOURCES      += main.cpp\
                 sqlmarkilo_highlightblock.cpp\
                 statikajdatumoj.cpp\
                 tezauxro.cpp\
-                tezauxro_destrojero.cpp
+                tezauxro_destrojero.cpp\
+                tezauxro_prireiru.cpp\
+                tezauxro_priselektado.cpp
 
 HEADERS      += agordoj.h\
                 cxefafenestro.h\
