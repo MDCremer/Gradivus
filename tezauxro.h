@@ -19,6 +19,7 @@ class tezauxro:public QDialog
   void priReiru();
   void priSelektado();
  private:
+  void sxargi();
   Ui::tezauxro *ui;
   cxefaFenestro *patraObjekto;
   QByteArray ajxo;

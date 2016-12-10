@@ -28,6 +28,6 @@ void tezauxro::priSelektado()
   else
    if(datumbazo.lastError().isValid())
     QMessageBox::critical(this,tr("Eraro [102]!"),datumbazo.lastError().text());
-//  sxargi();
+  sxargi();
   ui->aliro->setCurrentIndex(1);
 }}

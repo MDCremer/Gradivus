@@ -3059,14 +3059,114 @@
         <translation>Auswahl</translation>
     </message>
     <message>
-        <location filename="tezauxro.ui" line="161"/>
+        <location filename="tezauxro.ui" line="150"/>
+        <source>Rilatoj</source>
+        <translation>Beziehungen</translation>
+    </message>
+    <message>
+        <location filename="tezauxro.ui" line="196"/>
+        <source>Semantikaj rilatoj</source>
+        <translation>Semantische Beziehungen</translation>
+    </message>
+    <message>
+        <location filename="tezauxro.ui" line="216"/>
+        <source>Akceptu</source>
+        <translation>Übernehmen</translation>
+    </message>
+    <message>
+        <location filename="tezauxro.ui" line="226"/>
         <source>Forigu</source>
         <translation>Löschen</translation>
     </message>
     <message>
-        <location filename="tezauxro.ui" line="171"/>
+        <location filename="tezauxro.ui" line="233"/>
+        <source>Vakigu</source>
+        <translation>Leeren</translation>
+    </message>
+    <message>
+        <location filename="tezauxro.ui" line="256"/>
+        <source>… falas sub …</source>
+        <translation>… fällt unter …</translation>
+    </message>
+    <message>
+        <location filename="tezauxro.ui" line="261"/>
+        <source>… estas parto de …</source>
+        <translation>… ist Teil von …</translation>
+    </message>
+    <message>
+        <location filename="tezauxro.ui" line="266"/>
+        <source>… estas helpo por …</source>
+        <translation>… ist Hilfsmittel für …</translation>
+    </message>
+    <message>
+        <location filename="tezauxro.ui" line="271"/>
+        <source>… estas rimedo por la celo …</source>
+        <translation>… ist Mittel zwecks …</translation>
+    </message>
+    <message>
+        <location filename="tezauxro.ui" line="276"/>
+        <source>… rekte evoluigita de …</source>
+        <translation>… hat sich direkt entwickelt aus …</translation>
+    </message>
+    <message>
+        <location filename="tezauxro.ui" line="307"/>
+        <source>Objekto:</source>
+        <translation>Objekt:</translation>
+    </message>
+    <message>
+        <location filename="tezauxro.ui" line="335"/>
+        <source>Subskribo:</source>
+        <translation>Signatur:</translation>
+    </message>
+    <message>
+        <location filename="tezauxro.ui" line="359"/>
+        <source>Stato:</source>
+        <translation>Stand:</translation>
+    </message>
+    <message>
+        <location filename="tezauxro.ui" line="385"/>
+        <source>kontribui</source>
+        <translation>übertragen</translation>
+    </message>
+    <message>
+        <location filename="tezauxro.ui" line="209"/>
         <source>Malfaru</source>
         <translation>Rückgängig</translation>
+    </message>
+    <message>
+        <location filename="tezauxro_priselektado.cpp" line="25"/>
+        <source>Eraro [103]!</source>
+        <translation>Fehler [103]!</translation>
+    </message>
+    <message>
+        <location filename="tezauxro_priselektado.cpp" line="30"/>
+        <source>Eraro [102]!</source>
+        <translation>Fehler [102]!</translation>
+    </message>
+    <message>
+        <location filename="tezauxro_sxargi.cpp" line="12"/>
+        <source>hiponima</source>
+        <translation>hyponym</translation>
+    </message>
+    <message>
+        <location filename="tezauxro_sxargi.cpp" line="15"/>
+        <source>meronima</source>
+        <translation>meronym</translation>
+    </message>
+    <message>
+        <location filename="tezauxro_sxargi.cpp" line="18"/>
+        <source>disponebla</source>
+        <translation>disponibel</translation>
+    </message>
+    <message>
+        <location filename="tezauxro_sxargi.cpp" line="21"/>
+        <source>instrumenta</source>
+        <translation>instrumental</translation>
+    </message>
+    <message>
+        <location filename="tezauxro_sxargi.cpp" line="24"/>
+        <source>supreniranta</source>
+        <translation>aszendent</translation>
     </message>
 </context>
 </TS>
