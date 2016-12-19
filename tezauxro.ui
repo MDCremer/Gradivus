@@ -284,7 +284,7 @@
                </widget>
               </item>
               <item>
-               <widget class="QToolButton" name="aludo">
+               <widget class="QToolButton" name="fonto">
                 <property name="sizePolicy">
                  <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
                   <horstretch>0</horstretch>
@@ -310,22 +310,6 @@
                <widget class="QToolButton" name="objekto">
                 <property name="text">
                  <string>Objekto:</string>
-                </property>
-               </widget>
-              </item>
-              <item row="0" column="1">
-               <widget class="QListView" name="objektoListo">
-                <property name="sizePolicy">
-                 <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
-                  <horstretch>0</horstretch>
-                  <verstretch>0</verstretch>
-                 </sizepolicy>
-                </property>
-                <property name="alternatingRowColors">
-                 <bool>true</bool>
-                </property>
-                <property name="selectionMode">
-                 <enum>QAbstractItemView::NoSelection</enum>
                 </property>
                </widget>
               </item>
@@ -374,6 +358,30 @@
                 </property>
                 <property name="text">
                  <string notr="true"/>
+                </property>
+               </widget>
+              </item>
+              <item row="0" column="1">
+               <widget class="QListWidget" name="objektoListo">
+                <property name="sizePolicy">
+                 <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+                  <horstretch>0</horstretch>
+                  <verstretch>0</verstretch>
+                 </sizepolicy>
+                </property>
+                <property name="font">
+                 <font>
+                  <pointsize>9</pointsize>
+                 </font>
+                </property>
+                <property name="alternatingRowColors">
+                 <bool>true</bool>
+                </property>
+                <property name="selectionMode">
+                 <enum>QAbstractItemView::NoSelection</enum>
+                </property>
+                <property name="sortingEnabled">
+                 <bool>true</bool>
                 </property>
                </widget>
               </item>

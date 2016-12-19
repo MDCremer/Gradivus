@@ -16,13 +16,15 @@ class tezauxro:public QDialog
   explicit tezauxro(QWidget *gepatro);
   ~tezauxro();
  public slots:
+  void priFonto();
+  void priObjekto();
   void priReiru();
   void priSelektado();
  private:
   void sxargi();
   Ui::tezauxro *ui;
   cxefaFenestro *patraObjekto;
-  QByteArray ajxo;
+  QByteArray ajxo,objekto;
 };
 
 #endif // TEZAUXRO_H

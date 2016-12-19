@@ -219,6 +219,8 @@ SOURCES      += main.cpp\
                 statikajdatumoj.cpp\
                 tezauxro.cpp\
                 tezauxro_destrojero.cpp\
+                tezauxro_prifonto.cpp\
+                tezauxro_priobjekto.cpp\
                 tezauxro_prireiru.cpp\
                 tezauxro_priselektado.cpp\
                 tezauxro_sxargi.cpp
