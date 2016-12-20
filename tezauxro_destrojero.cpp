@@ -2,5 +2,6 @@
 #include "ui_tezauxro.h"
 
 tezauxro::~tezauxro()
-{delete ui;
+{delete registrilo;
+ delete ui;
 }

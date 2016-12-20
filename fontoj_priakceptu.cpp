@@ -166,7 +166,7 @@ void fontoj::priAkceptu()
        kontribuo.append("'");
        kontribuo.append(malnovaSubskribo.replace("'","''"));
        kontribuo.append("',");
-       kontribuo.append(QString::number(malnovaStato).toUtf8());
+       kontribuo.append(QByteArray::number(malnovaStato));
        kontribuo.append(");");
       }
       else

@@ -5,6 +5,7 @@
 #include <QDialog>
 #include <QWidget>
 #include "cxefafenestro.h"
+#include "rikordoregistrilo.h"
 
 namespace Ui
 {class tezauxro;
@@ -16,7 +17,9 @@ class tezauxro:public QDialog
   explicit tezauxro(QWidget *gepatro);
   ~tezauxro();
  public slots:
+  void priAkceptu();
   void priFonto();
+  void priKontribui(bool kontrolita);
   void priObjekto();
   void priReiru();
   void priSelektado();
@@ -24,6 +27,7 @@ class tezauxro:public QDialog
   void sxargi();
   Ui::tezauxro *ui;
   cxefaFenestro *patraObjekto;
+  rikordoRegistrilo *registrilo;
   QByteArray ajxo,objekto;
 };
 
