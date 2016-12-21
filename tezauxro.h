@@ -3,6 +3,7 @@
 
 #include <QByteArray>
 #include <QDialog>
+#include <QTreeWidgetItem>
 #include <QWidget>
 #include "cxefafenestro.h"
 #include "rikordoregistrilo.h"
@@ -18,6 +19,7 @@ class tezauxro:public QDialog
   ~tezauxro();
  public slots:
   void priAkceptu();
+  void priElektajxoSxangxo(QTreeWidgetItem *aktualo);
   void priFonto();
   void priKontribui(bool kontrolita);
   void priObjekto();

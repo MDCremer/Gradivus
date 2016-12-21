@@ -220,6 +220,7 @@ SOURCES      += main.cpp\
                 tezauxro.cpp\
                 tezauxro_destrojero.cpp\
                 tezauxro_priakceptu.cpp\
+                tezauxro_prielektajxosxangxo.cpp\
                 tezauxro_prifonto.cpp\
                 tezauxro_prikontribui.cpp\
                 tezauxro_priobjekto.cpp\

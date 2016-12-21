@@ -3,6 +3,7 @@
 #include <QSqlDatabase>
 #include <QSqlError>
 #include <QSqlQuery>
+#include <QString>
 #include <QStringList>
 #include <QTreeWidget>
 #include <QTreeWidgetItem>
@@ -44,7 +45,7 @@ void tezauxro::sxargi()
   {if(informpeto.exec("SELECT etno,nomo,mallongigo FROM identigiloj,lingvoj WHERE uuid='"+objektoj[indekso]+
      "' AND mallongigo=lingvo ORDER BY tipo,rango,nomo;"))
    {if(informpeto.first())
-    {QTreeWidgetItem *ero=new QTreeWidgetItem(3500);
+    {QTreeWidgetItem *ero=new QTreeWidgetItem(3500+rilatoj[indekso].toInt());
      ero->setText(0,informpeto.value("etno").toString()+": "+informpeto.value("nomo").toString()+" ["+
        informpeto.value("mallongigo").toString()+"]");
      ero->setToolTip(0,objektoj[indekso]);

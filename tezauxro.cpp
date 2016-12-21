@@ -3,6 +3,7 @@
 #include <QLayout>
 #include <QPushButton>
 #include <QToolButton>
+#include <QTreeWidget>
 #include <QWidget>
 #include "tezauxro.h"
 #include "ui_tezauxro.h"
@@ -19,4 +20,5 @@ tezauxro::tezauxro(QWidget *gepatro):QDialog(gepatro),ui(new Ui::tezauxro)
  connect(ui->objekto,&QToolButton::clicked,this,&tezauxro::priObjekto);
  connect(ui->kontribui,&QCheckBox::toggled,this,&tezauxro::priKontribui);
  connect(ui->akceptu,&QPushButton::clicked,this,&tezauxro::priAkceptu);
+ connect(ui->rilatojListo,&QTreeWidget::currentItemChanged,this,&tezauxro::priElektajxoSxangxo);
 }
