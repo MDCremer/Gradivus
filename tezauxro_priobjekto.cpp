@@ -24,6 +24,7 @@ void tezauxro::priObjekto()
     if(informpeto.lastError().isValid())
      QMessageBox::warning(this,tr("Eraro [108]!"),informpeto.lastError().text());
    datumbazo.close();
+   ui->akceptu->setEnabled(true);
   }
   else
    if(datumbazo.lastError().isValid())

@@ -226,7 +226,7 @@ void datumojApogilo::priEksportu()
      else
       if(informpeto.lastError().isValid())
        QMessageBox::warning(this,tr("Eraro [084]!"),informpeto.lastError().text());
-     eldono<<"COMMIT;";
+     eldono<<"COMMIT;\n";
     }
     if(pli&&ui->semantikajRilatoj->isChecked())
     {patraObjekto->spektakloMesagxon(tr("Eksporti semantikajn rilatojn \342\200\246"));
@@ -245,7 +245,7 @@ void datumojApogilo::priEksportu()
       {eldono<<"INSERT OR REPLACE INTO semantikajrilatoj (subjekto,rilato,objekto";
        if(!informpeto.value("aludo").isNull())
         eldono<<",aludo";
-       eldono<<") VALUES ('";
+       eldono<<",subskribo,stato) VALUES ('";
        eldono<<informpeto.value("subjekto").toByteArray();
        eldono<<"',";
        eldono<<informpeto.value("rilato").toByteArray();
@@ -266,7 +266,7 @@ void datumojApogilo::priEksportu()
      else
       if(informpeto.lastError().isValid())
        QMessageBox::warning(this,tr("Eraro [100]!"),informpeto.lastError().text());
-     eldono<<"COMMIT;";
+     eldono<<"COMMIT;\n";
     }
     datumbazo.close();
     patraObjekto->spektakloMesagxon(tr("Eksportitaj %1 registroj!").arg(linioj));
