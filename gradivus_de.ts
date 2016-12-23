@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE TS>
-<TS version="2.0" language="de_DE">
+<TS version="2.1" language="de_DE">
 <context>
     <name>QObject</name>
     <message>
@@ -3064,72 +3064,72 @@
         <translation>Beziehungen</translation>
     </message>
     <message>
-        <location filename="tezauxro.ui" line="196"/>
+        <location filename="tezauxro.ui" line="201"/>
         <source>Semantikaj rilatoj</source>
         <translation>Semantische Beziehungen</translation>
     </message>
     <message>
-        <location filename="tezauxro.ui" line="216"/>
+        <location filename="tezauxro.ui" line="224"/>
         <source>Akceptu</source>
         <translation>Übernehmen</translation>
     </message>
     <message>
-        <location filename="tezauxro.ui" line="226"/>
+        <location filename="tezauxro.ui" line="234"/>
         <source>Forigu</source>
         <translation>Löschen</translation>
     </message>
     <message>
-        <location filename="tezauxro.ui" line="233"/>
+        <location filename="tezauxro.ui" line="241"/>
         <source>Vakigu</source>
         <translation>Leeren</translation>
     </message>
     <message>
-        <location filename="tezauxro.ui" line="256"/>
+        <location filename="tezauxro.ui" line="264"/>
         <source>… falas sub …</source>
         <translation>… fällt unter …</translation>
     </message>
     <message>
-        <location filename="tezauxro.ui" line="261"/>
+        <location filename="tezauxro.ui" line="269"/>
         <source>… estas parto de …</source>
         <translation>… ist Teil von …</translation>
     </message>
     <message>
-        <location filename="tezauxro.ui" line="266"/>
+        <location filename="tezauxro.ui" line="274"/>
         <source>… estas helpo por …</source>
         <translation>… ist Hilfsmittel für …</translation>
     </message>
     <message>
-        <location filename="tezauxro.ui" line="271"/>
+        <location filename="tezauxro.ui" line="279"/>
         <source>… estas rimedo por la celo …</source>
         <translation>… ist Mittel zwecks …</translation>
     </message>
     <message>
-        <location filename="tezauxro.ui" line="276"/>
+        <location filename="tezauxro.ui" line="284"/>
         <source>… rekte evoluigita de …</source>
         <translation>… hat sich direkt entwickelt aus …</translation>
     </message>
     <message>
-        <location filename="tezauxro.ui" line="307"/>
+        <location filename="tezauxro.ui" line="315"/>
         <source>Objekto:</source>
         <translation>Objekt:</translation>
     </message>
     <message>
-        <location filename="tezauxro.ui" line="335"/>
+        <location filename="tezauxro.ui" line="327"/>
         <source>Subskribo:</source>
         <translation>Signatur:</translation>
     </message>
     <message>
-        <location filename="tezauxro.ui" line="359"/>
+        <location filename="tezauxro.ui" line="351"/>
         <source>Stato:</source>
         <translation>Stand:</translation>
     </message>
     <message>
-        <location filename="tezauxro.ui" line="385"/>
+        <location filename="tezauxro.ui" line="401"/>
         <source>kontribui</source>
         <translation>übertragen</translation>
     </message>
     <message>
-        <location filename="tezauxro.ui" line="209"/>
+        <location filename="tezauxro.ui" line="214"/>
         <source>Malfaru</source>
         <translation>Rückgängig</translation>
     </message>
@@ -3144,29 +3144,109 @@
         <translation>Fehler [102]!</translation>
     </message>
     <message>
-        <location filename="tezauxro_sxargi.cpp" line="12"/>
+        <location filename="tezauxro_sxargi.cpp" line="18"/>
         <source>hiponima</source>
         <translation>hyponym</translation>
     </message>
     <message>
-        <location filename="tezauxro_sxargi.cpp" line="15"/>
+        <location filename="tezauxro_sxargi.cpp" line="21"/>
         <source>meronima</source>
         <translation>meronym</translation>
     </message>
     <message>
-        <location filename="tezauxro_sxargi.cpp" line="18"/>
+        <location filename="tezauxro_sxargi.cpp" line="24"/>
         <source>disponebla</source>
         <translation>disponibel</translation>
     </message>
     <message>
-        <location filename="tezauxro_sxargi.cpp" line="21"/>
+        <location filename="tezauxro_sxargi.cpp" line="27"/>
         <source>instrumenta</source>
         <translation>instrumental</translation>
     </message>
     <message>
-        <location filename="tezauxro_sxargi.cpp" line="24"/>
+        <location filename="tezauxro_sxargi.cpp" line="30"/>
         <source>supreniranta</source>
         <translation>aszendent</translation>
+    </message>
+    <message>
+        <location filename="tezauxro_sxargi.cpp" line="43"/>
+        <source>Eraro [105]!</source>
+        <translation type="unfinished">Fehler [102]! {105]?}</translation>
+    </message>
+    <message>
+        <location filename="tezauxro_sxargi.cpp" line="65"/>
+        <source>Eraro [106]!</source>
+        <translation type="unfinished">Fehler [102]! {106]?}</translation>
+    </message>
+    <message>
+        <location filename="tezauxro_sxargi.cpp" line="71"/>
+        <source>Eraro [104]!</source>
+        <translation type="unfinished">Fehler [102]! {104]?}</translation>
+    </message>
+    <message>
+        <location filename="tezauxro_priakceptu.cpp" line="36"/>
+        <source>Eraro [110]!</source>
+        <translation type="unfinished">Fehler [102]! {110]?}</translation>
+    </message>
+    <message>
+        <location filename="tezauxro_priakceptu.cpp" line="130"/>
+        <source>Neniuj ŝanĝoj estis malkovritaj, kiu devus esti stokita!</source>
+        <translation type="unfinished">Es wurden keine Änderungen gefunden, die gespeichert werden müßten!</translation>
+    </message>
+    <message>
+        <location filename="tezauxro_priakceptu.cpp" line="185"/>
+        <source>Semantika rilato savis.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="tezauxro_priakceptu.cpp" line="187"/>
+        <source>Samenatika rilato ĝisdatigis.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="tezauxro_priakceptu.cpp" line="205"/>
+        <source>Eraro [109]!</source>
+        <translation type="unfinished">Fehler [102]! {109]?}</translation>
+    </message>
+    <message>
+        <location filename="tezauxro_prielektajxosxangxo.cpp" line="31"/>
+        <source>Eraro [112]!</source>
+        <translation type="unfinished">Fehler [102]! {112]?}</translation>
+    </message>
+    <message>
+        <location filename="tezauxro_prielektajxosxangxo.cpp" line="44"/>
+        <source>Eraro [113]!</source>
+        <translation type="unfinished">Fehler [102]! {113]?}</translation>
+    </message>
+    <message>
+        <location filename="tezauxro_prielektajxosxangxo.cpp" line="50"/>
+        <source>Eraro [111]!</source>
+        <translation type="unfinished">Fehler [102]! {111]?}</translation>
+    </message>
+    <message>
+        <location filename="tezauxro_priforigu.cpp" line="41"/>
+        <source>Eraro [115]!</source>
+        <translation type="unfinished">Fehler [102]! {115]?}</translation>
+    </message>
+    <message>
+        <location filename="tezauxro_priforigu.cpp" line="53"/>
+        <source>Semantika rilato estis forigita!</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="tezauxro_priforigu.cpp" line="59"/>
+        <source>Eraro [114]!</source>
+        <translation type="unfinished">Fehler [102]! {114]?}</translation>
+    </message>
+    <message>
+        <location filename="tezauxro_priobjekto.cpp" line="25"/>
+        <source>Eraro [108]!</source>
+        <translation type="unfinished">Fehler [102]! {108]?}</translation>
+    </message>
+    <message>
+        <location filename="tezauxro_priobjekto.cpp" line="31"/>
+        <source>Eraro [107]!</source>
+        <translation type="unfinished">Fehler [102]! {107]?}</translation>
     </message>
 </context>
 </TS>

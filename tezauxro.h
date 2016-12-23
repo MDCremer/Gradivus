@@ -21,7 +21,9 @@ class tezauxro:public QDialog
   void priAkceptu();
   void priElektajxoSxangxo(QTreeWidgetItem *aktualo);
   void priFonto();
+  void priForigu();
   void priKontribui(bool kontrolita);
+  void priMalfaru();
   void priObjekto();
   void priReiru();
   void priSelektado();

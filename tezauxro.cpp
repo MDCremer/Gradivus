@@ -21,4 +21,6 @@ tezauxro::tezauxro(QWidget *gepatro):QDialog(gepatro),ui(new Ui::tezauxro)
  connect(ui->kontribui,&QCheckBox::toggled,this,&tezauxro::priKontribui);
  connect(ui->akceptu,&QPushButton::clicked,this,&tezauxro::priAkceptu);
  connect(ui->rilatojListo,&QTreeWidget::currentItemChanged,this,&tezauxro::priElektajxoSxangxo);
+ connect(ui->forigu,&QPushButton::clicked,this,&tezauxro::priForigu);
+ connect(ui->malfaru,&QPushButton::clicked,this,&tezauxro::priMalfaru);
 }
