@@ -79,42 +79,118 @@
         <translation>Stand: </translation>
     </message>
     <message>
-        <location filename="eldono_priskribo.cpp" line="27"/>
+        <location filename="eldono_priskribo.cpp" line="28"/>
         <source>Eraro [061]!</source>
         <translation>Fehler [061]!</translation>
     </message>
     <message>
-        <location filename="eldono_priskribo.cpp" line="81"/>
+        <location filename="eldono_priskribo.cpp" line="61"/>
+        <source>Eraro [116]!</source>
+        <translation>Fehler [116]!</translation>
+    </message>
+    <message>
+        <location filename="eldono_priskribo.cpp" line="65"/>
+        <source>hiponima:</source>
+        <translation>hyponym:</translation>
+    </message>
+    <message>
+        <location filename="eldono_priskribo.cpp" line="65"/>
+        <source>hiperonima:</source>
+        <translation>hyperonym:</translation>
+    </message>
+    <message>
+        <location filename="eldono_priskribo.cpp" line="65"/>
+        <source>meronima:</source>
+        <translation>meronym:</translation>
+    </message>
+    <message>
+        <location filename="eldono_priskribo.cpp" line="65"/>
+        <source>holonima:</source>
+        <translation>holonym:</translation>
+    </message>
+    <message>
+        <location filename="eldono_priskribo.cpp" line="66"/>
+        <source>disponebla:</source>
+        <oldsource>disponibla:</oldsource>
+        <translation>disponibel:</translation>
+    </message>
+    <message>
+        <location filename="eldono_priskribo.cpp" line="66"/>
+        <source>disponenta:</source>
+        <translation>disponent:</translation>
+    </message>
+    <message>
+        <location filename="eldono_priskribo.cpp" line="66"/>
+        <source>instrumenta:</source>
+        <translation>instrumental:</translation>
+    </message>
+    <message>
+        <location filename="eldono_priskribo.cpp" line="66"/>
+        <source>fina:</source>
+        <translation>final:</translation>
+    </message>
+    <message>
+        <location filename="eldono_priskribo.cpp" line="67"/>
+        <source>supreniranta:</source>
+        <translation>aszendent:</translation>
+    </message>
+    <message>
+        <location filename="eldono_priskribo.cpp" line="67"/>
+        <source>malsupreniranta:</source>
+        <translation>deszendent:</translation>
+    </message>
+    <message>
+        <location filename="eldono_priskribo.cpp" line="78"/>
+        <source>Eraro [117]!</source>
+        <translation>Fehler [117]!</translation>
+    </message>
+    <message>
+        <location filename="eldono_priskribo.cpp" line="118"/>
+        <source>Eraro [118]!</source>
+        <translation>Fehler [118]!</translation>
+    </message>
+    <message>
+        <location filename="eldono_priskribo.cpp" line="130"/>
+        <source>Eraro [119]!</source>
+        <translation>Fehler [119]!</translation>
+    </message>
+    <message>
+        <location filename="eldono_priskribo.cpp" line="170"/>
+        <source>Eraro [120]!</source>
+        <translation>Fehler [120]!</translation>
+    </message>
+    <message>
+        <location filename="eldono_priskribo.cpp" line="205"/>
         <source>Eraro [098]!</source>
         <translation>Fehler [098]!</translation>
     </message>
     <message>
-        <location filename="eldono_priskribo.cpp" line="90"/>
+        <location filename="eldono_priskribo.cpp" line="214"/>
         <source>Eraro [075]!</source>
         <translation>Fehler [075]!</translation>
     </message>
     <message>
-        <location filename="eldono_priskribo.cpp" line="93"/>
+        <location filename="eldono_priskribo.cpp" line="217"/>
         <source>Fontoj</source>
         <translation>Quellenangaben</translation>
     </message>
     <message>
-        <location filename="eldono_priskribo.cpp" line="110"/>
+        <location filename="eldono_priskribo.cpp" line="234"/>
         <source>Eraro [076]!</source>
         <translation>Fehler [076]!</translation>
     </message>
     <message>
-        <location filename="eldono_priskribo.cpp" line="119"/>
+        <location filename="eldono_priskribo.cpp" line="243"/>
         <source>Eraro [077]!</source>
         <translation>Fehler [077]!</translation>
     </message>
     <message>
-        <location filename="eldono_priskribo.cpp" line="144"/>
+        <location filename="eldono_priskribo.cpp" line="268"/>
         <source>Eraro [078]!</source>
         <translation>Fehler [078]!</translation>
     </message>
     <message>
-        <location filename="eldono_priskribo.cpp" line="153"/>
+        <location filename="eldono_priskribo.cpp" line="277"/>
         <source>Eraro [079]!</source>
         <translation>Fehler [079]!</translation>
     </message>
@@ -3171,82 +3247,82 @@
     <message>
         <location filename="tezauxro_sxargi.cpp" line="43"/>
         <source>Eraro [105]!</source>
-        <translation type="unfinished">Fehler [102]! {105]?}</translation>
+        <translation>Fehler [105]!</translation>
     </message>
     <message>
         <location filename="tezauxro_sxargi.cpp" line="65"/>
         <source>Eraro [106]!</source>
-        <translation type="unfinished">Fehler [102]! {106]?}</translation>
+        <translation>Fehler [106]!</translation>
     </message>
     <message>
         <location filename="tezauxro_sxargi.cpp" line="71"/>
         <source>Eraro [104]!</source>
-        <translation type="unfinished">Fehler [102]! {104]?}</translation>
+        <translation>Fehler [104]!</translation>
     </message>
     <message>
         <location filename="tezauxro_priakceptu.cpp" line="36"/>
         <source>Eraro [110]!</source>
-        <translation type="unfinished">Fehler [102]! {110]?}</translation>
+        <translation>Fehler [110]!</translation>
     </message>
     <message>
         <location filename="tezauxro_priakceptu.cpp" line="130"/>
         <source>Neniuj ŝanĝoj estis malkovritaj, kiu devus esti stokita!</source>
-        <translation type="unfinished">Es wurden keine Änderungen gefunden, die gespeichert werden müßten!</translation>
+        <translation>Es wurden keine Änderungen gefunden, die gespeichert werden müßten!</translation>
     </message>
     <message>
         <location filename="tezauxro_priakceptu.cpp" line="185"/>
         <source>Semantika rilato savis.</source>
-        <translation type="unfinished"></translation>
+        <translation>Semantische Beziehung gespeichert.</translation>
     </message>
     <message>
         <location filename="tezauxro_priakceptu.cpp" line="187"/>
         <source>Samenatika rilato ĝisdatigis.</source>
-        <translation type="unfinished"></translation>
+        <translation>Semantische Beziehung geändert.</translation>
     </message>
     <message>
         <location filename="tezauxro_priakceptu.cpp" line="205"/>
         <source>Eraro [109]!</source>
-        <translation type="unfinished">Fehler [102]! {109]?}</translation>
+        <translation>Fehler [109]!</translation>
     </message>
     <message>
         <location filename="tezauxro_prielektajxosxangxo.cpp" line="31"/>
         <source>Eraro [112]!</source>
-        <translation type="unfinished">Fehler [102]! {112]?}</translation>
+        <translation>Fehler [112]!</translation>
     </message>
     <message>
         <location filename="tezauxro_prielektajxosxangxo.cpp" line="44"/>
         <source>Eraro [113]!</source>
-        <translation type="unfinished">Fehler [102]! {113]?}</translation>
+        <translation>Fehler [113]!</translation>
     </message>
     <message>
         <location filename="tezauxro_prielektajxosxangxo.cpp" line="50"/>
         <source>Eraro [111]!</source>
-        <translation type="unfinished">Fehler [102]! {111]?}</translation>
+        <translation>Fehler [111]!</translation>
     </message>
     <message>
         <location filename="tezauxro_priforigu.cpp" line="41"/>
         <source>Eraro [115]!</source>
-        <translation type="unfinished">Fehler [102]! {115]?}</translation>
+        <translation>Fehler [115]!</translation>
     </message>
     <message>
         <location filename="tezauxro_priforigu.cpp" line="53"/>
         <source>Semantika rilato estis forigita!</source>
-        <translation type="unfinished"></translation>
+        <translation>Semantische Beziehung wurde geslöscht!</translation>
     </message>
     <message>
         <location filename="tezauxro_priforigu.cpp" line="59"/>
         <source>Eraro [114]!</source>
-        <translation type="unfinished">Fehler [102]! {114]?}</translation>
+        <translation>Fehler [114]!</translation>
     </message>
     <message>
         <location filename="tezauxro_priobjekto.cpp" line="25"/>
         <source>Eraro [108]!</source>
-        <translation type="unfinished">Fehler [102]! {108]?}</translation>
+        <translation>Fehler [108]!</translation>
     </message>
     <message>
         <location filename="tezauxro_priobjekto.cpp" line="31"/>
         <source>Eraro [107]!</source>
-        <translation type="unfinished">Fehler [102]! {107]?}</translation>
+        <translation>Fehler [107]!</translation>
     </message>
 </context>
 </TS>

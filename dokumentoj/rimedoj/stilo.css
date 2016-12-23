@@ -73,5 +73,14 @@ figcaption
  font-size:75%;
 }
 
+aside.tezauxro
+{width:33%;
+ float:right;
+ font-size:75%;
+ margin-left:1em;
+ padding-left:0.5em;
+ padding-right:0.5em;
+}
+
 #indekso
 {width:100%;}
