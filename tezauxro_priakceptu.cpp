@@ -47,13 +47,12 @@ void tezauxro::priAkceptu()
      inverso.append(malnovaAludo);
      inverso.append("'");
     }
-    ordono.append("aludo=");
     if(ui->fonto->text()=="---")
-     ordono.append("NULL");
+     ordono.append("NULL,");
     else
     {ordono.append("'");
      ordono.append(ui->fonto->text().toUtf8());
-     ordono.append("'");
+     ordono.append("',");
     }
     inverso.append("',subskribo='");
     inverso.append(malnovaSubskribo.replace("'","''"));
@@ -66,7 +65,7 @@ void tezauxro::priAkceptu()
     inverso.append(" AND objekto='");
     inverso.append(objekto);
     inverso.append("';");
-    ordono.append("',subskribo='");
+    ordono.append("subskribo='");
     ordono.append(malnovaSubskribo.replace("'","''"));
     if(!malnovaSubskribo.contains(":"+patraObjekto->administranto.akiruValoro(AGORDO_NOMO)+":"))
     {ordono.append(patraObjekto->administranto.akiruValoro(AGORDO_NOMO).replace("'","''"));

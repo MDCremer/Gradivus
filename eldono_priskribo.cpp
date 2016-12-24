@@ -104,13 +104,13 @@ QByteArray eldono::priskribo(QByteArray kodo,QSqlQuery *informpeto,cxefaFenestro
       if(aludo!="---")
       {int pozicio=referencoj.indexOf(QRegularExpression(aludo));
        if(pozicio==-1)
-       {referencoj<<QString(aludo);
-        pozicio=referencoj.length();
+       {pozicio=referencoj.length();
+        referencoj<<QString(aludo);
        }
        teksto.append("<sup><a href='#");
        teksto.append(aludo);
        teksto.append("'>[");
-       teksto.append(QByteArray::number(pozicio));
+       teksto.append(QByteArray::number(pozicio+1));
        teksto.append("]</a></sup>");
     }}}
     else
