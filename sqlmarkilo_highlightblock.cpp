@@ -31,6 +31,14 @@ void sqlMarkilo::highlightBlock(const QString &teksto)
   asociitaButono->setText("fontoj");
   rekonis=true;
  }
+ interkonsento=semantikajrilatoj.match(teksto);
+ if(interkonsento.hasMatch())
+ {int indekso=interkonsento.capturedStart();
+  int longo=interkonsento.capturedLength();
+  setFormat(indekso,longo,rekonisStrukturo);
+  asociitaButono->setText("semantikajrilatoj");
+  rekonis=true;
+ }
  int indekso=priskriboj.indexIn(teksto);
  if(indekso>-1)
  {int longo=priskriboj.matchedLength();

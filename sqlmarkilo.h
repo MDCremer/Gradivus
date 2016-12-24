@@ -19,6 +19,7 @@ class sqlMarkilo:public QSyntaxHighlighter
   QRegularExpression literaturoj;
   QRegularExpression identigiloj;
   QRegularExpression fontoj;
+  QRegularExpression semantikajrilatoj;
   QRegExp priskriboj;
   QTextCharFormat rekonisStrukturo;
 };

@@ -91,7 +91,7 @@ QByteArray eldono::priskribo(QByteArray kodo,QSqlQuery *informpeto,cxefaFenestro
       "' AND mallongigo=lingvo ORDER BY tipo,rango,nomo;"))
     {if(informpeto->first())
      {QListWidgetItem *ero=new QListWidgetItem(informpeto->value("etno").toByteArray()+": "+
-        informpeto->value("nomo").toByteArray()+" ["+informpeto->value("lingvo").toByteArray()+"]");
+        informpeto->value("nomo").toByteArray()+" ["+informpeto->value("mallongigo").toByteArray()+"]");
       ero->setToolTip(aktualo);
       destinoj->addItem(ero);
     }}
@@ -148,7 +148,7 @@ QByteArray eldono::priskribo(QByteArray kodo,QSqlQuery *informpeto,cxefaFenestro
       "' AND mallongigo=lingvo ORDER BY tipo,rango,nomo;"))
     {if(informpeto->first())
      {QListWidgetItem *ero=new QListWidgetItem(informpeto->value("etno").toByteArray()+": "+
-        informpeto->value("nomo").toByteArray()+" ["+informpeto->value("lingvo").toByteArray()+"]");
+        informpeto->value("nomo").toByteArray()+" ["+informpeto->value("mallongigo").toByteArray()+"]");
       ero->setToolTip(subjekto);
       destinoj->addItem(ero);
     }}
