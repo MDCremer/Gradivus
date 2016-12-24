@@ -81,42 +81,50 @@ QByteArray eldono::priskribo(QByteArray kodo,QSqlQuery *informpeto,cxefaFenestro
     teksto.append(specioj.at(nombro*2).toUtf8());
     teksto.append("</dfn></dt>\n<dd>");
    }
-   bool unua=true;
+   QListWidget *destinoj=new QListWidget();
+   destinoj->setSortingEnabled(true);
    QStringListIterator montrilo(objektoj);
    while(montrilo.hasNext())
    {QByteArray aktualo=montrilo.next().toUtf8();
     QByteArray objekto=aktualo.left(22);
-    QByteArray aludo=aktualo.right(3);
     if(informpeto->exec("SELECT etno,nomo,mallongigo FROM identigiloj,lingvoj WHERE uuid='"+objekto+
       "' AND mallongigo=lingvo ORDER BY tipo,rango,nomo;"))
     {if(informpeto->first())
-     {if(unua)
-       unua=false;
-      else
-       teksto.append(", ");
-      teksto.append("<a href='");
-      teksto.append(patraObjekto->administranto.akiruValoro(AGORDO_VORTARO));
-      teksto.append(objekto);
-      teksto.append(".html'>");
-      teksto.append(informpeto->value("etno").toByteArray()+": "+informpeto->value("nomo").toByteArray()+" ["+
-        informpeto->value("mallongigo").toByteArray()+"]");
-      teksto.append("</a>");
-      if(aludo!="---")
-      {int pozicio=referencoj.indexOf(QRegularExpression(aludo));
-       if(pozicio==-1)
-       {pozicio=referencoj.length();
-        referencoj<<QString(aludo);
-       }
-       teksto.append("<sup><a href='#");
-       teksto.append(aludo);
-       teksto.append("'>[");
-       teksto.append(QByteArray::number(pozicio+1));
-       teksto.append("]</a></sup>");
-    }}}
+     {QListWidgetItem *ero=new QListWidgetItem(informpeto->value("etno").toByteArray()+": "+
+        informpeto->value("nomo").toByteArray()+" ["+informpeto->value("lingvo").toByteArray()+"]");
+      ero->setToolTip(aktualo);
+      destinoj->addItem(ero);
+    }}
     else
      if(informpeto->lastError().isValid())
       QMessageBox::warning(patraObjekto,QObject::tr("Eraro [118]!"),informpeto->lastError().text());
    }
+   bool unua=true;
+   for(int nombrilo=0;nombrilo<destinoj->count();++nombrilo)
+   {QByteArray objekto=destinoj->item(nombrilo)->toolTip().toUtf8().left(22);
+    QByteArray aludo=destinoj->item(nombrilo)->toolTip().toUtf8().right(3);
+    if(unua)
+     unua=false;
+    else
+     teksto.append(", ");
+    teksto.append("<a href='");
+    teksto.append(patraObjekto->administranto.akiruValoro(AGORDO_VORTARO));
+    teksto.append(objekto);
+    teksto.append(".html'>");
+    teksto.append(destinoj->item(nombrilo)->text().toUtf8());
+    teksto.append("</a>");
+    if(aludo!="---")
+    {int pozicio=referencoj.indexOf(QRegularExpression(aludo));
+     if(pozicio==-1)
+     {pozicio=referencoj.length();
+      referencoj<<QString(aludo);
+     }
+     teksto.append("<sup><a href='#");
+     teksto.append(aludo);
+     teksto.append("'>[");
+     teksto.append(QByteArray::number(pozicio+1));
+     teksto.append("]</a></sup>");
+   }}
    teksto.append("</dd>\n");
    QStringList subjektoj;
    if(informpeto->exec("SELECT subjekto FROM semantikajrilatoj WHERE objekto='"+kodo+"' AND rilato="+
@@ -132,30 +140,38 @@ QByteArray eldono::priskribo(QByteArray kodo,QSqlQuery *informpeto,cxefaFenestro
     teksto.append(specioj.at(nombro*2+1).toUtf8());
     teksto.append("</dfn></dt>\n<dd>");
    }
-   unua=true;
+   destinoj->clear();
    QStringListIterator duaMontrilo(subjektoj);
    while(duaMontrilo.hasNext())
    {QByteArray subjekto=duaMontrilo.next().toUtf8();
     if(informpeto->exec("SELECT etno,nomo,mallongigo FROM identigiloj,lingvoj WHERE uuid='"+subjekto+
       "' AND mallongigo=lingvo ORDER BY tipo,rango,nomo;"))
     {if(informpeto->first())
-     {if(unua)
-       unua=false;
-      else
-       teksto.append(", ");
-      teksto.append("<a href='");
-      teksto.append(patraObjekto->administranto.akiruValoro(AGORDO_VORTARO));
-      teksto.append(subjekto);
-      teksto.append(".html'>");
-      teksto.append(informpeto->value("etno").toByteArray()+": "+informpeto->value("nomo").toByteArray()+" ["+
-        informpeto->value("mallongigo").toByteArray()+"]");
-      teksto.append("</a>");
+     {QListWidgetItem *ero=new QListWidgetItem(informpeto->value("etno").toByteArray()+": "+
+        informpeto->value("nomo").toByteArray()+" ["+informpeto->value("lingvo").toByteArray()+"]");
+      ero->setToolTip(subjekto);
+      destinoj->addItem(ero);
     }}
     else
      if(informpeto->lastError().isValid())
       QMessageBox::warning(patraObjekto,QObject::tr("Eraro [120]!"),informpeto->lastError().text());
    }
+   unua=true;
+   for(int nombrilo=0;nombrilo<destinoj->count();++nombrilo)
+   {QByteArray subjekto=destinoj->item(nombrilo)->toolTip().toUtf8();
+    if(unua)
+     unua=false;
+    else
+     teksto.append(", ");
+    teksto.append("<a href='");
+    teksto.append(patraObjekto->administranto.akiruValoro(AGORDO_VORTARO));
+    teksto.append(subjekto);
+    teksto.append(".html'>");
+    teksto.append(destinoj->item(nombrilo)->text().toUtf8());
+    teksto.append("</a>");
+   }
    teksto.append("</dd>\n");
+   delete destinoj;
   }
   teksto.append("</dl>\n</aside>\n");
  }
