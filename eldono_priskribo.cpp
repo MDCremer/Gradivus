@@ -119,11 +119,10 @@ QByteArray eldono::priskribo(QByteArray kodo,QSqlQuery *informpeto,cxefaFenestro
    }
    teksto.append("</dd>\n");
    QStringList subjektoj;
-   if(informpeto->exec("SELECT subjekto,aludo FROM semantikajrilatoj WHERE objekto='"+kodo+"' AND rilato="+
+   if(informpeto->exec("SELECT subjekto FROM semantikajrilatoj WHERE objekto='"+kodo+"' AND rilato="+
      QByteArray::number(nombro)+";"))
    {while(informpeto->next())
-     subjektoj<<informpeto->value("subjekto").toString()+(informpeto->value("aludo").isNull()?"---":
-       informpeto->value("aludo").toString());
+     subjektoj<<informpeto->value("subjekto").toString();
    }
    else
     if(informpeto->lastError().isValid())
@@ -136,9 +135,7 @@ QByteArray eldono::priskribo(QByteArray kodo,QSqlQuery *informpeto,cxefaFenestro
    unua=true;
    QStringListIterator duaMontrilo(subjektoj);
    while(duaMontrilo.hasNext())
-   {QByteArray aktualo=duaMontrilo.next().toUtf8();
-    QByteArray subjekto=aktualo.left(22);
-    QByteArray aludo=aktualo.right(3);
+   {QByteArray subjekto=duaMontrilo.next().toUtf8();
     if(informpeto->exec("SELECT etno,nomo,mallongigo FROM identigiloj,lingvoj WHERE uuid='"+subjekto+
       "' AND mallongigo=lingvo ORDER BY tipo,rango,nomo;"))
     {if(informpeto->first())
@@ -153,18 +150,7 @@ QByteArray eldono::priskribo(QByteArray kodo,QSqlQuery *informpeto,cxefaFenestro
       teksto.append(informpeto->value("etno").toByteArray()+": "+informpeto->value("nomo").toByteArray()+" ["+
         informpeto->value("mallongigo").toByteArray()+"]");
       teksto.append("</a>");
-      if(aludo!="---")
-      {int pozicio=referencoj.indexOf(QRegularExpression(aludo));
-       if(pozicio==-1)
-       {referencoj<<QString(aludo);
-        pozicio=referencoj.length();
-       }
-       teksto.append("<sup><a href='#");
-       teksto.append(aludo);
-       teksto.append("'>[");
-       teksto.append(QByteArray::number(pozicio));
-       teksto.append("]</a></sup>");
-    }}}
+    }}
     else
      if(informpeto->lastError().isValid())
       QMessageBox::warning(patraObjekto,QObject::tr("Eraro [120]!"),informpeto->lastError().text());

@@ -226,6 +226,9 @@
               <layout class="QGridLayout" name="gridLayout">
                <item row="0" column="0">
                 <widget class="QPushButton" name="malfaru">
+                 <property name="enabled">
+                  <bool>false</bool>
+                 </property>
                  <property name="text">
                   <string>Malfaru</string>
                  </property>
@@ -240,6 +243,9 @@
                </item>
                <item row="1" column="0">
                 <widget class="QPushButton" name="forigu">
+                 <property name="enabled">
+                  <bool>false</bool>
+                 </property>
                  <property name="text">
                   <string>Forigu</string>
                  </property>
