@@ -508,6 +508,44 @@ void datumojRestauxro::priSintakseAnalizu()
           QMessageBox::critical(this,tr("Eraro [099]!"),informpeto.lastError().text());
         vido.exec();
   }}}}}}
+  if(ui->sintakseAnalizu->text()=="semantikajrilatoj")
+  {QByteArray subjekto,objekto,aludo;
+   int rilato;
+   interkonsento=QRegularExpression("\\(\\'[a-zA-Z0-9_-]{22}\\',").match(teksto);
+   if(interkonsento.hasMatch())
+   {subjekto=interkonsento.captured().mid(2,22).toUtf8();
+    indekso=interkonsento.capturedStart()+interkonsento.capturedLength();
+    interkonsento=QRegularExpression("[0-4],").match(teksto,indekso);
+    if(interkonsento.hasMatch())
+    {rilato=interkonsento.captured().left(1).toInt();
+     indekso=interkonsento.capturedStart()+interkonsento.capturedLength();
+     interkonsento=QRegularExpression("\\(\\'[a-zA-Z0-9_-]{22}\\',").match(teksto);
+     if(interkonsento.hasMatch())
+     {objekto=interkonsento.captured().mid(2,22).toUtf8();
+      indekso=interkonsento.capturedStart()+interkonsento.capturedLength();
+      interkonsento=QRegularExpression("(NULL|\\'[a-zA-Z0-9]{3}\\'),").match(teksto,indekso);
+      if(interkonsento.hasMatch())
+      {if(interkonsento.captured()=="NULL,")
+        aludo="---";
+       else
+        aludo=interkonsento.captured().mid(1,3).toUtf8();
+       indekso=interkonsento.capturedStart()+interkonsento.capturedLength();
+       interkonsento=QRegularExpression("\\':([^\\']+|\\'{2})+:\\'").match(teksto,indekso);
+       if(interkonsento.hasMatch())
+       {subskribo=interkonsento.captured().mid(1,interkonsento.captured().length()-2).toUtf8();
+        indekso=interkonsento.capturedStart()+interkonsento.capturedLength();
+        interkonsento=QRegularExpression("[0-9]+\\);").match(teksto,indekso);
+        if(interkonsento.hasMatch())
+        {stato=interkonsento.captured().left(interkonsento.captured().length()-2).toLongLong();
+         vido.agordiSubskribo(subskribo.replace("''","'"));
+         QDateTime tempo;
+         tempo.setTime_t(stato);
+         vido.agordiStato(tempo.toString(Qt::SystemLocaleLongDate));
+         QStringList specioj;
+         specioj<<QObject::tr("hiponima:")<<QObject::tr("meronima:")<<QObject::tr("disponebla:")
+           <<QObject::tr("instrumenta:")<<QObject::tr("supreniranta:");
+         vido.exec();
+  }}}}}}}
   datumbazo.close();
  }
  else
