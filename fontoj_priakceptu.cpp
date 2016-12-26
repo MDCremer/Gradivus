@@ -87,7 +87,7 @@ void fontoj::priAkceptu()
       }}
       inverso.append(",subskribo='");
       inverso.append(malnovaSubskribo.replace("'","''"));
-      inverso.append("'',stato=");
+      inverso.append("',stato=");
       inverso.append(QString::number(malnovaStato).toUtf8());
       inverso.append(" WHERE uuid='");
       inverso.append(ajxo);
