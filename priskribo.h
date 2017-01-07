@@ -47,6 +47,7 @@
 #define PRISKRIBO_TABELOKAPO 33
 #define PRISKRIBO_TABELOVICO 34
 #define PRISKRIBO_TABELOCXELO 35
+#define PRISKRIBO_TABELOKAPOCXELO 36
 
 namespace Ui
 {class priskribo;
@@ -106,6 +107,7 @@ class priskribo:public QDialog
   void priTabelo();
   void priTabeloCxelo();
   void priTabeloKapo();
+  void priTabeloKapoCxelo();
   void priTabeloVico();
   void priTekstoGxisrandigo();
   void priTitolo();
@@ -124,7 +126,7 @@ class priskribo:public QDialog
   rikordoRegistrilo *registrilo;
   QVector<QByteArray> bildoj;
   QByteArray ajxo;
-  bool enigojAktivigita[36];
+  bool enigojAktivigita[37];
 };
 
 #endif // PRISKRIBO_H

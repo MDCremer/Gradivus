@@ -216,15 +216,15 @@
                    </size>
                   </property>
                   <property name="currentIndex">
-                   <number>4</number>
+                   <number>1</number>
                   </property>
                   <widget class="QWidget" name="page_6">
                    <property name="geometry">
                     <rect>
                      <x>0</x>
                      <y>0</y>
-                     <width>98</width>
-                     <height>96</height>
+                     <width>180</width>
+                     <height>208</height>
                     </rect>
                    </property>
                    <attribute name="label">
@@ -314,8 +314,8 @@
                     <rect>
                      <x>0</x>
                      <y>0</y>
-                     <width>98</width>
-                     <height>294</height>
+                     <width>166</width>
+                     <height>321</height>
                     </rect>
                    </property>
                    <attribute name="label">
@@ -493,6 +493,24 @@
                      </widget>
                     </item>
                     <item>
+                     <widget class="QToolButton" name="th">
+                      <property name="sizePolicy">
+                       <sizepolicy hsizetype="Minimum" vsizetype="Fixed">
+                        <horstretch>0</horstretch>
+                        <verstretch>0</verstretch>
+                       </sizepolicy>
+                      </property>
+                      <property name="font">
+                       <font>
+                        <family>Monospace</family>
+                       </font>
+                      </property>
+                      <property name="text">
+                       <string>&lt;th&gt;</string>
+                      </property>
+                     </widget>
+                    </item>
+                    <item>
                      <widget class="QToolButton" name="tr">
                       <property name="sizePolicy">
                        <sizepolicy hsizetype="Minimum" vsizetype="Fixed">
@@ -535,7 +553,7 @@
                     <rect>
                      <x>0</x>
                      <y>0</y>
-                     <width>98</width>
+                     <width>166</width>
                      <height>357</height>
                     </rect>
                    </property>
@@ -796,7 +814,7 @@
                     <rect>
                      <x>0</x>
                      <y>0</y>
-                     <width>111</width>
+                     <width>166</width>
                      <height>267</height>
                     </rect>
                    </property>
@@ -999,7 +1017,7 @@
                     <rect>
                      <x>0</x>
                      <y>0</y>
-                     <width>118</width>
+                     <width>166</width>
                      <height>231</height>
                     </rect>
                    </property>
@@ -1177,8 +1195,8 @@
                     <rect>
                      <x>0</x>
                      <y>0</y>
-                     <width>98</width>
-                     <height>168</height>
+                     <width>180</width>
+                     <height>208</height>
                     </rect>
                    </property>
                    <attribute name="label">

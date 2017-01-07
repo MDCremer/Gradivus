@@ -24,9 +24,9 @@ htmlMarkilo::htmlMarkilo(QTextDocument *gepatro):QSyntaxHighlighter(gepatro)
    "<\\s*[Ll][Ii](\\s+(([Ss][Tt][Yy][Ll][Ee])|([Cc][Ll][Aa][Ss][Ss]))\\s*=\\s*([\"'][^\"']*[\"']))*\\s*>"<<
    "<\\s*/([Uu]|[Oo]|[Dd])[Ll]\\s*>"<<"<\\s*/[Ll][Ii]\\s*>"<<"<\\s*/[Dd]([Tt]|[Dd])\\s*>"<<
    "<\\s*[Dd]([Tt]|[Dd])(\\s+(([Ss][Tt][Yy][Ll][Ee])|([Cc][Ll][Aa][Ss][Ss]))\\s*=\\s*([\"'][^\"']*[\"']))*\\s*>"<<
-   "<\\s*/[Tt]([Rr]|[Dd])\\s*>"<<"<\\s*/[Tt][Aa][Bb][Ll][Ee]\\s*>"<<
-   "<\\s*[Tt]([Rr]|[Dd])(\\s+(([Ss][Tt][Yy][Ll][Ee])|([Cc][Ll][Aa][Ss][Ss]))\\s*=\\s*([\"'][^\"']*[\"']))*\\s*>"<<
-   "<\\s*[Tt][Aa][Bb][Ll][Ee](\\s+(([Ss][Tt][Yy][Ll][Ee])|([Cc][Ll][Aa][Ss][Ss]))\\s*=\\s*([\"'][^\"']*[\"']))*\\s*>"<<
+   "<\\s*/[Tt]([Rr]|[Dd]|[Hh])\\s*>"<<"<\\s*/[Tt][Aa][Bb][Ll][Ee]\\s*>"<<
+   "<\\s*[Tt]([Rr]|[Dd]|[Hh])(\\s+(([Ss][Tt][Yy][Ll][Ee])|([Cc][Ll][Aa][Ss][Ss]))\\s*=\\s*([\"'][^\"']*[\"']))*\\s*>"<<
+   "<\\s*[Tt][Aa][Bb][Ll][Ee](\\s+(([Ss][Tt][Yy][Ll][Ee])|([Cc][Ll][Aa][Ss][Ss]))\\s*=\\s*([\"'][^\"\']*[\"']))*\\s*>"<<
    "<\\s*[Tt][Hh][Ee][Aa][Dd](\\s+(([Ss][Tt][Yy][Ll][Ee])|([Cc][Ll][Aa][Ss][Ss]))\\s*=\\s*([\"'][^\"']*[\"']))*\\s*>"<<
    "<\\s*(([Ff][Ii][Gg][Uu][Rr][Ee])|([Ff][Ii][Gg][Cc][Aa][Pp][Tt][Ii][Oo][Nn]))(\\s+(([Ss][Tt][Yy][Ll][Ee])|([Cc][Ll][Aa]\
 [Ss][Ss]))\\s*=\\s*([\"'][^\"']*[\"']))*\\s*>"<<

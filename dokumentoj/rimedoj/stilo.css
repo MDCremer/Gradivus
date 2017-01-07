@@ -49,6 +49,9 @@ td.stato_kolumno
 td.fonto_kolumno
 {text-align:justify;}
 
+td.dekstre
+{text-align:right;}
+
 figure
 {display:table;
  width:1px;

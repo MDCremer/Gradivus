@@ -176,6 +176,7 @@ SOURCES      += main.cpp\
                 priskribo_pritabelo.cpp\
                 priskribo_pritabelocxelo.cpp\
                 priskribo_pritabelokapo.cpp\
+                priskribo_pritabelokapocxelo.cpp\
                 priskribo_pritabelovico.cpp\
                 priskribo_prititolo.cpp\
                 priskribo_prititolodua.cpp\

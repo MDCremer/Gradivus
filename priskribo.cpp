@@ -80,4 +80,5 @@ priskribo::priskribo(QWidget *gepatro):QDialog(gepatro),ui(new Ui::priskribo)
  connect(ui->tr,&QToolButton::clicked,this,&priskribo::priTabeloVico);
  connect(ui->td,&QToolButton::clicked,this,&priskribo::priTabeloCxelo);
  connect(ui->vakigu,&QToolButton::clicked,this,&priskribo::priVakigu);
+ connect(ui->th,&QToolButton::clicked,this,&priskribo::priTabeloKapoCxelo);
 }
