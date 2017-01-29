@@ -23,4 +23,5 @@ fontoj::fontoj(QWidget *gepatro):QDialog(gepatro),ui(new Ui::fontoj)
  connect(ui->akceptu,&QPushButton::clicked,this,&fontoj::priAkceptu);
  connect(ui->listo,&QListWidget::itemSelectionChanged,this,&fontoj::priElektajxoSxangxo);
  connect(ui->malfaru,&QPushButton::clicked,this,&fontoj::priMalfaru);
+ connect(ui->forigu,&QPushButton::clicked,this,&fontoj::priForigu);
 }
