@@ -5,3 +5,4 @@ identigiloj.sql
 fontoj.sql
 priskriboj.sql
 semantikajrilatoj.sql
+modeloj.sql
