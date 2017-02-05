@@ -31,6 +31,7 @@ class cxefaFenestro:public QMainWindow
   void priDatumojApogilo();
   void priDatumojRestauxro();
   void priFontoj();
+  void priHierarkio();
   void priIdentigiloj();
   void priIndekso();
   void priKonfiguro();
