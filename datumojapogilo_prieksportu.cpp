@@ -268,6 +268,51 @@ void datumojApogilo::priEksportu()
        QMessageBox::warning(this,tr("Eraro [100]!"),informpeto.lastError().text());
      eldono<<"COMMIT;\n";
     }
+    if(pli&&ui->modeloj->isChecked())
+    {patraObjekto->spektakloMesagxon(tr("Eksporti modelojn \342\200\246"));
+     eldono<<"-- Modeloj\nBEGIN;\n";
+     QByteArray ordono("SELECT uuid,jaro,pezo,pezofluktuo,prezo,utilavivo,utilavivofluktuo,fontoj,subskribo,stato FROM");
+     ordono.append(" modeloj");
+     if(ui->subskribo->isChecked())
+      ordono.append(" WHERE subskribo LIKE '%"+ui->subskriboInkluzivi->text().replace("'","''")+"%'");
+     if(ui->nova->isChecked())
+     {uint sekundoj=ui->novaOl->dateTime().toTime_t();
+      ordono.append(ui->subskribo->isChecked()?" AND ":" WHERE ");
+      ordono.append("stato>"+QString::number(sekundoj));
+     }
+     ordono.append(";");
+     if(informpeto.exec(ordono))
+     {while(pli&&informpeto.next())
+      {eldono<<"INSERT OR REPLACE INTO modeloj (uuid,jaro,pezo,pezofluktuo,prezo,uitlavivo,utilavivofluktuo,fontoj,";
+       eldono<<"subskribo,stato) VALUES ('";
+       eldono<<informpeto.value("uuid").toByteArray();
+       eldono<<"',";
+       eldono<<informpeto.value("jaro").toByteArray();
+       eldono<<",";
+       eldono<<informpeto.value("pezo").toByteArray();
+       eldono<<",";
+       eldono<<informpeto.value("pezofluktuo").toByteArray();
+       eldono<<",";
+       eldono<<informpeto.value("prezo").toByteArray();
+       eldono<<",";
+       eldono<<informpeto.value("utilavivo").toByteArray();
+       eldono<<",";
+       eldono<<informpeto.value("utilavivofluktuo").toByteArray();
+       eldono<<",'";
+       eldono<<informpeto.value("fontoj").toByteArray();
+       eldono<<"','";
+       eldono<<informpeto.value("subskribo").toByteArray().replace("'","''");
+       eldono<<"',";
+       eldono<<informpeto.value("stato").toByteArray();
+       eldono<<");\n";
+       progreso.setValue(++linioj);
+       pli=!progreso.wasCanceled();
+     }}
+     else
+      if(informpeto.lastError().isValid())
+       QMessageBox::warning(this,tr("Eraro [121]!"),informpeto.lastError().text());
+     eldono<<"COMMIT;\n";
+    }
     datumbazo.close();
     patraObjekto->spektakloMesagxon(tr("Eksportitaj %1 registroj!").arg(linioj));
    }

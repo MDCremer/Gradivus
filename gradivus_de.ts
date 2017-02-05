@@ -89,6 +89,7 @@
         <translation>Fehler [116]!</translation>
     </message>
     <message>
+        <location filename="datumojrestauxro_prisintakseanalizu.cpp" line="545"/>
         <location filename="eldono_priskribo.cpp" line="65"/>
         <source>hiponima:</source>
         <translation>hyponym:</translation>
@@ -99,6 +100,7 @@
         <translation>hyperonym:</translation>
     </message>
     <message>
+        <location filename="datumojrestauxro_prisintakseanalizu.cpp" line="545"/>
         <location filename="eldono_priskribo.cpp" line="65"/>
         <source>meronima:</source>
         <translation>meronym:</translation>
@@ -109,6 +111,7 @@
         <translation>holonym:</translation>
     </message>
     <message>
+        <location filename="datumojrestauxro_prisintakseanalizu.cpp" line="545"/>
         <location filename="eldono_priskribo.cpp" line="66"/>
         <source>disponebla:</source>
         <oldsource>disponibla:</oldsource>
@@ -120,6 +123,7 @@
         <translation>disponent:</translation>
     </message>
     <message>
+        <location filename="datumojrestauxro_prisintakseanalizu.cpp" line="546"/>
         <location filename="eldono_priskribo.cpp" line="66"/>
         <source>instrumenta:</source>
         <translation>instrumental:</translation>
@@ -130,6 +134,7 @@
         <translation>final:</translation>
     </message>
     <message>
+        <location filename="datumojrestauxro_prisintakseanalizu.cpp" line="546"/>
         <location filename="eldono_priskribo.cpp" line="67"/>
         <source>supreniranta:</source>
         <translation>aszendent:</translation>
@@ -145,52 +150,52 @@
         <translation>Fehler [117]!</translation>
     </message>
     <message>
-        <location filename="eldono_priskribo.cpp" line="118"/>
+        <location filename="eldono_priskribo.cpp" line="100"/>
         <source>Eraro [118]!</source>
         <translation>Fehler [118]!</translation>
     </message>
     <message>
-        <location filename="eldono_priskribo.cpp" line="130"/>
+        <location filename="eldono_priskribo.cpp" line="137"/>
         <source>Eraro [119]!</source>
         <translation>Fehler [119]!</translation>
     </message>
     <message>
-        <location filename="eldono_priskribo.cpp" line="170"/>
+        <location filename="eldono_priskribo.cpp" line="157"/>
         <source>Eraro [120]!</source>
         <translation>Fehler [120]!</translation>
     </message>
     <message>
-        <location filename="eldono_priskribo.cpp" line="205"/>
+        <location filename="eldono_priskribo.cpp" line="207"/>
         <source>Eraro [098]!</source>
         <translation>Fehler [098]!</translation>
     </message>
     <message>
-        <location filename="eldono_priskribo.cpp" line="214"/>
+        <location filename="eldono_priskribo.cpp" line="216"/>
         <source>Eraro [075]!</source>
         <translation>Fehler [075]!</translation>
     </message>
     <message>
-        <location filename="eldono_priskribo.cpp" line="217"/>
+        <location filename="eldono_priskribo.cpp" line="219"/>
         <source>Fontoj</source>
         <translation>Quellenangaben</translation>
     </message>
     <message>
-        <location filename="eldono_priskribo.cpp" line="234"/>
+        <location filename="eldono_priskribo.cpp" line="236"/>
         <source>Eraro [076]!</source>
         <translation>Fehler [076]!</translation>
     </message>
     <message>
-        <location filename="eldono_priskribo.cpp" line="243"/>
+        <location filename="eldono_priskribo.cpp" line="245"/>
         <source>Eraro [077]!</source>
         <translation>Fehler [077]!</translation>
     </message>
     <message>
-        <location filename="eldono_priskribo.cpp" line="268"/>
+        <location filename="eldono_priskribo.cpp" line="270"/>
         <source>Eraro [078]!</source>
         <translation>Fehler [078]!</translation>
     </message>
     <message>
-        <location filename="eldono_priskribo.cpp" line="277"/>
+        <location filename="eldono_priskribo.cpp" line="279"/>
         <source>Eraro [079]!</source>
         <translation>Fehler [079]!</translation>
     </message>
@@ -1574,11 +1579,17 @@
     </message>
     <message>
         <location filename="datumojapogilo.ui" line="206"/>
-        <source>simantikaj rilatoj</source>
+        <source>Semantikaj rilatoj</source>
+        <oldsource>simantikaj rilatoj</oldsource>
         <translation>Semantische Beziehungen</translation>
     </message>
     <message>
-        <location filename="datumojapogilo.ui" line="248"/>
+        <location filename="datumojapogilo.ui" line="213"/>
+        <source>Modeloj</source>
+        <translation>Modelle</translation>
+    </message>
+    <message>
+        <location filename="datumojapogilo.ui" line="255"/>
         <source>Rezignu</source>
         <translation>Abbrechen</translation>
     </message>
@@ -1593,7 +1604,7 @@
         <translation>Literaturangaben</translation>
     </message>
     <message>
-        <location filename="datumojapogilo.ui" line="217"/>
+        <location filename="datumojapogilo.ui" line="224"/>
         <source>Elektu ĉiuj</source>
         <translation>Alle auswählen</translation>
     </message>
@@ -1603,7 +1614,7 @@
         <translation>Abbrechen</translation>
     </message>
     <message>
-        <location filename="datumojapogilo.ui" line="271"/>
+        <location filename="datumojapogilo.ui" line="278"/>
         <source>Eksportu</source>
         <translation>Exportieren</translation>
     </message>
@@ -1928,7 +1939,7 @@
         <translation>Fehler [099]!</translation>
     </message>
     <message>
-        <location filename="datumojrestauxro_prisintakseanalizu.cpp" line="515"/>
+        <location filename="datumojrestauxro_prisintakseanalizu.cpp" line="553"/>
         <source>Eraro [027]!</source>
         <translation>Fehler [027]!</translation>
     </message>
@@ -2108,47 +2119,47 @@
         <translation>Amerikanische Soldaten der 28. Division bei der Siegesparade auf den Champs Elysees (19. August 1944).</translation>
     </message>
     <message>
-        <location filename="fontoj.ui" line="230"/>
+        <location filename="fontoj.ui" line="233"/>
         <source>Malfaru</source>
         <translation>Rückgängig</translation>
     </message>
     <message>
-        <location filename="fontoj.ui" line="237"/>
+        <location filename="fontoj.ui" line="240"/>
         <source>Akceptu</source>
         <translation>Übernehmen</translation>
     </message>
     <message>
-        <location filename="fontoj.ui" line="244"/>
+        <location filename="fontoj.ui" line="250"/>
         <source>Forigu</source>
         <translation>Löschen</translation>
     </message>
     <message>
-        <location filename="fontoj.ui" line="251"/>
+        <location filename="fontoj.ui" line="257"/>
         <source>Vakigu</source>
         <translation>Leeren</translation>
     </message>
     <message>
-        <location filename="fontoj.ui" line="267"/>
+        <location filename="fontoj.ui" line="273"/>
         <source>Aludo:</source>
         <translation>Hinweis:</translation>
     </message>
     <message>
-        <location filename="fontoj.ui" line="290"/>
+        <location filename="fontoj.ui" line="296"/>
         <source>Fonto:</source>
         <translation>Quelle:</translation>
     </message>
     <message>
-        <location filename="fontoj.ui" line="305"/>
+        <location filename="fontoj.ui" line="311"/>
         <source>Subskribo:</source>
         <translation>Signatur:</translation>
     </message>
     <message>
-        <location filename="fontoj.ui" line="329"/>
+        <location filename="fontoj.ui" line="335"/>
         <source>Stato:</source>
         <translation>Stand:</translation>
     </message>
     <message>
-        <location filename="fontoj.ui" line="355"/>
+        <location filename="fontoj.ui" line="361"/>
         <source>kontribui</source>
         <translation>übertragen</translation>
     </message>
@@ -2780,62 +2791,62 @@
         <translation>Listen und Tabellen</translation>
     </message>
     <message>
-        <location filename="priskribo.ui" line="543"/>
+        <location filename="priskribo.ui" line="561"/>
         <source>Markadoj</source>
         <translation>Auszeichnungen</translation>
     </message>
     <message>
-        <location filename="priskribo.ui" line="804"/>
+        <location filename="priskribo.ui" line="822"/>
         <source>Ĝisrandigo</source>
         <translation>Ausrichtung</translation>
     </message>
     <message>
-        <location filename="priskribo.ui" line="1007"/>
+        <location filename="priskribo.ui" line="1025"/>
         <source>Strukturo</source>
         <translation>Struktur</translation>
     </message>
     <message>
-        <location filename="priskribo.ui" line="1185"/>
+        <location filename="priskribo.ui" line="1203"/>
         <source>Titoloj</source>
         <translation>Überschriften</translation>
     </message>
     <message>
-        <location filename="priskribo.ui" line="1321"/>
+        <location filename="priskribo.ui" line="1339"/>
         <source>Vakigu</source>
         <translation>Leeren</translation>
     </message>
     <message>
-        <location filename="priskribo.ui" line="1340"/>
+        <location filename="priskribo.ui" line="1358"/>
         <source>Vidi</source>
         <translation>Anzeigen</translation>
     </message>
     <message>
-        <location filename="priskribo.ui" line="1375"/>
+        <location filename="priskribo.ui" line="1393"/>
         <source>kontribui</source>
         <translation>übertragen</translation>
     </message>
     <message>
-        <location filename="priskribo.ui" line="1400"/>
+        <location filename="priskribo.ui" line="1418"/>
         <source>Akceptu</source>
         <translation>Übernehmen</translation>
     </message>
     <message>
-        <location filename="priskribo.ui" line="1444"/>
+        <location filename="priskribo.ui" line="1462"/>
         <source>Stato:</source>
         <translation>Stand:</translation>
     </message>
     <message>
-        <location filename="priskribo.ui" line="1420"/>
+        <location filename="priskribo.ui" line="1438"/>
         <source>Subskribo:</source>
         <translation>Signatur:</translation>
     </message>
     <message>
-        <location filename="priskribo.ui" line="1497"/>
+        <location filename="priskribo.ui" line="1515"/>
         <source>Forigu</source>
         <translation>Löschen</translation>
     </message>
     <message>
-        <location filename="priskribo.ui" line="1507"/>
+        <location filename="priskribo.ui" line="1525"/>
         <source>Malfaru</source>
         <translation>Rückgängig</translation>
     </message>
@@ -3112,7 +3123,7 @@
 <context>
     <name>sqlMarkilo</name>
     <message>
-        <location filename="sqlmarkilo_highlightblock.cpp" line="43"/>
+        <location filename="sqlmarkilo_highlightblock.cpp" line="51"/>
         <source>nekonata</source>
         <translation>unbekannt</translation>
     </message>
@@ -3265,22 +3276,22 @@
         <translation>Fehler [110]!</translation>
     </message>
     <message>
-        <location filename="tezauxro_priakceptu.cpp" line="130"/>
+        <location filename="tezauxro_priakceptu.cpp" line="129"/>
         <source>Neniuj ŝanĝoj estis malkovritaj, kiu devus esti stokita!</source>
         <translation>Es wurden keine Änderungen gefunden, die gespeichert werden müßten!</translation>
     </message>
     <message>
-        <location filename="tezauxro_priakceptu.cpp" line="185"/>
+        <location filename="tezauxro_priakceptu.cpp" line="184"/>
         <source>Semantika rilato savis.</source>
         <translation>Semantische Beziehung gespeichert.</translation>
     </message>
     <message>
-        <location filename="tezauxro_priakceptu.cpp" line="187"/>
+        <location filename="tezauxro_priakceptu.cpp" line="186"/>
         <source>Samenatika rilato ĝisdatigis.</source>
         <translation>Semantische Beziehung geändert.</translation>
     </message>
     <message>
-        <location filename="tezauxro_priakceptu.cpp" line="205"/>
+        <location filename="tezauxro_priakceptu.cpp" line="204"/>
         <source>Eraro [109]!</source>
         <translation>Fehler [109]!</translation>
     </message>

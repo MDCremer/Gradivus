@@ -506,7 +506,7 @@
                        </font>
                       </property>
                       <property name="text">
-                       <string>&lt;th&gt;</string>
+                       <string notr="true">&lt;th&gt;</string>
                       </property>
                      </widget>
                     </item>
