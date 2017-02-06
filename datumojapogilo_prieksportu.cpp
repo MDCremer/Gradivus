@@ -314,7 +314,7 @@ void datumojApogilo::priEksportu()
      eldono<<"COMMIT;\n";
     }
     datumbazo.close();
-    patraObjekto->spektakloMesagxon(tr("Eksportitaj %1 registroj!").arg(linioj));
+    patraObjekto->spektakloMesagxon(tr("Eksportitaj %1 registrojn!").arg(linioj));
    }
    else
     if(datumbazo.lastError().isValid())
