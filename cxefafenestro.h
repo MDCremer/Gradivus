@@ -3,6 +3,7 @@
 
 #include <QMainWindow>
 #include <QNetworkReply>
+#include <QSqlQuery>
 #include <QString>
 #include <QStringList>
 #include <QWidget>
@@ -44,6 +45,7 @@ class cxefaFenestro:public QMainWindow
   void priTezauxro();
  private:
   Ui::cxefaFenestro *ui;
+  QString testiRilatoj(QStringList *celoj,QStringList *objektoj,QSqlQuery *informpeto);
 };
 
 #endif // CXEFAFENESTRO_H

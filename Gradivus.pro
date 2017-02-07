@@ -30,8 +30,9 @@ SOURCES      += main.cpp\
                 cxefafenestro_pripriskriboj.cpp\
                 cxefafenestro_prireferencoj.cpp\
                 cxefafenestro_pristartopagxo.cpp\
-                cxefafenestro_spektaklomesagxon.cpp\
                 cxefafenestro_pritezauxro.cpp\
+                cxefafenestro_spektaklomesagxon.cpp\
+                cxefafenestro_testirilatoj.cpp\
                 datumbazoekstrakto.cpp\
                 datumbazoekstrakto_destrojero.cpp\
                 datumbazoekstrakto_priartikoloj.cpp\

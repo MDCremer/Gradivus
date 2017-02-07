@@ -75,6 +75,8 @@ void priskribo::priVakigu()
   ui->tr->setText("<tr>");
  if(enigojAktivigita[PRISKRIBO_TABELOCXELO])
   ui->td->setText("<td>");
- for(int indekso=0;indekso<36;++indekso)
+ if(enigojAktivigita[PRISKRIBO_TABELOKAPOCXELO])
+  ui->th->setText("<th>");
+ for(int indekso=0;indekso<37;++indekso)
   enigojAktivigita[indekso]=false;
 }
