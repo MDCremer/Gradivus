@@ -19,7 +19,9 @@ QString cxefaFenestro::testiRilatoj(QStringList *celoj, QStringList *objektoj, Q
   foreach(QString enkonduko,enkondukoj)
    if(celoj->contains(enkonduko))
     return enkonduko;
-  testiRilatoj(celoj,&enkondukoj,informpeto);
+  QString forigo=testiRilatoj(celoj,&enkondukoj,informpeto);
+  if(!forigo.isEmpty())
+   return forigo;
  }
  return QString();
 }
