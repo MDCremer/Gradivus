@@ -1,8 +1,8 @@
 [Desktop Entry]
+Comment=
+Terminal=false
+Name=Gradivus
+Exec=/$HOME/Gradivus/binaroj/Gradivus
 Type=Application
 Encoding=UTF-8
-Name=Gradivus
-Path=$HOME/Gradivus/binaroj
-Exec=Gradivus
 Icon=Gradivus
-Terminal=false
